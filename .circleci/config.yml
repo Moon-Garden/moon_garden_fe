@@ -25,5 +25,4 @@ jobs:
 
       - checkout
       - run: bundle install --path vendor/bundle
-      - run: bundle exec rake db:setup
       - run: bundle exec rspec
