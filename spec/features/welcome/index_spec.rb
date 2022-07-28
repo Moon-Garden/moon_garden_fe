@@ -6,7 +6,8 @@ RSpec.describe 'Welcome Index Page' do
             Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
                 visit '/'
 
-                click 'login'
+                click_on 'Login'
+
                 expect(current_path).to eq('/dashboard')
         end
     end
