@@ -1,13 +1,12 @@
 class UsersController < ApplicationController
 
-  def show
+  def create
      auth_hash = request.env['omniauth.auth']
      if auth_hash['credentials']['token'].present?
-       # UserFacade.find_or_create_by(email: auth_hash['info']['email'])
-       UserFacade.find_or_create_by(auth_hash)
+      session[:id] = auth_hash['credentials']['token']
+      #  UserFacade.create_user(auth_hash[:info])
        redirect_to '/dashboard'
      end
-     binding.pry
   end
 
 end
