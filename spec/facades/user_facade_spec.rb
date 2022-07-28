@@ -37,7 +37,7 @@ RSpec.describe UserFacade do
                   }).
                 to_return(status: 200, body: json_response, headers: {})
     
-                user = UserFacade.create_user(user_hash)   
+                user = UserFacade.create_or_find_user(user_hash)   
 
         end
     end
