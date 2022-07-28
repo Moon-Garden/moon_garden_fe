@@ -14,6 +14,7 @@ RSpec.describe User do
         user = User.new(data)
     
         expect(user).to be_a(User)
+        expect(user.id).to eq('1')
         expect(user.first_name).to eq("Jennifer")
         expect(user.email).to eq('jenniferlhalloran@gmail.com')
         expect(user.image).to eq("https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-cﬁ")

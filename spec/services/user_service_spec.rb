@@ -35,7 +35,7 @@ RSpec.describe 'user service' do
             to_return(status: 200, body: json_response, headers: {})
 
             
-            response = UserService.create_user(user_hash)
+            response = UserService.create_or_find_user(user_hash)
             
             expect(response).to be_a Hash
             expect(response[:data]).to be_a Hash
