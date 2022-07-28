@@ -33,7 +33,7 @@ RSpec.describe UserFacade do
                  'Accept'=>'*/*',
                  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
                  'Content-Type'=>'application/json',
-                 'User-Agent'=>'Faraday v2.3.0'
+                 'User-Agent'=>'Faraday v2.4.0'
                   }).
                 to_return(status: 200, body: json_response, headers: {})
     
