@@ -6,7 +6,7 @@ jobs:
   build:
     working_directory: ~/moon_garden_fe
     docker:
-      - image: circleci/ruby:2.7.4
+      - image: cimg/ruby:2.7.4-node
         environment:
           PGHOST: localhost
           PGUSER: moon_garden_fe
