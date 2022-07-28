@@ -39,7 +39,6 @@ RSpec.describe UserFacade do
     
                 user = UserFacade.create_user(user_hash)   
                 expect(user).to be_a(User)
-                expect()
         end
     end
 end
