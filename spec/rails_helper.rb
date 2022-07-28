@@ -72,13 +72,13 @@ Shoulda::Matchers.configure do |config|
   end
 end
 
-VCR.configure do |config|
-  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
-  config.hook_into :webmock
-  config.configure_rspec_metadata!
-  config.filter_sensitive_data('fake_api_key') { ENV['api_key'] }
-  config.default_cassette_options = { re_record_interval: 1.months }
-end
+# VCR.configure do |config|
+#   config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+#   config.hook_into :webmock
+#   config.configure_rspec_metadata!
+#   config.filter_sensitive_data('fake_api_key') { ENV['api_key'] }
+#   config.default_cassette_options = { re_record_interval: 1.months }
+# end
 
 OmniAuth.config.test_mode = true
 OmniAuth.config.silence_get_warning = true
@@ -86,9 +86,9 @@ OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
     provider: 'google_oauth2',
     uid: '12345678910',
     info: {
-        email: 'ivebeentrapped@inthecomputer.org',
-        first_name: 'Bonny',
-        user_photo: 'https://lh3.googleusercontent.com/a-/AOh14GjhYI5RIF0qkDbiUtgXjH59K7hoEZ1QpLykFsEh2g=s96-c'
+        email: 'franksfurters@weinermobile.com',
+        first_name: 'DotHog',
+        user_photo: 'https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2014/06/thumb_720_450_dreamstime_xl_34122178-Custom.jpg'
     },
     credentials: {
         token: 'abcdefg12345',
