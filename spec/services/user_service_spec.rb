@@ -7,7 +7,7 @@ RSpec.describe 'user service' do
               "id": "1",
               "type": "user",
               "attributes": {
-                "first_name": "Jennifer",
+                "name": "Jennifer",
                 "email": 'jenniferlhalloran@gmail.com',
                 "image": "https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-cﬁ",
               }
@@ -40,7 +40,7 @@ RSpec.describe 'user service' do
             expect(response).to be_a Hash
             expect(response[:data]).to be_a Hash
             expect(response[:data]).to have_key :id
-            expect(response[:data][:attributes]).to have_key :first_name
+            expect(response[:data][:attributes]).to have_key :name
             expect(response[:data][:attributes]).to have_key :email
             expect(response[:data][:attributes]).to have_key :image
         end 

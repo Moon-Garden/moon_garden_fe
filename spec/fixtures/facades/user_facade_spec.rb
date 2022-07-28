@@ -10,7 +10,7 @@ RSpec.describe UserFacade do
                   "id": "1",
                   "type": "user",
                   "attributes": {
-                    "first_name": "Jennifer",
+                    "name": "Jennifer",
                     "email": 'jenniferlhalloran@gmail.com',
                     "image": "https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-cﬁ",
                   }
