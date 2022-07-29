@@ -51,7 +51,7 @@ group :test do
   gem 'shoulda-matchers'
   gem 'capybara'
   gem 'launchy'
-  # gem 'vcr'
+  gem 'vcr'
   gem 'webmock'
 end 
 
