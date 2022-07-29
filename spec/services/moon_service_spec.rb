@@ -9,6 +9,6 @@ RSpec.describe 'moon service' do
           expect(response).to be_a Array
           expect(response.first).to be_a Hash
           expect(response.first[:Phase]).to be_a String
-        end
     end
+  end
 end
