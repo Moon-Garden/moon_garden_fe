@@ -5,7 +5,7 @@ http_interactions:
     uri: https://moon-garden-be.herokuapp.com/api/v1/find_or_create_user
     body:
       encoding: UTF-8
-      string: _json=%7B%22name%22%3A%22Jennifer+Halloran%22%2C%22email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22unverified_email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22first_name%22%3A%22Jennifer%22%2C%22last_name%22%3A%22Halloran%22%2C%22image%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh%3Ds96-c%22%7D&content_type=application%2Fjson
+      string: _json=%7B%22email%22%3A%22franksfurters%40weinermobile.com%22%2C%22name%22%3A%22Dot+Hog%22%2C%22image%22%3A%22https%3A%2F%2Fd3mvlb3hz2g78.cloudfront.net%2Fwp-content%2Fuploads%2F2014%2F06%2Fthumb_720_450_dreamstime_xl_34122178-Custom.jpg%22%7D&content_type=application%2Fjson
     headers:
       User-Agent:
       - Faraday v2.4.0
@@ -23,25 +23,25 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 29 Jul 2022 16:00:10 GMT
+      - Fri, 29 Jul 2022 16:00:11 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"c8ae887a1c2947fbc419f8a0b8211907"
+      - W/"05cbbe02d639ee021d6f49dc8c40001c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 542b5722-99ed-40c1-8fa3-bd30a692476a
+      - 52dc617b-edaf-4711-a837-1f235519d575
       X-Runtime:
-      - '0.004866'
+      - '0.005394'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"3","type":"user","attributes":{"name":"Jennifer Halloran","email":"jenniferlhalloran@gmail.com","image":"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}}}'
+      string: '{"data":{"id":"4","type":"user","attributes":{"name":"DotHog","email":"franksfurters@weinermobile.com","image":null}}}'
   recorded_at: Fri, 29 Jul 2022 16:00:11 GMT
 recorded_with: VCR 6.1.0
