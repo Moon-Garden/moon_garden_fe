@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 29 Jul 2022 16:00:11 GMT
+      - Fri, 29 Jul 2022 16:48:23 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -33,9 +33,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 52dc617b-edaf-4711-a837-1f235519d575
+      - 713d9ffa-b1f4-40ae-a10c-439b578d169c
       X-Runtime:
-      - '0.005394'
+      - '0.004877'
       Transfer-Encoding:
       - chunked
       Via:
@@ -43,5 +43,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"data":{"id":"4","type":"user","attributes":{"name":"DotHog","email":"franksfurters@weinermobile.com","image":null}}}'
-  recorded_at: Fri, 29 Jul 2022 16:00:11 GMT
+  recorded_at: Fri, 29 Jul 2022 16:48:24 GMT
 recorded_with: VCR 6.1.0
