@@ -3,7 +3,7 @@ class User
 
     def initialize(data)
       @id = data[:id]
-      @first_name = data[:attributes][:first_name]
+      @first_name = data[:attributes][:name]
       @email = data[:attributes][:email]
       @image = data[:attributes][:image]
     end

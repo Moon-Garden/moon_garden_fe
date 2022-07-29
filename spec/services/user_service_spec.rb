@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'user service' do
-    it 'creates and returns a new user' do 
+    it 'creates and returns a new user', :vcr do 
         user_hash = 
         {"name"=>"Jennifer Halloran",
             "email"=>"jenniferlhalloran@gmail.com",
