@@ -4,7 +4,8 @@ class SessionsController < ApplicationController
     # binding.pry
      if auth_hash['credentials']['token'].present?
       session[:id] = auth_hash['info']['email']
-      #  UserFacade.create_or_find_user(auth_hash[:info])
+       user = UserFacade.find_or_create_user(auth_hash[:info])
+       require 'pry'; binding.pry
        redirect_to '/dashboard'
      end
   end
