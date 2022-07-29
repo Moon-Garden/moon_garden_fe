@@ -15,4 +15,6 @@
 - [ ] No
 - Did something not work? If so, what was it?
 
-### MANDATORY: Please add a meme describing how you feel about this PR
+### Please add a meme/gif describing how you feel about this PR
+
+![Caption](IMG URL HERE)
