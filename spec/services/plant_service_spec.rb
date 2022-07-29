@@ -6,7 +6,6 @@ RSpec.describe 'plant service' do
         response = PlantService.search_plant_data("basil")
         expect(response).to be_a Hash
         expect(response[:data]).to be_a Array
-        # binding.pry
         expect(response[:data].first[:id]).to be_a String
         expect(response[:data].first[:attributes]).to be_a Hash
         expect(response[:data].first[:attributes][:name]).to be_a String

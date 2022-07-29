@@ -26,7 +26,6 @@ RSpec.describe Plant do
             			"growing_degree_days": nil
                   }
                 }
-        # binding.pry
         plant = Plant.new(data)
 
         expect(plant).to be_a(Plant)
