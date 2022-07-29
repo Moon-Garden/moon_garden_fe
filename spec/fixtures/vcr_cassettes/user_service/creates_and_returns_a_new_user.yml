@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Fri, 29 Jul 2022 13:55:20 GMT
+      - Fri, 29 Jul 2022 13:59:59 GMT
       Connection:
       - keep-alive
       Content-Type:
@@ -33,9 +33,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f4930f0e-0401-487a-88f1-23b98bf46b5b
+      - e60f4834-b5c6-4495-bb74-9a36ccd6b2ee
       X-Runtime:
-      - '0.005395'
+      - '0.006262'
       Transfer-Encoding:
       - chunked
       Via:
@@ -43,5 +43,5 @@ http_interactions:
     body:
       encoding: UTF-8
       string: '{"data":{"id":"3","type":"user","attributes":{"name":"Jennifer Halloran","email":"jenniferlhalloran@gmail.com","image":"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}}}'
-  recorded_at: Fri, 29 Jul 2022 13:55:20 GMT
+  recorded_at: Fri, 29 Jul 2022 13:59:59 GMT
 recorded_with: VCR 6.1.0
