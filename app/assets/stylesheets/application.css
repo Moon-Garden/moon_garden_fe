@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ .container-fluid{
+  height: 100vh;
+ }
+
+ .side-bar {
+  background-color: rgb(64, 143, 64);
+ }
+
+ .main-bar {
+  background-color: rgb(241, 241, 226);
+ }
