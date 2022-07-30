@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://moon-garden-be.herokuapp.com/api/v1/find_or_create_user
+    body:
+      encoding: UTF-8
+      string: _json=%7B%22email%22%3A%22franksfurters%40weinermobile.com%22%2C%22name%22%3A%22Dot+Hog%22%2C%22image%22%3A%22https%3A%2F%2Fd3mvlb3hz2g78.cloudfront.net%2Fwp-content%2Fuploads%2F2014%2F06%2Fthumb_720_450_dreamstime_xl_34122178-Custom.jpg%22%7D&content_type=application%2Fjson
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 30 Jul 2022 16:47:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"05cbbe02d639ee021d6f49dc8c40001c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - dec06e18-d7fb-4179-bf17-bd1a22dcfe52
+      X-Runtime:
+      - '0.009263'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"4","type":"user","attributes":{"name":"DotHog","email":"franksfurters@weinermobile.com","image":null}}}'
+  recorded_at: Sat, 30 Jul 2022 16:47:14 GMT
+recorded_with: VCR 6.1.0
