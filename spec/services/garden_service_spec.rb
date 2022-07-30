@@ -21,12 +21,13 @@ RSpec.describe 'garden be service' do
           "notes": "it's too damn hot",
           "cardinal_direction": 1
         }
-      headers = { 'CONTENT_TYPE' => 'application/json' }
+      # headers = { 'CONTENT_TYPE' => 'application/json' }
 
       response = GardenService.create_garden(garden_hash)
 
         expect(response).to be_a Hash
         expect(response[:data]).to be_a Hash
+        expect(response[:data]).to have_key :id
         expect(response[:data][:attributes]).to have_key :name
         expect(response[:data][:attributes]).to have_key :cardinal_direction
         expect(response[:data][:attributes]).to have_key :notes
