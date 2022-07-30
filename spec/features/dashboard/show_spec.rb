@@ -12,7 +12,7 @@ RSpec.describe 'Dashboard Show Page' do
 
             expect(page).to have_content("Gardens:")
 
-            save_and_open_page
+            # save_and_open_page
         end
     end
 end

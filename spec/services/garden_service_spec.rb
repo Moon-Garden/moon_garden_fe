@@ -11,21 +11,21 @@ RSpec.describe 'garden be service' do
             "first_name"=>"Jennifer",
             "last_name"=>"Halloran",
             "image"=>"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}
-
+      user_response = UserService.find_or_create_user(user_hash)
             # binding.pry
       garden_json =
         {
-          "user_id": 1,
-          "name": "value1",
-          "notes": "value2",
+          "user_id": "#{user_response[:data][:id]}",
+          "name": "Summer Garden",
+          "notes": "it's too damn hot",
           "cardinal_direction": 1
         }
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
-      user_response = UserService.find_or_create_user(user_hash)
 
       # timestamp = Time.new.to_i
       response = GardenService.create_garden(garden_json)
+      # binding.pry
         expect(response).to be_a Array
         # expect(response.first).to be_a Hash
         # expect(response.first[:Phase]).to be_a String

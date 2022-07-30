@@ -3,7 +3,8 @@ class SessionsController < ApplicationController
     auth_hash = request.env['omniauth.auth']
     if auth_hash['credentials']['token'].present?
       user = UserFacade.find_or_create_user(auth_hash[:info])
-      session[:id] = user.id #this is a string
+      # binding.pry
+      session[:user_id] = user.id #this is a string
       redirect_to '/dashboard'
      end
   end
