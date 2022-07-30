@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 30 Jul 2022 13:42:12 GMT
+      - Sat, 30 Jul 2022 13:49:40 GMT
       Connection:
       - close
       X-Frame-Options:
@@ -41,9 +41,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e6a5a635-30cf-4ff6-ba38-98f9427d70f7
+      - 2cdbd11f-b995-4818-93fc-b8f1d11dd1aa
       X-Runtime:
-      - '0.018326'
+      - '0.015242'
       Vary:
       - Origin
       Strict-Transport-Security:
@@ -209,5 +209,5 @@ http_interactions:
         c0.9-1.8,3.1-2.5,4.9-1.6c1.8,0.9,2.5,3.1,1.6,4.9c-7.2,14-8.3,27.6-8.4,34.5C177.9,317.4,176.3,319,174.3,319z\"/\u003e
         \u003cpath class=\"st15\" d=\"M255.4,258.7c-0.9,0-1.9-0.4-2.6-1.1l-5.3-5.3c-1.4-1.4-1.4-3.7,0-5.1c1.4-1.4,3.7-1.4,5.1,0l5.3,5.3
         c1.4,1.4,1.4,3.7,0,5.1C257.2,258.3,256.3,258.7,255.4,258.7z\"/\u003e \u003c/svg\u003e"},"links":{"self":{"api":"/api/v1/crops/543c216c3938620002020000","website":"/crops/543c216c3938620002020000"}},"relationships":{"companions":{"links":{"related":"/api/v1/crops/543c216c3938620002020000/companions"},"data":[]},"pictures":{"links":{"related":"/api/v1/crops/543c216c3938620002020000/pictures"},"data":[{"type":"crops-pictures","id":"55a9cd0c36303100030a0100"}]}}},"included":[{"type":"crops-pictures","id":"55a9cd0c36303100030a0100","attributes":{"id":"55a9cd0c36303100030a0100","photographic_id":"543c216c3938620002020000","image_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.?1437191423","small_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.jpg?1437191423","thumbnail_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.jpg?1437191423","medium_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.jpg?1437191423","large_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.jpg?1437191423","canopy_url":"https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55a9cd0c36303100030a0100.jpg?1437191423"}}]}'
-  recorded_at: Sat, 30 Jul 2022 13:42:12 GMT
+  recorded_at: Sat, 30 Jul 2022 13:49:41 GMT
 recorded_with: VCR 6.1.0

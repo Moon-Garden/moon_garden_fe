@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.farmsense.net/v1/moonphases/?content_type=application/json&d=1659188529
+    uri: https://api.farmsense.net/v1/moonphases/?content_type=application/json&d=1659188978
     body:
       encoding: US-ASCII
       string: ''
@@ -25,17 +25,17 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 30 Jul 2022 13:42:10 GMT
+      - Sat, 30 Jul 2022 13:49:38 GMT
       Access-Control-Allow-Origin:
       - "*"
       Set-Cookie:
-      - X-Mapping-mmgahdea=9D69D05B330618FDF5FE31B9D3E6AA4B; path=/
+      - X-Mapping-mmgahdea=39A656070B9B30B3E2A79DA069D6DC33; path=/
       Content-Length:
-      - '498'
+      - '510'
     body:
       encoding: UTF-8
-      string: '[{"Error":0,"ErrorMsg":"success","TargetDate":"1659188529","Moon":["Thunder
-        Moon"],"Index":1,"Age":1.6699101838549648135767711210064589977264404296875,"Phase":"Waxing
-        Crescent","Distance":398649.5900000000256113708019256591796875,"Illumination":0.0299999999999999988897769753748434595763683319091796875,"AngularDiameter":0.499581994566225595644226586955483071506023406982421875,"DistanceToSun":151861839.518026828765869140625,"SunAngularDiameter":0.52518229307062114230575389228761196136474609375}]'
-  recorded_at: Sat, 30 Jul 2022 13:42:10 GMT
+      string: '[{"Error":0,"ErrorMsg":"success","TargetDate":"1659188978","Moon":["Thunder
+        Moon"],"Index":1,"Age":1.6747039228534139621018539401120506227016448974609375,"Phase":"Waxing
+        Crescent","Distance":398632.099999999976716935634613037109375,"Illumination":0.0299999999999999988897769753748434595763683319091796875,"AngularDiameter":0.499603909821885128206275794582325033843517303466796875,"DistanceToSun":151861745.8010024130344390869140625,"SunAngularDiameter":0.52518261717147696199248230186640284955501556396484375}]'
+  recorded_at: Sat, 30 Jul 2022 13:49:38 GMT
 recorded_with: VCR 6.1.0
