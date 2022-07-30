@@ -1,8 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe 'garden be service' do
-  context 'get_garden_data' do
-    it 'gives me the garden data', :vcr do
+  context 'create_garden' do
+    it 'passes in garden info and creates a garden associated with a user', :vcr do
+
       user_hash =
         {"name"=>"Jennifer Halloran",
             "email"=>"jenniferlhalloran@gmail.com",
@@ -12,8 +13,8 @@ RSpec.describe 'garden be service' do
             "last_name"=>"Halloran",
             "image"=>"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}
       user_response = UserService.find_or_create_user(user_hash)
-            # binding.pry
-      garden_json =
+
+      garden_hash =
         {
           "user_id": "#{user_response[:data][:id]}",
           "name": "Summer Garden",
@@ -22,13 +23,13 @@ RSpec.describe 'garden be service' do
         }
       headers = { 'CONTENT_TYPE' => 'application/json' }
 
+      response = GardenService.create_garden(garden_hash)
 
-      # timestamp = Time.new.to_i
-      response = GardenService.create_garden(garden_json)
-      # binding.pry
-        expect(response).to be_a Array
-        # expect(response.first).to be_a Hash
-        # expect(response.first[:Phase]).to be_a String
+        expect(response).to be_a Hash
+        expect(response[:data]).to be_a Hash
+        expect(response[:data][:attributes]).to have_key :name
+        expect(response[:data][:attributes]).to have_key :cardinal_direction
+        expect(response[:data][:attributes]).to have_key :notes
     end
   end
 end
