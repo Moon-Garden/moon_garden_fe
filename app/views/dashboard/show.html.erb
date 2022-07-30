@@ -2,6 +2,20 @@
 
 <% @gardens.each do |garden| %>
 
-  <p><%= garden %></p>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse<%# Item.IDFAQ %>">
+          <asp:Label ID="lblQuestionFAQ" runat="server" Text='<%# BindItem.texteQuestion %>'></asp:Label>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse<% garden %>" class="panel-collapse collapse">
+      <div class="panel-body">
+        <asp:Label ID="lblReponseFAQ" runat="server" Text='<% "Some sample text" %>'></asp:Label>
+      </div>
+    </div>
+  </div>
 
 <% end %>
+<iframe allowtransparency="yes" scrolling="no" style="border: 1px solid #888; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
