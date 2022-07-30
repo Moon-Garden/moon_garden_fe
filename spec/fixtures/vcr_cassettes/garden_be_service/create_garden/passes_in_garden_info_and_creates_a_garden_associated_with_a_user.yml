@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://moon-garden-be.herokuapp.com/api/v1/find_or_create_user
+    body:
+      encoding: UTF-8
+      string: _json=%7B%22name%22%3A%22Jennifer+Halloran%22%2C%22email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22unverified_email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22first_name%22%3A%22Jennifer%22%2C%22last_name%22%3A%22Halloran%22%2C%22image%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh%3Ds96-c%22%7D&content_type=application%2Fjson
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 30 Jul 2022 21:40:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c8ae887a1c2947fbc419f8a0b8211907"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '0782fab6-8e27-4dac-bdcd-04a23a74d9bf'
+      X-Runtime:
+      - '0.005467'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"user","attributes":{"name":"Jennifer Halloran","email":"jenniferlhalloran@gmail.com","image":"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}}}'
+  recorded_at: Sat, 30 Jul 2022 21:40:30 GMT
+- request:
+    method: post
+    uri: https://moon-garden-be.herokuapp.com/api/v1/users/3/gardens
+    body:
+      encoding: UTF-8
+      string: _json=%7B%22user_id%22%3A%223%22%2C%22name%22%3A%22Summer+Garden%22%2C%22notes%22%3A%22it%27s+too+damn+hot%22%2C%22cardinal_direction%22%3A1%7D&content_type=application%2Fjson
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 30 Jul 2022 21:40:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"955d55f4289b79dcc8de79657e1bfdc1"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4e7c27b8-e3a5-48dd-9cdc-f08d0d3bae8b
+      X-Runtime:
+      - '0.012073'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"23","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}}}'
+  recorded_at: Sat, 30 Jul 2022 21:40:30 GMT
+recorded_with: VCR 6.1.0

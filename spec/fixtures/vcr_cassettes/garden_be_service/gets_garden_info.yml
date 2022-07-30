@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://moon-garden-be.herokuapp.com/api/v1/find_or_create_user
+    body:
+      encoding: UTF-8
+      string: _json=%7B%22name%22%3A%22Jennifer+Halloran%22%2C%22email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22unverified_email%22%3A%22jenniferlhalloran%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22first_name%22%3A%22Jennifer%22%2C%22last_name%22%3A%22Halloran%22%2C%22image%22%3A%22https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2FAFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh%3Ds96-c%22%7D&content_type=application%2Fjson
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 30 Jul 2022 21:37:45 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c8ae887a1c2947fbc419f8a0b8211907"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2a0b23ed-3680-40cd-96ba-9fa333520759
+      X-Runtime:
+      - '0.004661'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"user","attributes":{"name":"Jennifer Halloran","email":"jenniferlhalloran@gmail.com","image":"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c"}}}'
+  recorded_at: Sat, 30 Jul 2022 21:37:46 GMT
+- request:
+    method: get
+    uri: https://moon-garden-be.herokuapp.com/api/v1/users/3/gardens
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Sat, 30 Jul 2022 21:37:46 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0122644b1033eefa8ee877e683649f3b"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d96e514b-6c42-4d7a-900e-f3cf89283b63
+      X-Runtime:
+      - '0.010294'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"4","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"5","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"6","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"7","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"8","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"9","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"10","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"11","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"12","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"13","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"14","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"15","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"16","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"17","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"18","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"19","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"20","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"21","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}},{"id":"22","type":"garden","attributes":{"name":"Summer Garden","cardinal_direction":"South","notes":"it''s
+        too damn hot"}}]}'
+  recorded_at: Sat, 30 Jul 2022 21:37:46 GMT
+recorded_with: VCR 6.1.0
