@@ -18,10 +18,19 @@
   height: 100vh;
  }
 
- .side-bar {
+ .side-bar-left {
+  background-color: rgb(64, 143, 64);
+ }
+
+ .side-bar-right {
   background-color: rgb(64, 143, 64);
  }
 
  .main-bar {
   background-color: rgb(241, 241, 226);
+ }
+
+ .moon-logo {
+  height: 50px;
+  width: 50px;
  }
