@@ -1,0 +1,41 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.farmsense.net/v1/moonphases/?content_type=application/json&d=1659188531
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.4.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache/2.4
+      Cache-Control:
+      - no-cache, must-revalidate
+      Content-Type:
+      - application/json
+      Date:
+      - Sat, 30 Jul 2022 13:42:12 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Set-Cookie:
+      - X-Mapping-mmgahdea=39A656070B9B30B3E2A79DA069D6DC33; path=/
+      Content-Length:
+      - '506'
+    body:
+      encoding: UTF-8
+      string: '[{"Error":0,"ErrorMsg":"success","TargetDate":"1659188531","Moon":["Thunder
+        Moon"],"Index":1,"Age":1.6699315364411815298950614305795170366764068603515625,"Phase":"Waxing
+        Crescent","Distance":398649.51000000000931322574615478515625,"Illumination":0.0299999999999999988897769753748434595763683319091796875,"AngularDiameter":0.499582092128597221591945753971231169998645782470703125,"DistanceToSun":151861839.10061204433441162109375,"SunAngularDiameter":0.5251822945141626508558374553103931248188018798828125}]'
+  recorded_at: Sat, 30 Jul 2022 13:42:12 GMT
+recorded_with: VCR 6.1.0
