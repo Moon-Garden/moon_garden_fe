@@ -1,13 +1,12 @@
 
-<div class="container text-center d-flex" style="max-height: 100%">
-
+<div class="container text-center d-flex" style="max-height: 100%, max-width: 100%">
     <div class="side-bar-left col-sm-3 mw-100">
-    <div class="logo">
-      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
-    </div>
+      <div class="logo">
+        <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      </div>
     </div>
 
-    <div class="dash-main-bar col-sm-7" style="max-height: 100%">
+    <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <div class = "dash-container" >
     <img src="<%=session[:image]%>" alt="user image" />
     <h1> <%=session[:first_name]%>'s Gardens </h1>
