@@ -8,10 +8,17 @@
 
     <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <div class = "dash-container" >
+     <h1> Enter Garden Details </h1>
 
+    <%= form_with url: '/gardens', method: :post do |form|%>
+    <%= form.text_field :name %>
+    <%= form.submit %>
+    <% end %>
+<%# 
     <h1> Enter Garden Details </h1>
     <form action="/gardens" method="POST">
       <div class="form-floating mb-3">
+      
       <input type="name" class="form-control" id="floatingInputGrid">
       <label for="floatingInputGrid">Garden Name</label>
     </div>
@@ -29,7 +36,7 @@
     <label for="floatingTextarea2">Notes</label>
     </div>
       <input type="submit", value="Submit">
-    </form>
+    </form> %>
 
     </div>
   </div>
