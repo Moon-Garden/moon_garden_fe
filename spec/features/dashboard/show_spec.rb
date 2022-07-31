@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Dashboard Show Page' do
   context 'a user is logged in' do
     it 'directs a user to their dashboard upon logging in', :vcr do
-      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+      # Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
 
       visit '/'
       click_on 'Login'
@@ -26,9 +26,12 @@ RSpec.describe 'Dashboard Show Page' do
       
     end
 
-    it "has a link to add a new garden" do
+    it "has a link to add a new garden", :vcr do
+      visit '/'
+      click_on 'Login'
+
       click_on "Add New Garden"
-      expect(current_path).to eq('/')
+      expect(current_path).to eq('/gardens/new')
     end
         
     
