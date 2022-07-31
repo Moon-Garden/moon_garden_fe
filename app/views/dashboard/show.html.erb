@@ -1,56 +1,46 @@
 
 <div class="container text-center d-flex" style="max-height: 100%">
+
     <div class="side-bar-left col-sm-3 mw-100">
       <h4>Moon Garden</h4>
       <img src="https://www.drawingwars.com/assets/img/cartoons/how-to-draw-a-crescent-moon-step-by-step/how-to-draw-a-crescent-moon-step-by-step_transparent.png?ezimgfmt=ng%3Awebp%2Fngcb1" class="moon-logo img-fluid" alt="Responsive image">
     </div>
 
-    <div class="main-bar col-sm-7 border rounded" style="max-height: 100%">
+    <div class="dash-main-bar col-sm-7 border rounded" style="max-height: 100%">
+    <img src="<%=session[:image]%>" alt="user image" />
+    <h1> <%=session[:first_name]%>'s Gardens </h1>
+    <% @gardens.each do |garden|%>
+    
+    
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
+        <%= garden.name%>
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p><b> Cardinal Direction: </b> <%= garden.cardinal_direction%><br>
+        <b> Notes: </b> <%= garden.notes%> </p>
       </div>
     </div>
   </div>
 </div>
+<% end %>
       
     </div>
 
     <div class="side-bar-right col-sm-3">
 
-
-<iframe allowtransparency="yes" scrolling="no" style="border: 1px solid #888; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
+<div class= "widget">  
+  <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
+</div>
+<div class="recommendation-container rounded">
+  <div class="row">
+     <div class="col">   Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.</div>
+  </div>
+</div>
 
     </div>
 </div>

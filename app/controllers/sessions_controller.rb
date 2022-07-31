@@ -11,9 +11,10 @@ class SessionsController < ApplicationController
   private
 
   def set_session(user)
-    session[:user_id] = user.id # this is a string
+    session[:user_id] = user.id
     session[:email] = user.email
     session[:image] = user.image
-    session[:name] = user.name
+    session[:first_name] = user.name.split.first
+    session[:last_name] = user.name.split.last
   end
 end

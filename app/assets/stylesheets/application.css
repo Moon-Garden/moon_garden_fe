@@ -36,9 +36,39 @@
  }
 
  .accordion-item {
-    background-color: #A5A299;
+    background-color: #B4B8C5;
+    margin-bottom: 20px;
  }
  .accordion-button {
     background-color: #B4B8C5;
  }
  
+ .dash-main-bar {
+   background-color: #E9EBF8;
+   padding-top: 30px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+
+ .dash-main-bar h1 {
+   margin-bottom: 20px;
+   color: #897487;
+ }
+ .dash-main-bar img {
+   width: 150px;
+   height: 150px;
+   margin-bottom: 20px;
+   border-radius: 50%;
+ }
+
+ .accordion-body {
+   text-align: left;
+ }
+
+ .recommendation-container {
+   background-color: rgb(225, 225, 225, .5);
+   margin-left: 25px;
+   margin-right: 25px;
+   padding: 10px;
+ }
+
