@@ -9,7 +9,6 @@ RSpec.describe 'Dashboard Show Page' do
       click_on 'Login'
 
       expect(current_path).to eq('/dashboard')
-
     end
   end
 end

@@ -40,6 +40,17 @@
   width: 50px;
  }
 
+ .dash-container {
+  background-color: #E9EBF8;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
  .accordion-item {
     background-color: #B4B8C5;
     margin-bottom: 20px;
@@ -49,10 +60,7 @@
  }
  
  .dash-main-bar {
-   background-color: #E9EBF8;
-   padding-top: 30px;
-   padding-left: 20px;
-   padding-right: 20px;
+   background-color: #8D818C;
  }
 
  .dash-main-bar h1 {
@@ -71,7 +79,7 @@
  }
 
  .recommendation-container {
-   background-color: rgb(225, 225, 225);
+   background-color: #E9EBF8;
    margin-left: 25px;
    margin-right: 25px;
    padding: 10px;

@@ -7,8 +7,8 @@
     </div>
     </div>
 
-    <div class="dash-main-bar col-sm-7 border rounded" style="max-height: 100%">
-    
+    <div class="dash-main-bar col-sm-7" style="max-height: 100%">
+    <div class = "dash-container" >
     <img src="<%=session[:image]%>" alt="user image" />
     <h1> <%=session[:first_name]%>'s Gardens </h1>
     <% @gardens.each do |garden|%>
@@ -32,7 +32,7 @@
 <% end %>
       
     </div>
-
+  </div>
     <div class="side-bar-right col-sm-3">
 
 <div class= "widget">  
