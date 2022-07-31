@@ -1,5 +1,4 @@
 class UsersController < ApplicationController
-
   def create
     #  auth_hash = request.env['omniauth.auth']
     #  if auth_hash['credentials']['token'].present?
@@ -8,5 +7,4 @@ class UsersController < ApplicationController
     #    redirect_to '/dashboard'
     #  end
   end
-
 end

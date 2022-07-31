@@ -5,7 +5,7 @@ require 'spec_helper'
 ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 # Prevent database truncation if the environment is production
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort('The Rails environment is running in production mode!') if Rails.env.production?
 require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 
@@ -83,16 +83,16 @@ end
 OmniAuth.config.test_mode = true
 OmniAuth.config.silence_get_warning = true
 OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
-    provider: 'google_oauth2',
-    uid: '12345678910',
-    info: {
-        email: 'franksfurters@weinermobile.com',
-        name: 'Dot Hog',
-        image: 'https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2014/06/thumb_720_450_dreamstime_xl_34122178-Custom.jpg'
-    },
-    credentials: {
-        token: 'abcdefg12345',
-        refresh_token: 'abcdefg12345',
-        expires_at: DateTime.now,
-    }
-})
+                                                                     provider: 'google_oauth2',
+                                                                     uid: '12345678910',
+                                                                     info: {
+                                                                       email: 'franksfurters@weinermobile.com',
+                                                                       name: 'Dot Hog',
+                                                                       image: 'https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2014/06/thumb_720_450_dreamstime_xl_34122178-Custom.jpg'
+                                                                     },
+                                                                     credentials: {
+                                                                       token: 'abcdefg12345',
+                                                                       refresh_token: 'abcdefg12345',
+                                                                       expires_at: DateTime.now
+                                                                     }
+                                                                   })
