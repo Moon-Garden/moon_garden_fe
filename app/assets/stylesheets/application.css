@@ -71,8 +71,22 @@ body {
    background-color: #E9EBF8;
    margin-left: 25px;
    margin-right: 25px;
+   margin-bottom: 25px;
    padding: 10px;
  }
+
+.widget {
+  border: 3px solid #E9EBF8;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: #e9ebf874;
+}
+
+ /* .iframe {
+  color: #E9EBF8;
+ } */
 
  /* .btn {
   --bs-btn-font-weight: 600;
