@@ -27,11 +27,21 @@ RSpec.describe 'Dashboard Show Page' do
 
     xit 'has a button to create a new garden' do
       click_button("New Garden")
-      expect(current_path).to eq("/users")
+      expect(current_path).to eq(users_gardens_new_path_or_something)
+      #fill out new garden form and submit
+      expect(current_path).to eq('/dashboard')
+      expect(page).to have_content("new gardens name")
     end
 
     xit 'displays the lunar recommendations' do
       #not sure how to test for this
+    end
+  end
+
+  context 'a user is not logged in', :vcr do
+    it 'redirects you to the log in page ' do
+      visit '/dashboard'
+      expect(current_path).to eq('/')
     end
   end
 end

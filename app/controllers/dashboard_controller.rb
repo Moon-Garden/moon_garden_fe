@@ -1,6 +1,9 @@
 class DashboardController < ApplicationController
   def show
-    @gardens = GardenFacade.get_garden_info(session[:user_id])[0..5]
-    # require 'pry'; binding.pry
+    if current_user
+      @gardens = GardenFacade.get_garden_info(session[:user_id])[0..5]
+    else
+      redirect_to '/'
+    end
   end
 end
