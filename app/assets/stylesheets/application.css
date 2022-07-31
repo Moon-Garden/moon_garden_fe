@@ -19,18 +19,26 @@
  }
 
  .side-bar-left {
-  background-color: rgb(64, 143, 64);
+  background-color: #8D818C;
  }
 
  .side-bar-right {
-  background-color: rgb(64, 143, 64);
+  background-color: #8D818C;
  }
 
  .main-bar {
-  background-color: rgb(241, 241, 226);
+  background-color: #E9EBF8;
  }
 
  .moon-logo {
   height: 50px;
   width: 50px;
  }
+
+ .accordion-item {
+    background-color: #A5A299;
+ }
+ .accordion-button {
+    background-color: #B4B8C5;
+ }
+ 
