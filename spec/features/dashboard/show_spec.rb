@@ -10,7 +10,6 @@ RSpec.describe 'Dashboard Show Page' do
 
       expect(current_path).to eq('/dashboard')
 
-      expect(page).to have_content('Gardens:')
     end
   end
 end
