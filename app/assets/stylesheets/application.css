@@ -29,6 +29,7 @@ body {
   width: 50px;
  }
 
+
  .dash-container {
   background-color: #E9EBF8;
   border-radius: 50px;
@@ -36,7 +37,7 @@ body {
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
  }
 
@@ -83,6 +84,14 @@ body {
   padding: 2px;
   background-color: #e9ebf874;
 }
+
+.header-container {
+  background-color: #E9EBF8;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+ }
 
  /* .iframe {
   color: #E9EBF8;

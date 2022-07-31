@@ -1,15 +1,15 @@
 
 <div class="container text-center d-flex" style="max-height: 100%">
 
-  <div class="side-bar-left col-sm-2 mw-100">
+  <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
-    <div class="dash-container">
     <%= render partial: "shared/header" %>
+    <div class="dash-container">
 
       <img src="<%=session[:image]%>" alt="user image"/>
       <h1>
@@ -43,7 +43,7 @@
       <% end %>
     </div>
   </div>
-  <div class="side-bar-right col-sm-2">
+  <div class="side-bar-right col-sm-3">
     <br>
     </br>
     <br>
