@@ -17,9 +17,6 @@ RSpec.describe 'Welcome Index Page' do
       within '.dash-main-bar' do
         expect(page).to have_content('About Moon Garden')
       end
-      within '.side-bar-left' do
-        expect(page).to have_content('Moon Garden')
-      end
     end
   end
 end
