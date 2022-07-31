@@ -1,5 +1,6 @@
 class DashboardController < ApplicationController
-    def show
-        @gardens = ["Garden with tomatoes, Garden with basil, Garden with corn"]
-    end
+  def show
+    @gardens = GardenFacade.get_garden_info(session[:user_id])[0..5]
+    # require 'pry'; binding.pry
+  end
 end
