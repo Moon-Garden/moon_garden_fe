@@ -1,0 +1,56 @@
+
+<div class="container text-center d-flex" style="max-height: 100%, max-width: 100%">
+    <div class="side-bar-left col-sm-3 mw-100">
+      <div class="logo">
+        <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      </div>
+    </div>
+
+    <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <div class = "dash-container" >
+     <h1> Enter Garden Details </h1>
+
+    <%= form_with url: '/gardens', method: :post do |form|%>
+    <%= form.text_field :name %>
+    <%= form.submit %>
+    <% end %>
+<%# 
+    <h1> Enter Garden Details </h1>
+    <form action="/gardens" method="POST">
+      <div class="form-floating mb-3">
+      
+      <input type="name" class="form-control" id="floatingInputGrid">
+      <label for="floatingInputGrid">Garden Name</label>
+    </div>
+    <div class="form-floating mb-3">
+      <select class="form-select" id="floatingSelectGrid">
+        <option selected>North</option>
+        <option value="1">East</option>
+        <option value="2">South</option>
+        <option value="3">West</option>
+      </select>
+      <label for="floatingSelectGrid">Cardinal Direction</label>
+    </div>
+    <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Notes</label>
+    </div>
+      <input type="submit", value="Submit">
+    </form> %>
+
+    </div>
+  </div>
+    <div class="side-bar-right col-sm-3">
+
+<div class= "widget">  
+  <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
+</div>
+<div class="recommendation-container rounded">
+  <div class="row">
+     <div class="col">   Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.</div>
+  </div>
+</div>
+
+    </div>
+</div>
+

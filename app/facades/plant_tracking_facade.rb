@@ -11,6 +11,5 @@ class PlantTrackingFacade
       # binding.pry
       PlantTracking.new(plant_data[:attributes])
     end
-
   end
 end
