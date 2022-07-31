@@ -9,6 +9,10 @@ RSpec.describe 'Dashboard Show Page' do
     end
 
 # !!! THE EXPECT STATEMENTS ARE MOCKS AND STILL NEED TO BE FILLED WITH CORRECT INFO !!!
+    it 'is on the dashboard', :vcr do
+      expect(current_path).to eq('/dashboard')
+    end
+
     xit 'diplays the title of the app' do
       expect(page).to have_content("Moon Garden")
     end
