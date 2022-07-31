@@ -13,23 +13,23 @@ RSpec.describe 'Dashboard Show Page' do
       expect(current_path).to eq('/dashboard')
     end
 
-    xit 'diplays the title of the app' do
+    xit 'diplays the title of the app', :vcr do
       expect(page).to have_content("Moon Garden")
     end
 
-    xit 'has a section title "(Users name)s Gardens" with all their gardens listed' do
-      expect(page).to have_content("User's Gardens")
+    xit 'has a section title "(Users name)s Gardens" with all their gardens listed', :vcr do
+      expect(page).to have_content("DotHog's Gardens")
       expect(page).to have_content("Summer Garden")
       expect(page).to have_content("Winter Garden")
       expect(page).to_not have_content("Stupid dumbo idiot Garden")
     end
 
-    xit 'each garden listed is a link to that gardens show page' do
+    xit 'each garden listed is a link to that gardens show page', :vcr do
       click_link("Summer Garden")
       expect(current_path).to eq("/users/#{user.id}/gardens/#{summer_garden.id}")
     end
 
-    xit 'has a button to create a new garden' do
+    xit 'has a button to create a new garden', :vcr do
       click_button("New Garden")
       expect(current_path).to eq(users_gardens_new_path_or_something)
       #fill out new garden form and submit
@@ -37,7 +37,7 @@ RSpec.describe 'Dashboard Show Page' do
       expect(page).to have_content("new gardens name")
     end
 
-    xit 'displays the lunar recommendations' do
+    xit 'displays the lunar recommendations', :vcr do
       #not sure how to test for this
     end
   end
