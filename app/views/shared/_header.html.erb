@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg bg-light dash-container">
+  <div class="container">
+    <% if !session[:user_id] %>
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+      <a class="oauth-container btn darken-4 white black-text" href='/auth/google_oauth2' style="text-transform:none">
+        <div class="left">
+          <img width="20px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"/>
+        </div>
+        Login with Google
+      </a>
+    <% end %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <% if session[:user_id] %>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href=<%= dashboard_path %>>My Garden</a>
+          <a class="nav-link" href=<%= logout_path %>>Logout</a>
+          <a class="nav-link" href=<%= root_path %>>About</a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</nav>
