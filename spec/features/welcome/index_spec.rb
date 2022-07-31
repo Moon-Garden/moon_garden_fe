@@ -14,11 +14,8 @@ RSpec.describe 'Welcome Index Page' do
     it 'has an about section with the idea behind the app' do
       visit '/'
 
-      within '.main-bar' do
+      within '.dash-main-bar' do
         expect(page).to have_content('About Moon Garden')
-      end
-      within '.side-bar-left' do
-        expect(page).to have_content('Moon Garden')
       end
     end
   end
