@@ -28,7 +28,13 @@ body {
   height: 50px;
   width: 50px;
  }
-
+ .header-container {
+  background-color: #E9EBF8;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+ }
  .dash-container {
   background-color: #E9EBF8;
   border-radius: 50px;
@@ -36,7 +42,7 @@ body {
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
  }
 
