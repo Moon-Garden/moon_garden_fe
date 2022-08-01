@@ -9,18 +9,29 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container">
-
       <img src="<%=session[:image]%>" alt="user image"/>
       <h1>
         <%= @garden.name %>
       </h1>
+      <div align="center" class="form-floating mb-3">
+        <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
+        <div class="form-control-fluid" id="floatingInput" placeholder="Search for plant by name">
+          <%= f.hidden_field :query, value: "name" %>
+          <%= f.text_field :search, placeholder: 'Search for plant by name' %>
+          <div type="button" class="btn-outline-primary">
+          <%= f.submit "Find Plant to add to Garden" %>
+          </div>
+        </div>
+        <% end %>
+      </div>
       <%# <% @gardens.each do |garden|%>
-
+  <% @plants.each do |plant| %>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 <%# <%= garden.name%>
+                <%= plant.name %>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -39,7 +50,7 @@
             </div>
           </div>
         </div>
-      <%# <% end %>
+      <% end %>
     </div>
   </div>
   <div class="side-bar-right col-sm-3">

@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   post '/gardens', to: 'gardens#create'
   get '/gardens/new', to: 'gardens#new'
   get '/gardens/:id', to: 'gardens#show'
+  get '/gardens/:id/plants', to: 'plants#search'
 end
