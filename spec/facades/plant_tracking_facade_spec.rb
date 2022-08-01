@@ -39,6 +39,7 @@ RSpec.describe PlantTrackingFacade do
 
     plant = PlantTrackingFacade.create_plant(plant_hash)
     expect(plant).to be_an_instance_of(PlantTracking)
+    expect(plant.name).to eq("Carrot")
   end
 
   it 'displays the users saved plant information for a specific garden', :vcr do
@@ -174,9 +175,10 @@ RSpec.describe PlantTrackingFacade do
        "name": "Hot Dawgs"
      }
 
-     plant_2 = PlantTrackingFacade.edit_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", "#{plant.id}", plant_hash_2)
-     binding.pry
+     plant_2 = PlantTrackingFacade.edit_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", plant.id, plant_hash_2)
      expect(plant).to be_an_instance_of(PlantTracking)
+     expect(plant_2.id).to be_an_instance_of(String)
+     expect(plant_2.name).to eq("Hot Dawgs")
 
 
   end
