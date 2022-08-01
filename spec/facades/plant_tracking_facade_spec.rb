@@ -38,7 +38,6 @@ RSpec.describe PlantTrackingFacade do
      }
 
     plant = PlantTrackingFacade.create_plant(plant_hash)
-
     expect(plant).to be_an_instance_of(PlantTracking)
   end
 
@@ -156,7 +155,6 @@ RSpec.describe PlantTrackingFacade do
 
     plant_hash =
      {
-      "id": "362",
       "user_id": "#{user_response[:data][:id]}",
       "garden_id": "#{garden_response[:data][:id]}",
       "name": "Carrot",
@@ -176,8 +174,7 @@ RSpec.describe PlantTrackingFacade do
        "name": "Hot Dawgs"
      }
 
-     plant_2 = PlantTrackingFacade.edit_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", "#{plant_hash[:id]}", plant_hash_2)
-
+     plant_2 = PlantTrackingFacade.edit_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", "#{plant.id}", plant_hash_2)
      binding.pry
      expect(plant).to be_an_instance_of(PlantTracking)
 

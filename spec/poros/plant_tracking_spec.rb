@@ -4,6 +4,10 @@ RSpec.describe PlantTracking do
   it 'exists and has attributes' do
     plant_params =
       {
+        "data": {
+        "id": '4',
+        "attributes":
+        {
         "name": 'Carrot',
         "plant_id": 'sae2340987dage',
         "moon_phase": 'waxing crescent',
@@ -12,8 +16,10 @@ RSpec.describe PlantTracking do
         "bounty_amount": 23,
         "pruning_behaviors": 'No pruning, only thinning',
         "notes": 'Magic carrots matured on the same day they were planted!'
+          }
+        }
       }
-
+      
     plant = PlantTracking.new(plant_params)
 
     expect(plant).to be_an_instance_of(PlantTracking)
