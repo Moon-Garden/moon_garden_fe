@@ -18,8 +18,8 @@ RSpec.describe PlantTracking do
 
     expect(plant).to be_an_instance_of(PlantTracking)
     expect(plant.name).to eq('Carrot')
-    expect(plant.date_matured).to eq(Date.today)
-    expect(plant.date_planted).to eq(Date.today)
+    expect(plant.date_matured).to eq(Date.today.to_s)
+    expect(plant.date_planted).to eq(Date.today.to_s)
     expect(plant.moon_phase).to eq('waxing crescent')
     expect(plant.bounty_amount).to eq(23)
     expect(plant.pruning_behaviors).to eq('No pruning, only thinning')
