@@ -24,6 +24,12 @@ RSpec.describe 'Dashboard Show Page' do
       expect(current_path).to eq('/dashboard')
     end
 
+    it "has header links to dashboard, logout, and landing page" do
+      expect(page).to have_link("My Garden")
+      expect(page).to have_link("Logout")
+      expect(page).to have_link("About")
+    end
+
     it "displays the users name and picture" do
 
       expect(page).to have_content("Dot's Gardens")
@@ -48,11 +54,10 @@ RSpec.describe 'Dashboard Show Page' do
       expect(current_path).to eq("/gardens/new")
     end
 
-    it "has the moon phase data" do
+    it "displays the moon phase data" do
       expect(page).to have_content("Bread Moon")
       expect(page).to have_content("Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).")
     end
-    
   end
 
   context 'a visitor is not logged in' do

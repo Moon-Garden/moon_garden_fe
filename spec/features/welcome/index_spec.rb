@@ -83,7 +83,7 @@ RSpec.describe 'Welcome Index Page' do
       end
     end
 
-    it "has the moon phase data" do
+    it "displays the moon phase data" do
       expect(page).to have_content("Bread Moon")
       expect(page).to have_content("Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).")
     end
