@@ -13,7 +13,8 @@ class GardenService
     BaseService.get_json(response)
   end
 
-  def self.get_garden(garden_id)
-    
+  def self.get_garden_info(user_id, garden_id)
+    response = BaseService.connection.get("/api/v1/users/#{user_id}/gardens/#{garden_id}")
+    BaseService.get_json(response)
   end
 end
