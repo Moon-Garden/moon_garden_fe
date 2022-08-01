@@ -17,8 +17,8 @@ class PlantTrackingFacade
     PlantTrackingService.destroy_plant(user_id, garden_id, plant_id)
   end
 
-  def update_plant(user_id, garden_id, plant_id, attributes)
-    json = PlantTrackingService.update_plant(user_id, garden_id, plant_id, attributes)
+  def self.edit_plant(user_id, garden_id, plant_id, attributes)
+    json = PlantTrackingService.edit_plant(user_id, garden_id, plant_id, attributes)
     PlantTracking.new(json[:data])
   end
 end
