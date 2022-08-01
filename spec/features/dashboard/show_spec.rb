@@ -63,3 +63,4 @@ RSpec.describe 'Dashboard Show Page', :vcr do
     end
   end
 end
+
