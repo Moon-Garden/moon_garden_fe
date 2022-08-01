@@ -5,11 +5,7 @@ class PlantsController < ApplicationController
     @results = PlantFacade.search_plant_data(params[:search])
   end
 
-  def new
-
-  end
-
   def create
-    
+
   end
 end
