@@ -23,5 +23,6 @@ RSpec.describe Moon do
     expect(moon).to be_a(Moon)
     expect(moon.phase).to eq('New Moon')
     expect(moon.name).to eq('Thunder Moon')
+    expect(moon.illumination).to eq(1)
   end
 end
