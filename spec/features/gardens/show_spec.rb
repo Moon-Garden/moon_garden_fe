@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'garden show page' do 
+RSpec.describe 'garden show page' do
   context 'a user is logged in' do
     before do
       Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
@@ -26,7 +26,7 @@ RSpec.describe 'garden show page' do
       expect(page).to have_link("Logout")
       expect(page).to have_link("About")
     end
-    
+
 
     it "displays the moon phase data" do
 
@@ -35,12 +35,12 @@ RSpec.describe 'garden show page' do
     end
 
     it "displays the corresponding garden's name" do
-      
+
       expect(current_path).to eq("/gardens/339")
       expect(page).to have_content("Hot Dog Garden")
       expect(page).to_not have_content("Mustard Garden")
     end
-    
+
     it "displays the garden's information" do
       expect(page).to have_content("North")
       expect(page).to have_content("definitely gmo")
