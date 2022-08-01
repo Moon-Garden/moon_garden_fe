@@ -20,10 +20,11 @@ RSpec.describe 'plant search page' do
       visit '/'
       click_on 'Login'
     end
-    it 'returns the top 5 results related to a search', :vcr do 
-      visit '/gardens/339/'
 
-      fill_in :search, with: 'corn'
+    it 'returns the top 5 results related to a search', :vcr do 
+      visit '/gardens/339'
+
+      fill_in :search, with: 'tomato'
       click_on 'Find Plants to add to Garden'
 
       expect(current_path).to eq("/gardens/339/plants")
@@ -33,6 +34,15 @@ RSpec.describe 'plant search page' do
       expect(page).to have_content('Row Spacing: 45')
       expect(page).to have_content('Description: The tomato is the fruit of the tomato plant, a member of the Nightshade family (Solanaceae). The fruit grows on a small compact bush.')
       expect(page).to_not have_content('corn')
-    end 
+    end
+
+    it 'has a button to add a plant from the results page to the garden' do 
+      visit '/gardens/339'
+
+      fill_in :search, with: 'tomato'
+      click_on 'Find Plants to add to Garden'
+
+      expect(page).to have_button 'Add Plant to Garden'
+    end
   end
 end

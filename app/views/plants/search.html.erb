@@ -17,6 +17,7 @@
       <p>Row Spacing: <%= plant.row_spacing %></p>
       <p>Description: <%= plant.description %></p>
       <p><%= plant.main_image_path %></p>
+      <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", method: :post, local: true %>
     <% end %>
     </div>
   </div>
