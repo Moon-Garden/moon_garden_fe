@@ -48,4 +48,13 @@ RSpec.describe 'Dashboard Show Page' do
       expect(current_path).to eq('/gardens/339')
     end
   end
+
+  context 'a visitor is not logged in' do
+    it "redirects the visitor to the landing page and flashes an error message" do
+      visit '/dashboard'
+      
+      expect(current_path).to eq('/')
+      expect(page).to have_content("Please log in below to view your dashboard.")
+    end
+  end
 end
