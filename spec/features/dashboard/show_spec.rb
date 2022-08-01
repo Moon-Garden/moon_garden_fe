@@ -6,6 +6,7 @@ RSpec.describe 'Dashboard Show Page' do
       visit '/'
       click_on 'Login'
       Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+    end 
 
 # !!! THE EXPECT STATEMENTS ARE MOCKS AND STILL NEED TO BE FILLED WITH CORRECT INFO !!!
     it 'is on the dashboard', :vcr do
