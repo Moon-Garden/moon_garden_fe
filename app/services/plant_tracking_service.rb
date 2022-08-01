@@ -26,5 +26,5 @@ class PlantTrackingService
     )
     BaseService.get_json(response)
   end
-  
+
 end
