@@ -14,4 +14,8 @@ class BaseService
   def self.get_json(response)
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.geocoder_connection
+    Faraday.new(url: 'http://www.mapquestapi.com')
+  end
 end
