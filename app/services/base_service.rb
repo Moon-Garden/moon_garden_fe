@@ -18,4 +18,8 @@ class BaseService
   def self.geocoder_connection
     Faraday.new(url: 'http://www.mapquestapi.com')
   end
+
+  def self.land_connection
+    Faraday.new(url: 'https://native-land.ca')
+  end
 end
