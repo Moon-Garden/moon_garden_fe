@@ -11,13 +11,16 @@
     <div class="dash-container">
     <h1>Search Results</h1>
     <% @results.each do |plant| %>
-      <p>Name: <%= plant.name %></p>
-      <p>Sun Requirements: <%= plant.sun_requirements %></p>
-      <p>Sowing Method: <%= plant.sowing_method %></p>
-      <p>Row Spacing: <%= plant.row_spacing %></p>
-      <p>Description: <%= plant.description %></p>
-      <p><%= plant.main_image_path %></p>
-      <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", method: :post, local: true %>
+      <div id =<%=plant.name %>>
+
+        <p>Name: <%= plant.name %></p>
+        <p>Sun Requirements: <%= plant.sun_requirements %></p>
+        <p>Sowing Method: <%= plant.sowing_method %></p>
+        <p>Row Spacing: <%= plant.row_spacing %></p>
+        <p>Description: <%= plant.description %></p>
+        <p><%= plant.main_image_path %></p>
+        <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, local: true %>
+      </div>
     <% end %>
     </div>
   </div>
