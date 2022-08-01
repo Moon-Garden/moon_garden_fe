@@ -1,5 +1,12 @@
 class Plant
-  attr_reader :id, :name, :sun_requirements, :description, :sowing_method, :spread, :row_spacing, :height,
+  attr_reader :id, 
+              :name, 
+              :sun_requirements, 
+              :description, 
+              :sowing_method, 
+              :spread, 
+              :row_spacing, 
+              :height,
               :main_image_path
 
   def initialize(data)
