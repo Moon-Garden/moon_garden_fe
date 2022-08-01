@@ -6,5 +6,5 @@ Rails.application.routes.draw do
   get '/dashboard', to: 'dashboard#show'
   post '/gardens', to: 'gardens#create'
   get '/gardens/new', to: 'gardens#new'
-
+  get '/gardens/:id', to: 'gardens#show'
 end

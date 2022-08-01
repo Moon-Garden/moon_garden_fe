@@ -8,4 +8,8 @@ class GardensController < ApplicationController
     flash[:alert] = 'Garden Created'
     redirect_to dashboard_path
   end
+
+  def show
+    @garden = GardenFacade.get_garden_data(session[:user_id], params[:id])
+  end
 end
