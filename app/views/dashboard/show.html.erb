@@ -15,17 +15,19 @@
       <h1>
         <%=session[:first_name]%>'s Gardens
       </h1>
+      <br>
 
       <hr>
 
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <% @gardens.each do |garden|%>
+      <div class="row row-cols-1 row-cols-md-2 ">
+        <% @gardens.each_with_index do |garden, index|%>
           <div class="col">
             <div class="card">
-              <%= image_tag "garden_images/#{garden.id[0]}.jpeg", alt: 'icon'%>
+              <%= image_tag "garden_images/#{index + 1}.jpeg", alt: 'icon', style: 'height:100%; width:100%;max-height:400px'%>
               <div class="card-body">
                 <h5 class="card-title"><%= link_to "#{garden.name}", "/gardens/#{garden.id}" %></h5>
-                <p class="card-text"><%= garden.notes %></p>
+                <p class="card-text">Notes:
+                  <%= garden.notes %></p>
                 <p class="card-text">Cardinal Direction:
                   <%= garden.cardinal_direction %></p>
               </div>

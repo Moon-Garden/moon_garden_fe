@@ -108,8 +108,8 @@ body {
 }
 
 .card {
-  height: 40vh;
-  width: 30vh;
+  height: auto;
+  width: auto;
 }
 
 /* .iframe {
