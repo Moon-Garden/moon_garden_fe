@@ -18,9 +18,18 @@ RSpec.describe 'plant search page' do
       visit '/'
       click_on 'Login'
     end
-    it 'returns the top 5 results related to a search' do 
+    it 'returns the top 5 results related to a search', :vcr do 
       visit '/gardens/339/'
-      fill_in 
-    end
+
+      fill_in :search, with: 'corn'
+      click_on 'Find Plants to add to Garden'
+
+      expect(current_path).to eq("/gardens/339/plants")
+      expect(page).to have_content('Name: corn')
+      expect(page).to have_content('Sun Requirements: Full Sun')
+      expect(page).to have_content('Sowing Method: Direct seed outdoors')
+      expect(page).to have_content('Row Spacing: 76')
+      expect(page).to have_content('Description: Corn is a large grain plant, or tall grass, first domesticated about 10,000 years ago by indigenous peoples in Southern Mexico. The leafy stalk produces ears after pollination. Depending on the variety, the corn can be eaten fresh, or dried and ground into cornmeal.')
+    end 
   end
 end
