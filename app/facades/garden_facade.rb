@@ -4,8 +4,8 @@ class GardenFacade
     Garden.new(json[:data])
   end
 
-  def self.get_garden_info(user_id)
-    json = GardenService.get_garden_info(user_id)[:data]
+  def self.get_gardens(user_id)
+    json = GardenService.get_gardens(user_id)[:data]
     json.map do |garden_data|
       Garden.new(garden_data)
     end

@@ -6,4 +6,8 @@ class GardensController < ApplicationController
     require 'pry'; binding.pry
     # GardenFacade.create_garden
   end
+
+  def show
+    @garden 
+  end
 end

@@ -52,7 +52,7 @@ RSpec.describe 'garden be service' do
         "cardinal_direction": 1
       }
 
-    response = GardenService.get_garden_info("#{user_response[:data][:id]}")
+    response = GardenService.get_gardens("#{user_response[:data][:id]}")
     # binding.pry
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)

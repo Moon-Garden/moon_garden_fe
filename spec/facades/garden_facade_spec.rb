@@ -28,7 +28,7 @@ RSpec.describe GardenFacade do
     end
   end
 
-  describe '#get_garden_info(user_id)' do
+  describe '#get_gardens(user_id)' do
     it 'returns the gardens associated with a user by id', :vcr do
       user_hash =
         { 'name' => 'Jennifer Halloran',
@@ -60,7 +60,7 @@ RSpec.describe GardenFacade do
       garden1 = GardenFacade.create_garden(garden_hash_1)
       garden2 = GardenFacade.create_garden(garden_hash_2)
 
-      user_gardens = GardenFacade.get_garden_info(user[:data][:id])
+      user_gardens = GardenFacade.get_gardens(user[:data][:id])
 
       expect(user_gardens).to be_all(Garden)
       # expect(user_gardens.count).to eq(2)
