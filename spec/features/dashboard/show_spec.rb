@@ -27,13 +27,6 @@ RSpec.describe 'Dashboard Show Page', :vcr do
       expect(page).to have_content("Dot's Gardens")
     end
     
-    it "has a section to provide lunar recommendations" do
-
-      within '.recommendation-container' do 
-        expect(page).to have_content("Lunar Recommendation")
-      end 
-    end
-
     it "displays each user garden with garden info and a link to the garden's show page" do
 
       expect(page).to have_link("Hot Dog Garden")
