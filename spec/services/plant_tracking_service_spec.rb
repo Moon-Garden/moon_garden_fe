@@ -40,7 +40,6 @@ RSpec.describe PlantTrackingService do
      }
 
     response = PlantTrackingService.create_plant(plant_hash)
-    # binding.pry
     expect(response).to be_a Hash
     expect(response[:data]).to be_a Hash
     expect(response[:data]).to have_key :id
@@ -93,7 +92,6 @@ RSpec.describe PlantTrackingService do
      }
 
     response = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")
-    # binding.pry
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)
     expect(response[:data].first).to have_key(:type)

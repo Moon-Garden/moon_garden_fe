@@ -2,32 +2,50 @@ require 'rails_helper'
 
 RSpec.describe 'Dashboard Show Page' do
   context 'a user is logged in' do
-    it 'directs a user to their dashboard upon logging in', :vcr do
-      # Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+    before do
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+
+      allow(UserService).to receive(:find_or_create_user).and_return(@user)
+      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
 
       visit '/'
       click_on 'Login'
+    end
+
+    it 'directs a user to their dashboard upon logging in' do
 
       expect(current_path).to eq('/dashboard')
     end
 
-    it "displays the users name and picture", :vcr do
-      visit '/'
-      click_on 'Login'
+    it "displays the users name and picture" do
 
       expect(page).to have_content("Dot's Gardens")
     end
     
-    it "has a section to provide lunar recommendations", :vcr do
-      visit '/'
-      click_on 'Login'
+    it "has a section to provide lunar recommendations" do
+
       within '.recommendation-container' do 
-        expect(page).to have_content("Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.")
+        expect(page).to have_content("Lunar Recommendation")
       end 
     end
 
     it "displays each user garden with garden info and a link to the garden's show page" do
-      
+
+      expect(page).to have_link("Hot Dog Garden")
+      expect(page).to have_content("Cardinal Direction: North")
+      expect(page).to have_content("Notes: definitely gmo")
+
+      expect(page).to have_link("Mustard Garden")
+      expect(page).to have_content("Cardinal Direction: South")
+      expect(page).to have_content("Spicy, Honey and English!")
+
+      click_link("Hot Dog Garden")
+      expect(current_path).to eq('/gardens/339')
     end
   end
 end
