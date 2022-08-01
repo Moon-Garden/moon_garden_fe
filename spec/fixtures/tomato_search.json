@@ -1,0 +1,1236 @@
+{
+  "data": [
+      {
+          "type": "crops",
+          "id": "54bda00e3961370003150400",
+          "attributes": {
+              "name": "Tiny Tim Tomato",
+              "slug": "tiny-tim-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "Tomato",
+                  "Tomate"
+              ],
+              "description": "The tomato is the fruit of the tomato plant, a member of the Nightshade family (Solanaceae). The fruit grows on a small compact bush.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 45,
+              "height": 45,
+              "processing_pictures": 0,
+              "guides_count": 38,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+              "taxon": "Species",
+              "tags_array": [
+                  "fruit"
+              ],
+              "growing_degree_days": 60,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#88A501;}\n\t.st1{fill:none;stroke:#88A501;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st2{fill:none;stroke:#3B6700;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st3{fill:#FC4100;stroke:#9F0500;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st5{fill:#FFFFFF;}\n\t.st6{fill:#22B573;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st7{fill:none;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st8{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st9{fill:#EE0000;}\n\t.st10{fill:#9A0601;}\n\t.st11{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st12{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st13{clip-path:url(#SVGID_2_);}\n\t.st14{fill:#00FFFF;}\n\t.st15{fill:#9F0500;}\n\t.st16{fill:#3B6700;}\n\t.st17{fill:#FC4100;}\n</style>\n<path class=\"st0\" d=\"M31.9,27.4V16.9c4.5-1.3,9.4-2.6,14.5-3.6v11.2h3V12.7C53.1,12,57,11.5,61,11.1c0.8-0.1,1.4-0.8,1.4-1.6\n\tc-0.1-0.8-0.8-1.4-1.6-1.4C29.8,11,3.1,24.8,2.9,24.9c-0.7,0.4-1,1.3-0.6,2c0.3,0.5,0.8,0.8,1.3,0.8c0.2,0,0.5-0.1,0.7-0.2\n\tc0.1,0,3.4-1.8,9-4.1v9.4h3V22.2c3.6-1.4,7.8-3,12.6-4.5v9.6H31.9z\"/>\n<path class=\"st16\" d=\"M11.2,39.3c-2.6,0-5-1.3-7-3.9c-0.4-0.5-0.4-1.3,0-1.8c0.4-0.5,1.1-0.7,1.8-0.5c0.1,0,1.3,0.5,3.1,0.3\n\tc0.4-0.1,0.7-0.4,0.7-0.8c0-1,0-2.1-0.1-3c0-0.7,0.3-1.3,1-1.5c0.6-0.2,1.3,0,1.7,0.5c0.5,0.6,1.2,1.5,1.9,2.2\n\tc0.3,0.3,0.7,0.3,1.1,0.1c1.4-1.1,2.2-2.3,2.2-2.3c0.3-0.5,0.9-0.8,1.6-0.7c0.6,0.1,1.1,0.6,1.2,1.2c0.7,4.3-1.4,8-5.5,9.7\n\tC13.5,39.1,12.3,39.3,11.2,39.3z\"/>\n<path class=\"st16\" d=\"M29.2,33.5c-3.3,0-5.9-1.7-7.7-5.1c-0.3-0.6-0.2-1.3,0.3-1.8s1.2-0.5,1.8-0.2c0.1,0,1.1,0.6,2.8,0.8\n\tc0.5,0,1-0.3,1.1-0.9c0.1-0.9,0.3-2,0.4-2.8c0.1-0.7,0.6-1.2,1.2-1.3c0.7-0.1,1.3,0.2,1.6,0.8c0.3,0.7,0.9,1.5,1.4,2.2\n\tc0.3,0.5,0.9,0.6,1.4,0.3c1.5-0.8,2.3-1.8,2.3-1.8c0.4-0.5,1.1-0.7,1.7-0.5c0.6,0.2,1,0.8,1,1.4c0,4.4-2.7,7.7-7,8.6\n\tC30.6,33.4,29.9,33.5,29.2,33.5z\"/>\n<path class=\"st16\" d=\"M47.7,28.2c-3.9,0-6.7-2.1-8.2-6.1c-0.2-0.6,0-1.3,0.5-1.7s1.3-0.4,1.8,0c0,0,1.1,0.8,2.8,1.1\n\tc0.5,0.1,0.9-0.2,1-0.6c0.3-0.9,0.6-2,0.8-2.8c0.1-0.6,0.7-1.1,1.4-1.2c0.7,0,1.3,0.4,1.5,1c0.3,0.7,0.7,1.7,1.1,2.5\n\tc0.2,0.4,0.7,0.6,1.2,0.4c1.6-0.6,2.6-1.6,2.6-1.6c0.5-0.4,1.1-0.5,1.7-0.2c0.6,0.3,0.9,0.9,0.8,1.5c-0.6,4.4-3.6,7.3-8,7.7\n\tC48.3,28.2,48,28.2,47.7,28.2z\"/>\n<path class=\"st17\" d=\"M49.1,23.9c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7\n\tc-5.6,0-10.1,3.5-10.1,9.1c0,5.6,4.5,10.1,10.1,10.1c4.6,0,8.4-3,9.7-7.2c1.7,1.4,3.9,2.2,6.3,2.2c4.6,0,8.4-3,9.7-7.2\n\tc1.7,1.4,3.9,2.2,6.3,2.2c5.6,0,10.1-4.5,10.1-10.1C59.2,27.4,54.7,23.9,49.1,23.9z\"/>\n<path class=\"st5\" d=\"M43.5,31.2c-0.1,0-0.2,0-0.2-0.1C43,31,42.9,30.7,43,30.5c0.6-1.1,1.5-1.9,2.8-2.5c0.3-0.1,0.5,0,0.7,0.3\n\tc0.1,0.3,0,0.5-0.3,0.7c-1.1,0.5-1.9,1.1-2.3,2C43.8,31.1,43.6,31.2,43.5,31.2z\"/>\n<circle class=\"st5\" cx=\"48.5\" cy=\"27.6\" r=\"0.5\"/>\n<path class=\"st5\" d=\"M10.9,43.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C11.4,43.3,11.2,43.5,10.9,43.5z\"/>\n<circle class=\"st5\" cx=\"16.5\" cy=\"37.6\" r=\"0.5\"/>\n<path class=\"st15\" d=\"M49.1,22.4c-4.4,0-8.1,1.9-10.1,5.1c-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-4.4,0-8.1,1.9-10.1,5.1\n\tc-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-6.5,0-11.3,4.2-11.6,10.1C5.1,48.7,10,54.2,16.2,54.6c4.4,0.3,8.4-1.8,10.7-5.3\n\tc0.4-0.6,1.1-0.8,1.7-0.5c1.4,0.6,2.9,0.9,4.5,0.9c4.1,0,7.7-2.1,9.8-5.4c0.4-0.6,1.1-0.8,1.7-0.5c1.8,0.8,3.8,1.1,5.9,0.8\n\tc5.4-0.6,9.7-5,10.2-10.4C61.3,27.4,56.2,22.4,49.1,22.4z M33.1,46.5c-4.7,0-8.5-3.8-8.5-8.5c0-4.4,3.5-7.5,8.5-7.5s8.5,3.1,8.5,7.5\n\tC41.6,42.7,37.8,46.5,33.1,46.5z M25.5,43.7c0.2,0.2,0.3,0.6,0.2,0.9l-0.3,0.9c-1.2,4.1-5.2,6.7-9.6,6c-4.1-0.6-7.3-4.3-7.3-8.5\n\tc0-4.5,3.5-7.7,8.6-7.7c2,0,3.9,0.5,5.4,1.5l0.8,0.5c0.2,0.1,0.4,0.4,0.4,0.7C23.7,39,23.9,41.3,25.5,43.7z M40.7,32.8\n\tc-0.2-0.3-0.3-0.6-0.2-1l0.2-0.8c0.9-3.4,4.2-5.6,8.4-5.6c5.4,0,9.1,3.5,8.6,8.5c-0.4,4-3.5,7.3-7.5,7.7c-2.4,0.3-4.6-0.3-6.5-1.8\n\tL43,39.2c-0.3-0.2-0.4-0.5-0.4-0.9C42.6,37.3,42.5,34.9,40.7,32.8z\"/>\n<path class=\"st5\" d=\"M26.9,38.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C27.4,38.3,27.2,38.5,26.9,38.5z\"/>\n<circle class=\"st5\" cx=\"32.5\" cy=\"32.6\" r=\"0.5\"/>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/54bda00e3961370003150400",
+                  "website": "/crops/54bda00e3961370003150400"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/54bda00e3961370003150400/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/54bda00e3961370003150400/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "5dc3618ef2c1020004f936e4"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "54bd0f546239330003b30000",
+          "attributes": {
+              "name": "Heirloom Tomato",
+              "slug": "heirloom-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "tomato",
+                  "heritage tomato",
+                  "heirloom tomato"
+              ],
+              "description": "Heirloom tomatoes are open-pollinated, non-hybrid cultivars that have usually been passed down through several generations because of valued characteristics like flavor and appearance. Heirlooms are sweeter and more richly flavored than conventional tomatoes. They come in a wide variety of shapes, sizes, and colors, each with it's own unique flavor. They are often more disease-resistant, but have a shorter shelf life than conventional tomatoes. Some cultivars can be prone to cracking. Heirlooms often have a higher water content than conventional tomatoes and are often eaten raw with freshly ground salt and pepper, fresh basil, olive oil, and mozzarella.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors and transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 45,
+              "height": 45,
+              "processing_pictures": 0,
+              "guides_count": 12,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#A2CC62;}\n\t.st1{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st2{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st3{fill:#ADD481;}\n\t.st4{fill:#68664C;}\n\t.st5{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st6{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st7{fill:#EE0000;}\n\t.st8{fill:#9A0601;}\n\t.st9{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st10{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st11{fill:#FFFFFF;}\n\t.st12{clip-path:url(#SVGID_2_);}\n\t.st13{fill:#AFD048;}\n\t.st14{fill:#00FFFF;}\n\t.st15{fill:#456A0A;}\n\t.st16{fill:#1D4200;}\n\t.st17{fill:#88A501;}\n\t.st18{fill:#3B6700;}\n\t.st19{fill:#FC4100;}\n\t.st20{fill:#9F0500;}\n\t.st21{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st22{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st23{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st24{fill:#6B9311;}\n\t.st25{fill:#593156;}\n\t.st26{fill:#331E31;}\n\t.st27{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st28{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st29{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st30{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st31{fill:#B63E34;}\n\t.st32{fill:#522B25;}\n\t.st33{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st34{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st35{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st36{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st37{fill:#9EC161;}\n\t.st38{fill:#40760E;}\n</style>\n<path class=\"st31\" d=\"M32.7,22.8C12.3,20.3,3.7,28.5,3.7,41.3c0,15.6,11.3,19.5,28.9,18.5c1.4-0.1,2.8-0.2,4.2-0.3\n\tc4.7,0.9,8.4,0.3,11.1-1.6c8.2-2.1,13.7-6.5,13.7-16.6c0-6.6-3.2-11.2-11.1-14.5l-7.3-3.4L32.7,22.8z\"/>\n<path class=\"st32\" d=\"M27.8,61.5c-9.6,0-16.1-1.9-20.3-5.8C4,52.4,2.2,47.6,2.2,41.3c0-6.5,2-11.6,6-15.1c5.2-4.6,13.5-6.3,24.6-4.9\n\tl0.5,0.1c0.9-0.1,2-0.3,3.2-0.4c6.9-0.7,11.8,0.9,14.9,4.6C59.4,29,63.1,34,63.1,41.3c0,9.7-4.6,15.4-14.6,18\n\tc-3.1,2.1-7,2.7-11.8,1.8c-1.3,0.1-2.6,0.2-4,0.3C31,61.5,29.4,61.5,27.8,61.5z M25.7,23.9c-6.8,0-12,1.5-15.5,4.6\n\tc-3.3,2.9-5,7.3-5,12.9c0,5.4,1.4,9.4,4.3,12.2c4.2,4,11.5,5.5,23,4.9c1.4-0.1,2.8-0.2,4.1-0.3l0.2,0l0.2,0c4.1,0.8,7.5,0.3,9.9-1.4\n\tl0.2-0.2l0.3-0.1c8.8-2.2,12.6-6.8,12.6-15.2c0-6.2-3.1-10.2-10.1-13.1l-0.4-0.2l-0.2-0.3c-2.5-3.2-6.4-4.4-12.5-3.8\n\tc-1.2,0.1-2.3,0.2-3.2,0.4l-0.2,0l-0.9-0.1C30.1,24,27.8,23.9,25.7,23.9z\"/>\n<path class=\"st4\" d=\"M47.1,25.4c2-1.7,3.7-3.9,4.8-6.5c0,0-5.9,2.2-13.4,2.6l-3-8.2l-4.1,7.8c-7.7-1.4-12.9-4.4-12.9-4.4\n\tc0.4,2.2,1.6,4.4,3.2,6.3c-3.2,0.6-6.2,1.7-9.1,3.4c-2,1.1-0.6,4.2,1.5,3.7c1-0.2,2-0.4,3-0.5c0.1,0.8,0.7,1.4,1.4,1.7\n\tc0.1,2.7,0.1,5.4,0.2,8.1c0,1.8,2.9,2.9,3.7,1c1.4-3.3,3.5-5.7,6.1-7.1c0.5,0.3,1.2,0.3,1.8-0.1c1.2-0.7,2.4-1.2,3.6-1.6\n\tc0.1,1,0.8,1.9,1.9,1.8c1.4-0.1,2.7-0.3,4.1-0.6c1.4-0.1,2.8-0.2,4.3-0.1c3.1,1.2,5.3,3.4,6.2,7.9c0.4,1.9,3.5,1.9,3.9,0\n\tc0.3-1.7,0.2-3.5,0.3-5.3c0.6-0.2,1.3-0.4,1.9-0.7c0.4,0.2,0.7,0.4,1.1,0.6l2.4,0.3l-5.8-6.9L47.1,25.4z\"/>\n<path class=\"st11\" d=\"M25.1,35.2c-0.1,0-0.1,0-0.2,0c-0.3-0.1-0.4-0.4-0.3-0.6c1.3-3.6,3.4-5.6,7.2-6.8c0.3-0.1,0.5,0.1,0.6,0.3\n\tc0.1,0.3-0.1,0.5-0.3,0.6c-2.9,0.9-5.2,2.4-6.6,6.2C25.5,35.1,25.3,35.2,25.1,35.2z\"/>\n<circle class=\"st11\" cx=\"24.6\" cy=\"37.6\" r=\"0.5\"/>\n<circle class=\"st11\" cx=\"20.3\" cy=\"27.8\" r=\"0.5\"/>\n<path class=\"st11\" d=\"M9.1,37.8c0,0-0.1,0-0.1,0c-0.3-0.1-0.4-0.3-0.4-0.6c1-4.6,3.6-7.5,8.3-9.1c0.3-0.1,0.5,0.1,0.6,0.3\n\tc0.1,0.3-0.1,0.5-0.3,0.6c-4.3,1.4-6.7,4.1-7.6,8.3C9.6,37.6,9.4,37.8,9.1,37.8z\"/>\n<path class=\"st4\" d=\"M32,34.6c-1,0-1,2,0,2C34,36.6,34,34.6,32,34.6z\"/>\n<path class=\"st4\" d=\"M45,39.2c-2,0-2,2,0,2C46,41.2,46,39.2,45,39.2z\"/>\n<path class=\"st4\" d=\"M53,46.3c-1,0-1,2,0,2S54,46.3,53,46.3z\"/>\n<path class=\"st4\" d=\"M14,34.4c-2,0-2,2,0,2C15,36.4,15,34.4,14,34.4z\"/>\n<path class=\"st4\" d=\"M19,46.1c-1,0-1,2,0,2S20,46.1,19,46.1z\"/>\n<path class=\"st32\" d=\"M51.4,25.7c-0.4-0.5-0.8-0.9-1.2-1.3c1.2-1.4,2.3-3.1,3.1-4.9c0.2-0.6,0.1-1.2-0.3-1.6c-0.4-0.4-1-0.6-1.6-0.4\n\tc-0.1,0-5.2,1.9-11.9,2.4l-2.6-7.2c-0.2-0.6-0.7-0.9-1.3-1c-0.6,0-1.2,0.3-1.4,0.8l-3.6,6.8c-6.8-1.4-11.3-4-11.4-4\n\tc-0.5-0.3-1.1-0.3-1.6,0.1c-0.5,0.3-0.7,0.9-0.6,1.5c0.3,1.6,0.9,3.1,1.8,4.5c-4.3,0.8-7.8,2.4-10.5,4.8c-4,3.5-6,8.6-6,15.1\n\tc0,6.2,1.8,11,5.3,14.3c4.2,3.9,10.7,5.8,20.3,5.8c1.6,0,3.2,0,4.9-0.1c1.4-0.1,2.7-0.2,4-0.3c4.7,0.9,8.7,0.3,11.8-1.8\n\tc9.9-2.6,14.6-8.3,14.6-18C63.1,34,59.4,29,51.4,25.7z M47.2,55.8c-2.5,2.1-6.1,2.7-10.5,1.8c-11.1-2.3-15.6-7-15.6-16.5\n\tc0-13.9,6.7-15.7,15.5-16.5c0.9-0.1,1.8-0.1,2.6-0.1c3.7,0,6.6,0.9,8.6,2.7c2.9,2.6,4.3,7.2,4.3,13.9C52.1,48.1,50.4,53.2,47.2,55.8\n\tz M47.7,22.7c-0.5-0.3-1-0.5-1.5-0.7c0.9-0.2,1.8-0.4,2.6-0.6C48.4,21.8,48.1,22.3,47.7,22.7z M35.2,17l1.5,4.1c-0.1,0-0.1,0-0.2,0\n\tc-1.2,0.1-2.2,0.2-3.2,0.4l-0.4-0.1L35.2,17z M21.1,19.6c1,0.4,2.1,0.8,3.4,1.3c-0.9,0-1.7,0.1-2.5,0.1\n\tC21.7,20.6,21.4,20.1,21.1,19.6z M32.6,58.4c-11.5,0.7-18.8-0.9-23-4.9c-2.9-2.8-4.3-6.7-4.3-12.2c0-5.6,1.7-9.9,5-12.9\n\tc3.5-3.1,8.6-4.6,15.5-4.6c1.9,0,3.8,0.1,5.9,0.4c-6.6,1.4-11.5,4.9-11.5,16.8c0,9.5,4.5,14.7,14.8,17.2\n\tC34.2,58.3,33.4,58.3,32.6,58.4z M48.1,56.3c3.3-2.9,5-8,5-15.3c0-5.6-1-9.8-2.9-12.6c6.8,2.9,9.8,6.9,9.8,12.9\n\tC60.1,49.5,56.5,54,48.1,56.3z\"/>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/54bd0f546239330003b30000",
+                  "website": "/crops/54bd0f546239330003b30000"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/54bd0f546239330003b30000/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/54bd0f546239330003b30000/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "591a5d6f1faea70004000001"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "543998a83162320002000000",
+          "attributes": {
+              "name": "UF Micro Tom Tomato",
+              "slug": "uf-micro-tom-tomato",
+              "binomial_name": "Solanum lycopersicum var. cerasiforme",
+              "common_names": [],
+              "description": "Cherry tomatoes range in size from a thumbtip to the size of a golf ball. Their shape ranges from spherical to slightly oblong to pointed at the bottom. They are often red, but can also be yellow, green, striped, and even black. More oblong cherry tomatoes often share characteristics with plum tomatoes, and are known as grape tomatoes. Cherry tomatoes can be quite sweet (such as the Sungold or Sunsweet yellow varieties), more traditionally acidic, or deep in flavor. They are delicious for snacking, in salads, lightly roasted or grilled, or baked. They require little to no pruning unlike larger tomato plants.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Sow seeds indoors 6-8 weeks before the last expected frost",
+              "spread": 45,
+              "row_spacing": 60,
+              "height": 60,
+              "processing_pictures": 0,
+              "guides_count": 16,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#88A501;}\n\t.st1{fill:none;stroke:#88A501;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st2{fill:none;stroke:#3B6700;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st3{fill:#FC4100;stroke:#9F0500;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st5{fill:#FFFFFF;}\n\t.st6{fill:#22B573;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st7{fill:none;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st8{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st9{fill:#EE0000;}\n\t.st10{fill:#9A0601;}\n\t.st11{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st12{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st13{clip-path:url(#SVGID_2_);}\n\t.st14{fill:#00FFFF;}\n\t.st15{fill:#9F0500;}\n\t.st16{fill:#3B6700;}\n\t.st17{fill:#FC4100;}\n</style>\n<path class=\"st0\" d=\"M31.9,27.4V16.9c4.5-1.3,9.4-2.6,14.5-3.6v11.2h3V12.7C53.1,12,57,11.5,61,11.1c0.8-0.1,1.4-0.8,1.4-1.6\n\tc-0.1-0.8-0.8-1.4-1.6-1.4C29.8,11,3.1,24.8,2.9,24.9c-0.7,0.4-1,1.3-0.6,2c0.3,0.5,0.8,0.8,1.3,0.8c0.2,0,0.5-0.1,0.7-0.2\n\tc0.1,0,3.4-1.8,9-4.1v9.4h3V22.2c3.6-1.4,7.8-3,12.6-4.5v9.6H31.9z\"/>\n<path class=\"st16\" d=\"M11.2,39.3c-2.6,0-5-1.3-7-3.9c-0.4-0.5-0.4-1.3,0-1.8c0.4-0.5,1.1-0.7,1.8-0.5c0.1,0,1.3,0.5,3.1,0.3\n\tc0.4-0.1,0.7-0.4,0.7-0.8c0-1,0-2.1-0.1-3c0-0.7,0.3-1.3,1-1.5c0.6-0.2,1.3,0,1.7,0.5c0.5,0.6,1.2,1.5,1.9,2.2\n\tc0.3,0.3,0.7,0.3,1.1,0.1c1.4-1.1,2.2-2.3,2.2-2.3c0.3-0.5,0.9-0.8,1.6-0.7c0.6,0.1,1.1,0.6,1.2,1.2c0.7,4.3-1.4,8-5.5,9.7\n\tC13.5,39.1,12.3,39.3,11.2,39.3z\"/>\n<path class=\"st16\" d=\"M29.2,33.5c-3.3,0-5.9-1.7-7.7-5.1c-0.3-0.6-0.2-1.3,0.3-1.8s1.2-0.5,1.8-0.2c0.1,0,1.1,0.6,2.8,0.8\n\tc0.5,0,1-0.3,1.1-0.9c0.1-0.9,0.3-2,0.4-2.8c0.1-0.7,0.6-1.2,1.2-1.3c0.7-0.1,1.3,0.2,1.6,0.8c0.3,0.7,0.9,1.5,1.4,2.2\n\tc0.3,0.5,0.9,0.6,1.4,0.3c1.5-0.8,2.3-1.8,2.3-1.8c0.4-0.5,1.1-0.7,1.7-0.5c0.6,0.2,1,0.8,1,1.4c0,4.4-2.7,7.7-7,8.6\n\tC30.6,33.4,29.9,33.5,29.2,33.5z\"/>\n<path class=\"st16\" d=\"M47.7,28.2c-3.9,0-6.7-2.1-8.2-6.1c-0.2-0.6,0-1.3,0.5-1.7s1.3-0.4,1.8,0c0,0,1.1,0.8,2.8,1.1\n\tc0.5,0.1,0.9-0.2,1-0.6c0.3-0.9,0.6-2,0.8-2.8c0.1-0.6,0.7-1.1,1.4-1.2c0.7,0,1.3,0.4,1.5,1c0.3,0.7,0.7,1.7,1.1,2.5\n\tc0.2,0.4,0.7,0.6,1.2,0.4c1.6-0.6,2.6-1.6,2.6-1.6c0.5-0.4,1.1-0.5,1.7-0.2c0.6,0.3,0.9,0.9,0.8,1.5c-0.6,4.4-3.6,7.3-8,7.7\n\tC48.3,28.2,48,28.2,47.7,28.2z\"/>\n<path class=\"st17\" d=\"M49.1,23.9c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7\n\tc-5.6,0-10.1,3.5-10.1,9.1c0,5.6,4.5,10.1,10.1,10.1c4.6,0,8.4-3,9.7-7.2c1.7,1.4,3.9,2.2,6.3,2.2c4.6,0,8.4-3,9.7-7.2\n\tc1.7,1.4,3.9,2.2,6.3,2.2c5.6,0,10.1-4.5,10.1-10.1C59.2,27.4,54.7,23.9,49.1,23.9z\"/>\n<path class=\"st5\" d=\"M43.5,31.2c-0.1,0-0.2,0-0.2-0.1C43,31,42.9,30.7,43,30.5c0.6-1.1,1.5-1.9,2.8-2.5c0.3-0.1,0.5,0,0.7,0.3\n\tc0.1,0.3,0,0.5-0.3,0.7c-1.1,0.5-1.9,1.1-2.3,2C43.8,31.1,43.6,31.2,43.5,31.2z\"/>\n<circle class=\"st5\" cx=\"48.5\" cy=\"27.6\" r=\"0.5\"/>\n<path class=\"st5\" d=\"M10.9,43.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C11.4,43.3,11.2,43.5,10.9,43.5z\"/>\n<circle class=\"st5\" cx=\"16.5\" cy=\"37.6\" r=\"0.5\"/>\n<path class=\"st15\" d=\"M49.1,22.4c-4.4,0-8.1,1.9-10.1,5.1c-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-4.4,0-8.1,1.9-10.1,5.1\n\tc-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-6.5,0-11.3,4.2-11.6,10.1C5.1,48.7,10,54.2,16.2,54.6c4.4,0.3,8.4-1.8,10.7-5.3\n\tc0.4-0.6,1.1-0.8,1.7-0.5c1.4,0.6,2.9,0.9,4.5,0.9c4.1,0,7.7-2.1,9.8-5.4c0.4-0.6,1.1-0.8,1.7-0.5c1.8,0.8,3.8,1.1,5.9,0.8\n\tc5.4-0.6,9.7-5,10.2-10.4C61.3,27.4,56.2,22.4,49.1,22.4z M33.1,46.5c-4.7,0-8.5-3.8-8.5-8.5c0-4.4,3.5-7.5,8.5-7.5s8.5,3.1,8.5,7.5\n\tC41.6,42.7,37.8,46.5,33.1,46.5z M25.5,43.7c0.2,0.2,0.3,0.6,0.2,0.9l-0.3,0.9c-1.2,4.1-5.2,6.7-9.6,6c-4.1-0.6-7.3-4.3-7.3-8.5\n\tc0-4.5,3.5-7.7,8.6-7.7c2,0,3.9,0.5,5.4,1.5l0.8,0.5c0.2,0.1,0.4,0.4,0.4,0.7C23.7,39,23.9,41.3,25.5,43.7z M40.7,32.8\n\tc-0.2-0.3-0.3-0.6-0.2-1l0.2-0.8c0.9-3.4,4.2-5.6,8.4-5.6c5.4,0,9.1,3.5,8.6,8.5c-0.4,4-3.5,7.3-7.5,7.7c-2.4,0.3-4.6-0.3-6.5-1.8\n\tL43,39.2c-0.3-0.2-0.4-0.5-0.4-0.9C42.6,37.3,42.5,34.9,40.7,32.8z\"/>\n<path class=\"st5\" d=\"M26.9,38.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C27.4,38.3,27.2,38.5,26.9,38.5z\"/>\n<circle class=\"st5\" cx=\"32.5\" cy=\"32.6\" r=\"0.5\"/>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/543998a83162320002000000",
+                  "website": "/crops/543998a83162320002000000"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/543998a83162320002000000/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/543998a83162320002000000/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "57073ec74a3af70003000009"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "55dcb6993536350003000062",
+          "attributes": {
+              "name": "Bonnie Roma Tomato",
+              "slug": "bonnie-roma-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "roma",
+                  "tomato"
+              ],
+              "description": "Romas indeterminate from Home Depot",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Transplant",
+              "spread": 30,
+              "row_spacing": 30,
+              "height": 120,
+              "processing_pictures": 0,
+              "guides_count": 1,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --> <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\"> <style type=\"text/css\"> .st0{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:#EE0000;} .st2{fill:#9A0601;} .st3{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st4{fill:#6FAD4C;} .st5{fill:#FCAA54;stroke:#8CC63F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st6{fill:none;stroke:#8D5733;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st7{fill:#184C28;} .st8{fill:#82C64E;} .st9{fill:none;stroke:#497726;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st10{fill:#497726;} .st11{opacity:0.2;} .st12{fill:#748C8B;} .st13{fill:#434D42;} .st14{fill:#EFC11E;} .st15{fill:#C9292F;} .st16{fill:#802D2D;} .st17{fill:#C9292F;stroke:#802D2D;stroke-width:2.5473;stroke-miterlimit:10;} .st18{opacity:0.4;} .st19{fill:none;stroke:#FFFFFF;stroke-width:2.5473;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st20{fill:none;stroke:#006837;stroke-width:2.5473;stroke-linecap:round;stroke-miterlimit:10;} .st21{fill:#FFFFFF;} .st22{fill:#C9292F;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st23{filter:url(#Adobe_OpacityMaskFilter);} .st24{opacity:0.8;mask:url(#SVGID_1_);} .st25{fill:#00FFFF;} .st26{fill:#2E368F;} .st27{fill:#5860A5;} .st28{fill:#161542;} .st29{fill:none;stroke:#434D42;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st30{fill:#54665F;} .st31{fill:#54665F;stroke:#434D42;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st32{fill:#748C8B;stroke:#434D42;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st33{clip-path:url(#SVGID_3_);} .st34{fill:#194C28;} .st35{fill:#82C64E;stroke:#184C28;stroke-linejoin:round;stroke-miterlimit:10;} .st36{fill:none;stroke:#184C28;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st37{fill:#FCAA54;} .st38{fill:#8D5733;} .st39{fill:#406D2A;} .st40{fill:none;stroke:#8D5733;stroke-linecap:round;stroke-miterlimit:10;} .st41{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;} .st42{clip-path:url(#SVGID_5_);} .st43{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st44{fill:#C1272D;} .st45{fill:#184C28;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st46{fill:none;stroke:#FDD6AD;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st47{fill:none;stroke:#FCAA54;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st48{fill:#9B0D91;} .st49{fill:#1B631A;} .st50{fill:#22153F;} .st51{fill:#95CC63;stroke:#517B39;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st52{fill:none;stroke:#517B39;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st53{fill:#22B573;} .st54{display:none;} .st55{display:inline;fill:none;stroke:#00FFFF;stroke-width:0.1;stroke-miterlimit:10;} </style> <g id=\"Layer_2\"> <path class=\"st53\" d=\"M17.8,12.9c-2.3-1.9-4-4.1-4.6-6.5c0,0,6.4,2.7,14.2,3.6L32,1.9l4.5,8C44.1,9,50.8,6.4,50.8,6.4 c-0.8,2.2-2.2,4.2-3.9,5.8l-14.1-1.9L17.8,12.9z\"/> <path class=\"st7\" d=\"M16.3,13.5c-2.2-2-3.9-4.3-4.5-6.7c-0.2-0.6,0-1.1,0.5-1.5c0.4-0.4,1-0.5,1.6-0.3c0.1,0,5.8,2.4,12.8,3.3 l4.1-7.2C31,0.7,31.5,0.4,32,0.4s1,0.3,1.3,0.8l4,7.1C44.2,7.3,50.2,5,50.3,5c0.5-0.2,1.2-0.1,1.6,0.3c0.4,0.4,0.6,1,0.4,1.6 c-0.8,2.1-2,4-3.6,5.7l-3.3-1C46.2,10.8,47,10,47.7,9c-2.7,0.8-6.7,1.8-11,2.4c0,0-1.5-0.7-1.5-0.7L32,4.9l-3.3,5.8l-5.2,0.2 c-2.9-0.5-5.4-1.2-7.3-1.8c0.8,1.1,1.9,2.2,3.2,3.1L16.3,13.5z\"/> <g> <path class=\"st1\" d=\"M2.1,36.2c0,14.3,13.5,25.9,30.1,25.9c17.2,0,30.1-10.4,30.1-24.1c0-18-9.4-27.9-26.6-27.9 C35.7,10.1,2.1,7.4,2.1,36.2z\"/> </g> <path class=\"st2\" d=\"M35.7,8.6L35.7,8.6c-1.2,0-2.5,0-3.8,0.1c-7.1,0.5-14.5,1.6-20.6,5.3C4.2,18.5,0.6,25.9,0.6,36.2 c0,15.1,14.2,27.4,31.6,27.4c8.4,0,16.3-2.4,22.1-6.9c6.2-4.7,9.6-11.4,9.6-18.8C63.8,12.5,46.2,8.6,35.7,8.6z M3.6,36.2 c0-17.2,10.8-22,22-23.7c-1.8,1.2-3.5,3-4.8,5.9c-0.1,0.3,0,0.5,0.3,0.7c0.3,0.1,0.5,0,0.7-0.3c2.4-5.4,6.2-6.8,9.9-7.4 C34,11,36,11.5,37.8,13c4.1,3.5,6.2,11.9,6.2,25.2c0,13.1-5.4,23-12.5,23c-3.6,0-7.1-3.2-9.5-8.8c-0.1-0.3-0.4-0.4-0.7-0.3 c-0.3,0.1-0.4,0.4-0.3,0.7c1.4,3.3,3.2,5.8,5.2,7.4C13.3,57.8,3.6,48,3.6,36.2z M36.8,60.4c4.9-3.5,8.1-11.8,8.1-22.2 c0-13.5-2.2-22.3-6.6-25.9c-0.2-0.2-0.4-0.3-0.7-0.5c11.7,0.6,23.1,6.4,23.1,26.3C60.8,50.1,50.4,58.8,36.8,60.4z\"/> <g> <g> <path class=\"st21\" d=\"M8.9,27.9c-0.1,0-0.1,0-0.2,0c-0.3-0.1-0.4-0.4-0.3-0.6c1.3-3.4,3.4-5.9,6.6-7.8c0.2-0.1,0.5-0.1,0.7,0.2 c0.1,0.2,0.1,0.5-0.2,0.7c-2.9,1.7-4.9,4.1-6.1,7.3C9.3,27.8,9.1,27.9,8.9,27.9z\"/> </g> <g> <path class=\"st21\" d=\"M48.9,27.4c-0.2,0-0.5-0.2-0.5-0.4c-0.4-3.2-1-6.1-1.8-8.5c-0.1-0.3,0.1-0.5,0.3-0.6 c0.3-0.1,0.5,0.1,0.6,0.3c0.8,2.5,1.4,5.4,1.8,8.7C49.4,27.1,49.2,27.3,48.9,27.4C48.9,27.4,48.9,27.4,48.9,27.4z\"/> </g> <g> <path class=\"st21\" d=\"M23.3,26.3C23.3,26.3,23.3,26.3,23.3,26.3c-0.4-0.1-0.5-0.3-0.5-0.6c0.9-5,2.5-8.2,4.9-9.8 c0.2-0.2,0.5-0.1,0.7,0.1c0.2,0.2,0.1,0.5-0.1,0.7c-2.2,1.4-3.6,4.4-4.5,9.1C23.8,26.1,23.6,26.3,23.3,26.3z\"/> </g> <g> <circle class=\"st21\" cx=\"22.9\" cy=\"29.2\" r=\"0.5\"/> </g> </g> </g> <g id=\"Layer_1\" class=\"st54\"> </g> </svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/55dcb6993536350003000062",
+                  "website": "/crops/55dcb6993536350003000062"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/55dcb6993536350003000062/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/55dcb6993536350003000062/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "60831e79f220c400040f59d3",
+          "attributes": {
+              "name": "Rose de Berne Tomato",
+              "slug": "rose-de-berne-tomato",
+              "binomial_name": "Lycopersicon lycopersicum",
+              "common_names": [
+                  "Tomato",
+                  "Tomate"
+              ],
+              "description": "A Swiss heirloom and a Brandywine cousin, the depth of rich fruit flavor makes Organic Rose de Berne Tomato a favorite for sandwiches and, truly, everything else. Her soft, translucent pink skin rarely cracks, even on the largest of the 4 to 6-ounce tomatoes. Rose de Berne is pure abundance once she starts producing and some Late Blight tolerance offers extra weeks of harvest even when disease arrives.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": null,
+              "spread": 45,
+              "row_spacing": 45,
+              "height": 150,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": 75,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/60831e79f220c400040f59d3",
+                  "website": "/crops/60831e79f220c400040f59d3"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/60831e79f220c400040f59d3/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/60831e79f220c400040f59d3/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "56849f3a1829fb0003000018",
+          "attributes": {
+              "name": "Cherry Tomato 'Red Robin'",
+              "slug": "cherry-tomato-red-robin",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "Cherry tomato",
+                  "red robin"
+              ],
+              "description": "This variety can be grown in pots.",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": 25,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/56849f3a1829fb0003000018",
+                  "website": "/crops/56849f3a1829fb0003000018"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/56849f3a1829fb0003000018/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/56849f3a1829fb0003000018/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59b0d45c9707bf0004000063",
+          "attributes": {
+              "name": "Sunray Tomato",
+              "slug": "sunray-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "Sunray tomato",
+                  "sungold tomato",
+                  "sungold",
+                  "sunsweet tomato"
+              ],
+              "description": "Sunrays or Sungolds are a cherry tomato variety that produce small, round golden to orange tomatoes. They have deeply sweet, delicious, fruity flavor. Harvest when they are at their deepest hue for the most intense flavor. Cherry tomatoes do not need to be pruned. Trellis and staking is optional.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 90,
+              "height": 300,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 200 200\" style=\"enable-background:new 0 0 200 200;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st1{fill:#FFBC42;stroke:#E6681E;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st3{clip-path:url(#SVGID_2_);}\n\t.st4{fill:#F40000;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st5{fill:#7C9800;}\n\t.st6{fill:#164E16;}\n\t.st7{fill:#4D831C;stroke:#2A481D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st8{fill:#F22F2E;}\n\t.st9{opacity:0.5;fill:#840D0D;}\n\t.st10{fill:#7DB34C;}\n\t.st11{fill:#44712A;}\n\t.st12{fill:#4D831C;}\n\t.st13{fill:#2A481D;}\n\t.st14{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st15{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st16{fill:#AFD048;}\n\t.st17{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st18{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st19{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st20{fill:#A2CC62;}\n\t.st21{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st22{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st23{fill:#ADD481;}\n\t.st24{fill:#68664C;}\n\t.st25{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st26{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st27{fill:#EE0000;}\n\t.st28{fill:#9A0601;}\n\t.st29{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st30{fill:#FFFFFF;}\n\t.st31{clip-path:url(#SVGID_4_);}\n\t.st32{fill:#00FFFF;}\n\t.st33{fill:#456A0A;}\n\t.st34{fill:#183300;}\n\t.st35{fill:#FF2214;}\n\t.st36{fill:#661900;}\n\t.st37{fill:#88A501;}\n\t.st38{fill:#3B6700;}\n\t.st39{fill:#FC4100;}\n\t.st40{fill:#9F0500;}\n\t.st41{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st42{fill:#6B9311;}\n\t.st43{fill:#593156;}\n\t.st44{fill:#331E31;}\n\t.st45{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st46{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st47{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st48{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st49{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st50{fill:#7C9800;stroke:#0C4C0C;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st51{fill:#F04D02;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st52{fill:none;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st53{fill:#B63E34;}\n\t.st54{fill:#522B25;}\n\t.st55{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st56{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st57{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st58{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st59{fill:#9EC161;}\n\t.st60{fill:#40760E;}\n\t.st61{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st62{fill:#663965;}\n\t.st63{fill:#9D610B;}\n\t.st64{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st65{fill:#6D4E2B;}\n\t.st66{fill:#CDA347;}\n\t.st67{fill:#7F500A;}\n\t.st68{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st69{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st70{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st71{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st72{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st73{fill:#F40000;}\n\t.st74{fill:#990D0D;}\n\t.st75{fill:#FF9D00;}\n\t.st76{fill:#E6681E;}\n\t.st77{fill:#FFCB00;}\n\t.st78{fill:#B58B06;}\n\t.st79{fill:#3A4C09;}\n\t.st80{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st81{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st82{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st83{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st84{fill:#B94850;}\n\t.st85{fill:#CE8645;}\n\t.st86{fill:#6C0A04;}\n\t.st87{fill:#8C4F6F;}\n\t.st88{fill:#E7C456;}\n\t.st89{fill:#391A26;}\n\t.st90{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st91{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st92{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st93{fill:#4F250E;}\n\t.st94{fill:#995116;}\n\t.st95{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st96{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st97{opacity:0.8;fill:#FFBC42;}\n\t.st98{opacity:0.8;fill:#D03400;}\n\t.st99{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st100{fill:#FFBC42;}\n\t.st101{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st102{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st103{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-miterlimit:10;}\n\t.st104{fill:#344C00;}\n\t.st105{fill:#FD801E;}\n\t.st106{fill:#9E0E00;}\n\t.st107{fill:#FDAF48;}\n\t.st108{fill:#D74E1E;}\n\t.st109{opacity:0.8;fill:#68664C;}\n\t.st110{fill:#775E49;}\n\t.st111{fill:#FF7A00;}\n\t.st112{fill:#FF7A00;stroke:#F44500;stroke-width:3;stroke-miterlimit:10;}\n\t.st113{fill:none;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st114{fill:#FF7A00;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st115{fill:#F44500;}\n\t.st116{fill:#F6E600;}\n\t.st117{fill:#8DCC50;}\n\t.st118{fill:#A2A121;}\n\t.st119{fill:#F9EFA7;}\n\t.st120{fill:#6E905E;}\n\t.st121{fill:#7B000E;}\n\t.st122{fill:#F22F2E;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st123{fill:#7DB34C;stroke:#44712A;stroke-width:3;stroke-miterlimit:10;}\n\t.st124{fill:none;stroke:#44712A;stroke-miterlimit:10;}\n\t.st125{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st126{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st127{fill:#164E16;stroke:#071907;stroke-width:3;stroke-miterlimit:10;}\n\t.st128{fill:none;stroke:#071907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st129{fill:#071907;}\n\t.st130{fill:#7DB34C;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st131{fill:none;stroke:#164E16;stroke-miterlimit:10;}\n\t.st132{fill:#8A9D1F;}\n\t.st133{fill:#6E8517;}\n\t.st134{opacity:0.1;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st135{opacity:0.25;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st136{opacity:0.4;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st137{opacity:0.55;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st138{opacity:0.7;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st139{opacity:0.85;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st140{fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st141{fill:#A7C92B;}\n\t.st142{fill:#EBDE00;}\n\t.st143{fill:#AEC939;}\n\t.st144{fill:#B8CC35;}\n\t.st145{fill:#C2CF33;}\n\t.st146{fill:#CCD331;}\n\t.st147{fill:#D7D631;}\n\t.st148{fill:#E0D930;}\n\t.st149{fill:#264008;}\n\t.st150{fill:none;stroke:#00FFFF;stroke-miterlimit:10;}\n\t.st151{clip-path:url(#SVGID_6_);}\n\t.st152{fill:#F22F2E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st153{fill:#A7C92B;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st154{clip-path:url(#SVGID_8_);}\n\t.st155{fill:#F9A361;}\n\t.st156{fill:none;stroke:#992216;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st157{fill:#0C4C0C;}\n\t.st158{fill:#F04D02;}\n\t.st159{fill:#992216;}\n\t.st160{fill:none;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st161{fill:#FFBC42;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st162{fill:#FFBC42;stroke:#9E0E00;stroke-miterlimit:10;}\n\t.st163{fill:#D03400;}\n\t.st164{fill:#FFBC42;stroke:#E6681E;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st165{fill:#184C28;}\n</style>\n<g id=\"Layer_1\">\n\t<path class=\"st12\" d=\"M147,46c6-6.6,10.7-14.6,13.6-23.4c0,0-17.9,7.6-39.7,11.8C130.2,36.8,138.9,40.8,147,46z\"/>\n\t<path class=\"st12\" d=\"M64.8,39.3c3.9-2,7.9-3.7,11.9-4.9c-21.3-4.2-37.3-11.8-37.3-11.8c1.9,8,6.4,15.7,12.5,22.4\n\t\tC56,42.6,60.3,40.7,64.8,39.3z\"/>\n\t<polygon class=\"st12\" points=\"110.7,32.4 100,5.3 89.5,31.9 \t\"/>\n\t<path class=\"st165\" d=\"M48.6,48.2c2.7-1.8,5.6-3.4,8.6-4.8c-2.5-2.5-4.8-5.3-6.7-8.1c-0.9-1.3,0.4-3.1,2-2.5\n\t\tc5,1.7,11.1,3.5,17.8,5.1c7.6-3.2,15.7-5,24.1-5.2l4.1-10.4c0.6-1.4,2.6-1.4,3.2,0l4.2,10.7c7.8,0.6,15.3,2.3,22.4,4.8\n\t\tc7.2-1.6,13.8-3.6,19.3-5.3c1.5-0.5,2.8,1.2,2,2.5c-2.1,3.3-4.5,6.4-7.2,9.2c2.8,1.6,5.5,3.3,8.2,5.1c6.5-7.2,11.5-15.7,14.7-25.3\n\t\tc0.6-1.8,0.1-3.7-1.3-5c-1.4-1.3-3.4-1.6-5.1-0.9c-0.2,0.1-16.9,7.2-37.3,11.3c-3.6,0.7-7.1-1.2-8.5-4.6l-8.4-21.3\n\t\tc-0.7-1.8-2.5-3-4.4-3h0c-2,0-3.7,1.2-4.4,3L87,25.2c-1.3,3.4-4.9,5.3-8.4,4.6c-20.9-4-36.9-11.5-37.1-11.6\n\t\tc-1.7-0.8-3.6-0.6-5.1,0.6c-1.4,1.2-2.1,3-1.6,4.8C37,32.5,41.9,40.9,48.6,48.2z\"/>\n\t<path class=\"st100\" d=\"M183.2,94.6c9.8,43-25,100.1-83.4,100.1S8.3,138,16.4,94.6C24.1,53.5,53.7,35,99.8,35S173.5,52.3,183.2,94.6\n\t\tz\"/>\n\t<path class=\"st30\" d=\"M41.3,84.8c-0.1,0-0.2,0-0.4,0c-0.9-0.2-1.4-1.1-1.2-1.9c0.4-1.6,0.8-3.1,1.3-4.6c0.3-0.8,1.2-1.3,2-1\n\t\tc0.8,0.3,1.3,1.2,1,2c-0.4,1.4-0.8,2.8-1.2,4.3C42.7,84.3,42.1,84.8,41.3,84.8z\"/>\n\t<path class=\"st30\" d=\"M45.1,73.8c-0.2,0-0.5,0-0.7-0.2c-0.8-0.4-1.1-1.3-0.8-2.1c2.8-5.9,6.6-11.1,11.4-15.3\n\t\tc0.7-0.6,1.7-0.5,2.2,0.1c0.6,0.7,0.5,1.7-0.1,2.2c-4.5,4-8.1,8.8-10.7,14.3C46.3,73.5,45.7,73.8,45.1,73.8z\"/>\n\t<path class=\"st76\" d=\"M187.8,93.6c-9.9-43.2-37.9-63.3-88-63.3c-24.4,0-44.2,5.1-58.8,15.2C25.6,56.1,15.7,72.4,11.7,93.7\n\t\tc-4.6,24.7,3.3,53.1,20.8,74.1c17,20.4,40.9,31.7,67.3,31.7c27.4,0,52.1-12,69.4-33.7C186.1,144.7,193.2,117,187.8,93.6z\n\t\t M78.4,186.3c-0.2,0.4-0.6,0.6-1.1,0.4c-14.5-4.3-27.4-12.8-37.5-25C24.2,142.9,17,117.5,21.1,95.5c3.5-18.8,12-33,25.3-42.2\n\t\tc6.5-4.5,14.2-7.9,23.1-10.1c2.6-0.7,4.7,2.3,3.1,4.5c-3.9,5.4-7,12.3-9.3,20.8c-0.2,0.7,0,1.5,0.6,1.8c0.3,0.2,0.6,0.3,0.9,0.3\n\t\tc0.7,0,1.3-0.5,1.5-1.2c6-21.8,17.3-32.9,33.5-32.9c13.9,0,23.4,7.2,29.9,22.7c0.3,0.7,1.1,1.2,1.9,1c1-0.2,1.5-1.3,1.1-2.2\n\t\tc-1.7-4-3.6-7.6-5.7-10.6c-1.5-2.2,0.5-5.2,3.1-4.5c26.4,6.7,41.7,23.6,48.3,52.6c4.7,20.7-1.7,45.3-16.8,64.2\n\t\tc-9.5,11.9-21.5,20.6-35,25.5c-1.4,0.5-2.5-1.3-1.4-2.3c2-1.8,3.7-4,5.1-6.4c0.4-0.6,0.3-1.5-0.2-2c-0.8-0.7-2-0.5-2.5,0.3\n\t\tc-6.4,11.1-18.5,13.4-27.5,13.4c-7.7,0-14-1.8-19.4-5.5c-0.7-0.5-1.6-0.4-2.1,0.1c-0.6,0.6-0.6,1.4-0.2,2c0.2,0.3,0.3,0.7,0.1,1\n\t\tL78.4,186.3z\"/>\n\t<path class=\"st30\" d=\"M78.1,80c-0.1,0-0.1,0-0.2,0c-0.9-0.1-1.5-0.9-1.4-1.8c0.3-2,0.6-3.9,0.9-5.7c0.2-0.9,1-1.4,1.9-1.3\n\t\tc0.9,0.2,1.4,1,1.3,1.9c-0.3,1.8-0.6,3.6-0.9,5.5C79.6,79.4,78.9,80,78.1,80z\"/>\n\t<path class=\"st30\" d=\"M81.7,64.3c-0.2,0-0.4,0-0.5-0.1c-0.8-0.3-1.3-1.2-1-2c2.3-6.6,5.5-11.5,9.5-14.6c0.7-0.5,1.7-0.4,2.2,0.3\n\t\tc0.5,0.7,0.4,1.7-0.3,2.2c-3.5,2.7-6.4,7.2-8.5,13.2C82.9,63.9,82.3,64.3,81.7,64.3z\"/>\n\t\n\t\t<ellipse transform=\"matrix(0.9982 -6.032619e-02 6.032619e-02 0.9982 -5.4652 2.5723)\" class=\"st30\" cx=\"39.9\" cy=\"91.8\" rx=\"1.6\" ry=\"1.6\"/>\n\t\n\t\t<ellipse transform=\"matrix(0.998 -6.320410e-02 6.320410e-02 0.998 -5.2752 5.0646)\" class=\"st30\" cx=\"77.4\" cy=\"85.9\" rx=\"1.6\" ry=\"1.6\"/>\n</g>\n<g id=\"Layer_2\">\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59b0d45c9707bf0004000063",
+                  "website": "/crops/59b0d45c9707bf0004000063"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0d45c9707bf0004000063/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0d45c9707bf0004000063/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "59b0d45f07a74000040000ce"
+                      },
+                      {
+                          "type": "crops-pictures",
+                          "id": "59b0d46a07a74000040000cf"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59b0c5ff9707bf0004000059",
+          "attributes": {
+              "name": "Hillbilly Tomato",
+              "slug": "hillbilly-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "hillbilly tomato",
+                  "flame tomato",
+                  "hillbilly potato leaf tomato"
+              ],
+              "description": "Hillbilly, or Flame, tomatoes are large heirloom cultivars. The fruits are 1-2 pounds, round, heavily ribbed, and have brilliant yellow to orange skin with red marbling. They are juicy and have a rich, sweet flavor that is low in acid. They are usually eaten raw - sliced or added to sandwiches. For larger yield and improved plant health, prune and stake tomatoes.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 120,
+              "row_spacing": 90,
+              "height": 120,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 200 200\" style=\"enable-background:new 0 0 200 200;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st1{clip-path:url(#SVGID_2_);}\n\t.st2{fill:#F40000;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st3{fill:#7C9800;}\n\t.st4{fill:#164E16;}\n\t.st5{fill:#4D831C;stroke:#2A481D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st6{fill:#F22F2E;}\n\t.st7{opacity:0.5;fill:#840D0D;}\n\t.st8{fill:#7DB34C;}\n\t.st9{fill:#44712A;}\n\t.st10{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st11{fill:#4D831C;}\n\t.st12{fill:#2A481D;}\n\t.st13{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st14{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st15{fill:#AFD048;}\n\t.st16{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st17{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st18{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st19{fill:#A2CC62;}\n\t.st20{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st21{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st22{fill:#ADD481;}\n\t.st23{fill:#68664C;}\n\t.st24{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st25{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st26{fill:#EE0000;}\n\t.st27{fill:#9A0601;}\n\t.st28{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st29{fill:#FFFFFF;}\n\t.st30{clip-path:url(#SVGID_4_);}\n\t.st31{fill:#00FFFF;}\n\t.st32{fill:#456A0A;}\n\t.st33{fill:#183300;}\n\t.st34{fill:#FF2214;}\n\t.st35{fill:#661900;}\n\t.st36{fill:#88A501;}\n\t.st37{fill:#3B6700;}\n\t.st38{fill:#FC4100;}\n\t.st39{fill:#9F0500;}\n\t.st40{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st41{fill:#6B9311;}\n\t.st42{fill:#593156;}\n\t.st43{fill:#331E31;}\n\t.st44{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st45{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st46{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st47{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st48{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st49{fill:#7C9800;stroke:#0C4C0C;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st50{fill:#F04D02;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st51{fill:none;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st52{fill:#B63E34;}\n\t.st53{fill:#522B25;}\n\t.st54{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st55{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st56{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st57{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st58{fill:#9EC161;}\n\t.st59{fill:#40760E;}\n\t.st60{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st61{fill:#663965;}\n\t.st62{fill:#9D610B;}\n\t.st63{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st64{fill:#6D4E2B;}\n\t.st65{fill:#CDA347;}\n\t.st66{fill:#7F500A;}\n\t.st67{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st68{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st69{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st70{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st71{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st72{fill:#F40000;}\n\t.st73{fill:#990D0D;}\n\t.st74{fill:#FF9D00;}\n\t.st75{fill:#E6681E;}\n\t.st76{fill:#FFCB00;}\n\t.st77{fill:#B58B06;}\n\t.st78{fill:#3A4C09;}\n\t.st79{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st80{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st81{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st82{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st83{fill:#B94850;}\n\t.st84{fill:#CE8645;}\n\t.st85{fill:#6C0A04;}\n\t.st86{fill:#8C4F6F;}\n\t.st87{fill:#E7C456;}\n\t.st88{fill:#391A26;}\n\t.st89{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st90{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st91{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st92{fill:#4F250E;}\n\t.st93{fill:#995116;}\n\t.st94{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st95{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st96{opacity:0.8;fill:#FFBC42;}\n\t.st97{opacity:0.8;fill:#D03400;}\n\t.st98{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st99{fill:#FFBC42;}\n\t.st100{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st101{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st102{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-miterlimit:10;}\n\t.st103{fill:#344C00;}\n\t.st104{fill:#FD801E;}\n\t.st105{fill:#9E0E00;}\n\t.st106{fill:#FDAF48;}\n\t.st107{fill:#D74E1E;}\n\t.st108{opacity:0.8;fill:#68664C;}\n\t.st109{fill:#775E49;}\n\t.st110{fill:#FF7A00;}\n\t.st111{fill:#FF7A00;stroke:#F44500;stroke-width:3;stroke-miterlimit:10;}\n\t.st112{fill:none;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st113{fill:#FF7A00;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st114{fill:#F44500;}\n\t.st115{fill:#F6E600;}\n\t.st116{fill:#8DCC50;}\n\t.st117{fill:#A2A121;}\n\t.st118{fill:#F9EFA7;}\n\t.st119{fill:#6E905E;}\n\t.st120{fill:#7B000E;}\n\t.st121{fill:#F22F2E;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st122{fill:#7DB34C;stroke:#44712A;stroke-width:3;stroke-miterlimit:10;}\n\t.st123{fill:none;stroke:#44712A;stroke-miterlimit:10;}\n\t.st124{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st125{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st126{fill:#164E16;stroke:#071907;stroke-width:3;stroke-miterlimit:10;}\n\t.st127{fill:none;stroke:#071907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st128{fill:#071907;}\n\t.st129{fill:#7DB34C;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st130{fill:none;stroke:#164E16;stroke-miterlimit:10;}\n\t.st131{fill:#8A9D1F;}\n\t.st132{fill:#6E8517;}\n\t.st133{opacity:0.1;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st134{opacity:0.25;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st135{opacity:0.4;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st136{opacity:0.55;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st137{opacity:0.7;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st138{opacity:0.85;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st139{fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st140{fill:#A7C92B;}\n\t.st141{fill:#EBDE00;}\n\t.st142{fill:#AEC939;}\n\t.st143{fill:#B8CC35;}\n\t.st144{fill:#C2CF33;}\n\t.st145{fill:#CCD331;}\n\t.st146{fill:#D7D631;}\n\t.st147{fill:#E0D930;}\n\t.st148{fill:#264008;}\n\t.st149{fill:none;stroke:#00FFFF;stroke-miterlimit:10;}\n\t.st150{clip-path:url(#SVGID_6_);}\n\t.st151{fill:#F22F2E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st152{fill:#A7C92B;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st153{clip-path:url(#SVGID_8_);}\n\t.st154{fill:#F9A361;}\n\t.st155{fill:none;stroke:#992216;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st156{fill:#0C4C0C;}\n\t.st157{fill:#F04D02;}\n\t.st158{fill:#992216;}\n\t.st159{fill:none;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st160{fill:#FFBC42;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st161{fill:#FFBC42;stroke:#9E0E00;stroke-miterlimit:10;}\n\t.st162{fill:#D03400;}\n\t.st163{fill:#184C28;}\n</style>\n<g id=\"Layer_1\">\n\t<polygon class=\"st11\" points=\"114,65 101.8,30.2 89.4,65.2 100,69.2 \t\"/>\n\t<path class=\"st163\" d=\"M94,66.8l5.8-16.5c0.7-1.9,3.3-1.9,4,0l5.7,16.2l41.8-2.6c2.7-4.9,5.2-10.3,7.4-16.2c0.7-1.8,0.3-4-1.2-5.3\n\t\tc-2.1-1.9-5.2-1.6-6.9,0.4c-0.1,0.1-10,11.3-28.8,15.9c-2.5,0.6-5-0.8-5.8-3.1l-9.5-26.9c-0.7-1.9-2.5-3.2-4.5-3.2h0\n\t\tc-2,0-3.9,1.3-4.5,3.2l-9.6,27.3c-0.8,2.4-3.3,3.7-5.7,3.2C62.5,54.7,53.7,43.5,53.3,43c-1.6-2.1-4.7-2.6-6.9-0.8\n\t\tc-1.5,1.2-2.1,3.3-1.6,5.2c1.6,5.9,4.1,11.9,7.4,17.5L94,66.8z\"/>\n\t<path class=\"st99\" d=\"M194.2,113.3c0,43.2-42.2,69.1-94.2,69.1S5.7,156.5,5.7,113.3c0-29.2,15.4-44.5,41.5-48.6\n\t\tc9.1-1.4,22.1,0.6,32.9,3.1c13.2,3,27,3.1,40.2,0.2c11.2-2.5,24.3-4.6,32.1-3.3C176.7,68.7,194.2,84.6,194.2,113.3z\"/>\n\t<path class=\"st104\" d=\"M57.1,103.9c2.1,0.4,3.5,2.4,3.1,4.5c-1.4,7.5-1.5,15.1-0.4,22.6c0-1.2,0.1-2.4,0.2-3.6\n\t\tc0.3-3.7,4.2-4.7,6.4-3.1c0-0.6,0-1.2,0.1-1.8c0.3-9.2,1.8-18.4,4.2-27.3c1.4-5,9-2.9,7.7,2.1c-2.9,11.4-3.8,23-2.3,34.4\n\t\tc0-0.2,0-0.4,0-0.5c0-3.3,0.3-6.6,1-9.9c0.9-4.4,8.4-3.4,7.9,1.1c-0.3,2.2-0.5,4.5-0.7,6.7c-0.1,0.9,0.7,1.7,1.7,1.5\n\t\tc0.5-0.1,1-0.1,1.4-0.1c0.8,0.1,1.5-0.4,1.6-1.2c1-8.8,2.6-17.6,4.6-26.2c1.1-4.6,7.6-3.2,7.9,1.1c0.6,9.5,1.2,19.1,1.7,28.6\n\t\tc0,0.8,0.1,1.6,0.1,2.4c0,0.5,0.4,0.9,0.9,0.9c0,0,0,0,0.1,0c0.5,0,1-0.3,1.1-0.8c0.7-4.2,1.3-8.4,2-12.6c0.4-2.8,3.5-3.4,5.7-2.4\n\t\tc0.9,0.4,2-0.1,2.1-1c1.2-8.5,1.3-17.2-2.2-25.2c-2-4.6,4.6-8.7,6.9-4c3.1,6.3,6,12.7,8.6,19.2c1.5,0.3,1.5,0.3,3,0.6\n\t\tc2.5-2.4,5.9-1.7,7.1,1.4c2,5.2,3.9,10.5,5.6,15.8c0.5,1.5,2.7,1.2,2.8-0.4c0.3-6.4-0.9-12.8-3.5-18.6c0-0.1-0.1-0.1-0.1-0.2\n\t\tc-2.2-3.9-4.7-7.6-7.4-11.2c-2.8-3.7,3.3-8.1,6.3-4.8c3.1,3.5,5.7,7.3,7.7,11.4c4.6,8,8.2,16.5,10.6,25.3c0.4,1.3,2.2,1.4,2.7,0.2\n\t\tc0.5-1.1,0.9-2.1,1.3-3.2c0.8-2.3,1.5-4.7,2.3-7c0.1-0.5,0.4-0.9,0.6-1.2c0.3-0.4,0.4-0.9,0.2-1.4c-2.1-6.2-5.3-12-9.5-17.1\n\t\tc-3.2-3.9,1.8-9.2,5.7-5.7c8.4,7.9,13,18.2,13.7,28.8c0,0,0,0.1,0,0.1c0.4,2,0.7,4,0.9,6.1c0.1,1.4,2,1.7,2.7,0.5\n\t\tc0.6-1.1,1.2-2.2,1.7-3.4c0.7-1.6,1.2-3.2,1.6-4.7c0.3-1.5,0.5-3.1,0.6-4.6c0.3-11-6.8-21.4-13.4-30.2c-2.6-3.4,2.3-7.2,5.5-5.5\n\t\tc14.4,7.9,17.8,24.3,19.9,39.3c0,0.3,0,0.5-0.1,0.8l-13.9,30.6c-0.1,0.2-0.2,0.4-0.4,0.5l-27.6,21.2c-0.2,0.1-0.4,0.2-0.6,0.3\n\t\tl-51,10.8c-0.2,0-0.4,0-0.6,0l-46.8-9.4c-0.2-0.1-0.4-0.2-0.5-0.2l-37.8-26.3c-0.1-0.1-0.3-0.3-0.4-0.4c-3.3-5.1-5.6-10.9-7.2-16.9\n\t\tc-2.3-8.1-8.3-25.9,2.5-30.5c1.2-0.5,2.4-0.6,3.4-0.2c0.8,0.3,1.6-0.2,1.8-1c0.3-1,0.5-1.9,0.8-2.9c1-3.4,5.4-3.8,7.3-1l0,0\n\t\tc1.3,1.9,1.7,4.3,1.3,6.6c-1.2,6.3-2.2,12.5-1,19.2c0.7,3.6,5.6,2.2,5.6-1.5c0-6.2-0.3-9.6,0.5-14.2c0.3-1.7,2.4-2.4,3.6-1.2l0,0\n\t\tc0.4,0.4,0.7,1,0.7,1.6c-0.3,8.6,1.1,16.7,4.2,24.6c1.2,3,5,4,7.5,1.9h0c1-0.9,1.6-2.2,1.6-3.6c0.1-7.3,1.1-14.5,3.2-21.7\n\t\tC53.3,104.7,55.2,103.5,57.1,103.9L57.1,103.9z\"/>\n\t<path class=\"st162\" d=\"M176,127.7c-0.1,0.7-0.3,1.3-0.5,2c-2.5,9.9-8.3,18.7-16.3,25.1l-0.2,0.1c-1.5,1.2-3.4-0.6-2.4-2.2\n\t\tc1.4-2.2,2.8-4.6,4.1-6.9c7.2-12.3,12.6-25.4,13.9-40.4c0.3-3.6-5.7-4.4-6.3-0.9c-2.2,13.3-8.9,32.6-19.2,47.3\n\t\tc-0.9,1.2-2.7,0.2-2.2-1.2c2.5-5.8,4.2-12,5.1-18.7c0.4-3.1-4.8-4.5-6-1.6c-0.9,2.1-1.9,4.2-3,6.3c-0.6,1.2-2.4,0.7-2.4-0.6l0-0.1\n\t\tc0.3-2.8,0.2-5.7,0-8.5c-0.5-11.2-3.2-21.9-10.4-31.7c-2.4-3.2-7.6-0.5-5.6,3.2c7,12.5,11.6,25.9,8.7,40.3\n\t\tc-0.3,1.4-0.9,3.5-1.7,5.9c0.5-6.4-0.2-13-1-19.4c-0.5-4.1-6.1-4.2-6.4,0c-0.4,6-1.5,11.8-3.2,17.4c-0.4,1.3-2.3,1.1-2.4-0.2\n\t\tc-0.6-5.7-1.3-11-1.6-15.1c-0.3-4.1-6.1-4.1-6.4,0c-0.6,8.9-1.7,17.8-3.7,26.5c-1.5,6.7-2.1,16.3-5.4,4.9c-0.3-0.9-0.4-2-0.7-2.9\n\t\tc0-0.1,0-0.2,0-0.3l0.1-44.4c0-4.2-6.2-4.1-6.4,0c-0.6,12.2-2.9,29.5-1.3,44.5c0.2,1.7-2.2,2.3-2.9,0.7c-2.6-6.3-4.5-12.9-5.8-19.9\n\t\tc-0.7-3.5-6.8-2.8-6.3,0.9c0,0.3,0.1,0.6,0.1,0.9c0,0,0,0,0,0c0,0,0,0,0,0C80,151,82.2,163,89.1,172.7c-0.6-0.3-1.1-0.6-1.7-1\n\t\tc-0.2-0.1-0.3-0.2-0.4-0.4c-1.3-2-2.4-4.1-3.5-6.2c-1.6-3.4-3.1-6.7-4.7-10.1c-0.9-2-3.5-1.9-4.9-0.7c-0.6,0.5-1.5,0.3-1.9-0.4\n\t\tc-1-1.8-2-3.7-2.9-5.6c0,0,0-0.1-0.1-0.1c-3.8-10.5-6.5-21.2-5.9-32.1c0.1-1.6-1-3.1-2.6-3.5c0,0,0,0-0.1,0c-2-0.5-4,1-4.2,3.1\n\t\tc-1.1,14.1,1.9,30.3,9.6,43.1c-1.4-1.6-2.8-3.2-4-5c-1-1.6-2-3.1-3-4.7c-2.1-3.6-7.6-0.4-5.6,3.2c1,1.8,2.1,3.5,3.3,5.1\n\t\tc0.8,1.3,1.7,2.6,2.6,3.8c0.8,1.1-0.6,2.5-1.7,1.7c-2.2-1.4-4.2-2.9-6.2-4.6c-0.3-0.3-0.6-0.6-1-0.9c0,0-0.1-0.1-0.1-0.1\n\t\tc-8.1-9-15-19.1-20.7-30.2c-1.9-3.7-7.4-0.4-5.6,3.2c2.4,4.5,4.8,8.9,7.4,13.2c0.8,1.2-0.9,2.6-1.9,1.5c-0.5-0.5-1-1-1.5-1.5\n\t\tc-3-3-7.1,1.4-4.5,4.5c9.1,11.2,19.9,19.9,32.1,26.1l47.3,9.6c0.2,0,0.4,0,0.6,0l54.9-16.2c14.4-2.1,21-26.3,23.9-38.1\n\t\tC183,125.4,177,123.7,176,127.7z\"/>\n\t<path class=\"st162\" d=\"M17.4,120.7c-4.1,0-4.1,6.4,0,6.4C21.5,127.1,21.5,120.7,17.4,120.7z\"/>\n\t<path class=\"st162\" d=\"M110.9,106.9c-4.1,0-4.1,6.4,0,6.4C115,113.4,115,106.9,110.9,106.9z\"/>\n\t<path class=\"st162\" d=\"M181.2,112.8c-4.1,0-4.1,6.4,0,6.4C185.4,119.3,185.4,112.8,181.2,112.8z\"/>\n\t<path class=\"st29\" d=\"M22.3,95.9c-0.2,0-0.4,0-0.6-0.1c-0.7-0.4-1.1-1.3-0.7-2c3.5-7.3,9.5-12.4,18.4-15.4c0.8-0.3,1.6,0.2,1.9,0.9\n\t\tc0.3,0.8-0.2,1.6-0.9,1.9c-8,2.7-13.5,7.3-16.6,13.9C23.4,95.6,22.9,95.9,22.3,95.9z\"/>\n\t<path class=\"st29\" d=\"M58.8,92.5c-0.3,0-0.6-0.1-0.9-0.3c-0.7-0.5-0.9-1.4-0.4-2.1c3.9-5.6,8.9-9.7,15.5-12.5c0.8-0.3,1.6,0,2,0.8\n\t\tc0.3,0.8,0,1.6-0.8,2C68.2,83,63.5,86.8,60,91.9C59.7,92.3,59.3,92.5,58.8,92.5z\"/>\n\t<circle class=\"st29\" cx=\"48.6\" cy=\"77.7\" r=\"1.5\"/>\n\t<circle class=\"st29\" cx=\"94.6\" cy=\"83.1\" r=\"1.5\"/>\n\t<path class=\"st105\" d=\"M185.9,76.5c-7.9-8.6-19.2-14.3-32.8-16.6c-7.1-1.2-18.5-0.1-33.9,3.3c-12.4,2.7-25.6,2.7-38.1-0.1\n\t\tc-14.9-3.4-26.6-4.4-34.7-3.1C16.7,64.7,0.9,83.1,0.9,113.3c0,43.5,40.7,74,99,74c58.3,0,99.1-30.4,99.1-74\n\t\tC199,98.3,194.6,85.9,185.9,76.5z M163.8,160.1c-6.4,4.5-13.9,8.2-22.1,11c-2.5,0.8-4.3-2.2-2.4-4c1-1,2-1.9,2.9-2.9\n\t\tc0.6-0.6,0.7-1.5,0.2-2.1c-0.6-0.8-1.8-0.9-2.5-0.1c-5.6,5.9-14.2,12.6-26.1,15.7c-2.1,0.6-3.8-1.8-2.5-3.7\n\t\tc3.2-4.7,6-11.4,7.9-19.8c0.2-0.8-0.2-1.6-0.9-1.9c-0.9-0.4-2,0.2-2.2,1.1c-3.6,15.5-9.9,25.1-16.3,25.1c-7.4,0-14.6-13-17.7-32.4\n\t\tc-0.2-1-1.1-1.6-2.1-1.3c-0.8,0.3-1.2,1.1-1,1.9c1.9,11.9,5.2,21.2,9.3,27.3c1.2,1.8-0.5,4.2-2.6,3.6c-15.8-4.3-29-15.7-36.9-32.3\n\t\tc-0.4-0.9-1.5-1.2-2.4-0.6c-0.7,0.5-0.8,1.4-0.5,2.1c3.8,8.1,8.9,14.9,14.8,20.5c1.9,1.8,0.1,4.8-2.4,4\n\t\tc-8.3-2.8-15.9-6.5-22.4-11.1c-16.7-11.6-25.5-27.8-25.5-46.8c0-25.5,12.3-39.9,37.5-43.9c1.8-0.3,3.8-0.4,6-0.4\n\t\tc3.5,0,7.5,0.3,12,1c2,0.3,2.3,2.9,0.5,3.7c-6.7,2.9-12.2,6.9-16.4,12.1c-0.5,0.6-0.5,1.4-0.1,2c0.3,0.4,0.8,0.7,1.3,0.7\n\t\tc0.5,0,0.9-0.2,1.2-0.6c7.2-8.9,18.4-14.2,34.1-16c2-0.2,3.3,2,2.2,3.6c-2.7,3.8-5.1,9.1-7,15.6c-0.2,0.8,0.1,1.8,0.9,2.1\n\t\tc0.2,0.1,0.4,0.1,0.6,0.1c0.7,0,1.3-0.5,1.5-1.2c3.7-12.9,9.4-20.6,15.1-20.6c5.4,0,10.8,7,14.5,18.7c0.3,0.9,1.2,1.3,2.1,1\n\t\tc0.8-0.3,1.2-1.3,1-2.1c-1.8-5.7-4-10.3-6.4-13.7c-1.1-1.6,0.2-3.8,2.2-3.6c13.8,1.5,23.7,5.7,30.8,12.7c0.7,0.7,2,0.6,2.5-0.3\n\t\tc0.4-0.6,0.2-1.5-0.3-2c-3.5-3.5-7.6-6.3-12.5-8.5c-1.8-0.8-1.4-3.4,0.5-3.7c9.2-1.4,14.4-1.3,17.3-0.8\n\t\tc14.1,2.3,37.7,11.2,37.7,43.9C189.3,132.3,180.5,148.5,163.8,160.1z\"/>\n</g>\n<g id=\"Layer_2\">\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59b0c5ff9707bf0004000059",
+                  "website": "/crops/59b0c5ff9707bf0004000059"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0c5ff9707bf0004000059/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0c5ff9707bf0004000059/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59b0cfd09707bf000400005e",
+          "attributes": {
+              "name": "Pineapple Tomato",
+              "slug": "pineapple-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "Pineapple tomato"
+              ],
+              "description": "Pineapple tomatoes are an heirloom variety that produce large fruit that can weigh 1-2lbs and measure at least 12cm in diameter. Tomatoes are bi-colored with a streaked red and yellow exterior. Flesh is swirled with red, pink, orange, and yellow and meaty with few seeds. They have a sweet fruity taste with a hint of citrus. For larger yield and improved plant health, prune and stake plants.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 90,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st1{display:none;}\n\t.st2{display:inline;fill:#D1A982;}\n\t.st3{display:inline;}\n\t.st4{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st5{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st6{fill:#AFD048;}\n\t.st7{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st8{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st9{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st10{fill:#A2CC62;}\n\t.st11{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st12{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st13{fill:#ADD481;}\n\t.st14{fill:#68664C;}\n\t.st15{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st16{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st17{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st18{fill:#EE0000;}\n\t.st19{fill:#9A0601;}\n\t.st20{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st21{fill:#FFFFFF;}\n\t.st22{clip-path:url(#SVGID_2_);}\n\t.st23{fill:#00FFFF;}\n\t.st24{fill:#456A0A;}\n\t.st25{fill:#183300;}\n\t.st26{fill:#FF2214;}\n\t.st27{fill:#661900;}\n\t.st28{fill:#88A501;}\n\t.st29{fill:#3B6700;}\n\t.st30{fill:#FC4100;}\n\t.st31{fill:#9F0500;}\n\t.st32{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st33{fill:#6B9311;}\n\t.st34{fill:#593156;}\n\t.st35{fill:#331E31;}\n\t.st36{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st37{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st38{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st39{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st40{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st41{fill:#B63E34;}\n\t.st42{fill:#522B25;}\n\t.st43{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st44{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st45{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st46{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st47{fill:#9EC161;}\n\t.st48{fill:#40760E;}\n\t.st49{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st50{fill:#663965;}\n\t.st51{fill:#9D610B;}\n\t.st52{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st53{fill:#6D4E2B;}\n\t.st54{fill:#CDA347;}\n\t.st55{fill:#7F500A;}\n\t.st56{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st57{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st58{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st59{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st60{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st61{fill:#F40000;}\n\t.st62{fill:#990D0D;}\n\t.st63{fill:#FF9D00;}\n\t.st64{fill:#E6681E;}\n\t.st65{fill:#FFCB00;}\n\t.st66{fill:#B58B06;}\n\t.st67{fill:#3A4C09;}\n\t.st68{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st69{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st70{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st71{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st72{fill:#B94850;}\n\t.st73{fill:#CE8645;}\n\t.st74{fill:#6C0A04;}\n\t.st75{fill:#8C4F6F;}\n\t.st76{fill:#E7C456;}\n\t.st77{fill:#391A26;}\n\t.st78{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st79{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st80{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st81{fill:#4F250E;}\n\t.st82{fill:#995116;}\n\t.st83{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st84{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st85{opacity:0.8;fill:#FFBC42;}\n\t.st86{opacity:0.8;fill:#D03400;}\n\t.st87{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st88{fill:#FFBC42;}\n\t.st89{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st90{fill:#344C00;}\n\t.st91{fill:#FD801E;}\n\t.st92{fill:#9E0E00;}\n\t.st93{fill:#FDAF48;}\n\t.st94{fill:#D74E1E;}\n</style>\n<g class=\"st1\">\n\t<rect x=\"-618.1\" y=\"-282.8\" class=\"st2\" width=\"919.6\" height=\"2155.1\"/>\n\t<path class=\"st3\" d=\"M301-282.3v2154.1h-918.6V-282.3H301 M302-283.3h-920.6v2156.1H302V-283.3L302-283.3z\"/>\n</g>\n<g>\n\t<path class=\"st90\" d=\"M27.1,14.8c-6.2-1.5-9.7-5-9.7-5.1c-0.5-0.5-1.2-0.6-1.8-0.3c-0.6,0.3-0.9,1-0.7,1.7c0.6,2,1.5,4.1,2.7,6.1\n\t\tL27.1,14.8z\"/>\n\t<path class=\"st90\" d=\"M47.7,16.7c0.9-1.6,1.8-3.4,2.5-5.5c0.2-0.7,0-1.4-0.6-1.8c-0.6-0.4-1.3-0.3-1.9,0.2c0,0-3.6,3.3-9.3,4.9\n\t\tL47.7,16.7z\"/>\n\t<path class=\"st90\" d=\"M36.3,14.5l-2.3-8c-0.2-0.6-0.8-1.1-1.4-1.1h0c-0.7,0-1.3,0.4-1.4,1.1l-2.3,8.1L36.3,14.5z\"/>\n</g>\n<path class=\"st91\" d=\"M62,33.8C62,47.6,48.6,56.5,32,56.5S1.9,48.7,1.9,33.8C1.9,21,17.1,15.1,32,15.1C47,15.1,62,20,62,33.8z\"/>\n<path class=\"st92\" d=\"M32,58C12.8,58,0.4,48.5,0.4,33.8c0-6.5,3.5-11.8,10.3-15.5c5.6-3,13.2-4.7,21.3-4.7\n\tc19.8,0,31.6,7.5,31.6,20.2C63.5,47.8,50.2,58,32,58z M32,16.6C18.2,16.6,3.4,22,3.4,33.8C3.4,49.4,18.8,55,32,55\n\tc16.5,0,28.6-8.9,28.6-21.2C60.5,17.8,38.7,16.6,32,16.6z\"/>\n<path class=\"st92\" d=\"M32,56.2c-12.1,0-19.9-8.8-19.9-22.3c0-12.9,5.9-18.5,19.9-18.5c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5\n\tc-13.4,0-18.9,5.1-18.9,17.5c0,12.9,7.4,21.3,18.9,21.3c0.3,0,0.5,0.2,0.5,0.5S32.2,56.2,32,56.2z\"/>\n<path class=\"st92\" d=\"M32,56.8c-4.3,0-6.9-8.8-6.9-23c0-0.3,0.2-0.5,0.5-0.5s0.5,0.2,0.5,0.5c0,15.2,3,22,5.9,22\n\tc2.9,0,5.9-7.7,5.9-22c0-15-2.3-18-5.9-18c-3.3,0-5.1,3.3-5.7,10.7c0,0.3-0.3,0.5-0.5,0.5c-0.3,0-0.5-0.3-0.5-0.5\n\tc0.6-8,2.7-11.6,6.6-11.6c5.8,0,6.9,7,6.9,19C38.9,47.3,36,56.8,32,56.8z\"/>\n<path class=\"st93\" d=\"M3.7,36c-1-0.1-1.8-1-1.8-2.1c0,0,0-0.1,0-0.1c0-8.8,7.2-14.3,16.6-16.9c0.1,0,0.1,0,0.2,0\n\tc1.9-0.4,3.7-0.8,5.6-1.2c2.5-0.4,5.1-0.5,7.7-0.5c13,0,25.9,3.7,29.2,13.5c0.3,1-0.1,2.1-0.9,2.5c-1.2,0.7-2.8,0.8-4.1,0\n\tc-0.4-0.2-0.8-0.3-1.2-0.3c0,0,0,0,0,0c-0.7,0.1-1.3,0.4-1.7,1c-1.1,1.8-3.5,2.7-5.2,1.6l-10.3-1.7l-5.9-4.3L3.7,36\"/>\n<path class=\"st94\" d=\"M42.8,31.8c0.1-0.6,0.1-1.2,0.2-1.8c0.1-2,3.1-3.3,4.1-1.1c0.4,0.9,0.8,1.8,1.2,2.6c0.1,0.2,0.2,0.3,0.4,0.4\n\tc0.5,0.3,0.9,0.8,1.1,1.5c0.7,0.3,0.5,2,0.5,3c0,2.8-0.4,3.1-3,4c-0.5,0.2-1.1,0.1-1.6-0.2c-0.3-0.2-0.7-0.2-1,0\n\tc-0.6,0.4-1.5,0.6-2.2,0.3c-1.2,0.8-3,0.5-3.3-1.1c0-0.2-0.1-0.4-0.1-0.6c-0.1-0.7-0.9-1-1.4-0.6c-0.2,0.1-0.4,0.2-0.6,0.3\n\tc-1.2,0.5-2.9,0.2-3.2-1.3c-0.3-1.7-0.4-4.2-0.9-6.2c-0.3,0.1-0.7,0.1-1,0c-0.4,0.9-0.7,1.8-1.2,2.7c-0.3,0.7-0.9,1-1.4,1.1\n\tc-0.4,0-0.7,0.4-0.7,0.7c0,0.3-0.1,0.5-0.1,0.8c-0.2,1.9-3,3.3-4.1,1.1c-0.2-0.4-0.3-0.7-0.5-1.1c-0.5,0.8-1.2,1.2-1.9,1.2\n\tc-0.6,1.8-3.1,2-4.1,0.2c-0.5,0.5-1.3,0.6-2,0.3c-0.5,0.3-0.7,0.5-1.2,0.8c0,0.5-0.1,1.1-0.1,1.6c-0.1,1.5-1.9,2.6-3.1,2.1\n\tc-0.3-0.1-0.6-0.1-0.9,0.1c-0.2,0.1-0.3,0.2-0.5,0.3c-0.2,0.3-0.4,0.6-0.6,0.9c0.1,2.2-2.8,3.3-4.1,1.3c-3.4-5.4-2.8-11.3-2-17.4\n\tc0.2-1.1,0.9-1.6,1.8-1.6c0,0,0-0.1,0-0.1C6.2,24,9.9,24,9.6,26.7c0,0.2-0.1,0.5-0.1,0.9c0.4,0,0.7,0.1,1.1,0.3\n\tc0.5,0.3,1.2,0,1.3-0.6c0.1-0.3,0.1-0.6,0.2-0.9c0.6-2.3,3.3-1.9,4.1-0.2c0.6,0.1,1.2,0.4,1.5,1c0.4-0.1,0.8,0,1.2,0.1\n\tc0.4-1.4,1.9-1.7,3-1.1c0.1-0.2,0.2-0.4,0.3-0.6c0.9-1.5,3.1-1.3,3.9,0.1c0-0.1,0.1-0.3,0.1-0.4c0.4-1.4,1.5-1.8,2.6-1.5\n\tc0.4,0.1,0.7,0,1-0.3c1-1.1,3.3-0.7,3.8,0.9c0,0,0,0,0,0.1c0.8,0,1.7,0.5,1.9,1.5c0,0.1,0.1,0.3,0.1,0.4c0.2,0.2,0.4,0.3,0.5,0.6\n\tc0.4,0.7,0.6,1.4,0.9,2.2c0.1-0.5,0.2-1.1,0.4-1.7c0.6-1.9,3.8-2.2,4.2,0c0.3,1.4,0.5,2.9,0.8,4.3L42.8,31.8z\"/>\n<path class=\"st92\" d=\"M47.5,46.7c-0.1,0-0.2,0-0.2-0.1c-0.2-0.1-0.3-0.4-0.2-0.7c1.9-3.5,3-7.7,3-12c0-3.4-1.1-6.7-3.2-9.6\n\tc-0.2-0.2-0.1-0.5,0.1-0.7c0.2-0.2,0.5-0.1,0.7,0.1c2.2,3,3.4,6.5,3.4,10.2c0,4.5-1.1,8.9-3.1,12.5C47.8,46.6,47.6,46.7,47.5,46.7z\"\n\t/>\n<path class=\"st88\" d=\"M43.4,55.1c1.4-0.9,2.6-2.2,3.6-3.9c1.3-2.2-1.6-4.3-3.5-2.7c-0.9,0.8-2,1.5-3.2,2.2c-0.8,0.4-1.7-0.3-1.4-1.2\n\tc0.4-1.1,0.6-2.3,0.9-3.4c0.6-2.8-3.7-3.9-4.2-1.2c-0.3,1.3-0.6,2.5-1,3.6c-0.2,0.5-0.8,0.8-1.3,0.6c-0.6-0.2-1.4-0.1-1.9,0.3\n\tc-0.6,0.3-1.3,0.1-1.5-0.6c-0.5-1.5-0.8-3.1-1.1-4.7c-0.4-2.5-4.3-1.8-4.3,0.6c0,1.5,0.1,3,0.3,4.4c0.1,0.9-0.9,1.5-1.7,0.9\n\tc-1.6-1.4-3.1-3-4.5-4.8c-1.4-1.8-4.2,0.2-3.7,2.1c1,3.6,3,6.2,5.5,7.8l11.7,2.5L43.4,55.1z\"/>\n<path class=\"st92\" d=\"M32,13.6c-8.1,0-15.7,1.7-21.3,4.7C3.9,22,0.4,27.3,0.4,33.8C0.4,48.5,12.8,58,32,58\n\tc18.3,0,31.6-10.2,31.6-24.2C63.5,21.2,51.7,13.6,32,13.6z M32,55.8c-2.9,0-5.9-6.8-5.9-22c0-0.3-0.2-0.5-0.5-0.5s-0.5,0.2-0.5,0.5\n\tc0,8.7,1,15.4,2.8,19.3c0.4,0.8-0.4,1.6-1.2,1.4c-8.4-2.2-13.6-9.8-13.6-20.6c0-10.3,3.8-15.6,12.9-17c0.8-0.1,1.4,0.7,1.1,1.4\n\tc-0.9,1.9-1.5,4.6-1.7,8.1c0,0.3,0.2,0.5,0.5,0.5c0.3,0,0.5-0.2,0.5-0.5c0.6-7.4,2.3-10.7,5.7-10.7c3.6,0,5.9,3,5.9,18\n\tC37.9,48.1,34.8,55.8,32,55.8z M3.4,33.8c0-7.1,5.3-11.9,12.6-14.5c0.5-0.2,0.9,0.4,0.5,0.8c-3,3-4.4,7.5-4.4,13.8\n\tc0,8.2,2.9,14.6,7.8,18.5c0.4,0.3,0.1,1-0.4,0.9C10.6,50.5,3.4,44.5,3.4,33.8z M37.5,54.6c-1,0.1-1.8-0.9-1.4-1.9\n\tc1.7-4,2.8-10.7,2.8-18.9c0-6.6-0.3-11.7-1.6-15c-0.4-1,0.4-2,1.4-1.9c9,1,21.9,4.6,21.9,16.8C60.5,44.7,51.1,52.9,37.5,54.6z\"/>\n<g>\n\t<path class=\"st21\" d=\"M7,29.5c-0.1,0-0.2,0-0.2-0.1c-0.2-0.1-0.3-0.4-0.2-0.7c1-1.9,2.5-3.6,4.6-5c0.2-0.2,0.5-0.1,0.7,0.1\n\t\ts0.1,0.5-0.1,0.7c-2,1.3-3.4,2.9-4.3,4.6C7.4,29.4,7.2,29.5,7,29.5z\"/>\n</g>\n<g>\n\t<path class=\"st21\" d=\"M16.4,28.6c0,0-0.1,0-0.1,0c-0.3-0.1-0.4-0.3-0.4-0.6c0.5-2.1,1.3-3.7,2.3-5c0.2-0.2,0.5-0.2,0.7-0.1\n\t\tc0.2,0.2,0.2,0.5,0.1,0.7c-1,1.2-1.7,2.7-2.1,4.6C16.9,28.5,16.7,28.6,16.4,28.6z\"/>\n</g>\n<g>\n\t<path class=\"st21\" d=\"M28.9,26.1C28.9,26.1,28.9,26.1,28.9,26.1c-0.3,0-0.5-0.3-0.5-0.6c0.1-1.3,0.3-2.4,0.5-3.4\n\t\tc0.1-0.3,0.3-0.4,0.6-0.4c0.3,0.1,0.4,0.3,0.4,0.6c-0.2,0.9-0.4,2-0.5,3.2C29.4,25.9,29.1,26.1,28.9,26.1z\"/>\n</g>\n<circle class=\"st21\" cx=\"20.5\" cy=\"21.4\" r=\"0.5\"/>\n<circle class=\"st21\" cx=\"40.3\" cy=\"23.1\" r=\"0.5\"/>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59b0cfd09707bf000400005e",
+                  "website": "/crops/59b0cfd09707bf000400005e"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0cfd09707bf000400005e/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0cfd09707bf000400005e/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "542e990d63313600029b0200",
+          "attributes": {
+              "name": "tomato fern",
+              "slug": "tomato-fern",
+              "binomial_name": "Lonchitis hirsuta",
+              "common_names": [
+                  "tomato fern"
+              ],
+              "description": null,
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/542e990d63313600029b0200",
+                  "website": "/crops/542e990d63313600029b0200"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/542e990d63313600029b0200/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/542e990d63313600029b0200/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5e65715c02f5f5000484a97d",
+          "attributes": {
+              "name": "Cherry Tomato Husky Red",
+              "slug": "cherry-tomato-husky-red",
+              "binomial_name": null,
+              "common_names": [
+                  "tomato"
+              ],
+              "description": "Indeterminate,  compact",
+              "sun_requirements": null,
+              "sowing_method": "Transplant",
+              "spread": 90,
+              "row_spacing": 90,
+              "height": 180,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462",
+              "taxon": null,
+              "tags_array": [
+                  "tomato"
+              ],
+              "growing_degree_days": 65,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#88A501;}\n\t.st1{fill:none;stroke:#88A501;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st2{fill:none;stroke:#3B6700;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st3{fill:#FC4100;stroke:#9F0500;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st5{fill:#FFFFFF;}\n\t.st6{fill:#22B573;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st7{fill:none;stroke:#006837;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st8{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st9{fill:#EE0000;}\n\t.st10{fill:#9A0601;}\n\t.st11{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st12{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st13{clip-path:url(#SVGID_2_);}\n\t.st14{fill:#00FFFF;}\n\t.st15{fill:#9F0500;}\n\t.st16{fill:#3B6700;}\n\t.st17{fill:#FC4100;}\n</style>\n<path class=\"st0\" d=\"M31.9,27.4V16.9c4.5-1.3,9.4-2.6,14.5-3.6v11.2h3V12.7C53.1,12,57,11.5,61,11.1c0.8-0.1,1.4-0.8,1.4-1.6\n\tc-0.1-0.8-0.8-1.4-1.6-1.4C29.8,11,3.1,24.8,2.9,24.9c-0.7,0.4-1,1.3-0.6,2c0.3,0.5,0.8,0.8,1.3,0.8c0.2,0,0.5-0.1,0.7-0.2\n\tc0.1,0,3.4-1.8,9-4.1v9.4h3V22.2c3.6-1.4,7.8-3,12.6-4.5v9.6H31.9z\"/>\n<path class=\"st16\" d=\"M11.2,39.3c-2.6,0-5-1.3-7-3.9c-0.4-0.5-0.4-1.3,0-1.8c0.4-0.5,1.1-0.7,1.8-0.5c0.1,0,1.3,0.5,3.1,0.3\n\tc0.4-0.1,0.7-0.4,0.7-0.8c0-1,0-2.1-0.1-3c0-0.7,0.3-1.3,1-1.5c0.6-0.2,1.3,0,1.7,0.5c0.5,0.6,1.2,1.5,1.9,2.2\n\tc0.3,0.3,0.7,0.3,1.1,0.1c1.4-1.1,2.2-2.3,2.2-2.3c0.3-0.5,0.9-0.8,1.6-0.7c0.6,0.1,1.1,0.6,1.2,1.2c0.7,4.3-1.4,8-5.5,9.7\n\tC13.5,39.1,12.3,39.3,11.2,39.3z\"/>\n<path class=\"st16\" d=\"M29.2,33.5c-3.3,0-5.9-1.7-7.7-5.1c-0.3-0.6-0.2-1.3,0.3-1.8s1.2-0.5,1.8-0.2c0.1,0,1.1,0.6,2.8,0.8\n\tc0.5,0,1-0.3,1.1-0.9c0.1-0.9,0.3-2,0.4-2.8c0.1-0.7,0.6-1.2,1.2-1.3c0.7-0.1,1.3,0.2,1.6,0.8c0.3,0.7,0.9,1.5,1.4,2.2\n\tc0.3,0.5,0.9,0.6,1.4,0.3c1.5-0.8,2.3-1.8,2.3-1.8c0.4-0.5,1.1-0.7,1.7-0.5c0.6,0.2,1,0.8,1,1.4c0,4.4-2.7,7.7-7,8.6\n\tC30.6,33.4,29.9,33.5,29.2,33.5z\"/>\n<path class=\"st16\" d=\"M47.7,28.2c-3.9,0-6.7-2.1-8.2-6.1c-0.2-0.6,0-1.3,0.5-1.7s1.3-0.4,1.8,0c0,0,1.1,0.8,2.8,1.1\n\tc0.5,0.1,0.9-0.2,1-0.6c0.3-0.9,0.6-2,0.8-2.8c0.1-0.6,0.7-1.1,1.4-1.2c0.7,0,1.3,0.4,1.5,1c0.3,0.7,0.7,1.7,1.1,2.5\n\tc0.2,0.4,0.7,0.6,1.2,0.4c1.6-0.6,2.6-1.6,2.6-1.6c0.5-0.4,1.1-0.5,1.7-0.2c0.6,0.3,0.9,0.9,0.8,1.5c-0.6,4.4-3.6,7.3-8,7.7\n\tC48.3,28.2,48,28.2,47.7,28.2z\"/>\n<path class=\"st17\" d=\"M49.1,23.9c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7c-4.7,0-8.7,2.5-9.8,6.7c-1.7-1.1-3.8-1.7-6.2-1.7\n\tc-5.6,0-10.1,3.5-10.1,9.1c0,5.6,4.5,10.1,10.1,10.1c4.6,0,8.4-3,9.7-7.2c1.7,1.4,3.9,2.2,6.3,2.2c4.6,0,8.4-3,9.7-7.2\n\tc1.7,1.4,3.9,2.2,6.3,2.2c5.6,0,10.1-4.5,10.1-10.1C59.2,27.4,54.7,23.9,49.1,23.9z\"/>\n<path class=\"st5\" d=\"M43.5,31.2c-0.1,0-0.2,0-0.2-0.1C43,31,42.9,30.7,43,30.5c0.6-1.1,1.5-1.9,2.8-2.5c0.3-0.1,0.5,0,0.7,0.3\n\tc0.1,0.3,0,0.5-0.3,0.7c-1.1,0.5-1.9,1.1-2.3,2C43.8,31.1,43.6,31.2,43.5,31.2z\"/>\n<circle class=\"st5\" cx=\"48.5\" cy=\"27.6\" r=\"0.5\"/>\n<path class=\"st5\" d=\"M10.9,43.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C11.4,43.3,11.2,43.5,10.9,43.5z\"/>\n<circle class=\"st5\" cx=\"16.5\" cy=\"37.6\" r=\"0.5\"/>\n<path class=\"st15\" d=\"M49.1,22.4c-4.4,0-8.1,1.9-10.1,5.1c-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-4.4,0-8.1,1.9-10.1,5.1\n\tc-0.3,0.5-1,0.8-1.6,0.6c-1.3-0.5-2.8-0.7-4.3-0.7c-6.5,0-11.3,4.2-11.6,10.1C5.1,48.7,10,54.2,16.2,54.6c4.4,0.3,8.4-1.8,10.7-5.3\n\tc0.4-0.6,1.1-0.8,1.7-0.5c1.4,0.6,2.9,0.9,4.5,0.9c4.1,0,7.7-2.1,9.8-5.4c0.4-0.6,1.1-0.8,1.7-0.5c1.8,0.8,3.8,1.1,5.9,0.8\n\tc5.4-0.6,9.7-5,10.2-10.4C61.3,27.4,56.2,22.4,49.1,22.4z M33.1,46.5c-4.7,0-8.5-3.8-8.5-8.5c0-4.4,3.5-7.5,8.5-7.5s8.5,3.1,8.5,7.5\n\tC41.6,42.7,37.8,46.5,33.1,46.5z M25.5,43.7c0.2,0.2,0.3,0.6,0.2,0.9l-0.3,0.9c-1.2,4.1-5.2,6.7-9.6,6c-4.1-0.6-7.3-4.3-7.3-8.5\n\tc0-4.5,3.5-7.7,8.6-7.7c2,0,3.9,0.5,5.4,1.5l0.8,0.5c0.2,0.1,0.4,0.4,0.4,0.7C23.7,39,23.9,41.3,25.5,43.7z M40.7,32.8\n\tc-0.2-0.3-0.3-0.6-0.2-1l0.2-0.8c0.9-3.4,4.2-5.6,8.4-5.6c5.4,0,9.1,3.5,8.6,8.5c-0.4,4-3.5,7.3-7.5,7.7c-2.4,0.3-4.6-0.3-6.5-1.8\n\tL43,39.2c-0.3-0.2-0.4-0.5-0.4-0.9C42.6,37.3,42.5,34.9,40.7,32.8z\"/>\n<path class=\"st5\" d=\"M26.9,38.5c-0.3,0-0.5-0.2-0.5-0.5c0-3,1.8-4.4,3.4-5c0.3-0.1,0.5,0,0.7,0.3c0.1,0.3,0,0.5-0.3,0.7\n\tc-1.8,0.8-2.8,2.2-2.8,4.1C27.4,38.3,27.2,38.5,26.9,38.5z\"/>\n<circle class=\"st5\" cx=\"32.5\" cy=\"32.6\" r=\"0.5\"/>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5e65715c02f5f5000484a97d",
+                  "website": "/crops/5e65715c02f5f5000484a97d"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5e65715c02f5f5000484a97d/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5e65715c02f5f5000484a97d/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "5e65715f23ddeb0004c9ddb8"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5447d0083763380002020000",
+          "attributes": {
+              "name": "Tomatillo",
+              "slug": "tomatillo",
+              "binomial_name": "Physalis philadelphica",
+              "common_names": [
+                  "Husk tomato",
+                  "Mexican husk tomato"
+              ],
+              "description": "The tomatillo is a member of the Nightshade family. The plant bears a resemblance to tomato plants and benefits from pruning and trellising. The fruit of the tomatillo plant is small, round, and green or purple. It is covered in a paper husk that splits open when the fruit is ready for harvest. Tomatillos are native to Mexico and can be eaten raw or cooked. They have a citrusy, tart, and tangy lemon flavor.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 90,
+              "row_spacing": 60,
+              "height": 100,
+              "processing_pictures": 0,
+              "guides_count": 2,
+              "main_image_path": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#A2CC62;}\n\t.st1{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st2{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st3{fill:#ADD481;}\n\t.st4{fill:#68664C;}\n\t.st5{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st6{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st7{fill:#EE0000;}\n\t.st8{fill:#9A0601;}\n\t.st9{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st10{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st11{fill:#FFFFFF;}\n\t.st12{clip-path:url(#SVGID_2_);}\n\t.st13{fill:#AFD048;}\n\t.st14{fill:#00FFFF;}\n\t.st15{fill:#456A0A;}\n\t.st16{fill:#1D4200;}\n\t.st17{fill:#88A501;}\n\t.st18{fill:#3B6700;}\n\t.st19{fill:#FC4100;}\n\t.st20{fill:#9F0500;}\n\t.st21{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st22{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st23{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st24{fill:#6B9311;}\n\t.st25{fill:#593156;}\n\t.st26{fill:#331E31;}\n\t.st27{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st28{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st29{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st30{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st31{fill:#B63E34;}\n\t.st32{fill:#522B25;}\n\t.st33{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st34{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st35{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st36{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st37{fill:#9EC161;}\n\t.st38{fill:#40760E;}\n</style>\n<g>\n\t<g>\n\t\t<path class=\"st3\" d=\"M34.1,10.8l-0.6-8.3h-2.9l-0.6,8.3C18.1,11.6,8.7,20.2,8.7,30.5c0,5.5,2.7,10.5,6.9,14.1\n\t\t\tc7,6,11.9,11.2,16.3,16.7c4-5.3,10.5-11.5,16.3-16.7c4.1-3.7,6.9-8.6,6.9-14.1C55.3,20.2,45.9,11.6,34.1,10.8z\"/>\n\t</g>\n\t<g>\n\t\t<path class=\"st37\" d=\"M14.4,43.6c4.7-1.7,11-3.8,17.8-3.8c6.7,0,12.8,2,17.5,3.7L32,61.4L14.4,43.6z\"/>\n\t</g>\n\t<path class=\"st38\" d=\"M35.5,9.4l-0.5-7C34.9,1.6,34.2,1,33.4,1h-2.9c-0.8,0-1.4,0.6-1.5,1.4l-0.5,7c-12,1.5-21.3,10.5-21.3,21.1\n\t\tc0,5.7,2.6,11.1,7.5,15.3c6.7,5.7,11.6,10.9,16.1,16.6c0.3,0.4,0.7,0.6,1.2,0.6c0,0,0,0,0,0c0.5,0,0.9-0.3,1.2-0.7\n\t\tc3.2-4.2,8.5-9.7,16.1-16.5c4.8-4.3,7.4-9.8,7.4-15.3C56.8,19.9,47.5,10.9,35.5,9.4z M31.2,11.4L32,4H32l0.7,7.4\n\t\tC32,11.2,31.2,11.4,31.2,11.4z M37.6,30.5c0,6.4-1,11.1-1.8,14c-0.3,1.1-0.7,2.3-1,3.4c-1,3.3-2,6.7-2.8,10.1\n\t\tc-1-4.2-2-7.7-3.5-12.3l-0.4-1.2c-1.2-3.8-1.8-8.8-1.8-14c0-12.1,1.9-18.3,5.6-18.3C35.6,12.3,37.6,18.9,37.6,30.5z M25.4,30.5\n\t\tc0,5.3,0.7,10.3,1.8,14.2l0.4,1.2c1.1,3.7,2.1,6.8,2.9,10c-1.7-2.4-3.4-4.4-5.6-6.9c-1.3-1.5-2.6-3-4.1-4.8\n\t\tc-3.1-3.8-4.8-8.7-4.8-13.8c0-9.2,5.4-16.4,13-18C26.6,15,25.4,21,25.4,30.5z M35.8,48.2c0.3-1.1,0.7-2.3,1-3.4\n\t\tc1.2-4.1,1.8-9.1,1.8-14.2c0-6.9-0.7-14.9-3.7-18C42.6,14,48,21.3,48,30.5c0,6.3-2.6,11-4.8,13.8c-1.4,1.8-2.9,3.4-4.3,5.1\n\t\tc-1.9,2.2-3.8,4.3-5.4,6.6C34.2,53.3,35,50.8,35.8,48.2z M16.7,43.5c-4.1-3.6-6.4-8.2-6.4-13c0-7.5,5.5-14.1,13.3-16.9\n\t\tc-5.2,3.2-8.6,9.4-8.6,16.9c0,5.3,1.8,10.5,5,14.4c1.5,1.8,2.8,3.3,4.1,4.8c1.5,1.7,2.8,3.2,4.1,4.8C24.9,51,21.1,47.4,16.7,43.5z\n\t\t M47.3,43.5c-4.8,4.3-8.6,8-11.7,11.3c1.3-1.6,2.6-3.2,4-4.8c1.4-1.6,2.9-3.3,4.3-5.1c3.3-4.2,5-9.2,5-14.4\n\t\tc0-7.5-3.4-13.7-8.6-16.9c7.8,2.8,13.3,9.4,13.3,16.9C53.8,36.5,50.3,40.9,47.3,43.5z\"/>\n\t<g>\n\t\t<path class=\"st11\" d=\"M13.1,27.1C13.1,27.1,13,27.1,13.1,27.1c-0.3,0-0.5-0.3-0.5-0.6c0.3-1.9,1-3.6,1.6-4.7\n\t\t\tc0.1-0.2,0.4-0.3,0.7-0.2c0.2,0.1,0.3,0.4,0.2,0.7c-0.6,1-1.3,2.6-1.5,4.4C13.5,26.9,13.3,27.1,13.1,27.1z\"/>\n\t</g>\n\t<g>\n\t\t<path class=\"st11\" d=\"M19.2,26.8C19.2,26.8,19.2,26.8,19.2,26.8c-0.4-0.1-0.5-0.3-0.5-0.6c0.1-0.8,0.4-1.7,0.7-2.6\n\t\t\tc0.1-0.3,0.4-0.4,0.6-0.3c0.3,0.1,0.4,0.4,0.3,0.6c-0.3,0.8-0.5,1.6-0.7,2.4C19.7,26.7,19.5,26.8,19.2,26.8z\"/>\n\t</g>\n\t<g>\n\t\t<circle class=\"st11\" cx=\"28.5\" cy=\"25.6\" r=\"0.5\"/>\n\t</g>\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5447d0083763380002020000",
+                  "website": "/crops/5447d0083763380002020000"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5447d0083763380002020000/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5447d0083763380002020000/pictures"
+                  },
+                  "data": [
+                      {
+                          "type": "crops-pictures",
+                          "id": "54ab00e16635390002000000"
+                      }
+                  ]
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "54e489626464650003060000",
+          "attributes": {
+              "name": "Beefsteak tomato (Cœur-de-bœuf)",
+              "slug": "beefsteak-tomato-coeur-de-boeuf",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": null,
+              "description": "A beef tomato (British English) or beefsteak tomato (American English)[1] is any of the largest varieties of cultivated tomatoes, some weighing 450 grams (0.99 lb) or more. Most are pink or red with numerous small seed compartments (locules) distributed throughout the fruit, sometimes displaying pronounced ribbing similar to ancient pre-Columbian tomato cultivars. While popular among home growers for sandwich making and other applications requiring a large tomato to be eaten raw, beefsteaks are not grown commercially as often as other types, since they are not considered as suitable for mechanization as smaller slicing tomatoes.\r\n(Source: Wikipedia 'Beefsteak tomato' article)",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Sow seeds, cuttings",
+              "spread": 65,
+              "row_spacing": 155,
+              "height": 0,
+              "processing_pictures": 0,
+              "guides_count": 1,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/54e489626464650003060000",
+                  "website": "/crops/54e489626464650003060000"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/54e489626464650003060000/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/54e489626464650003060000/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5e1fa3aa5d28920004ed28fd",
+          "attributes": {
+              "name": "currant tomato",
+              "slug": "currant-tomato",
+              "binomial_name": "Solanum pimpinellifolium",
+              "common_names": null,
+              "description": "Currant tomatoes an heirloom tomato, similar to a cherry tomato but smaller. The plants are the likely cross of wild cherry tomato plants and develop hundreds of small, fingernail size fruits.",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5e1fa3aa5d28920004ed28fd",
+                  "website": "/crops/5e1fa3aa5d28920004ed28fd"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5e1fa3aa5d28920004ed28fd/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5e1fa3aa5d28920004ed28fd/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5de22c0605996c0004ddb061",
+          "attributes": {
+              "name": "Alicante Tomato",
+              "slug": "alicante-tomato",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "Alicante tomato seeds are an heirloom tomato similar to \"Moneymaker\" tomato.",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5de22c0605996c0004ddb061",
+                  "website": "/crops/5de22c0605996c0004ddb061"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5de22c0605996c0004ddb061/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5de22c0605996c0004ddb061/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5dcd08deea5ef40004a398ba",
+          "attributes": {
+              "name": "brandywine tomato",
+              "slug": "brandywine-tomato",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "The Brandywine tomato plant is an heirloom cultivar of the species, with large potato-leaved foliage and which bears large pink beefsteak-shaped fruit, popularly considered among the best tasting available.  Brandywine tomatoes can bear fruit up to 1.5 lbs (0.7 kg), requiring 80 to 100 days to reach maturity, making it among the slowest maturing varieties of common tomato cultivars. Brandywine has been described as having a \"great tomatoey flavor\"",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5dcd08deea5ef40004a398ba",
+                  "website": "/crops/5dcd08deea5ef40004a398ba"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5dcd08deea5ef40004a398ba/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5dcd08deea5ef40004a398ba/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "60832074f220c400040f59d9",
+          "attributes": {
+              "name": "MoneyMaker Tomato",
+              "slug": "moneymaker-tomato",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "MoneyMaker dates back over 100 years, to 1913. The key virtue of this variety is reliability even when soil and weather conditions are not ideal. It also has good disease resistance.\n\nTaste is average.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": null,
+              "spread": 45,
+              "row_spacing": 45,
+              "height": 150,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": 175,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/60832074f220c400040f59d9",
+                  "website": "/crops/60832074f220c400040f59d9"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/60832074f220c400040f59d9/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/60832074f220c400040f59d9/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59b0c3cb4dd0a10004000074",
+          "attributes": {
+              "name": "Green Zebra Tomato",
+              "slug": "green-zebra-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "green zebra"
+              ],
+              "description": "Green Zebra tomatoes are a tomato cultivar created by cross-breeding 4 different heirloom tomato varieties. The fruits are 4-6cm in diameter and have emerald skin with dark green vertical stripes. When ripe, the skin develops a yellow blush. Their flesh is bright green, tangy, and sweet. Green Zebras are great eaten raw or in salads. For larger yield and improved plant health, prune and stake tomatoes.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 120,
+              "height": 100,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 250 250\" style=\"enable-background:new 0 0 250 250;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#7C9800;}\n\t.st1{fill:#164E16;}\n\t.st2{fill:#4D831C;stroke:#2A481D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st3{fill:#F22F2E;}\n\t.st4{opacity:0.5;fill:#840D0D;}\n\t.st5{fill:#7DB34C;}\n\t.st6{fill:#44712A;}\n\t.st7{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st8{fill:#4D831C;}\n\t.st9{fill:#2A481D;}\n\t.st10{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st11{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st12{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st13{fill:#AFD048;}\n\t.st14{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st15{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st16{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st17{fill:#A2CC62;}\n\t.st18{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st19{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st20{fill:#ADD481;}\n\t.st21{fill:#68664C;}\n\t.st22{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st23{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st24{fill:#EE0000;}\n\t.st25{fill:#9A0601;}\n\t.st26{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st27{fill:#FFFFFF;}\n\t.st28{clip-path:url(#SVGID_2_);}\n\t.st29{fill:#00FFFF;}\n\t.st30{fill:#456A0A;}\n\t.st31{fill:#183300;}\n\t.st32{fill:#FF2214;}\n\t.st33{fill:#661900;}\n\t.st34{fill:#88A501;}\n\t.st35{fill:#3B6700;}\n\t.st36{fill:#FC4100;}\n\t.st37{fill:#9F0500;}\n\t.st38{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st39{fill:#6B9311;}\n\t.st40{fill:#593156;}\n\t.st41{fill:#331E31;}\n\t.st42{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st43{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st44{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st45{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st46{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st47{fill:#7C9800;stroke:#0C4C0C;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st48{fill:#F04D02;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st49{fill:none;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st50{fill:#B63E34;}\n\t.st51{fill:#522B25;}\n\t.st52{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st53{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st54{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st55{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st56{fill:#9EC161;}\n\t.st57{fill:#40760E;}\n\t.st58{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st59{fill:#663965;}\n\t.st60{fill:#9D610B;}\n\t.st61{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st62{fill:#6D4E2B;}\n\t.st63{fill:#CDA347;}\n\t.st64{fill:#7F500A;}\n\t.st65{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st66{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st67{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st68{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st69{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st70{fill:#F40000;}\n\t.st71{fill:#990D0D;}\n\t.st72{fill:#FF9D00;}\n\t.st73{fill:#E6681E;}\n\t.st74{fill:#FFCB00;}\n\t.st75{fill:#B58B06;}\n\t.st76{fill:#3A4C09;}\n\t.st77{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st78{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st79{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st80{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st81{fill:#B94850;}\n\t.st82{fill:#CE8645;}\n\t.st83{fill:#6C0A04;}\n\t.st84{fill:#8C4F6F;}\n\t.st85{fill:#E7C456;}\n\t.st86{fill:#391A26;}\n\t.st87{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st88{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st89{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st90{fill:#4F250E;}\n\t.st91{fill:#995116;}\n\t.st92{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st93{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st94{opacity:0.8;fill:#FFBC42;}\n\t.st95{opacity:0.8;fill:#D03400;}\n\t.st96{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st97{fill:#FFBC42;}\n\t.st98{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st99{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st100{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-miterlimit:10;}\n\t.st101{fill:#344C00;}\n\t.st102{fill:#FD801E;}\n\t.st103{fill:#9E0E00;}\n\t.st104{fill:#FDAF48;}\n\t.st105{fill:#D74E1E;}\n\t.st106{opacity:0.8;fill:#68664C;}\n\t.st107{fill:#775E49;}\n\t.st108{fill:#FF7A00;}\n\t.st109{fill:#FF7A00;stroke:#F44500;stroke-width:3;stroke-miterlimit:10;}\n\t.st110{fill:none;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st111{fill:#FF7A00;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st112{fill:#F44500;}\n\t.st113{fill:#F6E600;}\n\t.st114{fill:#8DCC50;}\n\t.st115{fill:#A2A121;}\n\t.st116{fill:#F9EFA7;}\n\t.st117{fill:#6E905E;}\n\t.st118{fill:#7B000E;}\n\t.st119{fill:#F22F2E;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st120{fill:#7DB34C;stroke:#44712A;stroke-width:3;stroke-miterlimit:10;}\n\t.st121{fill:none;stroke:#44712A;stroke-miterlimit:10;}\n\t.st122{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st123{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st124{fill:#164E16;stroke:#071907;stroke-width:3;stroke-miterlimit:10;}\n\t.st125{fill:none;stroke:#071907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st126{fill:#071907;}\n\t.st127{fill:#F40000;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st128{fill:#7DB34C;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st129{fill:none;stroke:#164E16;stroke-miterlimit:10;}\n\t.st130{fill:#8A9D1F;}\n\t.st131{fill:#6E8517;}\n\t.st132{opacity:0.1;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st133{opacity:0.25;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st134{opacity:0.4;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st135{opacity:0.55;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st136{opacity:0.7;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st137{opacity:0.85;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st138{fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st139{fill:#A7C92B;}\n\t.st140{fill:#EBDE00;}\n\t.st141{fill:#AEC939;}\n\t.st142{fill:#B8CC35;}\n\t.st143{fill:#C2CF33;}\n\t.st144{fill:#CCD331;}\n\t.st145{fill:#D7D631;}\n\t.st146{fill:#E0D930;}\n\t.st147{fill:#264008;}\n\t.st148{fill:none;stroke:#00FFFF;stroke-miterlimit:10;}\n\t.st149{clip-path:url(#SVGID_4_);}\n\t.st150{fill:#F22F2E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st151{fill:#A7C92B;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st152{clip-path:url(#SVGID_6_);}\n\t.st153{fill:#F9A361;}\n\t.st154{fill:none;stroke:#992216;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st155{fill:#0C4C0C;}\n\t.st156{fill:#F04D02;}\n\t.st157{fill:#992216;}\n</style>\n<g id=\"Layer_1\">\n\t<g>\n\t\t<path class=\"st139\" d=\"M195.1,60.6c-5.3-2.5-10.6-4-15.8-4.8c6.7-9.3,12.1-20.3,16.4-32c0,0-22.6,21.4-58.6,25.8L125,6.9l-12.3,43\n\t\t\tc-37.3-4-58.4-26.1-58.4-26.1C57.4,35.2,63.1,46.9,71,57c-3.9,0.8-7.9,1.8-12,3.3C29.3,71.1,9.3,95.5,9.3,131.4\n\t\t\tc0,70.3,62.3,111.7,115.7,111.7c53.4,0,115.7-46.4,115.7-111.7C240.7,94.4,221.7,73.1,195.1,60.6z\"/>\n\t\t<g>\n\t\t\t<path class=\"st140\" d=\"M235.4,100.8c-7.5-19-22.1-31.7-40.2-40.3c-15.6-7.4-31.8-6.6-44.7-3.6c-15.5,3.6-31.7,4.4-47.1,0.7\n\t\t\t\tC91.8,54.9,76.5,54,59,60.3C29.3,71.1,9.3,95.5,9.3,131.4c0,7.2,0.7,14.1,1.9,20.8L235.4,100.8z\"/>\n\t\t</g>\n\t\t<g>\n\t\t\t<path class=\"st141\" d=\"M27.7,192.1c34.4-13.9,118.5-44.2,212.6-51.8c0.3-2.9,0.4-5.9,0.4-8.8c0-1-0.1-2-0.1-3\n\t\t\t\tc-97.6,7.7-184.9,39.6-219,53.5C23.5,185.5,25.5,188.9,27.7,192.1z\"/>\n\t\t\t<path class=\"st142\" d=\"M21.6,182c32.4-13.3,120.5-46,219-53.4c-0.1-4.1-0.5-8-1-11.7c-100.4,7.6-190.1,41-222.9,54.5\n\t\t\t\tC18.2,175,19.8,178.6,21.6,182z\"/>\n\t\t\t<path class=\"st143\" d=\"M16.7,171.4c30.7-12.8,121.4-47.1,222.9-54.4c-0.6-4.1-1.5-7.9-2.7-11.6C135.6,113.1,45.1,147,13,160.2\n\t\t\t\tC14.1,164.1,15.3,167.8,16.7,171.4z\"/>\n\t\t\t<path class=\"st144\" d=\"M13.1,160.4c29.8-12.4,121.4-47.4,223.9-54.8c-1.3-4.1-2.9-7.9-4.7-11.4C132,102,42.8,135.4,10.6,148.7\n\t\t\t\tC11.2,152.7,12,156.6,13.1,160.4z\"/>\n\t\t\t<path class=\"st145\" d=\"M10.6,148.8c30-12.5,120.3-46.9,221.7-54.5c-2.1-4-4.5-7.8-7.3-11.2c-96.8,8.4-182.7,40.1-215.6,53.5\n\t\t\t\tC9.6,140.7,10,144.8,10.6,148.8z\"/>\n\t\t\t<path class=\"st146\" d=\"M214.2,72.3c-90.7,9.1-170.7,37.9-204.6,51.6c-0.2,2.5-0.3,5-0.3,7.5c0,1.8,0.1,3.5,0.1,5.2\n\t\t\t\tc31.1-12.8,117.8-45.3,215.7-53.5C221.9,79.2,218.2,75.6,214.2,72.3z\"/>\n\t\t\t<path class=\"st140\" d=\"M9.6,124C42,110.9,122.7,81.4,214.3,72.4c-4.8-3.9-10-7.2-15.7-10.1c-81.2,9.9-152.2,34.5-186.8,48.1\n\t\t\t\tC10.7,114.8,10,119.3,9.6,124z\"/>\n\t\t</g>\n\t\t<g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M93.1,128.8C93.1,128.8,93.1,128.8,93.1,128.8C93.1,128.8,93.1,128.8,93.1,128.8c0.1-0.4,0.1-0.7,0.1-1.1\n\t\t\t\t\tc0.7-4.6,7.5-3.1,7.7,1c0.2,4,0.4,8.1,0.6,12.1c0,0,0,0.6,0.5,0.7c0.6,0,0.7-0.5,0.7-0.5c1.5-3.5,6.1-1.7,7.2,0.9\n\t\t\t\t\tc0.4,1,0.7,1.9,1.1,2.9c0.2,0.6,0.7,1,1.3,1c0.1,0,0.3,0,0.4,0c2,0.2,3.9-0.9,4.5-2.8c1-3.2,1.7-6.6,2.3-10.4\n\t\t\t\t\tc0.6-3.8,7-3.7,7.6,0c4.9,30.3,2.6,59.6-7.5,88.7c-1.6,4.7-9.2,2.7-7.6-2.1c7.3-21,10.5-42.2,9.5-63.9c0,0,0-0.4-0.4-0.4\n\t\t\t\t\tc-0.4-0.1-0.5,0.3-0.5,0.3c-0.3,0.7-0.6,1.4-1,2.1c-1,2.1-4.7,2.7-6.2,0.8c-0.1-0.2-0.2-0.3-0.4-0.5c-0.1,0.1-0.1,0.3-0.2,0.4\n\t\t\t\t\tc-1.6,4.1-7.5,3.5-7.7-1c0,0,0-0.5-0.4-0.5c-0.5-0.1-0.5,0.4-0.5,0.4c-0.8,1.9-1.6,3.8-2.4,5.7c-0.6,1.3-1.6,1.9-2.6,1.9\n\t\t\t\t\tc0.1,1.8,0.2,3.5,0.4,5.3c0.3,3.3-4.6,5.3-6.7,2.8l-2.6-3c0,0-0.4-0.4-0.6-0.3c-0.1,0.1,0,0.3,0.1,0.6c1.9,2.9,4,5.6,6.5,7.7\n\t\t\t\t\tc3.8,3.3-1.8,8.9-5.5,5.5c-4.3-3.8-7.8-8.6-10.6-14.1c-0.8-1.5-1.7-3-2.7-4.3c-0.3-0.4-0.6-0.9-0.7-1.5c-0.4-1.9-0.7-3.7-1-5.6\n\t\t\t\t\tc-5.1-17.5-4-38,3.1-51.9c2.1-4,8.3-1.2,7.2,3c-0.6,2.1-1.1,4.3-1.5,6.4c-0.3,1.3,1.2,2.2,2.2,1.4l0,0c2.4-1.7,6,0.6,5.9,3.4\n\t\t\t\t\tc-0.1,2.9-0.4,5.8-0.6,8.8c0,0,0,0.5,0.4,0.5C93.1,129.3,93.1,128.8,93.1,128.8z\"/>\n\t\t\t</g>\n\t\t\t<path class=\"st0\" d=\"M152.7,166.1c0.1-0.9,0.1-1.9,0.2-2.8c0.3-4.3,6.6-5.5,7.7-1c0.8,3.4,1.6,6.7,2.4,10.1\n\t\t\t\tc0.4,1.5,2.6,1.4,2.8-0.1c0.4-2.6,0.8-5.3,1.1-7.9c0.2-1.8,1.4-3.2,2.9-3.7c2.1-0.7,3.8-2.4,4.1-4.6c0.3-2.6,0.7-5.2,1.1-7.8\n\t\t\t\tc0.6-3.9,6.7-3.5,7.6,0c6.6,26,7,51.8,1.2,77.6c-3,1.8-6.2,3.5-9.3,5.1c4.5-16.6,6.2-33,5.3-49.6c-0.1-1.8-1.6-3.3-3.4-3.1\n\t\t\t\tc-0.1,0-0.3,0-0.4,0c-1.7-0.1-3.3,1-3.6,2.7c-1,5.7-2.2,11.3-3.7,16.9c-1,3.7-6.7,3.8-7.6,0c-0.4-1.6-0.8-3.2-1.1-4.8\n\t\t\t\tc-0.3-1.1-1.9-1.1-2.1,0.1c-1.7,10.4-4.2,20.7-8.4,30.7c-0.5,1.2-1.4,2-2.3,2.4c-0.7,5-1.6,9.9-2.5,14.9c0,0,0,0-0.1,0.1\n\t\t\t\tc-2.2,0.4-4.4,0.8-6.5,1.1c-0.8-0.8-1.2-2-0.9-3.4c4.6-24.1,6.7-48.2,6.4-72.7c0-5.1,7.5-5,7.8,0c0,0,0.1,0.7,0.7,0.7\n\t\t\t\tC152.6,166.7,152.7,166.1,152.7,166.1z\"/>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M136.9,62.7c-2.5-4.4-9.3-0.4-6.8,4c12.5,21.4,19.3,44.4,20.4,69.1c0.2,5,8.1,5.1,7.8,0\n\t\t\t\t\tC157.2,109.8,150,85.3,136.9,62.7z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M216.5,126.1c-8.2-28.3-33-68.4-66.1-70.2c-5-0.3-5,7.6,0,7.8c29.1,1.6,51.4,39.9,58.5,64.4\n\t\t\t\t\tC210.3,133,217.9,131,216.5,126.1z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M195.4,117.8c-1-3-2.2-5.1-4.7-7.1c-0.9-0.7-2-1-3.1-1c-1.6,0.1-3.1-0.7-4.2-1.9c-0.5-0.5-1-1-1.5-1.5\n\t\t\t\t\tc-0.9-0.9-2-1.2-3-1.1c-2.1,0.2-4-0.9-4.7-2.9c-1.5-4.5-3.5-8.8-6.7-12.7c-3.2-3.9-8.7,1.7-5.5,5.5c8,9.7,7.4,23.8,12,35.1\n\t\t\t\t\tc1.6,4,7.4,3.6,7.7-1l0.7-9.7c0.4,0.7,0.8,1.4,1.1,2.1c0.8,1.7,2.8,2.2,4.5,1.7c1.3-0.4,2.7-0.8,4.1-0.9\n\t\t\t\t\tC194.2,122.4,196.3,120.6,195.4,117.8z\"/>\n\t\t\t</g>\n\t\t\t<path class=\"st0\" d=\"M211.4,182.7c2-8.8,3.1-17.7,3.8-26.6c0.4-5-7.5-5-7.8,0c-1.6,20.3-10.1,38.9-11.9,58.9\n\t\t\t\tc-0.1,1,0.2,1.7,0.6,2.3c2.7-2.1,5.3-4.2,7.8-6.5C205.5,201.3,209.3,192.2,211.4,182.7z\"/>\n\t\t\t<path class=\"st0\" d=\"M237.2,106.1c-2.3-1.4-5.9,0.6-6,3.5c0,0.5,0,1-0.1,1.5c-0.1,1.7-2.5,2.1-3,0.4c-1.8-5.9-4-11.7-6.6-17.4\n\t\t\t\tc-2.1-4.6-8.9-0.6-6.8,4c7.8,17,11.5,35,11.1,53.8c-0.1,4.4,6.8,5.4,7.7,1c2-9,3.4-18,4.3-27.1c0.4,0-0.2,0,0.2,0\n\t\t\t\tc0.5,1.8,1.5,2.7,2.6,2.9C240.4,120.2,239.2,112.8,237.2,106.1z\"/>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M129.3,64.2c-9.1,15.4-14.9,32.1-17,49.9c-0.6,5-8.4,5-7.8,0c1.2-9.9,3.4-19.5,6.6-28.8\n\t\t\t\t\tc-1.6-0.4-3.1-1.7-3.1-3.7c0-0.8,0-1.7-0.1-2.5c-0.1-2.8-3.5-4-5.4-1.9c-1.5,1.7-3,3.5-4.5,5.3c-1.4,1.7-3.5,1.5-5,0.3\n\t\t\t\t\tc-1.2-0.9-2.8-0.6-3.7,0.6c-1.1,1.5-2.3,3-3.4,4.5c-1.8,2.5-6.4,2.7-7.2-0.9c-0.8-3.6,0-6.6,0.9-9.7c0.5-1.6-1.3-3-2.8-2.2\n\t\t\t\t\tc-8.1,4.5-14.2,11.6-17.7,20.8c-1.8,4.7-9.4,2.6-7.6-2.1c5.8-15.3,17.1-25.9,32.9-30.3c2.5-0.7,4.9,1.3,5,3.8\n\t\t\t\t\tc0.1,1.1-0.1,2.2-0.3,3.3c2.7-3.6,5.3-7.1,8-10.7L129.3,64.2z\"/>\n\t\t\t</g>\n\t\t\t<path class=\"st0\" d=\"M131,242.9c-0.6-1.1-1.6-1.9-3.2-1.9c-3,0-5.8-1-8.2-2.7c-10.5-13.2-16.8-28.3-19.1-45\n\t\t\t\tc-0.6-4.3-8.3-3.3-7.7,1c0,0.3,0.1,0.7,0.1,1l0,0c0,0.1,0,0.2,0.1,0.3c0.9,6.6,2.7,15.1,5.5,23.3c0.6,1.6-1.5,2.8-2.6,1.5\n\t\t\t\tc-3.9-4.4-7.4-9.2-10.4-14.5c-2.1-3.7-8.9-1.2-7.2,3c0.2,0.4,0.5,1.5,1,3c0.5,1.5-1.4,2.7-2.5,1.6c-0.8-0.7-1.5-1.5-2.2-2.2\n\t\t\t\tc-3.8-3.9-10.2,2.7-4.2,6.8c1.7,3.2,3.2,5.9,4.9,9.2c0.4,6.2,5.2,5.8,7.2,3.3c2.1,1.4,4.4,2.3,6.6,2.2c1.3,0,2.8-0.7,3.4-1.9\n\t\t\t\tc0.3-0.7,0.5-1.3,0.6-2c4.8,4.8,10,9.1,15.8,12.7c5.4,0.8,10.8,1.2,16.1,1.2C127,243.1,129,243,131,242.9z\"/>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M73.9,187.3C62.8,174,56.7,158,55.8,140.7c-0.3-5-8.1-5.1-7.8,0c1,19.5,8,37.1,20.4,52.2\n\t\t\t\t\tC71.5,196.8,77.1,191.2,73.9,187.3z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M23.9,105.1c2-5,4.5-9.9,7.8-14.5c0.6-0.8,1.4-1.4,2.2-1.6c2-0.6,3.7-2.1,4.5-4.1c1.7-4.5,3.9-8.7,6.7-12.6\n\t\t\t\t\tc2.9-4,9.8-0.1,6.8,4c-8.7,11.9-10.6,28-14.1,42c-1.2,4.7-7.2,3-7.7-1c-0.1-0.4-0.1-0.9-0.1-1.3c0,0,0.1-0.5-0.5-0.6\n\t\t\t\t\tc-0.6-0.1-0.6,0.5-0.6,0.5c-2.4,9.2-3.1,19-3.4,28.9c-0.1,4.3-6.9,5.5-7.7,1c-1-5.8-1.7-11.5-2.2-17.3c-0.2,1.2-0.4,2.3-0.5,3.5\n\t\t\t\t\tc-0.5,5-8.4,5-7.8,0c1.1-10.3,3.8-19.6,8.4-28.9c1.7-3.5,7.5-1.8,7.3,2c0,0-0.1,0.6,0.4,0.7C23.7,105.7,23.9,105.1,23.9,105.1z\"\n\t\t\t\t\t/>\n\t\t\t</g>\n\t\t\t<path class=\"st0\" d=\"M53.2,209c-0.5-0.4-0.9-0.8-1.4-1.1c2.5-0.5,4.7-2.8,2.6-5.5c-3.3-4.3-6-8.7-8.1-13.3\n\t\t\t\tc-0.7-1.5-0.2-3.3,1.2-4.1c1.9-1.2,3.1-4.1,1.3-6.4c-5.2-6.4-8.2-13.4-9.1-21.6c-0.6-4.9-7.7-5.2-7.8,0\n\t\t\t\tc-0.1,5.7,0.3,11.2,1.3,16.6c0.3,1.4-1.6,2.2-2.5,1c-0.4-0.6-0.9-1.3-1.3-1.9c-2.4-3.7-8.2-1.4-7.2,3c1.8,7.6,4.8,14.5,8.8,20.8\n\t\t\t\tc5.7,7.4,12.3,14.1,19.5,19.8C54,217.4,56.8,211.7,53.2,209z\"/>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M53.5,110.9c-5,0-5.1,7.8,0,7.8C58.5,118.8,58.5,110.9,53.5,110.9z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M129.4,102.8c-5,0-5.1,7.8,0,7.8C134.4,110.7,134.5,102.8,129.4,102.8z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M164.9,214.3c-5.1,0-5.1,7.8,0,7.8C170,222.1,170,214.3,164.9,214.3z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M198.9,141.6c-5.1,0-5.1,7.8,0,7.8C203.9,149.5,203.9,141.6,198.9,141.6z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M111.6,175.5c-5.1,0-5.1,7.8,0,7.8C116.7,183.4,116.7,175.5,111.6,175.5z\"/>\n\t\t\t</g>\n\t\t\t<g>\n\t\t\t\t<path class=\"st0\" d=\"M140.7,142.4c-5.1,0-5.1,7.8,0,7.8C145.8,150.3,145.8,142.4,140.7,142.4z\"/>\n\t\t\t</g>\n\t\t</g>\n\t\t<path class=\"st147\" d=\"M197.6,55.2C197.6,55.2,197.6,55.2,197.6,55.2L197.6,55.2c-4.5-2.1-6.3-7.4-4.1-11.8\n\t\t\tc2.8-5.4,5.3-11.3,7.7-17.6c0.9-2.6,0-5.4-2.3-6.9c-2.3-1.5-5.3-1.2-7.3,0.6c-0.2,0.2-16,14.9-41.8,21.7\n\t\t\tc-4.7,1.2-9.5-1.6-10.8-6.3l-8.4-29.6c-0.7-2.5-3-4.3-5.7-4.3h0c-2.6,0-4.9,1.7-5.7,4.3l-8.7,30.1c-1.3,4.6-6,7.4-10.7,6.3\n\t\t\tc-26.4-6.5-41.3-21.8-41.5-22c-1.9-2-4.8-2.4-7.2-1.1c-2.3,1.3-3.5,4.1-2.8,6.7c0,0,2.8,9.5,7.8,19.5c2.2,4.4,0.4,9.9-4.2,11.8\n\t\t\tc-2,0.8-4.2,1.9-6.5,3.1c0,0,0,0,0,0c-27.1,14-42.3,39.5-42.3,71.7c0,33.8,14.2,64.6,39.9,86.7C66.1,237.7,95.9,249,125,249\n\t\t\tc57.4,0,121.6-50.3,121.6-117.6C246.6,96.3,230.1,70.6,197.6,55.2z M179.4,44.8c-0.6,1-1.2,2-1.8,2.9c-0.6,1-1.7,1.5-2.9,1.4\n\t\t\tc-1.5-0.1-2.9-0.2-4.4-0.2c-1.3,0-1.6-1.7-0.4-2.2c2.8-1.2,5.4-2.4,7.8-3.7C178.8,42.4,180.1,43.7,179.4,44.8z M122.8,36\n\t\t\tc0.6-2.2,3.8-2.2,4.4,0l4.3,15.2c0.1,0.2,0.1,0.4,0.2,0.6c0.4,1-0.2,2.2-1.3,2.3c-3.7,0.2-7.3,0.2-10.8,0\n\t\t\tc-1.1-0.1-1.8-1.1-1.4-2.1c0.1-0.2,0.1-0.3,0.2-0.5L122.8,36z M71.7,43.4c2.7,1.4,5.6,2.9,8.8,4.2c1.1,0.5,0.9,2.2-0.4,2.2\n\t\t\tc-1.6,0.1-3.1,0.3-4.7,0.5c-1.2,0.1-2.3-0.4-3-1.3c-0.9-1.2-1.7-2.5-2.5-3.7C69.3,44.1,70.5,42.8,71.7,43.4z M125,237.2\n\t\t\tc-67.8,0-109.8-54.9-109.8-105.8c0-28.9,13.6-50.8,38.5-62.5c1.1-0.5,2.2-1,3.3-1.5c0.2-0.1,0.4-0.2,0.6-0.2\n\t\t\tc1.1-0.5,2.3-0.9,3.5-1.4c0,0,0,0,0,0c0.9-0.3,1.9-0.7,2.8-0.9c2.7-0.9,5.5-1.6,8.4-2.1c0.1,0,0.1,0,0.2-0.1\n\t\t\tc4.4-0.9,8.9-1.3,13.3-1.3c5.4,0,10.9,0.7,16.3,2c15.3,3.7,32.1,3.5,49.9-0.7c9.3-2.2,18-2.6,26.2-1.3c0.2,0.1,0.5,0.1,0.7,0.2\n\t\t\tc3.8,0.6,7.2,1.6,10.5,2.8c0.1,0,0.3,0.1,0.4,0.1c1,0.4,2.1,0.9,3.1,1.3c0,0,0,0,0,0c0,0,0,0,0,0c1,0.5,2,1,3,1.5c0,0,0,0,0,0\n\t\t\tc26.4,13.5,39.2,34.5,39.2,64.1C234.8,192,176.9,237.2,125,237.2z\"/>\n\t</g>\n\t<g>\n\t\t<g>\n\t\t\t<path class=\"st27\" d=\"M45.9,90.3c-0.6,0-1.1-0.2-1.5-0.7c-0.7-0.8-0.6-2.1,0.2-2.8c5.5-4.7,12.2-8.4,19.8-11.2\n\t\t\t\tc11.5-4.2,23.2-4.9,34.5-2.1c1.1,0.3,1.7,1.3,1.5,2.4s-1.3,1.7-2.4,1.5c-10.5-2.6-21.4-1.9-32.2,2c-7.2,2.6-13.4,6.1-18.6,10.5\n\t\t\t\tC46.8,90.1,46.3,90.3,45.9,90.3z\"/>\n\t\t</g>\n\t\t<g>\n\t\t\t<circle class=\"st27\" cx=\"37\" cy=\"97.6\" r=\"2\"/>\n\t\t</g>\n\t</g>\n</g>\n<g id=\"Layer_2\">\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59b0c3cb4dd0a10004000074",
+                  "website": "/crops/59b0c3cb4dd0a10004000074"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0c3cb4dd0a10004000074/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0c3cb4dd0a10004000074/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59b0d9639707bf000400007e",
+          "attributes": {
+              "name": "Striped Cavern Tomato",
+              "slug": "striped-cavern-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "striped cavern",
+                  "Schimmeig Stoo"
+              ],
+              "description": "Striped Cavern is an heirloom tomato variety that produces medium-sized, thick-walled, hollow tomatoes similar to bell peppers. The tomatoes are often stuffed or added to fresh salsas. They have red skin with yellow and orange stripes and a sweet, mild taste. For larger yield and improved plant health, prune and stake plants.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant seedlings outside after hardening off",
+              "spread": null,
+              "row_spacing": null,
+              "height": 120,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 200 200\" style=\"enable-background:new 0 0 200 200;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#7C9800;}\n\t.st1{fill:#164E16;}\n\t.st2{fill:#4D831C;stroke:#2A481D;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st3{fill:#F22F2E;}\n\t.st4{opacity:0.5;fill:#840D0D;}\n\t.st5{fill:#7DB34C;}\n\t.st6{fill:#44712A;}\n\t.st7{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st8{fill:#4D831C;}\n\t.st9{fill:#2A481D;}\n\t.st10{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st11{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st12{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st13{fill:#AFD048;}\n\t.st14{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st15{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st16{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st17{fill:#A2CC62;}\n\t.st18{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st19{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st20{fill:#ADD481;}\n\t.st21{fill:#68664C;}\n\t.st22{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st23{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st24{fill:#EE0000;}\n\t.st25{fill:#9A0601;}\n\t.st26{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st27{fill:#FFFFFF;}\n\t.st28{clip-path:url(#SVGID_2_);}\n\t.st29{fill:#00FFFF;}\n\t.st30{fill:#456A0A;}\n\t.st31{fill:#183300;}\n\t.st32{fill:#FF2214;}\n\t.st33{fill:#661900;}\n\t.st34{fill:#88A501;}\n\t.st35{fill:#3B6700;}\n\t.st36{fill:#FC4100;}\n\t.st37{fill:#9F0500;}\n\t.st38{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st39{fill:#6B9311;}\n\t.st40{fill:#593156;}\n\t.st41{fill:#331E31;}\n\t.st42{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st43{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st44{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st45{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st46{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st47{fill:#7C9800;stroke:#0C4C0C;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st48{fill:#F04D02;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st49{fill:none;stroke:#992216;stroke-width:3;stroke-miterlimit:10;}\n\t.st50{fill:#B63E34;}\n\t.st51{fill:#522B25;}\n\t.st52{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st53{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st54{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st55{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st56{fill:#9EC161;}\n\t.st57{fill:#40760E;}\n\t.st58{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st59{fill:#663965;}\n\t.st60{fill:#9D610B;}\n\t.st61{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st62{fill:#6D4E2B;}\n\t.st63{fill:#CDA347;}\n\t.st64{fill:#7F500A;}\n\t.st65{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st66{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st67{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st68{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st69{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st70{fill:#F40000;}\n\t.st71{fill:#990D0D;}\n\t.st72{fill:#FF9D00;}\n\t.st73{fill:#E6681E;}\n\t.st74{fill:#FFCB00;}\n\t.st75{fill:#B58B06;}\n\t.st76{fill:#3A4C09;}\n\t.st77{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st78{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st79{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st80{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st81{fill:#B94850;}\n\t.st82{fill:#CE8645;}\n\t.st83{fill:#6C0A04;}\n\t.st84{fill:#8C4F6F;}\n\t.st85{fill:#E7C456;}\n\t.st86{fill:#391A26;}\n\t.st87{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st88{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st89{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st90{fill:#4F250E;}\n\t.st91{fill:#995116;}\n\t.st92{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st93{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st94{opacity:0.8;fill:#FFBC42;}\n\t.st95{opacity:0.8;fill:#D03400;}\n\t.st96{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st97{fill:#FFBC42;}\n\t.st98{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st99{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st100{fill:#A7C92B;stroke:#264008;stroke-width:3;stroke-miterlimit:10;}\n\t.st101{fill:#344C00;}\n\t.st102{fill:#FD801E;}\n\t.st103{fill:#9E0E00;}\n\t.st104{fill:#FDAF48;}\n\t.st105{fill:#D74E1E;}\n\t.st106{opacity:0.8;fill:#68664C;}\n\t.st107{fill:#775E49;}\n\t.st108{fill:#FF7A00;}\n\t.st109{fill:#FF7A00;stroke:#F44500;stroke-width:3;stroke-miterlimit:10;}\n\t.st110{fill:none;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st111{fill:#FF7A00;stroke:#F44500;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st112{fill:#F44500;}\n\t.st113{fill:#F6E600;}\n\t.st114{fill:#8DCC50;}\n\t.st115{fill:#A2A121;}\n\t.st116{fill:#F9EFA7;}\n\t.st117{fill:#6E905E;}\n\t.st118{fill:#7B000E;}\n\t.st119{fill:#F22F2E;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st120{fill:#7DB34C;stroke:#44712A;stroke-width:3;stroke-miterlimit:10;}\n\t.st121{fill:none;stroke:#44712A;stroke-miterlimit:10;}\n\t.st122{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st123{fill:none;stroke:#7B000E;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st124{fill:#164E16;stroke:#071907;stroke-width:3;stroke-miterlimit:10;}\n\t.st125{fill:none;stroke:#071907;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st126{fill:#071907;}\n\t.st127{fill:#F40000;stroke:#7B000E;stroke-width:3;stroke-miterlimit:10;}\n\t.st128{fill:#7DB34C;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st129{fill:none;stroke:#164E16;stroke-miterlimit:10;}\n\t.st130{fill:#8A9D1F;}\n\t.st131{fill:#6E8517;}\n\t.st132{opacity:0.1;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st133{opacity:0.25;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st134{opacity:0.4;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st135{opacity:0.55;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st136{opacity:0.7;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st137{opacity:0.85;fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st138{fill:none;stroke:#EBDE00;stroke-width:3;stroke-miterlimit:10;}\n\t.st139{fill:#A7C92B;}\n\t.st140{fill:#EBDE00;}\n\t.st141{fill:#AEC939;}\n\t.st142{fill:#B8CC35;}\n\t.st143{fill:#C2CF33;}\n\t.st144{fill:#CCD331;}\n\t.st145{fill:#D7D631;}\n\t.st146{fill:#E0D930;}\n\t.st147{fill:#264008;}\n\t.st148{fill:none;stroke:#00FFFF;stroke-miterlimit:10;}\n\t.st149{clip-path:url(#SVGID_4_);}\n\t.st150{fill:#F22F2E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st151{fill:#A7C92B;stroke:#164E16;stroke-width:3;stroke-miterlimit:10;}\n\t.st152{clip-path:url(#SVGID_6_);}\n\t.st153{fill:#F9A361;}\n\t.st154{fill:none;stroke:#992216;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st155{fill:#0C4C0C;}\n\t.st156{fill:#F04D02;}\n\t.st157{fill:#992216;}\n</style>\n<g id=\"Layer_1\">\n\t<path class=\"st0\" d=\"M146.6,38.8c4.5-6.4,8-13.6,10.2-21.5c0,0-14,8.4-33.6,14.6C131.6,32.4,139.4,34.8,146.6,38.8z\"/>\n\t<polygon class=\"st0\" points=\"106.6,33.7 93.5,5.8 86.4,32.8 \t\"/>\n\t<path class=\"st0\" d=\"M48.3,48.9c5.4-5.4,12.2-9.6,19.5-12.4C47.4,33.6,33,27.6,33,27.6C35.9,35.4,41.3,42.8,48.3,48.9z\"/>\n\t<path class=\"st155\" d=\"M42.8,50.3c-6.3-6.1-11.3-13.2-14.2-21c-0.5-1.5-0.4-3.1,0.5-4.4c1.3-1.9,3.7-2.6,5.8-1.7\n\t\tc0.2,0.1,17.1,7.1,39.7,9.3c-6.4,1.2-12.7,3.5-18.4,6.8c-3.8-0.8-7.2-1.6-10.3-2.5c-1-0.3-1.8,0.9-1.1,1.7c1.5,1.8,3.1,3.6,4.8,5.2\n\t\tL42.8,50.3z\"/>\n\t<path class=\"st155\" d=\"M135,32.8c3.7-1.4,7-2.8,10-4.2c1-0.4,2,0.6,1.4,1.6c-1,1.7-2,3.3-3.1,4.9c3,1.1,5.9,2.5,8.7,4.1\n\t\tc4.1-6.2,7.3-13.2,9.4-20.7c0.5-1.9-0.2-3.9-1.7-5.1c-1.6-1.2-3.7-1.3-5.3-0.3c-0.2,0.1-19.4,11.5-43.9,17.3L97.8,3.7\n\t\tC97,1.9,95.1,0.8,93.1,1c-2,0.2-3.7,1.6-4.2,3.5l-7.2,27.1l9.7,0.5l2.3-8.7c0.3-1.3,2.1-1.4,2.7-0.2l5.4,11.5L135,32.8z\"/>\n\t<path class=\"st156\" d=\"M10,114.8c0-27.9,10-47.9,34.4-61.6c9.4-16.6,24.3-21,43.1-18.6c3.5,0.5,7,1,10.3,1.7\n\t\tc0.7-0.1,1.4-0.3,2.1-0.4c63.4-10.6,90,23.9,90,78.8c0,66.3-35.2,83.1-90,78.8c-4.4-0.3-8.7-0.7-12.9-1.2c-14.7,4-26,1.2-34.4-6.9\n\t\tC27.1,176.6,10,157.8,10,114.8z\"/>\n\t<path class=\"st153\" d=\"M63.6,37.7c-7.2,25.2-13.8,48.3-10,74.7c0.6,4,6.7,2.3,6.1-1.7c-3.6-25,3.2-47.5,10-71.3\n\t\tC70.8,35.4,64.7,33.8,63.6,37.7z\"/>\n\t<path class=\"st153\" d=\"M142.7,35.1c-3.9-1.3-5.6,4.8-1.7,6.1c27.2,9.1,26.1,46.8,25.5,69.7c-0.1,4.1,6.2,4.1,6.4,0\n\t\tC173.5,84.7,173.1,45.2,142.7,35.1z\"/>\n\t<path class=\"st153\" d=\"M151.5,155.2c-2.6,6.1-5.8,11.9-9.6,17.3c-3.9,5.5-9.3,13-15.8,15.3c-3.8,1.4-2.2,7.5,1.7,6.1\n\t\tc13.8-4.9,23.8-22.8,29.3-35.5C158.6,154.7,153.1,151.5,151.5,155.2z\"/>\n\t<path class=\"st153\" d=\"M156.7,85.1c-4.1,0-4.1,6.4,0,6.4C160.8,91.5,160.8,85.1,156.7,85.1z\"/>\n\t<path class=\"st153\" d=\"M137.2,61.7c-1.2-3.9-7.3-2.2-6.1,1.7c4.6,15.6,7.4,31.4,8.2,47.6c0.2,4.1,6.6,4.1,6.4,0\n\t\tC144.8,94.2,142,77.8,137.2,61.7z\"/>\n\t<path class=\"st153\" d=\"M115.8,62.5c-0.4-4-6.8-4.1-6.4,0c3,28.1,2.5,56.1-1.6,84.1c-0.6,4,5.5,5.7,6.1,1.7\n\t\tC118.1,119.7,118.8,91.3,115.8,62.5z\"/>\n\t<path class=\"st153\" d=\"M24.9,148.7c-5.3-19.5-5.6-38.9-0.7-58.5c1-4-5.1-5.7-6.1-1.7c-5.1,20.7-4.9,41.3,0.7,61.9\n\t\tC19.8,154.4,25.9,152.7,24.9,148.7z\"/>\n\t<path class=\"st153\" d=\"M76.6,123.8c-6.5-13.2-3.9-31-3.1-45.2c0.2-4.1-6.1-4.1-6.4,0c-1,15.8-3.3,33.8,3.9,48.4\n\t\tC72.9,130.6,78.4,127.4,76.6,123.8z\"/>\n\t<path class=\"st153\" d=\"M93.4,35c-1.2-3.9-7.3-2.2-6.1,1.7c4.7,15.9,6.9,32,6.6,48.6c-0.1,4.1,6.3,4.1,6.4,0\n\t\tC100.5,68.1,98.2,51.4,93.4,35z\"/>\n\t<path class=\"st153\" d=\"M77.5,188.7c-11.4-5.7-17-22.8-18.2-34.5c-0.4-4-6.7-4.1-6.4,0c1.3,13.9,7.8,33.2,21.3,40\n\t\tC77.9,196,81.1,190.5,77.5,188.7z\"/>\n\t<path class=\"st153\" d=\"M53.2,134.6c-4.1,0-4.1,6.4,0,6.4C57.3,140.9,57.3,134.6,53.2,134.6z\"/>\n\t<path class=\"st153\" d=\"M126.3,49.6c-4.1,0-4.1,6.4,0,6.4C130.4,56,130.4,49.6,126.3,49.6z\"/>\n\t<path class=\"st153\" d=\"M74.2,172.5c-2.5-3.1-3.9-6.8-4.2-10.7c-0.3-4.1-6.6-4.1-6.4,0c0.4,5.7,2.4,10.7,6,15.2\n\t\tC72.3,180.2,76.8,175.7,74.2,172.5z\"/>\n\t<path class=\"st153\" d=\"M25.6,99.4c-1.4,5.2-2,10.5-1.9,15.9c0.1,4.1,6.4,4.1,6.4,0c-0.1-4.8,0.5-9.5,1.7-14.2\n\t\tC32.8,97.1,26.7,95.4,25.6,99.4z\"/>\n\t<path class=\"st153\" d=\"M27.4,123.9c-4.1,0-4.1,6.4,0,6.4C31.5,130.3,31.5,123.9,27.4,123.9z\"/>\n\t<path class=\"st153\" d=\"M186,95.1c-0.3-4-6.7-4.1-6.4,0c1.1,13.8,0.7,27.5-1.4,41.1c-0.6,4,5.5,5.7,6.1,1.7\n\t\tC186.5,123.7,187.1,109.5,186,95.1z\"/>\n\t<path class=\"st153\" d=\"M179.1,144.3c-4.1,0-4.1,6.4,0,6.4C183.2,150.7,183.2,144.3,179.1,144.3z\"/>\n\t<path class=\"st153\" d=\"M88.4,60c-1.4-6.3-2.5-12.7-3.2-19.2c-0.4-4-6.8-4.1-6.4,0c0.8,7,1.9,14,3.4,20.9C83.2,65.7,89.3,64,88.4,60\n\t\tz\"/>\n\t<path class=\"st27\" d=\"M157.8,58.9c-0.4,0-0.7-0.1-1-0.4c-6.5-5.5-14.8-8.8-25.4-10c-0.9-0.1-1.5-0.9-1.4-1.8\n\t\tc0.1-0.9,0.9-1.5,1.8-1.4c11.3,1.3,20.1,4.8,27.1,10.7c0.7,0.6,0.8,1.6,0.2,2.2C158.7,58.7,158.3,58.9,157.8,58.9z\"/>\n\t<path class=\"st153\" d=\"M104.2,160.2c-1,7.8-4.4,14.8-9.7,20.5c-2.8,3,1.7,7.5,4.5,4.5c6.6-7,10.4-15.5,11.6-25\n\t\tC111.1,156.2,104.7,156.2,104.2,160.2z\"/>\n\t<path class=\"st157\" d=\"M103.2,30.4c-3.5,0.6-7.1,0.6-10.7,0.1c-1.4-0.2-2.8-0.4-4.4-0.6C68.3,27.3,53.7,32.4,44,45.3\n\t\tc-2.4,3.1-5.3,5.7-8.5,7.9C14.9,67.1,5.2,86.9,5.2,114.8c0,38,12.9,61.4,40.4,73.1c2.6,1.1,5,2.4,7.3,4.1\n\t\tc8.4,6.3,18.5,8.3,30.4,6.2c3.1-0.6,6.3-0.7,9.4-0.4c2.3,0.2,4.6,0.4,6.9,0.6c5.5,0.4,10.7,0.6,15.6,0.6c25.7,0,44.1-5.8,57.3-18\n\t\tc15-13.9,22.3-35.5,22.3-66.2c0-32.1-8.5-55.9-25.7-70.1C146.6,25.9,115.4,28.5,103.2,30.4z M14.8,114.8c0-23,7-39.2,22.4-51.1\n\t\tc1.8-1.4,4.2,0.4,3.5,2.5c-0.8,2.3-1.4,4.8-2.1,7.3c-0.2,0.9,0.3,1.8,1.1,2.1c0.9,0.2,1.8-0.3,2-1.2c6.4-27.2,20.7-37.9,46.2-34.6\n\t\tc27.5,3.6,50.3,11.6,50.3,73.7c0,42.4-14.6,63.7-50.5,73.8c-10.6,3-19.7,2.2-27-2.3c-9.5-5.9-16.2-18.2-19.7-36.4\n\t\tc-0.2-0.9-1-1.4-1.9-1.3c-0.9,0.2-1.4,1-1.3,1.9c1.8,9.4,4.5,17.3,7.9,23.7c1.1,2-1.1,4.1-3.1,3C23.4,164.7,14.8,145.4,14.8,114.8z\n\t\t M103.8,189.3c-2.3-0.1-2.9-3.2-0.8-4.2c26.7-12.1,38.3-34.3,38.3-71.7c0-43.5-10.8-61.5-26.7-69.9c-2.2-1.2-1.5-4.5,1-4.6\n\t\tc19.9-1.1,35.8,3.2,47.3,13c14.8,12.5,22.3,33.7,22.3,62.9c0,27.9-5.7,47.9-19.2,59.2C147.6,189.5,118.5,190.1,103.8,189.3z\"/>\n\t<path class=\"st27\" d=\"M52.7,71.1c-0.2,0-0.4,0-0.5-0.1c-0.8-0.3-1.2-1.2-0.9-2c6.9-18.7,18.8-21.1,28.3-21.1c0.9,0,1.6,0.7,1.6,1.6\n\t\ts-0.7,1.6-1.6,1.6c-9.1,0-19.1,2.3-25.3,19C53.9,70.7,53.3,71.1,52.7,71.1z\"/>\n\t<circle class=\"st27\" cx=\"50.3\" cy=\"77.9\" r=\"1.6\"/>\n</g>\n<g id=\"Layer_2\">\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59b0d9639707bf000400007e",
+                  "website": "/crops/59b0d9639707bf000400007e"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0d9639707bf000400007e/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59b0d9639707bf000400007e/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5cdffd1daa4aee0004145281",
+          "attributes": {
+              "name": "Early Siberian Tomato",
+              "slug": "early-siberian-tomato",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "Siberian tomato is a variety of tomato. It is called \"Siberian,\"because it is capable of setting fruit at 38 degrees F; however, it is still not very frost hardy",
+              "sun_requirements": "Full Sun",
+              "sowing_method": null,
+              "spread": 35,
+              "row_spacing": 5,
+              "height": 60,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --> <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\"> <style type=\"text/css\"> .st0{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:#EE0000;} .st2{fill:#9A0601;} .st3{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st4{fill:#6FAD4C;} .st5{fill:#FCAA54;stroke:#8CC63F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st6{fill:none;stroke:#8D5733;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st7{fill:#184C28;} .st8{fill:#82C64E;} .st9{fill:none;stroke:#497726;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st10{fill:#497726;} .st11{opacity:0.2;} .st12{fill:#748C8B;} .st13{fill:#434D42;} .st14{fill:#EFC11E;} .st15{fill:#C9292F;} .st16{fill:#802D2D;} .st17{fill:#C9292F;stroke:#802D2D;stroke-width:2.5473;stroke-miterlimit:10;} .st18{opacity:0.4;} .st19{fill:none;stroke:#FFFFFF;stroke-width:2.5473;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st20{fill:none;stroke:#006837;stroke-width:2.5473;stroke-linecap:round;stroke-miterlimit:10;} .st21{fill:#FFFFFF;} .st22{fill:#C9292F;stroke:#FFFFFF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st23{filter:url(#Adobe_OpacityMaskFilter);} .st24{opacity:0.8;mask:url(#SVGID_1_);} .st25{fill:#00FFFF;} .st26{fill:#2E368F;} .st27{fill:#5860A5;} .st28{fill:#161542;} .st29{fill:none;stroke:#434D42;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st30{fill:#54665F;} .st31{fill:#54665F;stroke:#434D42;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st32{fill:#748C8B;stroke:#434D42;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st33{clip-path:url(#SVGID_3_);} .st34{fill:#194C28;} .st35{fill:#82C64E;stroke:#184C28;stroke-linejoin:round;stroke-miterlimit:10;} .st36{fill:none;stroke:#184C28;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st37{fill:#FCAA54;} .st38{fill:#8D5733;} .st39{fill:#406D2A;} .st40{fill:none;stroke:#8D5733;stroke-linecap:round;stroke-miterlimit:10;} .st41{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;} .st42{clip-path:url(#SVGID_5_);} .st43{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st44{fill:#C1272D;} .st45{fill:#184C28;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st46{fill:none;stroke:#FDD6AD;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st47{fill:none;stroke:#FCAA54;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st48{fill:#9B0D91;} .st49{fill:#1B631A;} .st50{fill:#22153F;} .st51{fill:#95CC63;stroke:#517B39;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st52{fill:none;stroke:#517B39;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st53{fill:#22B573;} .st54{display:none;} .st55{display:inline;fill:none;stroke:#00FFFF;stroke-width:0.1;stroke-miterlimit:10;} </style> <g id=\"Layer_2\"> <path class=\"st53\" d=\"M17.8,12.9c-2.3-1.9-4-4.1-4.6-6.5c0,0,6.4,2.7,14.2,3.6L32,1.9l4.5,8C44.1,9,50.8,6.4,50.8,6.4 c-0.8,2.2-2.2,4.2-3.9,5.8l-14.1-1.9L17.8,12.9z\"/> <path class=\"st7\" d=\"M16.3,13.5c-2.2-2-3.9-4.3-4.5-6.7c-0.2-0.6,0-1.1,0.5-1.5c0.4-0.4,1-0.5,1.6-0.3c0.1,0,5.8,2.4,12.8,3.3 l4.1-7.2C31,0.7,31.5,0.4,32,0.4s1,0.3,1.3,0.8l4,7.1C44.2,7.3,50.2,5,50.3,5c0.5-0.2,1.2-0.1,1.6,0.3c0.4,0.4,0.6,1,0.4,1.6 c-0.8,2.1-2,4-3.6,5.7l-3.3-1C46.2,10.8,47,10,47.7,9c-2.7,0.8-6.7,1.8-11,2.4c0,0-1.5-0.7-1.5-0.7L32,4.9l-3.3,5.8l-5.2,0.2 c-2.9-0.5-5.4-1.2-7.3-1.8c0.8,1.1,1.9,2.2,3.2,3.1L16.3,13.5z\"/> <g> <path class=\"st1\" d=\"M2.1,36.2c0,14.3,13.5,25.9,30.1,25.9c17.2,0,30.1-10.4,30.1-24.1c0-18-9.4-27.9-26.6-27.9 C35.7,10.1,2.1,7.4,2.1,36.2z\"/> </g> <path class=\"st2\" d=\"M35.7,8.6L35.7,8.6c-1.2,0-2.5,0-3.8,0.1c-7.1,0.5-14.5,1.6-20.6,5.3C4.2,18.5,0.6,25.9,0.6,36.2 c0,15.1,14.2,27.4,31.6,27.4c8.4,0,16.3-2.4,22.1-6.9c6.2-4.7,9.6-11.4,9.6-18.8C63.8,12.5,46.2,8.6,35.7,8.6z M3.6,36.2 c0-17.2,10.8-22,22-23.7c-1.8,1.2-3.5,3-4.8,5.9c-0.1,0.3,0,0.5,0.3,0.7c0.3,0.1,0.5,0,0.7-0.3c2.4-5.4,6.2-6.8,9.9-7.4 C34,11,36,11.5,37.8,13c4.1,3.5,6.2,11.9,6.2,25.2c0,13.1-5.4,23-12.5,23c-3.6,0-7.1-3.2-9.5-8.8c-0.1-0.3-0.4-0.4-0.7-0.3 c-0.3,0.1-0.4,0.4-0.3,0.7c1.4,3.3,3.2,5.8,5.2,7.4C13.3,57.8,3.6,48,3.6,36.2z M36.8,60.4c4.9-3.5,8.1-11.8,8.1-22.2 c0-13.5-2.2-22.3-6.6-25.9c-0.2-0.2-0.4-0.3-0.7-0.5c11.7,0.6,23.1,6.4,23.1,26.3C60.8,50.1,50.4,58.8,36.8,60.4z\"/> <g> <g> <path class=\"st21\" d=\"M8.9,27.9c-0.1,0-0.1,0-0.2,0c-0.3-0.1-0.4-0.4-0.3-0.6c1.3-3.4,3.4-5.9,6.6-7.8c0.2-0.1,0.5-0.1,0.7,0.2 c0.1,0.2,0.1,0.5-0.2,0.7c-2.9,1.7-4.9,4.1-6.1,7.3C9.3,27.8,9.1,27.9,8.9,27.9z\"/> </g> <g> <path class=\"st21\" d=\"M48.9,27.4c-0.2,0-0.5-0.2-0.5-0.4c-0.4-3.2-1-6.1-1.8-8.5c-0.1-0.3,0.1-0.5,0.3-0.6 c0.3-0.1,0.5,0.1,0.6,0.3c0.8,2.5,1.4,5.4,1.8,8.7C49.4,27.1,49.2,27.3,48.9,27.4C48.9,27.4,48.9,27.4,48.9,27.4z\"/> </g> <g> <path class=\"st21\" d=\"M23.3,26.3C23.3,26.3,23.3,26.3,23.3,26.3c-0.4-0.1-0.5-0.3-0.5-0.6c0.9-5,2.5-8.2,4.9-9.8 c0.2-0.2,0.5-0.1,0.7,0.1c0.2,0.2,0.1,0.5-0.1,0.7c-2.2,1.4-3.6,4.4-4.5,9.1C23.8,26.1,23.6,26.3,23.3,26.3z\"/> </g> <g> <circle class=\"st21\" cx=\"22.9\" cy=\"29.2\" r=\"0.5\"/> </g> </g> </g> <g id=\"Layer_1\" class=\"st54\"> </g> </svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5cdffd1daa4aee0004145281",
+                  "website": "/crops/5cdffd1daa4aee0004145281"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5cdffd1daa4aee0004145281/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5cdffd1daa4aee0004145281/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59aee3389a096e0004000017",
+          "attributes": {
+              "name": "Cherokee Purple Tomato",
+              "slug": "cherokee-purple-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "Cherokee Purple"
+              ],
+              "description": "Cherokee Purple is an heirloom tomato variety that produces flattened globe-shaped fruits that are dusky pink with dark green shoulders. Fruits are medium to large sized with a deep, rich flavor. Best eaten raw. For larger yield and improved plant health, prune and stake tomatoes.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors and transplant seedlings outside after hardening off",
+              "spread": 45,
+              "row_spacing": 90,
+              "height": 200,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st1{display:none;}\n\t.st2{display:inline;fill:#D1A982;}\n\t.st3{display:inline;}\n\t.st4{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;}\n\t.st5{fill:none;stroke:#6B9311;stroke-miterlimit:10;}\n\t.st6{fill:#AFD048;}\n\t.st7{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st8{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st9{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;}\n\t.st10{fill:#A2CC62;}\n\t.st11{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st12{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st13{fill:#ADD481;}\n\t.st14{fill:#68664C;}\n\t.st15{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;}\n\t.st16{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st17{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st18{fill:#EE0000;}\n\t.st19{fill:#9A0601;}\n\t.st20{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st21{fill:#FFFFFF;}\n\t.st22{clip-path:url(#SVGID_2_);}\n\t.st23{fill:#00FFFF;}\n\t.st24{fill:#456A0A;}\n\t.st25{fill:#183300;}\n\t.st26{fill:#FF2214;}\n\t.st27{fill:#661900;}\n\t.st28{fill:#88A501;}\n\t.st29{fill:#3B6700;}\n\t.st30{fill:#FC4100;}\n\t.st31{fill:#9F0500;}\n\t.st32{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st33{fill:#6B9311;}\n\t.st34{fill:#593156;}\n\t.st35{fill:#331E31;}\n\t.st36{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st37{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st38{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;}\n\t.st39{fill:none;stroke:#522B25;stroke-miterlimit:10;}\n\t.st40{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;}\n\t.st41{fill:#B63E34;}\n\t.st42{fill:#522B25;}\n\t.st43{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st44{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st45{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st46{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st47{fill:#9EC161;}\n\t.st48{fill:#40760E;}\n\t.st49{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;}\n\t.st50{fill:#663965;}\n\t.st51{fill:#9D610B;}\n\t.st52{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st53{fill:#6D4E2B;}\n\t.st54{fill:#CDA347;}\n\t.st55{fill:#7F500A;}\n\t.st56{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;}\n\t.st57{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;}\n\t.st58{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;}\n\t.st59{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;}\n\t.st60{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;}\n\t.st61{fill:#F40000;}\n\t.st62{fill:#990D0D;}\n\t.st63{fill:#FF9D00;}\n\t.st64{fill:#E6681E;}\n\t.st65{fill:#FFCB00;}\n\t.st66{fill:#B58B06;}\n\t.st67{fill:#3A4C09;}\n\t.st68{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;}\n\t.st69{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st70{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st71{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st72{fill:#B94850;}\n\t.st73{fill:#CE8645;}\n\t.st74{fill:#6C0A04;}\n\t.st75{fill:#8C4F6F;}\n\t.st76{fill:#E7C456;}\n\t.st77{fill:#391A26;}\n\t.st78{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;}\n\t.st79{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;}\n\t.st80{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st81{fill:#4F250E;}\n\t.st82{fill:#995116;}\n\t.st83{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st84{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st85{opacity:0.8;fill:#FFBC42;}\n\t.st86{opacity:0.8;fill:#D03400;}\n\t.st87{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;}\n\t.st88{fill:#FFBC42;}\n\t.st89{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;}\n\t.st90{fill:#184C28;}\n\t.st91{fill:#FD801E;}\n\t.st92{fill:#9E0E00;}\n\t.st93{fill:#FDAF48;}\n\t.st94{fill:#D74E1E;}\n</style>\n<g class=\"st1\">\n\t<rect x=\"-353.4\" y=\"-282.8\" class=\"st2\" width=\"919.6\" height=\"2155.1\"/>\n\t<path class=\"st3\" d=\"M565.7-282.3v2154.1h-918.6V-282.3H565.7 M566.7-283.3h-920.6v2156.1h920.6V-283.3L566.7-283.3z\"/>\n</g>\n<g>\n\t<path class=\"st41\" d=\"M32,17.7C10.9,15.1,2.1,23.5,2.1,36.9C2.1,53,13.8,57.1,32,56.1c1.5-0.1,2.9-0.2,4.3-0.3\n\t\tc4.9,1,8.7,0.3,11.5-1.7c8.5-2.2,14.2-6.7,14.2-17.2c0-6.8-3.3-11.6-11.5-15L43,18.4L32,17.7z\"/>\n\t<path class=\"st14\" d=\"M47,20.3c2.1-1.8,3.8-4.1,5-6.7c0,0-6.1,2.3-13.9,2.7l-3.1-8.5l-4.3,8.1c-8-1.4-13.4-4.6-13.4-4.6\n\t\tc0.5,2.3,1.6,4.5,3.3,6.5c-3.3,0.7-6.4,1.8-9.4,3.5c-2.1,1.2-0.6,4.3,1.6,3.8c1-0.2,2-0.4,3.1-0.5c0.1,0.8,0.7,1.5,1.5,1.8\n\t\tc0.1,2.8,0.1,5.6,0.2,8.4c0,1.9,3,3,3.9,1c1.5-3.4,3.6-5.9,6.4-7.4c0.6,0.3,1.2,0.3,1.8-0.1c1.2-0.7,2.5-1.3,3.7-1.7\n\t\tc0.1,1,0.8,1.9,2,1.8c1.4-0.1,2.8-0.3,4.2-0.7c1.5-0.1,2.9-0.2,4.4-0.1c3.2,1.2,5.5,3.6,6.5,8.2c0.4,1.9,3.6,2,4,0\n\t\tc0.3-1.8,0.2-3.6,0.4-5.4c0.7-0.2,1.3-0.5,2-0.7c0.4,0.2,0.7,0.4,1.1,0.6l2.5,0.3l-6-7.2L47,20.3z\"/>\n\t<circle class=\"st21\" cx=\"19.2\" cy=\"22.9\" r=\"0.5\"/>\n\t<path class=\"st21\" d=\"M31.9,23.1c-0.1-0.3-0.4-0.4-0.7-0.3c-3,1-5,2.4-6.4,4.7c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0\n\t\tc0,0.1-0.1,0.2-0.1,0.3c0,0.3,0.2,0.5,0.5,0.5c0.2,0,0.3-0.1,0.4-0.2c0,0,0,0,0,0c1.4-2.4,3.4-3.5,5.8-4.3\n\t\tC31.8,23.7,31.9,23.4,31.9,23.1z\"/>\n\t<path class=\"st21\" d=\"M7.6,33.2c0,0-0.1,0-0.1,0c-0.3-0.1-0.5-0.3-0.4-0.6c1-4.8,3.8-7.8,8.6-9.4c0.3-0.1,0.6,0.1,0.7,0.3\n\t\tc0.1,0.3-0.1,0.6-0.3,0.7c-4.5,1.5-7,4.2-7.9,8.6C8.1,33,7.9,33.2,7.6,33.2z\"/>\n\t<path class=\"st14\" d=\"M30.5,29.9c-1,0-1,2.1,0,2.1C34.5,32,34.5,29.9,30.5,29.9z\"/>\n\t<path class=\"st14\" d=\"M45.5,34.7c-2,0-2,2.1,0,2.1C46.5,36.8,46.5,34.7,45.5,34.7z\"/>\n\t<path class=\"st14\" d=\"M53.5,42c-1,0-1,2.1,0,2.1S54.5,42,53.5,42z\"/>\n\t<path class=\"st14\" d=\"M12.5,29.7c-2,0-2,2.1,0,2.1C13.5,31.8,13.5,29.7,12.5,29.7z\"/>\n\t<path class=\"st14\" d=\"M17.5,41.8c-1,0-1,2.1,0,2.1S18.5,41.8,17.5,41.8z\"/>\n\t<path class=\"st42\" d=\"M51.3,20.5c-0.2-0.2-0.3-0.4-0.5-0.6c-0.3-0.3-0.3-0.9,0-1.3c1-1.3,1.9-2.7,2.6-4.3c0.3-0.6,0.1-1.2-0.3-1.7\n\t\tc-0.4-0.5-1.1-0.6-1.7-0.4c-0.1,0-4.6,1.7-10.7,2.4c-0.9,0.1-1.8-0.4-2.2-1.3l-2.2-5.9c-0.2-0.6-0.7-1-1.4-1\n\t\tc-0.6,0-1.2,0.3-1.5,0.8l-3,5.7c-0.4,0.8-1.4,1.3-2.3,1C22.1,12.3,18.1,10,18,10c-0.5-0.3-1.2-0.3-1.7,0.1c-0.5,0.4-0.7,1-0.6,1.6\n\t\tc0.2,1.1,0.6,2.2,1.1,3.3c0.3,0.7,0,1.5-0.8,1.7c-3.7,0.9-6.9,2.4-9.3,4.6c-4.1,3.7-6.2,8.9-6.2,15.6c0,6.4,1.8,11.4,5.5,14.8\n\t\tc4.3,4.1,11.1,6,21,6c1.6,0,3.3-0.1,5.1-0.2c0.8,0,1.5-0.1,2.3-0.1c1-0.1,2.1-0.1,3.1,0.1c4,0.6,7.4,0.1,10.1-1.5\n\t\tc0.7-0.4,1.4-0.7,2.1-0.9c9.4-2.9,13.8-8.7,13.8-18.3c0-7.6-3.8-12.7-11.9-16.2C51.5,20.7,51.4,20.6,51.3,20.5z M47.1,51.9\n\t\tc-2.6,2.2-6.3,2.8-10.8,1.8c-11.5-2.3-16.1-7.3-16.1-17.1c0-14.4,7-16.3,16.1-17.1c0.9-0.1,1.8-0.1,2.7-0.1c3.9,0,6.8,0.9,8.9,2.8\n\t\tc3,2.7,4.4,7.4,4.4,14.4C52.2,43.8,50.4,49.1,47.1,51.9z M47.3,17.4c-0.3-0.1-0.6-0.3-0.9-0.4c-0.1,0-0.1-0.2,0-0.3\n\t\tc0.7-0.1,1.3-0.3,1.9-0.4c0.1,0,0.2,0.1,0.1,0.2c-0.2,0.3-0.4,0.5-0.6,0.8C47.7,17.4,47.5,17.5,47.3,17.4z M32.6,15.4l1.5-2.9\n\t\tc0.2-0.3,0.7-0.3,0.8,0.1l1,2.7c0.1,0.3-0.1,0.6-0.4,0.6l-2.5,0.2C32.7,16.1,32.5,15.8,32.6,15.4z M20.6,14.6l2.1,0.8\n\t\tc0.2,0.1,0.2,0.4-0.1,0.4l-1.4,0.1c-0.2,0-0.3-0.1-0.4-0.2l-0.5-0.7C20.2,14.7,20.4,14.5,20.6,14.6z M8.1,49.5\n\t\tc-3-2.9-4.5-7-4.5-12.6c0-5.8,1.7-10.3,5.2-13.3c3.6-3.2,9-4.8,16-4.8c0.8,0,1.7,0,2.6,0.1c0.7,0,0.9,1,0.2,1.3\n\t\tc-5.1,2-8.5,6.2-8.5,16.5c0,8.4,3.4,13.5,11.1,16.5c0.8,0.3,0.6,1.6-0.3,1.6C14.9,55.1,8.1,49.5,8.1,49.5z M51.1,51.4\n\t\tc-0.8,0.3-1.5-0.6-1.1-1.3c2.1-3.1,3.2-7.7,3.2-13.5c0-4.5-0.6-8-1.8-10.8c-0.3-0.8,0.5-1.5,1.2-1.1c5.3,2.9,7.7,6.7,7.7,12.2\n\t\tC60.4,44.3,57.6,48.8,51.1,51.4z\"/>\n</g>\n</svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59aee3389a096e0004000017",
+                  "website": "/crops/59aee3389a096e0004000017"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59aee3389a096e0004000017/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59aee3389a096e0004000017/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "59adc833e38ed7000400004f",
+          "attributes": {
+              "name": "Black Prince Tomato",
+              "slug": "black-prince-tomato",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": [
+                  "black prince",
+                  "Czerno Prinz"
+              ],
+              "description": "Black Prince tomatoes are an heirloom tomato cultivar from Siberia. They are well suited for cooler climates with shorter growing seasons. They produce garnet to mahogany brown fruits that can be round, plum, or heart-shaped and about 7cm in diameter. The fruit has a deep, sweet, rich flavor. Stake/trellis/cage and prune plants for best results. Fruit can be eaten raw or cooked into sauce.",
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors, transplant outside after last frost",
+              "spread": null,
+              "row_spacing": 90,
+              "height": 150,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": "<?xml version=\"1.0\" encoding=\"utf-8\"?> <!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --> <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 64 64\" style=\"enable-background:new 0 0 64 64;\" xml:space=\"preserve\"> <style type=\"text/css\"> .st0{fill:#4D831C;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{display:none;} .st2{display:inline;fill:#D1A982;} .st3{display:inline;} .st4{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-miterlimit:10;} .st5{fill:none;stroke:#6B9311;stroke-miterlimit:10;} .st6{fill:#AFD048;} .st7{fill:#F40000;stroke:#BA0D0D;stroke-width:3;stroke-miterlimit:10;} .st8{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st9{fill:#CDA347;stroke:#A2690C;stroke-width:3;stroke-miterlimit:10;} .st10{fill:#A2CC62;} .st11{fill:#68664C;stroke:#522B25;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st12{fill:#B63E34;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;} .st13{fill:#ADD481;} .st14{fill:#68664C;} .st15{fill:#593156;stroke:#331E31;stroke-width:3;stroke-miterlimit:10;} .st16{fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-miterlimit:10;} .st17{fill:#22B573;stroke:#184C28;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st18{fill:#EE0000;} .st19{fill:#9A0601;} .st20{fill:#EE0000;stroke:#9A0601;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st21{fill:#FFFFFF;} .st22{clip-path:url(#SVGID_2_);} .st23{fill:#00FFFF;} .st24{fill:#456A0A;} .st25{fill:#183300;} .st26{fill:#FF2214;} .st27{fill:#661900;} .st28{fill:#88A501;} .st29{fill:#3B6700;} .st30{fill:#FC4100;} .st31{fill:#9F0500;} .st32{fill:none;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;} .st33{fill:#6B9311;} .st34{fill:#593156;} .st35{fill:#331E31;} .st36{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st37{fill:none;stroke:#6B9311;stroke-linejoin:round;stroke-miterlimit:10;} .st38{fill:#B63E34;stroke:#522B25;stroke-miterlimit:10;} .st39{fill:none;stroke:#522B25;stroke-miterlimit:10;} .st40{fill:none;stroke:#522B25;stroke-width:3;stroke-miterlimit:10;} .st41{fill:#B63E34;} .st42{fill:#522B25;} .st43{fill:none;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st44{fill:none;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st45{fill:#A2CC62;stroke:#40760E;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st46{fill:#A2CC62;stroke:#40760E;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st47{fill:#9EC161;} .st48{fill:#40760E;} .st49{fill:#AFD048;stroke:#6B9311;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;} .st50{fill:#663965;} .st51{fill:#9D610B;} .st52{fill:none;stroke:#A2690C;stroke-linecap:round;stroke-miterlimit:10;} .st53{fill:#6D4E2B;} .st54{fill:#CDA347;} .st55{fill:#7F500A;} .st56{fill:#F40000;stroke:#BA0D0D;stroke-miterlimit:10;} .st57{fill:#F40000;stroke:#B63E34;stroke-width:3;stroke-miterlimit:10;} .st58{fill:#F40000;stroke:#B63E34;stroke-miterlimit:10;} .st59{fill:#F40000;stroke:#990D0D;stroke-width:3;stroke-miterlimit:10;} .st60{fill:#F40000;stroke:#990D0D;stroke-miterlimit:10;} .st61{fill:#F40000;} .st62{fill:#990D0D;} .st63{fill:#FF9D00;} .st64{fill:#E6681E;} .st65{fill:#FFCB00;} .st66{fill:#B58B06;} .st67{fill:#3A4C09;} .st68{fill:#B94850;stroke:#6C0A04;stroke-width:3;stroke-miterlimit:10;} .st69{fill:#CE8645;stroke:#CE8645;stroke-width:0.5;stroke-miterlimit:10;} .st70{fill:#6C0A04;stroke:#6C0A04;stroke-width:0.5;stroke-miterlimit:10;} .st71{fill:none;stroke:#6C0A04;stroke-linecap:round;stroke-miterlimit:10;} .st72{fill:#B94850;} .st73{fill:#CE8645;} .st74{fill:#6C0A04;} .st75{fill:#8C4F6F;} .st76{fill:#E7C456;} .st77{fill:#391A26;} .st78{fill:#E7C456;stroke:#AC5E17;stroke-width:3;stroke-miterlimit:10;} .st79{fill:#4F250E;stroke:#4F250E;stroke-width:0.5;stroke-miterlimit:10;} .st80{fill:none;stroke:#AC5E17;stroke-linecap:round;stroke-miterlimit:10;} .st81{fill:#4F250E;} .st82{fill:#995116;} .st83{fill:#FD801E;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;} .st84{fill:#FD801E;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;} .st85{opacity:0.8;fill:#FFBC42;} .st86{opacity:0.8;fill:#D03400;} .st87{fill:none;stroke:#9E0E00;stroke-linecap:round;stroke-miterlimit:10;} .st88{fill:#FFBC42;} .st89{fill:none;stroke:#9E0E00;stroke-width:3;stroke-miterlimit:10;} .st90{fill:#344C00;} .st91{fill:#FD801E;} .st92{fill:#9E0E00;} .st93{fill:#FDAF48;} .st94{fill:#D74E1E;} .st95{opacity:0.8;fill:#68664C;} .st96{fill:#775E49;} </style> <g class=\"st1\"> <rect x=\"-827.5\" y=\"-282.8\" class=\"st2\" width=\"919.6\" height=\"2155.1\"/> <path class=\"st3\" d=\"M91.7-282.3v2154.1H-827V-282.3H91.7 M92.7-283.3H-828v2156.1H92.7V-283.3L92.7-283.3z\"/> </g> <g> <path class=\"st14\" d=\"M36.2,13.1L32.8,2l-3.5,11.1C18.7,12,13.8,6.8,13.8,6.8c2.3,8.4,8.4,16.3,19,16.3s15.5-6.8,19-16.3 C51.7,6.8,46.4,11.8,36.2,13.1z\"/> <path class=\"st41\" d=\"M54.9,34.1C54.9,51.1,44.6,62,32,62S9.1,52.4,9.1,34.1c0-15.7,11.6-23,22.9-23C43.5,11.1,54.9,17.1,54.9,34.1 z\"/> <path class=\"st96\" d=\"M29.9,55.3c-0.4-0.2-0.8-0.3-1.2-0.5c-0.4-0.4-0.9-0.7-1.5-0.9c-0.7-0.2-1.4-0.6-2.1-0.9 c-1.3-0.8-2.6-1.6-3.8-2.5c-2.7-2-6,0.8-6.2,3.5c4.1,5.2,10,7.8,16.6,7.9c0.5-0.5,0.8-1.1,1-1.7C33.4,58,32,56,29.9,55.3z\"/> <path class=\"st96\" d=\"M43.7,13.6c-0.3,0.2-0.6,0.3-0.9,0.6c-0.5,0.4-1.2,0.5-1.8,0.3c-2.7-1.2-6.6,0.2-6.2,3.7 c0.1,0.5,0.1,1.1,0.2,1.6c-1.4-0.4-2.9-0.2-4,0.7c-1.2-0.3-1.7-0.4-2.9-0.7l0-0.1c-1.4-2.9-6.2-2.6-7.5,0.1c-0.3,0-0.6,0.1-0.9,0.1 c-0.5-0.3-1-0.5-1.6-0.6c-0.9-0.7-2.2-1.1-3.4-1c-3.4,3.7-5.5,8.9-5.5,15.7c0,6.2,1.2,11.4,3.2,15.5c1.8,0.1,3.6-0.6,4.2-2.2 c0.2-0.5,0.7-0.9,1.2-1c0,0,1.5-0.4,2.5-2.1c0.5-0.7,1.4-0.9,2.1-0.3c1.1,1,2.9,1.5,4.3,1.2c0.3,0,0.6,0,1,0c1,0,1.8-0.3,2.5-0.8 c2,1,4.9,0.6,5.9-1.5c0.2-0.3,0.3-0.7,0.5-1.1c2.3,1,5.5,0.2,6-2.7c0.1-0.4,0.2-0.8,0.2-1.3c0.1-0.8,0.8-1.4,1.6-1.5 c0.2,0,0.5-0.1,0.7-0.2c1.2-0.4,2.5,0.4,2.5,1.7c0,1.7-0.1,3.5-0.3,5.2c-0.1,0.9-0.3,1.7-0.4,2.6c-0.5,2.9,1.5,4.8,3.7,5.3 c2.7-4.5,4.3-10.2,4.3-16.9C54.9,23.1,50.1,16.8,43.7,13.6z\"/> <path class=\"st42\" d=\"M7.6,34.1C7.6,52,17.2,63.5,32,63.5c14.1,0,24.4-12.4,24.4-29.4c0-7.1-1.9-12.9-5.7-17.1 c-0.8-0.9-1-2.2-0.4-3.3c1.1-2,2.1-4.2,2.9-6.4c0.2-0.7,0-1.4-0.6-1.8c-0.6-0.4-1.4-0.3-1.9,0.2c0,0-3.3,3-9.5,4.8 c-0.5,0.1-1,0.1-1.5,0l-1.8-0.4c-0.6-0.2-1.1-0.6-1.3-1.2l-2.3-7.3c-0.2-0.6-0.8-1.1-1.5-1.1h0c-0.7,0-1.3,0.4-1.5,1.1l-2.2,7.1 c-0.2,0.7-0.8,1.2-1.5,1.3c-0.9,0.1-1.7,0.3-2.5,0.5c-0.5,0.1-1,0.1-1.4,0c-5.9-1.8-8.8-4.7-8.8-4.7c-0.5-0.5-1.2-0.6-1.9-0.3 c-0.6,0.3-0.9,1.1-0.7,1.7c0.6,2.2,1.4,4.2,2.3,6c0.6,1.1,0.4,2.5-0.5,3.4C11.8,18.9,7.6,24.4,7.6,34.1z M47.9,11.8 c-0.3,0.6-0.6,1.1-0.9,1.6c-0.1,0.1-0.3,0.2-0.4,0.1c-0.4-0.2-0.7-0.5-1.1-0.7c-0.2-0.1-0.2-0.5,0-0.6c0.7-0.3,1.4-0.6,2-0.9 C47.8,11.2,48,11.5,47.9,11.8z M32.1,9.2L32.5,8c0.1-0.3,0.4-0.3,0.5,0l0.4,1.3c0.1,0.2-0.1,0.4-0.3,0.4l-0.8,0 C32.2,9.6,32,9.4,32.1,9.2z M17.7,11.4c0.5,0.3,1.1,0.5,1.7,0.8c0.2,0.1,0.2,0.4,0,0.5c-0.3,0.2-0.6,0.4-1,0.5 c-0.1,0.1-0.3,0-0.4-0.1c-0.3-0.5-0.6-0.9-0.8-1.4C17.3,11.5,17.5,11.3,17.7,11.4z M32,60.5c-13,0-21.4-10.4-21.4-26.4 c0-14.8,10.7-21.4,21.4-21.4c19.8,0,21.4,16.4,21.4,21.4C53.4,49.4,44.4,60.5,32,60.5z\"/> <path class=\"st21\" d=\"M17,24.2c-0.1,0-0.2,0-0.3-0.1c-0.2-0.2-0.3-0.5-0.1-0.7c2.4-3.5,6-5.9,10.5-7c0.3-0.1,0.5,0.1,0.6,0.4 c0.1,0.3-0.1,0.5-0.4,0.6c-4.2,1-7.6,3.3-9.9,6.6C17.3,24.2,17.1,24.2,17,24.2z\"/> <circle class=\"st21\" cx=\"15.4\" cy=\"26.8\" r=\"0.5\"/> <path class=\"st96\" d=\"M43.9,39.3v0.4c0,1.3,2,1.3,2,0v-0.4C45.9,38,43.9,38,43.9,39.3z\"/> <path class=\"st96\" d=\"M20.9,46.3v1c0,1.3,2,1.3,2,0v-1C22.9,45,20.9,45,20.9,46.3z\"/> <path class=\"st96\" d=\"M31.2,17.2v0.7c0,1.3,2,1.3,2,0v-0.7C33.3,15.9,31.2,15.9,31.2,17.2z\"/> </g> </svg>"
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/59adc833e38ed7000400004f",
+                  "website": "/crops/59adc833e38ed7000400004f"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/59adc833e38ed7000400004f/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/59adc833e38ed7000400004f/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5c3326823cbb970004000023",
+          "attributes": {
+              "name": "Stick Tomato 'Tigerella'",
+              "slug": "stick-tomato-tigerella",
+              "binomial_name": "Solanum lycopersicum",
+              "common_names": null,
+              "description": null,
+              "sun_requirements": "Full Sun",
+              "sowing_method": "Direct seed indoors 6-8 weeks before last frost, transplant seedlings outside after hardening off",
+              "spread": 60,
+              "row_spacing": 75,
+              "height": 120,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": "Species",
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5c3326823cbb970004000023",
+                  "website": "/crops/5c3326823cbb970004000023"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5c3326823cbb970004000023/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5c3326823cbb970004000023/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5e6fcdc4c9b2040004ebecec",
+          "attributes": {
+              "name": "Mortgage Lifter tomato",
+              "slug": "mortgage-lifter-tomato",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "Developed in the 1930's by \"Radiator Charlie\" Byles of West Virginia. Charlie sold plants for $1.00 and paid off his $6000 mortgage in 6 years. Extremely large, slightly flat, pink fruit can grow to 1 kilo. This variety is famous for its productivity and disease resistance. Indeterminate.\n\nMatures 85 days from transplant.",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": null,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5e6fcdc4c9b2040004ebecec",
+                  "website": "/crops/5e6fcdc4c9b2040004ebecec"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5e6fcdc4c9b2040004ebecec/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5e6fcdc4c9b2040004ebecec/pictures"
+                  },
+                  "data": []
+              }
+          }
+      },
+      {
+          "type": "crops",
+          "id": "5dd0e9aa4508aa00044d8729",
+          "attributes": {
+              "name": "Tomato Sub Arctic Plenty",
+              "slug": "tomato-sub-arctic-plenty",
+              "binomial_name": null,
+              "common_names": null,
+              "description": "One of the World’s Earliest Tomato. Suitable for regions closer to the poles, where season is short, and in temperate regions where you can harvest the crop before insects and disease start to take over. It will set fruit in temperatures lower than most. Cold tolerant. It was developed in the 1940's to provide military troops in Greenland with fresh tomatoes. Grows in clusters. Excellent choice for home gardens. A variety developed by Dr. Harris at Beaverlodge Research Station, Alberta, Canada. United States Department of Agriculture",
+              "sun_requirements": null,
+              "sowing_method": null,
+              "spread": null,
+              "row_spacing": null,
+              "height": null,
+              "processing_pictures": 0,
+              "guides_count": 0,
+              "main_image_path": "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg",
+              "taxon": null,
+              "tags_array": [],
+              "growing_degree_days": 50,
+              "svg_icon": null
+          },
+          "links": {
+              "self": {
+                  "api": "/api/v1/crops/5dd0e9aa4508aa00044d8729",
+                  "website": "/crops/5dd0e9aa4508aa00044d8729"
+              }
+          },
+          "relationships": {
+              "companions": {
+                  "links": {
+                      "related": "/api/v1/crops/5dd0e9aa4508aa00044d8729/companions"
+                  }
+              },
+              "pictures": {
+                  "links": {
+                      "related": "/api/v1/crops/5dd0e9aa4508aa00044d8729/pictures"
+                  },
+                  "data": []
+              }
+          }
+      }
+  ],
+  "included": [
+      {
+          "type": "crops-pictures",
+          "id": "5dc3618ef2c1020004f936e4",
+          "attributes": {
+              "id": "5dc3618ef2c1020004f936e4",
+              "photographic_id": "54bda00e3961370003150400",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.?1573085580",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5dc3618ef2c1020004f936e4.jpg?1573085580"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "591a5d6f1faea70004000001",
+          "attributes": {
+              "id": "591a5d6f1faea70004000001",
+              "photographic_id": "54bd0f546239330003b30000",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.?1494900076",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591a5d6f1faea70004000001.jpg?1494900076"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "57073ec74a3af70003000009",
+          "attributes": {
+              "id": "57073ec74a3af70003000009",
+              "photographic_id": "543998a83162320002000000",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.?1460092612",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/57073ec74a3af70003000009.jpg?1460092612"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "59b0d45f07a74000040000ce",
+          "attributes": {
+              "id": "59b0d45f07a74000040000ce",
+              "photographic_id": "59b0d45c9707bf0004000063",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.?1504760925",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d45f07a74000040000ce.jpg?1504760925"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "59b0d46a07a74000040000cf",
+          "attributes": {
+              "id": "59b0d46a07a74000040000cf",
+              "photographic_id": "59b0d45c9707bf0004000063",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.?1504760930",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.jpg?1504760930",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.jpg?1504760930",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.jpg?1504760930",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.jpg?1504760930",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b0d46a07a74000040000cf.jpg?1504760930"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "5e65715f23ddeb0004c9ddb8",
+          "attributes": {
+              "id": "5e65715f23ddeb0004c9ddb8",
+              "photographic_id": "5e65715c02f5f5000484a97d",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.?1583706462",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5e65715f23ddeb0004c9ddb8.jpg?1583706462"
+          }
+      },
+      {
+          "type": "crops-pictures",
+          "id": "54ab00e16635390002000000",
+          "attributes": {
+              "id": "54ab00e16635390002000000",
+              "photographic_id": "5447d0083763380002020000",
+              "image_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.?1420493020",
+              "small_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+              "thumbnail_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+              "medium_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+              "large_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020",
+              "canopy_url": "https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54ab00e16635390002000000.jpg?1420493020"
+          }
+      }
+  ]
+}
