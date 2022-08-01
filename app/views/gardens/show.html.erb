@@ -9,30 +9,39 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container">
+
       <img src="<%=session[:image]%>" alt="user image"/>
       <h1>
-        <%=session[:first_name]%>'s Gardens
+        <%= @garden.name %>
       </h1>
-      <% @gardens.each do |garden|%>
-        <%= link_to "#{garden.name}", "/gardens/#{garden.id}" %>
-          <b>
-            Cardinal Direction:
-          </b>
-          <%= garden.cardinal_direction %><br>
-          <b>
-            Notes:
-          </b>
-          <%= garden.notes%>
-        </p>
-      <% end %>
+      <%# <% @gardens.each do |garden|%>
 
-      <div class="d-grid gap-2 col-6 mx-auto">
-  <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
-</div>
-
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <%# <%= garden.name%>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  <b>
+                    Cardinal Direction:
+                  </b>
+                  <%# <%= garden.cardinal_direction%>
+                  <b>
+                    Notes:
+                  </b>
+                  <%# <%= garden.notes%>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <%# <% end %>
     </div>
   </div>
-
   <div class="side-bar-right col-sm-3">
     <br>
     </br>

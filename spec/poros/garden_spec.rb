@@ -11,6 +11,7 @@ RSpec.describe Garden do
     garden = Garden.new(data)
 
     expect(garden).to be_a(Garden)
+    expect(garden.id).to eq('2')
     expect(garden.name).to eq('Summer Garden')
     expect(garden.cardinal_direction).to eq('South')
     expect(garden.notes).to eq("it's too damn hot")
