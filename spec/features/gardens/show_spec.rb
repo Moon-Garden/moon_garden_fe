@@ -18,7 +18,6 @@ RSpec.describe 'garden show page' do
       visit '/'
       click_on 'Login'
       click_on "Hot Dog Garden"
-
     end
 
     it "has header links to dashboard, logout, and landing page" do

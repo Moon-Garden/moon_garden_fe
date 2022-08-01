@@ -4,6 +4,7 @@ RSpec.describe 'plant service' do
   context 'search_plant_data' do
     it 'gives me a list of plants when I search by keyword', :vcr do
       response = PlantService.search_plant_data('basil')
+      
       expect(response).to be_a Hash
       expect(response[:data]).to be_a Array
       expect(response[:data].first[:id]).to be_a String

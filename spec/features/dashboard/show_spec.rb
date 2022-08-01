@@ -4,6 +4,7 @@ RSpec.describe 'Dashboard Show Page' do
   context 'a user is logged in' do
     before do
       Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+    end 
 
       @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
       @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)

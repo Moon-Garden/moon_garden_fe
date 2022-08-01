@@ -90,7 +90,7 @@ RSpec.describe PlantTrackingService do
       "pruning_behaviors": "No pruning, only thinning",
       "notes": "Magic carrots matured on the same day they were planted!"
      }
-
+     binding.pry
     response = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)

@@ -1,0 +1,40 @@
+<div class="container text-center d-flex" style="max-height: 100%">
+
+  <div class="side-bar-left col-sm-3 mw-100">
+    <div class="logo">
+      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+    </div>
+  </div>
+
+  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/header" %>
+    <div class="dash-container">
+    <h1>Search Results</h1>
+    <% @results.each do |plant| %>
+      <p>Name: <%= plant.name %></p>
+      <p>Sun Requirements: <%= plant.sun_requirements %></p>
+      <p>Sowing Method: <%= plant.sowing_method %></p>
+      <p>Row Spacing: <%= plant.row_spacing %></p>
+      <p>Description: <%= plant.description %></p>
+      <p><%= plant.main_image_path %></p>
+      <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", method: :post, local: true %>
+    <% end %>
+    </div>
+  </div>
+  <div class="side-bar-right col-sm-3">
+    <br>
+    </br>
+    <br>
+    </br>
+    <div class="recommendation-container rounded">
+      <div class="row">
+        <div class="col">
+          Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.
+        </div>
+      </div>
+    </div>
+    <div class="widget">
+      <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
+    </div>
+  </div>
+</div>
