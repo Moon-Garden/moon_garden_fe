@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "id": "339",
+            "type": "garden",
+            "attributes": {
+                "name": "Hot Dog Garden",
+                "cardinal_direction": "North",
+                "notes": "definitely gmo"
+            }
+        },
+        {
+            "id": "358",
+            "type": "garden",
+            "attributes": {
+                "name": "Mustard Garden",
+                "cardinal_direction": "South",
+                "notes": "Spicy, Honey and English!"
+            }
+        }
+    ]
+}
