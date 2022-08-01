@@ -47,12 +47,17 @@ RSpec.describe 'Dashboard Show Page' do
       click_link("Hot Dog Garden")
       expect(current_path).to eq('/gardens/339')
     end
+
+    it 'has a button to add a garden' do
+      click_button("Add New Garden")
+      expect(current_path).to eq("/gardens/new")
+    end
   end
 
   context 'a visitor is not logged in' do
     it "redirects the visitor to the landing page and flashes an error message" do
       visit '/dashboard'
-      
+
       expect(current_path).to eq('/')
       expect(page).to have_content("Please log in below to view your dashboard.")
     end
