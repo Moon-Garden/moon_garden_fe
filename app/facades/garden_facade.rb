@@ -10,4 +10,9 @@ class GardenFacade
       Garden.new(garden_data)
     end
   end
+
+  def self.get_garden_data(user_id, garden_id)
+    json = GardenService.get_garden_info(user_id, garden_id)
+    Garden.new(json[:data])
+  end
 end

@@ -15,7 +15,6 @@ RSpec.describe 'garden be service' do
 
       garden_hash =
         {
-          "id": 1,
           "user_id": "#{user_response[:data][:id]}",
           "name": 'Summer Garden',
           "notes": "it's too damn hot",

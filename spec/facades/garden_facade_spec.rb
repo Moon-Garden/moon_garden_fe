@@ -28,6 +28,31 @@ RSpec.describe GardenFacade do
     end
   end
 
+  it 'returns data for a single garden', :vcr do 
+    user_hash =
+        { 'name' => 'Jennifer Halloran',
+          'email' => 'jenniferlhalloran@gmail.com',
+          'unverified_email' => 'jenniferlhalloran@gmail.com',
+          'email_verified' => true,
+          'first_name' => 'Jennifer',
+          'last_name' => 'Halloran',
+          'image' => 'https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c' }
+
+      user = UserService.find_or_create_user(user_hash)
+
+      garden_hash =
+        {
+          "id": 1,
+          "user_id": "#{user[:data][:id]}",
+          "name": 'Summer Garden',
+          "notes": "it's too damn hot",
+          "cardinal_direction": 1
+        }
+      
+      garden = GardenFacade.get_garden_data("#{garden_hash[:user_id]}", "#{garden_hash[:id]}")
+      expect(garden).to be_a(Garden)
+  end
+
   describe '#get_gardens(user_id)' do
     it 'returns the gardens associated with a user by id', :vcr do
       user_hash =
