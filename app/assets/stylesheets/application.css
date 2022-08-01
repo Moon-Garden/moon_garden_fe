@@ -24,10 +24,10 @@ body {
   background-color: #E9EBF8;
  }
 
- .moon-logo {
+ /* .moon-logo {
   height: 50px;
   width: 50px;
- }
+ } */
 
 
  .dash-container {
@@ -58,9 +58,9 @@ body {
    color: #897487;
  }
  .dash-main-bar img {
-   width: 150px;
-   height: 150px;
-   margin-bottom: 20px;
+   width: 30px;
+   height: 30px;
+   margin-bottom: 5px;
    border-radius: 50%;
  }
 
@@ -75,6 +75,15 @@ body {
    margin-bottom: 25px;
    margin-top: 25px;
    padding: 10px;
+ }
+
+.landing-widget {
+  border: 3px solid #E9EBF8;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: #e9ebf874;
  }
 
 .widget {
