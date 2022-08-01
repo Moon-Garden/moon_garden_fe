@@ -57,10 +57,10 @@ body {
    margin-bottom: 20px;
    color: #897487;
  }
- .dash-main-bar img {
-   width: 30px;
-   height: 30px;
-   margin-bottom: 5px;
+ .dash-container img {
+   width: 150px;
+   height: 150px;
+   margin-bottom: 20px;
    border-radius: 50%;
  }
 
