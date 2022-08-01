@@ -11,7 +11,7 @@ RSpec.describe 'Welcome Index Page' do
       expect(current_path).to eq('/dashboard')
     end
 
-    it 'has an about section with the idea behind the app' do
+    it 'has an about section with the idea behind the app', :vcr do
       visit '/'
 
       within '.dash-main-bar' do
