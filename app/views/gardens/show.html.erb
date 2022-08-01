@@ -13,19 +13,16 @@
       <h1>
         <%= @garden.name %>
       </h1>
-      <div align="center" class="form-floating mb-3">
-        <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
-        <div class="form-control-fluid" id="floatingInput" placeholder="Search for plant by name">
-          <%= f.hidden_field :query, value: "name" %>
-          <%= f.text_field :search, placeholder: 'Search for plant by name' %>
-          <div type="button" class="btn-outline-primary">
-          <%= f.submit "Find Plant to add to Garden" %>
-          </div>
-        </div>
-        <% end %>
-      </div>
-      <%# <% @gardens.each do |garden|%>
-  <% @plants.each do |plant| %>
+        <p>
+          <b>
+            Cardinal Direction:
+          </b>
+          <%= @garden.cardinal_direction %>
+            <b>
+              Notes:
+            </b>
+          <%= @garden.notes%>
+            </p>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">

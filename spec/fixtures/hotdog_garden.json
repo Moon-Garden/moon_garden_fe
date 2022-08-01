@@ -1,0 +1,11 @@
+{
+  "data": {
+      "id": "339",
+      "type": "garden",
+      "attributes": {
+          "name": "Hot Dog Garden",
+          "cardinal_direction": "North",
+          "notes": "definitely gmo"
+      }
+  }
+}
