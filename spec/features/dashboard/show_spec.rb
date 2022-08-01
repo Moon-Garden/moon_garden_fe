@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Dashboard Show Page' do
+RSpec.describe 'Dashboard Show Page', :vcr do
   context 'a user is logged in' do
     before do
       Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
