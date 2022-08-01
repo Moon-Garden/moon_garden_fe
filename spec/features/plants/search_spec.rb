@@ -71,7 +71,6 @@ RSpec.describe 'plant search page' do
         click_button 'Add Plant to Garden'
       end
 
-      # save_and_opfen_page
       expect(current_path).to eq("/gardens/#{garden.id}")
       expect(page).to have_content("Tiny Tim Tomato")
 
