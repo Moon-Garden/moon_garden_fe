@@ -1,5 +1,4 @@
-<div class="container text-center d-flex" style="max-height: 100%">
-
+<div class="container text-center d-flex" style="max-height: 100%, max-width: 100%">
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
@@ -7,30 +6,35 @@
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
-    <%= render partial: "shared/header" %>
+      <%= render partial: "shared/header" %>
     <div class="dash-container">
-      <img src="<%=session[:image]%>" alt="user image"/>
       <h1>
-        <%=session[:first_name]%>'s Gardens
+        Enter Garden Details
       </h1>
-      <% @gardens.each do |garden|%>
-        <%= link_to "#{garden.name}", "/gardens/#{garden.id}" %>
-          <b>
-            Cardinal Direction:
-          </b>
-          <%= garden.cardinal_direction %><br>
-          <b>
-            Notes:
-          </b>
-          <%= garden.notes%>
-        </p>
-      <% end %>
 
-      <div class="d-grid gap-2 col-6 mx-auto">
-  <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
-</div>
-    </div>
+      <%= form_with url: gardens_path, local:true do |form| %>
+      <div class="mb-3">
+        <%= form.label "Garden Name" %>
+        <%= form.text_field :name , class: "form-control"%>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label "Notes" %>
+        <%= form.text_field :notes, class: "form-control"%>
+      </div>
+
+      <div class="mb-3">
+        <%= form.label "Cardinal Direction" %>
+        <%= form.select :cardinal_direction, ['North','South','East', 'West']%>
+      </div>
+
+      <div class="mb-3">
+        <%= form.submit class: "btn btn-primary" %>
+      </div>
+    <% end %>
+
   </div>
+</div>
 
   <div class="side-bar-right col-sm-3">
     <div class="widget">

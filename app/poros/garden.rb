@@ -1,5 +1,5 @@
 class Garden
-  attr_reader :name, :cardinal_direction, :notes
+  attr_reader :name, :cardinal_direction, :notes, :id
 
   def initialize(data)
     @id = data[:id]

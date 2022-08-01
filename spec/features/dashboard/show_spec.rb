@@ -3,10 +3,9 @@ require 'rails_helper'
 RSpec.describe 'Dashboard Show Page' do
   context 'a user is logged in' do
     before :each do
-      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
       visit '/'
       click_on 'Login'
-    end
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
 
 # !!! THE EXPECT STATEMENTS ARE MOCKS AND STILL NEED TO BE FILLED WITH CORRECT INFO !!!
     it 'is on the dashboard', :vcr do
@@ -46,6 +45,25 @@ RSpec.describe 'Dashboard Show Page' do
     it 'redirects you to the log in page ' do
       visit '/dashboard'
       expect(current_path).to eq('/')
+    end
+
+    it "displays the users name and picture", :vcr do
+      visit '/'
+      click_on 'Login'
+
+      expect(page).to have_content("Dot's Gardens")
+    end
+    
+    it "has a section to provide lunar recommendations", :vcr do
+      visit '/'
+      click_on 'Login'
+      within '.recommendation-container' do 
+        expect(page).to have_content("Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.")
+      end 
+    end
+
+    it "displays each user garden with garden info and a link to the garden's show page" do
+      
     end
   end
 end

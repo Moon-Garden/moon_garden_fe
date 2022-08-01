@@ -86,7 +86,7 @@ OmniAuth.config.mock_auth[:google_oauth2] = OmniAuth::AuthHash.new({
                                                                      provider: 'google_oauth2',
                                                                      uid: '12345678910',
                                                                      info: {
-                                                                       email: 'franksfurters@weinermobile.com',
+                                                                       email: 'frankfurters@weinermobile.com',
                                                                        name: 'Dot Hog',
                                                                        image: 'https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2014/06/thumb_720_450_dreamstime_xl_34122178-Custom.jpg'
                                                                      },

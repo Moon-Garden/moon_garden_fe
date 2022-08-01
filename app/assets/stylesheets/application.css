@@ -1,18 +1,7 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+body {
+  background-color: #8D818C;
+}
 
  .logo {
    margin-top: 60px;
@@ -35,10 +24,11 @@
   background-color: #E9EBF8;
  }
 
- .moon-logo {
+ /* .moon-logo {
   height: 50px;
   width: 50px;
- }
+ } */
+
 
  .dash-container {
   background-color: #E9EBF8;
@@ -47,7 +37,7 @@
   padding-right: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
  }
 
@@ -67,7 +57,7 @@
    margin-bottom: 20px;
    color: #897487;
  }
- .dash-main-bar img {
+ .dash-container img {
    width: 150px;
    height: 150px;
    margin-bottom: 20px;
@@ -82,6 +72,53 @@
    background-color: #E9EBF8;
    margin-left: 25px;
    margin-right: 25px;
+   margin-bottom: 25px;
+   margin-top: 25px;
    padding: 10px;
  }
 
+.landing-widget {
+  border: 3px solid #E9EBF8;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: #e9ebf874;
+ }
+
+.widget {
+  border: 3px solid #E9EBF8;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 90px;
+  padding: 2px;
+  background-color: #e9ebf874;
+}
+
+.header-container {
+  background-color: #E9EBF8;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+ }
+
+ /* .iframe {
+  color: #E9EBF8;
+ } */
+
+ /* .btn {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet);
+  --bs-btn-border-color: var(--bd-violet);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+} */
