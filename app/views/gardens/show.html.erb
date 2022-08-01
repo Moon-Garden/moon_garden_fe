@@ -18,25 +18,24 @@
       <% end %>
     </div>
     <% @plants.each do |plant| %>
-        <div class="accordion" id="accordionExample">
+
+      <div class="accordion" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               <%= plant.name %>
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
-                <p>
-                  <b>
-                  </b>
-                  <%# <%= garden.cardinal_direction%>
-                  <b>
-                  </b>
-                  <%# <%= garden.notes%>
-                </p>
+                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
+                  <%= f.hidden_field :query, value: "name" %>
+                  <%= f.submit "Delete Plant" %>
+                <% end %>
               </div>
             </div>
+          </div>
           </div>
         </div>
       <% end %>

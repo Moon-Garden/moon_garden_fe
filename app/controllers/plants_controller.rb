@@ -13,8 +13,13 @@ class PlantsController < ApplicationController
       "plant_id": params[:plant_api_id]
     }
 
-    # binding.pry
     PlantTrackingFacade.create_plant(data)
     redirect_to "/gardens/#{params[:id]}"
   end
+
+  def destroy
+    PlantTrackingFacade.destroy_plant(session[:user_id], params[:id], params[:plant_id])
+    redirect_to "/gardens/#{params[:id]}"
+  end
+
 end
