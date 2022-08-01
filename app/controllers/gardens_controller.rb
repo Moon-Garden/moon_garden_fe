@@ -1,14 +1,18 @@
 class GardensController < ApplicationController
-  def new
-  end
-  
+  def new; end
+
   def create
-    require 'pry'; binding.pry
-    # GardenFacade.create_garden
+    garden_info = params.permit(:name, :notes, :cardinal_direction)
+    garden_info[:user_id] = session[:user_id].to_i
+    GardenFacade.create_garden(garden_info)
+    flash[:alert] = 'Garden Created'
+    redirect_to dashboard_path
   end
+
 
   def show
     @garden = GardenFacade.get_garden_data(session[:user_id], params[:id])
-    @plants = 
   end
+  
 end
+

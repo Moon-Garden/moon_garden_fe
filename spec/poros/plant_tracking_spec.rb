@@ -1,18 +1,18 @@
 require 'rails_helper'
 
-RSpec.describe PlantTracking do 
-  it 'exists and has attributes' do 
-    plant_params = 
-    {
-      "name": "Carrot", 
-      "plant_id": "sae2340987dage",
-      "moon_phase": "waxing crescent",
-      "date_planted": Date.today,
-      "date_matured": Date.today,
-      "bounty_amount": 23,
-      "pruning_behaviors": "No pruning, only thinning",
-      "notes": "Magic carrots matured on the same day they were planted!" 
-     }
+RSpec.describe PlantTracking do
+  it 'exists and has attributes' do
+    plant_params =
+      {
+        "name": 'Carrot',
+        "plant_id": 'sae2340987dage',
+        "moon_phase": 'waxing crescent',
+        "date_planted": Date.today,
+        "date_matured": Date.today,
+        "bounty_amount": 23,
+        "pruning_behaviors": 'No pruning, only thinning',
+        "notes": 'Magic carrots matured on the same day they were planted!'
+      }
 
     plant = PlantTracking.new(plant_params)
 
