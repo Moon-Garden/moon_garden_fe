@@ -14,8 +14,16 @@
       <h1>
         <%= @garden.name %>
       </h1>
-      <%# <% @gardens.each do |garden|%>
-
+        <p>
+          <b>
+            Cardinal Direction:
+          </b>
+          <%= @garden.cardinal_direction %>
+            <b>
+              Notes:
+            </b>
+          <%= @garden.notes%>
+            </p>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
