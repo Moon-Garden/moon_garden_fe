@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get '/gardens/:id', to: 'gardens#show'
   get '/gardens/:id/plants', to: 'plants#search'
   post '/gardens/:id/plants', to: 'plants#create'
+  delete '/gardens/:id/plants/:plant_id', to: 'plants#destroy'
 
   # post '/gardens/:id/plants/new', to: 'plants#create'
 end
