@@ -1,7 +1,6 @@
 class PlantTrackingFacade
   def self.create_plant(data)
     json = PlantTrackingService.create_plant(data)
-    # binding.pry
     PlantTracking.new(json[:data])
   end
 

@@ -151,7 +151,7 @@ RSpec.describe PlantTrackingService do
     count = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data].count
     response_2 = PlantTrackingService.destroy_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", "#{plant_data.first[:id]}")
     count_2 = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data].count
-    # binding.pry
+
     expect(count - 1).to eq(count_2)
 
   end

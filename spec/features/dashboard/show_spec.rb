@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'Dashboard Show Page', :vcr do
+RSpec.describe 'Dashboard Show Page' do
   context 'a user is logged in' do
     before do
       Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
@@ -8,10 +8,12 @@ RSpec.describe 'Dashboard Show Page', :vcr do
       @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
       @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+      @moon = JSON.parse(File.read('spec/fixtures/moon.json'),symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+      allow(MoonService).to receive(:get_moon_data).and_return(@moon)
 
       visit '/'
       click_on 'Login'
@@ -45,10 +47,18 @@ RSpec.describe 'Dashboard Show Page', :vcr do
       click_button("Add New Garden")
       expect(current_path).to eq("/gardens/new")
     end
+
+    it "has the moon phase data" do
+      expect(page).to have_content("Bread Moon")
+      expect(page).to have_content("Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).")
+    end
+    
   end
 
   context 'a visitor is not logged in' do
     it "redirects the visitor to the landing page and flashes an error message" do
+      @moon = JSON.parse(File.read('spec/fixtures/moon.json'),symbolize_names: true)
+      allow(MoonService).to receive(:get_moon_data).and_return(@moon)
       visit '/dashboard'
 
       expect(current_path).to eq('/')
