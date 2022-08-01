@@ -30,6 +30,7 @@ RSpec.describe 'plant search page' do
       expect(page).to have_content('Sowing Method: Direct seed outdoors')
       expect(page).to have_content('Row Spacing: 76')
       expect(page).to have_content('Description: Corn is a large grain plant, or tall grass, first domesticated about 10,000 years ago by indigenous peoples in Southern Mexico. The leafy stalk produces ears after pollination. Depending on the variety, the corn can be eaten fresh, or dried and ground into cornmeal.')
+      expect(page).to_not have_content('basil')
     end 
   end
 end

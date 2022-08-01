@@ -10,8 +10,15 @@
     <%= render partial: "shared/header" %>
     <div class="dash-container">
     <h1>Search Results</h1>
+    <% @results.each do |plant| %>
+      <p>Name: <%= plant.name %></p>
+      <p>Sun Requirements: <%= plant.sun_requirements %></p>
+      <p>Sowing Method: <%= plant.sowing_method %></p>
+      <p>Row Spacing: <%= plant.row_spacing %></p>
+      <p>Description: <%= plant.description %></p>
+      <p><%= plant.main_image_path %></p>
+    <% end %>
     </div>
-
   </div>
   <div class="side-bar-right col-sm-3">
     <br>
