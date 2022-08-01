@@ -8,7 +8,6 @@ class PlantTracking
               :pruning_behaviors,
               :notes
   def initialize(plant_params)
-    # binding.pry
     @id = plant_params[:id]
     @name = plant_params[:attributes][:name]
     @date_matured = plant_params[:attributes][:date_matured].to_s
