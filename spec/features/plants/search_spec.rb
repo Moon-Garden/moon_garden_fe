@@ -75,5 +75,6 @@ RSpec.describe 'plant search page' do
       expect(page).to have_content("Tiny Tim Tomato")
 
     end
+    
   end
 end
