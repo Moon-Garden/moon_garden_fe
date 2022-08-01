@@ -6,6 +6,7 @@
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/header" %>
     <div class="dash-container">
       <h1>
         Enter Garden Details
@@ -35,17 +36,5 @@
   </div>
 </div>
 
-<div class="side-bar-right col-sm-3">
-
-  <div class="widget">
-    <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
-  </div>
-  <div class="recommendation-container rounded">
-    <div class="row">
-      <div class="col">
-        Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.</div>
-    </div>
-  </div>
-
-</div>
+<%= render partial: "shared/moon_widget" %>
 </div>
