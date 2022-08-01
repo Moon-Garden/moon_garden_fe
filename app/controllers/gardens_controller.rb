@@ -8,6 +8,7 @@ class GardensController < ApplicationController
   end
 
   def show
-    @garden 
+    @garden = GardenFacade.get_garden_data(session[:user_id], params[:id])
+    @plants = 
   end
 end

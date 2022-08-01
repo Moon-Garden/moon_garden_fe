@@ -12,7 +12,7 @@
 
       <img src="<%=session[:image]%>" alt="user image"/>
       <h1>
-        <%=session[:first_name]%>'s Gardens
+        <%= @garden.name %>
       </h1>
       <%# <% @gardens.each do |garden|%>
 
@@ -20,7 +20,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <%= garden.name%>
+                <%# <%= garden.name%>
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -29,17 +29,17 @@
                   <b>
                     Cardinal Direction:
                   </b>
-                  <%= garden.cardinal_direction%><br>
+                  <%# <%= garden.cardinal_direction%>
                   <b>
                     Notes:
                   </b>
-                  <%= garden.notes%>
+                  <%# <%= garden.notes%>
                 </p>
               </div>
             </div>
           </div>
         </div>
-      <% end %>
+      <%# <% end %>
     </div>
   </div>
   <div class="side-bar-right col-sm-3">

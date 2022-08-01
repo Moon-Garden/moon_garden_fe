@@ -8,7 +8,6 @@ class PlantFacade
 
   def self.get_plant_data(id)
     json = PlantService.get_plant_data(id)[:data]
-
     Plant.new(json)
   end
 end
