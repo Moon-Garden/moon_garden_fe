@@ -67,7 +67,7 @@ RSpec.describe 'plant search page' do
     click_on 'Find Plants to add to Garden'
 
     expect(page).to have_button 'Add Plant to Garden'
-    # save_and_open_page
+
     within '.Tiny' do
       click_button 'Add Plant to Garden'
     end
