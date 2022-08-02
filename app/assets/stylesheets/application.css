@@ -27,10 +27,7 @@ body {
   background-color: #E9EBF8;
 }
 
-/* .moon-logo {
-  height: 50px;
-  width: 50px;
- } */
+
 .dash-container {
   background-color: #E9EBF8;
   border-radius: 50px;
@@ -121,12 +118,9 @@ form > * {
 .list-group-item {
   background-color: #E9EBF8;
 }
-
 .oauth-container {
   margin: 0 auto;
 }
-
-
 /* .iframe {
   color: #E9EBF8;
  } */

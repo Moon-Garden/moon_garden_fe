@@ -5,12 +5,16 @@ Rails.application.routes.draw do
   get '/logout', to: 'sessions#destroy'
   get '/dashboard', to: 'dashboard#show'
   get '/land_acknowledgements', to: 'land#show'
+  get '/gardens/:id/plants/:plant_id/edit', to: 'plants#edit'
+  patch '/gardens/:id/plants/:plant_id/edit', to: 'plants#update'
   post '/gardens', to: 'gardens#create'
   get '/gardens/new', to: 'gardens#new'
   get '/gardens/:id', to: 'gardens#show'
   get '/gardens/:id/plants', to: 'plants#search'
   post '/gardens/:id/plants', to: 'plants#create'
   delete '/gardens/:id/plants/:plant_id', to: 'plants#destroy'
+
+  delete '/gardens/:id', to: 'gardens#destroy'
 
   # post '/gardens/:id/plants/new', to: 'plants#create'
 end

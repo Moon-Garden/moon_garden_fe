@@ -17,26 +17,50 @@
       </h1>
       <br>
 
-
       <div class="row row-cols-1 row-cols-md-2 ">
         <% @gardens.each_with_index do |garden, index|%>
           <div class="col">
-          <div class="card mb-3">
-            <div class="card-img-top-fluid">
-              <%= image_tag "garden_images/#{index + 1}.jpeg", alt: 'icon', class: "img-fluid rounded-start"%>
-              <div class="card-body">
-                <h5 class="card-title"><%= link_to "#{garden.name}", "/gardens/#{garden.id}" %></h5>
-                <p class="card-text">Notes:
-                  <%= garden.notes %></p>
-                <p class="card-text">Cardinal Direction:
-                  <%= garden.cardinal_direction %></p>
+            <div class="card mb-3">
+              <div class="card-img-top-fluid">
+                <%= image_tag "garden_images/#{index + 1}.jpg", alt: 'icon', class: "img-fluid rounded-start"%>
+                <div class="card-body">
+                  <h5 class="card-title"><%= link_to "#{garden.name}", "/gardens/#{garden.id}" %></h5>
+                  <p class="card-text">Notes:
+                    <%= garden.notes %></p>
+                  <p class="card-text">Cardinal Direction:
+                    <%= garden.cardinal_direction %></p>
+                  <div id="<%= garden.id %>">
+
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#deleteModel">
+                      Delete Garden
+                    </button>
+                  </div>
+
+                  <div class="modal fade" id="deleteModal<%= garden.id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Deleting
+                          <%= garden.name %>
+                          will also delete all the plants you are tracking!
+                        </div>
+                        <div class="modal-footer">
+                          <%= button_to "Delete Garden", "/gardens/#{garden.id}", method: :delete, class:"btn btn-danger"%>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
               </div>
             </div>
           </div>
-          </div>
         <% end %>
       </div>
-
 
       <div class="d-grid gap-2 col-6 mx-auto">
         <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
