@@ -10,20 +10,27 @@
     <%= render partial: "shared/header" %>
     <div class="dash-container">
       <h1><%= @garden.name %>'s Plants</h1>
-      <hr>
 
       <h3>Planted
         <%= @garden.cardinal_direction %>
         facing</h3>
       <p>Notes:
         <%= @garden.notes %></p>
-      <hr>
-      <div align="center" class="movieSearch">
+
+      <div align="center" class="form-floating">
         <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
         <%= f.hidden_field :query, value: "name" %>
-        <%= f.text_field :search, placeholder: "Plant Name" %>
-        <%= f.submit "Find Plants to add to Garden" %>
+
+        <div class="form-floating" id="formSelect" >
+        <%= f.text_field :search, class: "form-control" %>
+        <%= f.label "Plant Name Here", for: "formSelect" %>
+        </div>
+
+        <%= f.submit "Find Plants to add to Garden", class: "btn btn-secondary btn-md" %>
+
       <% end %>
+    <br>
+    </br>
     </div>
     <% @plants.each do |plant| %>
 
