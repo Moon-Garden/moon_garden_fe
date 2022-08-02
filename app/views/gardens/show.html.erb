@@ -10,6 +10,14 @@
     <%= render partial: "shared/header" %>
     <div class="dash-container">
       <h1><%= @garden.name %>'s Plants</h1>
+      <hr>
+
+      <h3>Planted
+        <%= @garden.cardinal_direction %>
+        facing</h3>
+      <p>Notes:
+        <%= @garden.notes %></p>
+      <hr>
       <div align="center" class="movieSearch">
         <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
         <%= f.hidden_field :query, value: "name" %>
