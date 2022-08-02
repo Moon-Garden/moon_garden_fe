@@ -90,7 +90,7 @@ RSpec.describe PlantTrackingService do
       "pruning_behaviors": "No pruning, only thinning",
       "notes": "Magic carrots matured on the same day they were planted!"
      }
-
+    plant = PlantTrackingService.create_plant(plant_hash)
     response = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)
@@ -145,9 +145,8 @@ RSpec.describe PlantTrackingService do
       "notes": "Magic carrots matured on the same day they were planted!"
      }
 
-
+    plant = PlantTrackingService.create_plant(plant_hash)
     plant_data = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data]
-    response = PlantTrackingService.create_plant(plant_hash)
     count = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data].count
     response_2 = PlantTrackingService.destroy_plant("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}", "#{plant_data.first[:id]}")
     count_2 = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data].count
@@ -180,6 +179,21 @@ RSpec.describe PlantTrackingService do
 
     garden_response = GardenService.create_garden(garden_hash)
 
+    plant_hash =
+     {
+      "user_id": "#{user_response[:data][:id]}",
+      "garden_id": "#{garden_response[:data][:id]}",
+      "name": "Carrot",
+      "plant_id": "sae2340987dage",
+      "moon_phase": "waxing crescent",
+      "date_planted": Date.new,
+      "date_matured": Date.new,
+      "bounty_amount": 23,
+      "pruning_behaviors": "No pruning, only thinning",
+      "notes": "Magic carrots matured on the same day they were planted!"
+     }
+
+    plant = PlantTrackingService.create_plant(plant_hash)
 
     plant_data = PlantTrackingService.get_plants("#{user_response[:data][:id]}", "#{garden_response[:data][:id]}")[:data]
 

@@ -14,26 +14,28 @@
         Enter Garden Details
       </h1>
 
+      <div class="form-floating">
       <%= form_with url: gardens_path, local:true do |form| %>
-      <div class="mb-3">
+      <div class="form-floating">
+        <%= form.text_field :name, { class: "form-control" } %>
         <%= form.label "Garden Name" %>
-        <%= form.text_field :name , class: "form-control"%>
       </div>
 
-      <div class="mb-3">
+      <div class="form-floating">
+        <%= form.text_area :notes, { class: "form-control" } %>
         <%= form.label "Notes" %>
-        <%= form.text_field :notes, class: "form-control"%>
+      </div>
+
+      <div class="form-floating">
+        <%= form.select :cardinal_direction, ['North','South','East', 'West'], {}, class: "form-select", id: "floatingSelect" %>
+        <%= form.label "Cardinal Direction", { for: "floatingSelect" } %>
       </div>
 
       <div class="mb-3">
-        <%= form.label "Cardinal Direction" %>
-        <%= form.select :cardinal_direction, ['North','South','East', 'West']%>
-      </div>
-
-      <div class="mb-3">
-        <%= form.submit class: "btn btn-primary" %>
+        <%= form.submit class: "btn btn-outline-success" %>
       </div>
     <% end %>
+    </div>
 
   </div>
 </div>

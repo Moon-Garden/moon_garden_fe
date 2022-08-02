@@ -11,6 +11,6 @@ class GardensController < ApplicationController
 
   def show
     @garden = GardenFacade.get_garden_data(session[:user_id], params[:id])
+    @plants = PlantTrackingFacade.get_plants(session[:user_id], params[:id])[0..10]
   end
-  
 end
