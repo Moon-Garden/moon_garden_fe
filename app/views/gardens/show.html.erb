@@ -47,9 +47,10 @@
               <div class="accordion-body">
 
               <dl class="row">
+              <% if plant.date_planted != "" %>
                 <dt class="col-sm-4">Date Planted:</dt>
                 <dd class="col-sm-9"><%= plant.date_planted.to_datetime.strftime('%m-%d-%Y') %></dd>
-
+              <% end %>
                 <dt class="col-sm-4">Moon Phase During Planting:</dt>
                  <dd class="col-sm-9"><%= plant.moon_phase %></dd>
 
