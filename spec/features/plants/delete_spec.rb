@@ -21,22 +21,7 @@ RSpec.describe 'plant search page' do
     #   click_on 'Login'
     # end
 
-    xit 'returns the top 5 results related to a search', :vcr do
-      visit '/gardens/339'
-
-      fill_in :search, with: 'tomato'
-      click_on 'Find Plants to add to Garden'
-
-      expect(current_path).to eq("/gardens/339/plants")
-      expect(page).to have_content('Name: Tiny Tim Tomato')
-      expect(page).to have_content('Sun Requirements: Full Sun')
-      expect(page).to have_content('Sowing Method: Direct seed indoors, transplant seedlings outside after hardening off')
-      expect(page).to have_content('Row Spacing: 45')
-      expect(page).to have_content('Description: The tomato is the fruit of the tomato plant, a member of the Nightshade family (Solanaceae). The fruit grows on a small compact bush.')
-      expect(page).to_not have_content('corn')
-    end
-
-    it 'has a button to add a plant from the results page to the garden', :vcr do
+    it 'has a button to delete a plant from a garden', :vcr do
       user_hash =
         { 'name' => 'Hot Dog',
           'email' => 'frankfurters@weinermobile.com',
@@ -58,23 +43,36 @@ RSpec.describe 'plant search page' do
 
       garden = GardenFacade.create_garden(garden_hash)
 
+      plant_hash =
+      {
+        "user_id": "#{user.id}",
+        "garden_id": "#{garden.id}",
+        "name": "Carrot",
+        "plant_id": "sae2340987dage",
+        "moon_phase": "waxing crescent",
+        "date_planted": Date.new,
+        "date_matured": Date.new,
+        "bounty_amount": 23,
+        "pruning_behaviors": "No pruning, only thinning",
+        "notes": "Magic carrots matured on the same day they were planted!"
+      }
+
+      plant = PlantTrackingFacade.create_plant(plant_hash)
+
       visit '/'
       click_on 'Login'
 
       visit "/gardens/#{garden.id}"
 
-      fill_in :search, with: 'tomato'
-      click_on 'Find Plants to add to Garden'
+      expect(page).to have_content("Carrot")
 
-      expect(page).to have_button 'Add Plant to Garden'
-      within "#Tiny" do
-        click_button 'Add Plant to Garden'
+      within ".plant-#{plant.id}" do
+        click_button 'Delete Plant'
       end
 
       expect(current_path).to eq("/gardens/#{garden.id}")
-      expect(page).to have_content("Tiny Tim Tomato")
+      expect(page).to_not have_content("Carrot")
 
     end
-    
   end
 end
