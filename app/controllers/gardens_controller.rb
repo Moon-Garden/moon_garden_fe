@@ -1,4 +1,6 @@
 class GardensController < ApplicationController
+  before_action :authorize_user
+  
   def new; end
 
   def create
