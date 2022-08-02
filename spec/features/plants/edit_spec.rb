@@ -41,7 +41,7 @@ RSpec.describe 'plant edit page' do
   end
 
   context 'happy path' do
-    it 'has a button to delete a plant from a garden', :vcr do
+    it 'has a button to edit a plant in a garden', :vcr do
 
       visit '/'
       click_on 'Login'
@@ -50,9 +50,8 @@ RSpec.describe 'plant edit page' do
 
       expect(page).to have_content("Carrot")
       expect(page).to have_content("Magic carrots matured on the same day they were planted!")
-
       within ".plant-#{@plant.id}" do
-        click_button 'Edit Plant'
+        click_button 'Update Plant'
       end
       
       expect(current_path).to eq("/gardens/#{@garden.id}/plants/#{@plant.id}/edit")
