@@ -39,6 +39,7 @@ RSpec.describe 'plant search page' do
       expect(page).to_not have_content('corn')
     end
   end
+  
   it 'has a button to add a plant from the results page to the garden', :vcr do
     user_hash =
       { 'name' => 'Hot Dog',
