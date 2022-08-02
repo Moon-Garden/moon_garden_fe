@@ -15,4 +15,8 @@ class GardenFacade
     json = GardenService.get_garden_info(user_id, garden_id)
     Garden.new(json[:data])
   end
+
+  def self.destroy_garden(user_id, garden_id)
+    GardenService.destroy_garden(user_id, garden_id)
+  end
 end

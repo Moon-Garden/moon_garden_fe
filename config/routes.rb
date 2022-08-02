@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   post '/gardens/:id/plants', to: 'plants#create'
   delete '/gardens/:id/plants/:plant_id', to: 'plants#destroy'
 
+  delete '/gardens/:id', to: 'gardens#destroy'
 
   # post '/gardens/:id/plants/new', to: 'plants#create'
 end

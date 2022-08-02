@@ -13,4 +13,10 @@ class GardensController < ApplicationController
     @garden = GardenFacade.get_garden_data(session[:user_id], params[:id])
     @plants = PlantTrackingFacade.get_plants(session[:user_id], params[:id])[0..10]
   end
+
+  def destroy
+    GardenFacade.destroy_garden(session[:user_id], params[:id])
+    redirect_to dashboard_path
+    flash[:alert] = 'Garden Deleted'
+  end
 end
