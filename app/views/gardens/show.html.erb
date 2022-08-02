@@ -9,53 +9,56 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container">
+      <h1><%= @garden.name %>'s Plants</h1>
 
-      <img src="<%=session[:image]%>" alt="user image"/>
-      <h1>
-        <%= @garden.name %>
-      </h1>
-      <%# <% @gardens.each do |garden|%>
+      <h3>Planted
+        <%= @garden.cardinal_direction %>
+        facing</h3>
+      <p>Notes:
+        <%= @garden.notes %></p>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                <%# <%= garden.name%>
-              </button>
-            </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div align="center" class="form-floating">
+        <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
+        <%= f.hidden_field :query, value: "name" %>
+
+        <div class="form-floating" id="formSelect" >
+        <%= f.text_field :search, class: "form-control" %>
+        <%= f.label "Plant Name", for: "formSelect" %>
+        </div>
+
+        <%= f.submit "Find Plants to add to Garden", class: "btn btn-secondary btn-md" %>
+
+      <% end %>
+    <br>
+    </br>
+    </div>
+    <% @plants.each do |plant| %>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <%= plant.name %>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
-                <p>
-                  <b>
-                    Cardinal Direction:
-                  </b>
-                  <%# <%= garden.cardinal_direction%>
-                  <b>
-                    Notes:
-                  </b>
-                  <%# <%= garden.notes%>
-                </p>
-              </div>
+                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
+                <%= f.hidden_field :query, value: "name" %>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <%= f.submit "Delete Plant", class: "btn btn-light" %>
+                </div>
+
+              <% end %>
             </div>
           </div>
         </div>
-      <%# <% end %>
-    </div>
-  </div>
-  <div class="side-bar-right col-sm-3">
-    <br>
-    </br>
-    <br>
-    </br>
-    <div class="recommendation-container rounded">
-      <div class="row">
-        <div class="col">
-          Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.
-        </div>
       </div>
     </div>
-    <div class="widget">
-      <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
-    </div>
-  </div>
+  <% end %>
+</div>
+</div>
+<%= render partial: "shared/moon_widget" %>
 </div>

@@ -1,22 +1,21 @@
 <div class="container text-center d-flex" style="max-height: 100%">
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
-        <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
-      </div>
-      <div class="widget">
-        <iframe scrolling="no" style="width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
-      </div>
+      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+    </div>
+
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
-    <div class = "dash-container" >
-    <h1>About Moon Garden</h1>
-    <img src="https://i.pinimg.com/originals/87/6a/36/876a3699b5d3065b78fd6e1955048e38.jpg" class="img-fluid">
-    <p>The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the illumination of the moon and gravitational effect of the moon on earths waters impact the
-    gardening process. Moon Garden gives recommendations based on the various phases of the moon and provides garden tracking services for users.</p>
+    <div class="dash-container">
+      <h1>About Moon Garden</h1>
+      <img src="https://i.pinimg.com/originals/87/6a/36/876a3699b5d3065b78fd6e1955048e38.jpg" class="img-fluid">
+      <p>The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the illumination of the moon and gravitational effect of the moon on
+        earths waters impact the gardening process. Moon Garden gives recommendations based on the various phases of the moon and provides garden tracking services for users.</p>
 
-    <p>When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your land, checkout our Land Acknowledgment page - link - gracefully provided by: link</p>
+      <p>When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your land, checkout our Land Acknowledgment page - link - gracefully provided by: link</p>
+    </div>
   </div>
-  </div>
+  <%= render partial: "shared/moon_widget" %>
 </div>

@@ -9,44 +9,42 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container">
-      <img src="<%=session[:image]%>" alt="user image"/>
+      <div class="dash-profile-pic">
+        <img src="<%=session[:image]%>" alt="user image"/>
+      </div>
       <h1>
         <%=session[:first_name]%>'s Gardens
       </h1>
-      <% @gardens.each do |garden|%>
-        <%= link_to "#{garden.name}", "/gardens/#{garden.id}" %>
-          <b>
-            Cardinal Direction:
-          </b>
-          <%= garden.cardinal_direction %><br>
-          <b>
-            Notes:
-          </b>
-          <%= garden.notes%>
-        </p>
-      <% end %>
+      <br>
+
+
+      <div class="row row-cols-1 row-cols-md-2 ">
+        <% @gardens.each_with_index do |garden, index|%>
+          <div class="col">
+          <div class="card mb-3">
+            <div class="card-img-top-fluid">
+              <%= image_tag "garden_images/#{index + 1}.jpeg", alt: 'icon', class: "img-fluid rounded-start"%>
+              <div class="card-body">
+                <h5 class="card-title"><%= link_to "#{garden.name}", "/gardens/#{garden.id}" %></h5>
+                <p class="card-text">Notes:
+                  <%= garden.notes %></p>
+                <p class="card-text">Cardinal Direction:
+                  <%= garden.cardinal_direction %></p>
+              </div>
+            </div>
+          </div>
+          </div>
+        <% end %>
+      </div>
+
 
       <div class="d-grid gap-2 col-6 mx-auto">
-  <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
-</div>
-
-    </div>
-  </div>
-
-  <div class="side-bar-right col-sm-3">
-    <br>
-    </br>
-    <br>
-    </br>
-    <div class="recommendation-container rounded">
-      <div class="row">
-        <div class="col">
-          Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.
-        </div>
+        <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
       </div>
-    </div>
-    <div class="widget">
-      <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:190px; height:302px; overflow: hidden;" src="https://in-the-sky.org/widgets/moonphase.php?skin=0"></iframe>
+
     </div>
   </div>
+
+  <%= render partial: "shared/moon_widget" %>
+
 </div>
