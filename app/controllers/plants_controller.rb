@@ -1,6 +1,5 @@
 class PlantsController < ApplicationController
   def search
-    # binding.pry
     @garden_id = params[:id]
     @results = PlantFacade.search_plant_data(params[:search])
   end
@@ -21,5 +20,4 @@ class PlantsController < ApplicationController
     PlantTrackingFacade.destroy_plant(session[:user_id], params[:id], params[:plant_id])
     redirect_to "/gardens/#{params[:id]}"
   end
-
 end
