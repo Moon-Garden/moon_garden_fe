@@ -59,7 +59,7 @@ RSpec.describe 'garden show page' do
         expect(page).to have_content("23")
         expect(page).to have_content("No pruning, only thinning")
         expect(page).to have_content("Magic tomatoes matured on the same day they were planted!")
-        expect(page).to have_button("Edit Plant")
+        expect(page).to have_button("Update Plant")
         expect(page).to have_button("Delete Plant")
       end
 
@@ -68,7 +68,7 @@ RSpec.describe 'garden show page' do
         expect(page).to have_content("1000000")
         expect(page).to have_content("Can't trim the sturd!!!")
         expect(page).to have_content("English, honey, dijon, and spicayy")
-        expect(page).to have_button("Edit Plant")
+        expect(page).to have_button("Update Plant")
         expect(page).to have_button("Delete Plant")
       end
     end
