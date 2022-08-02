@@ -29,12 +29,14 @@
                     <%= garden.notes %></p>
                   <p class="card-text">Cardinal Direction:
                     <%= garden.cardinal_direction %></p>
+                  <div id="<%= garden.id %>">
 
-                  <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Delete Garden
-                  </button>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#deleteModel">
+                      Delete Garden
+                    </button>
+                  </div>
 
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal fade" id="deleteModal<%= garden.id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
                         <div class="modal-header">
