@@ -1,4 +1,15 @@
- <div id="form">
+ 
+ <div class="container text-center d-flex" style="max-height: 100%">
+
+  <div class="side-bar-left col-sm-3 mw-100">
+    <div class="logo">
+      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+    </div>
+  </div>
+
+  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/header" %>
+    <div class="dash-container"><div id="form">
    <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
                     <% if @plant[:date_planted] == "" %>
                       <div class="mb-3">
@@ -27,3 +38,10 @@
                     </div>
   <% end %>
 </div>
+
+</div>
+  </div>
+
+    <%= render partial: "shared/moon_widget" %>
+
+  </div>
