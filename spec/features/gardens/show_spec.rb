@@ -1,27 +1,28 @@
 require 'rails_helper'
 
 RSpec.describe 'garden show page' do
+  before do
+    Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+    @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+    @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+    @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
+    @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+    @moon = JSON.parse(File.read('spec/fixtures/moon.json'), symbolize_names: true)
+
+    allow(UserService).to receive(:find_or_create_user).and_return(@user)
+    allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+    allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+    allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+    allow(MoonService).to receive(:get_moon_data).and_return(@moon)
+
+  end
   context 'a user is logged in' do
-    before do
-      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
-
-      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
-      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
-      @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
-      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
-      @moon = JSON.parse(File.read('spec/fixtures/moon.json'), symbolize_names: true)
-
-      allow(UserService).to receive(:find_or_create_user).and_return(@user)
-      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
-      allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
-      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
-      allow(MoonService).to receive(:get_moon_data).and_return(@moon)
-
+    before do 
       visit '/'
       click_on 'Login'
-      click_on 'Hot Dog Garden'
-    end
-
+      visit '/gardens/339'
+    end 
     it 'has header links to dashboard, logout, and landing page' do
       expect(page).to have_link('My Garden')
       expect(page).to have_link('Logout')
@@ -66,6 +67,14 @@ RSpec.describe 'garden show page' do
         expect(page).to have_button("Edit Plant")
         expect(page).to have_button("Delete Plant")
       end
+    end
+  end
+  
+  context 'a visitor is not logged in' do
+    it "redirects a visitor to the dashboard" do     
+      visit '/gardens/339'
+      expect(current_path).to eq('/')
+      expect(page).to have_content("Oopsy daisy! Please log in below to view that page.")
     end
   end
 end
