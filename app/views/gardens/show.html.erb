@@ -23,7 +23,7 @@
 
         <div class="form-floating" id="formSelect" >
         <%= f.text_field :search, class: "form-control" %>
-        <%= f.label "Plant Name Here", for: "formSelect" %>
+        <%= f.label "Plant Name", for: "formSelect" %>
         </div>
 
         <%= f.submit "Find Plants to add to Garden", class: "btn btn-secondary btn-md" %>
@@ -46,7 +46,11 @@
               <div class="accordion-body">
                 <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
                 <%= f.hidden_field :query, value: "name" %>
-                <%= f.submit "Delete Plant" %>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <%= f.submit "Delete Plant", class: "btn btn-light" %>
+                </div>
+
               <% end %>
             </div>
           </div>
