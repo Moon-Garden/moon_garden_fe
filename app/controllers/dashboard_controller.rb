@@ -6,9 +6,5 @@ class DashboardController < ApplicationController
       flash[:alert] = 'Please log in below to view your dashboard.'
       redirect_to '/'
     end
-    if !params[:location]
-      params[:location] = 'Washington, DC'
-    end
-      @ll = GeocoderFacade.get_coordinates(params[:location])
   end
 end
