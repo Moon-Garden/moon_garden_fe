@@ -1,19 +1,4 @@
 <div id="top"></div>
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 
 <!-- PROJECT LOGO -->
@@ -22,7 +7,7 @@
 </div>
 
   <p align="center">
-    <a href="https://github.com/bwbolt/moon_garden_fe"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bwbolt/moon_garden_be"><strong>Explore the Moon Garden backend application »</strong></a>
   </p>
 </div>
 
@@ -36,6 +21,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#apis-consumed">API's Consumed</a></li>
       </ul>
     </li>
     <li>
@@ -46,10 +32,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contributors</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -74,3 +58,30 @@ Using __Moon Garden__, users are able to:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+### Built With
+Language badges here - bootstrap, ruby, css, html, postgres, heroku, miro, etc
+
+### API's Consumed
+- [FarmSense](https://www.farmsense.net/api)
+- [OpenFarm](https://openfarm.cc/pages/about)
+- [Native Land](https://native-land.ca/resources/api-docs/)
+- [Google OAuth](https://developers.google.com/identity/protocols/oauth2)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  other things we might have to tell them that I havent figured out yet
+  ```
