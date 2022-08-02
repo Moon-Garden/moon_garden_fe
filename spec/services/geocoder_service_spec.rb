@@ -1,4 +1,3 @@
-# This is a comment
 require 'rails_helper'
 
 RSpec.describe 'geocoder service' do

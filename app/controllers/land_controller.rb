@@ -6,7 +6,6 @@ class LandController < ApplicationController
       @ip = Net::HTTP.get(URI.parse('http://checkip.amazonaws.com/')).squish
     end
     if !params[:location]
-      # binding.pry
       @ll = IpFacade.get_ip_location(@ip)
     else
       @ll = GeocoderFacade.get_coordinates(params[:location])
