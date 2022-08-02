@@ -12,46 +12,44 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container">
-
-    <h1>Search Results</h1>
-    <% @results.each do |plant| %>
-      <div id="<%=plant.name %>">
-    <p>
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-      <p><%= plant.name %></p>
-      </button>
-    </p>
-    <div style="min-height: 10px;">
-      <div class="collapse collapse-horizontal" id="collapseWidthExample">
-        <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-outline-secondary", local: true %>
-        <div class="card card-body" style="width: 500px;">
-        <img src="<%= plant.main_image_path %>" class="img-fluid", alt="pictures of flowers related to <%= plant.name%>">
-        <p>Sun Requirements: <%= plant.sun_requirements %></p>
-        <p>Sowing Method: <%= plant.sowing_method %></p>
-        <p>Row Spacing: <%= plant.row_spacing %></p>
-        <p>Description: <%= plant.description %></p>
+      <h1>Search Results</h1>
+      <% @results.each do |plant| %>
+        <div id="<%=plant.name %>">
+          <p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <p><%= plant.name %></p>
+          </button>
+          </p>
+          <div style="min-height: 10px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-outline-secondary", local: true %>
+          <div class="card card-body" style="width: 500px;">
+          <img src="<%= plant.main_image_path %>" class="img-fluid", alt="pictures of flowers related to <%= plant.name%>">
+          <p>Sun Requirements: <%= plant.sun_requirements %></p>
+          <p>Sowing Method: <%= plant.sowing_method %></p>
+          <p>Row Spacing: <%= plant.row_spacing %></p>
+          <p>Description: <%= plant.description %></p>
+          </div>
+          </div>
+          </div>
         </div>
-      </div>
-    </div>
-    </div>
-    </div>
-    <% end %>
-
+        </div>
+      <% end %>
     </div>
   </div>
+
   <div class="side-bar-right col-sm-3">
     <br>
     </br>
+    <%= render partial: "shared/moon_widget" %>
     <br>
     </br>
     <div class="recommendation-container rounded">
       <div class="row">
         <div class="col">
           Waning: Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.
-        </div>
-      <% end %>
+      </div>
     </div>
   </div>
-  <%= render partial: "shared/moon_widget" %>
 </div>
