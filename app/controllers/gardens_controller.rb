@@ -15,6 +15,8 @@ class GardensController < ApplicationController
   end
 
   def destroy
-    binding.pry
+    GardenFacade.destroy_garden(session[:user_id], params[:id])
+    redirect_to dashboard_path
+    flash[:alert] = 'Garden Deleted'
   end
 end
