@@ -13,7 +13,8 @@
     <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
                       <div class="mb-3">
                       <% if @plant[:date_planted] == "" %>
-                      <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d')%>
+                      <%= f.label :date_planted %>
+                      <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d'), class: "form-control" %>
                       <% else %>
                       <%= f.label :date_planted %>
                       <%= f.date_field :date_planted, value: @plant[:date_planted].strftime('%Y-%m-%d') , class: "form-control" %>
