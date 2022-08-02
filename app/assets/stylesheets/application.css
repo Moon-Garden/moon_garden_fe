@@ -42,6 +42,10 @@ body {
   margin-bottom: 20px;
 }
 
+form > * {
+  margin-top: 20px;
+}
+
 .accordion-item {
   background-color: #B4B8C5;
   margin-bottom: 20px;
@@ -110,7 +114,17 @@ body {
 .card {
   height: auto;
   width: auto;
+  background-color: #E9EBF8;
 }
+
+.list-group-item {
+  background-color: #E9EBF8;
+}
+
+.oauth-container {
+  margin: 0 auto;
+}
+
 
 /* .iframe {
   color: #E9EBF8;

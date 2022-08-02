@@ -4,6 +4,9 @@
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+    <%= button_to 'Back to Garden', "/gardens/#{@garden_id}", method: :get, class: "btn btn-secondary btn-lg" %>
+    </div>
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
@@ -11,23 +14,36 @@
     <div class="dash-container">
       <h1>Search Results</h1>
       <% @results.each do |plant| %>
-        <div id=<%=plant.name %>>
-
-          <p>Name:
-            <%= plant.name %></p>
-          <p>Sun Requirements:
-            <%= plant.sun_requirements %></p>
-          <p>Sowing Method:
-            <%= plant.sowing_method %></p>
-          <p>Row Spacing:
-            <%= plant.row_spacing %></p>
-          <p>Description:
-            <%= plant.description %></p>
-          <p><%= plant.main_image_path %></p>
-          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, local: true %>
+        <div class="<%=plant.name %>">
+          <p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <p><%= plant.name %></p>
+          </button>
+          </p>
+          <div style="min-height: 10px;">
+          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-outline-secondary", local: true %>
+          <div class="card-result card-body" style="width: 500px;">
+          <img src="<%= plant.main_image_path %>" class="img-fluid", alt="pictures of <%= plant.name%> plant">
+          <p class="text-sm-start">Sun Requirements: <%= plant.sun_requirements %>
+          <br>
+          </br>
+          Sowing Method: <%= plant.sowing_method %>
+          <br>
+          </br>
+          Row Spacing: <%= plant.row_spacing %>
+          <br>
+          </br>
+          Description: <%= plant.description %></p>
+          </div>
+          </div>
+          </div>
+        </div>
         </div>
       <% end %>
     </div>
   </div>
+
   <%= render partial: "shared/moon_widget" %>
 </div>
