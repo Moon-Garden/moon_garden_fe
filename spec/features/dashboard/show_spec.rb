@@ -71,7 +71,7 @@ RSpec.describe 'Dashboard Show Page' do
       visit '/dashboard'
 
       expect(current_path).to eq('/')
-      expect(page).to have_content("Please log in below to view your dashboard.")
+      expect(page).to have_content("Oopsy daisy! Please log in below to view that page.")
     end
   end
 end

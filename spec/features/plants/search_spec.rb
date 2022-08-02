@@ -18,6 +18,9 @@ RSpec.describe 'plant search page' do
       allow(MoonService).to receive(:get_moon_data).and_return(@moon)
       allow(PlantService).to receive(:search_plant_data).and_return(@results)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+      
+      visit '/'
+      click_on 'Login'
     end
 
     it 'returns the top 5 results related to a search', :vcr do
@@ -36,6 +39,7 @@ RSpec.describe 'plant search page' do
       expect(page).to_not have_content('corn')
     end
   end
+  
   it 'has a button to add a plant from the results page to the garden', :vcr do
     user_hash =
       { 'name' => 'Hot Dog',

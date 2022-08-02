@@ -1,4 +1,5 @@
 class PlantsController < ApplicationController
+  before_action :authorize_user
   def search
     @garden_id = params[:id]
     @results = PlantFacade.search_plant_data(params[:search])
