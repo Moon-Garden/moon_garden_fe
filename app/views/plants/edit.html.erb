@@ -1,0 +1,29 @@
+ <div id="form">
+   <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
+                    <% if @plant[:date_planted] == "" %>
+                      <div class="mb-3">
+                      <%= f.label :date_planted %>
+                      <%= f.date_field :date_planted, value: Time.now.strftime('%Y-%m-%d') , class: "form-control" %>
+                      </div>
+                    <% end %>
+                    <div class="mb-3">
+                    <%= f.label :moon_phase %>
+                    <%= f.text_field :moon_phase, value: @plant[:moon_phase], class: "form-control" %>
+                    </div>
+                    <div class="mb-3">
+                    <%= f.label :bounty_amount %>
+                    <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
+                    </div>
+                    <div class="mb-3">
+                    <%= f.label :pruning_behaviors %>
+                    <%= f.text_field :pruning_behaviors, value: @plant[:pruning_behaviors], class: "form-control"   %>
+                    </div>
+                    <div class="mb-3">
+                    <%= f.label :notes %>
+                    <%= f.text_area :notes, value: @plant[:notes], class: "form-control"   %>
+                    </div>
+                    <div class="mb-3">
+                    <%= f.submit "Update Plant", class: "btn btn-primary" %>
+                    </div>
+  <% end %>
+</div>

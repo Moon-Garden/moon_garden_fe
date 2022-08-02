@@ -44,6 +44,25 @@
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
+
+                <p><%= plant.date_planted %></p>
+                <p><%= plant.moon_phase %></p>
+                <p><%= plant.bounty_amount %></p>
+                <p><%= plant.pruning_behaviors %></p>
+                <p><%= plant.notes %></p>
+
+                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}/edit", method: :get, local: true do |f| %>
+                <%= f.hidden_field :date_planted, value: plant.date_planted %>
+                <%= f.hidden_field :moon_phase, value: plant.moon_phase %>
+                <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
+                <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
+                <%= f.hidden_field :notes, value: plant.notes %>
+                
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                  <%= f.submit "Edit Plant", class: "btn btn-light" %>
+                  </div>
+                <% end %>
+
                 <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
                 <%= f.hidden_field :query, value: "name" %>
 
