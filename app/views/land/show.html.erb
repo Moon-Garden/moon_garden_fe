@@ -1,0 +1,25 @@
+<div class="container text-center d-flex" style="max-height: 100%">
+  <div class="side-bar-left col-sm-3 mw-100">
+    <div class="logo">
+      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+    </div>
+
+  </div>
+
+  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/header" %>
+    <%= form_with url: '/land_acknowledgements', method: :get, local: true do |form| %>
+      <div class="form-floating">
+        <%= form.text_field :location, { class: "form-control" } %>
+        <%= form.label "Enter Your Location" %>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <%= form.submit %>
+      </div>
+      <% end %>
+    <div class="dash-container">
+      <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:1000px; height:1000px; overflow: hidden;" src="https://native-land.ca/wp-content/themes/Native-Land-Theme/embed/embed.html?maps=languages&position=<%= "#{@ll.coordinates}" %>"></iframe>
+    </div>
+  </div>
+  <%= render partial: "shared/moon_widget" %>
+</div>
