@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'plant edit page', :vcr do
+RSpec.describe 'plant edit page' do
   before do
     @user_hash =
       { 'name' => 'Hot Dog',
@@ -41,8 +41,7 @@ RSpec.describe 'plant edit page', :vcr do
   end
 
   context 'happy path' do
-
-    it 'has a button to delete a plant from a @garden' do
+    it 'has a button to delete a plant from a garden', :vcr do
 
       visit '/'
       click_on 'Login'
@@ -67,7 +66,7 @@ RSpec.describe 'plant edit page', :vcr do
      end
   end
 
-  context 'a visitor is not logged in' do
+  context 'a visitor is not logged in', :vcr do
     it "redirects a visitor to the dashboard" do     
       visit "/gardens/#{@garden.id}/plants/#{@plant.id}/edit"
       expect(current_path).to eq('/')
