@@ -7,6 +7,7 @@ class PlantTracking
               :bounty_amount,
               :pruning_behaviors,
               :notes
+
   def initialize(plant_params)
     @id = plant_params[:id]
     @name = plant_params[:attributes][:name]
