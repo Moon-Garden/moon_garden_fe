@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe 'geocoder service' do
-  context 'get_latlng' do
+  context 'get_coordinates' do
     it 'returns latitude and longitude', :vcr do
       location = 'Washington,DC'
-      response = GeocoderService.get_latlng(location)
+      response = GeocoderService.get_coordinates(location)
       expect(response).to be_a Hash
       expect(response[:results]).to be_an Array
       expect(response[:results].first[:locations].first[:latLng][:lat])
