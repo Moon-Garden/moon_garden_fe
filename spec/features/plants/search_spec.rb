@@ -28,7 +28,7 @@ RSpec.describe 'plant search page' do
       click_on 'Find Plants to add to Garden'
 
       expect(current_path).to eq('/gardens/339/plants')
-      expect(page).to have_content('Name: Tiny Tim Tomato')
+      expect(page).to have_content('Tiny Tim Tomato')
       expect(page).to have_content('Sun Requirements: Full Sun')
       expect(page).to have_content('Sowing Method: Direct seed indoors, transplant seedlings outside after hardening off')
       expect(page).to have_content('Row Spacing: 45')
@@ -67,7 +67,8 @@ RSpec.describe 'plant search page' do
     click_on 'Find Plants to add to Garden'
 
     expect(page).to have_button 'Add Plant to Garden'
-    within '#Tiny' do
+    # save_and_open_page
+    within '.Tiny' do
       click_button 'Add Plant to Garden'
     end
 
