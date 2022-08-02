@@ -7,27 +7,27 @@
   				"name": "Catsup",
   				"plant_id": "sae2340987dage",
   				"date_planted": "-4712-01-01T00:00:00.000Z",
-  				"moon_phase": "waxing crescent",
+  				"moon_phase": "Waxing Crescent",
   				"date_matured": "-4712-01-01T00:00:00.000Z",
   				"bounty_amount": 23,
   				"pruning_behaviors": "No pruning, only thinning",
-  				"notes": "Magic carrots matured on the same day they were planted!",
+  				"notes": "Magic tomatoes matured on the same day they were planted!",
   				"garden_id": 339
   			}
       }
     ,
 		{
-			"id": "142",
+			"id": "143",
 			"type": "plant",
 			"attributes": {
 				"name": "Sturd",
 				"plant_id": "sae2340987dage",
 				"date_planted": "-4712-01-01T00:00:00.000Z",
-				"moon_phase": "waxing crescent",
+				"moon_phase": "Waning Crescent",
 				"date_matured": "-4712-01-01T00:00:00.000Z",
-				"bounty_amount": 23,
-				"pruning_behaviors": "No pruning, only thinning",
-				"notes": "Magic carrots matured on the same day they were planted!",
+				"bounty_amount": 1000000,
+				"pruning_behaviors": "Can't trim the sturd!!!",
+				"notes": "English, honey, dijon, and spicayy",
 				"garden_id": 339
 			}
 		}

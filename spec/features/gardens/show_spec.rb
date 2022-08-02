@@ -31,6 +31,7 @@ RSpec.describe 'garden show page' do
     it 'displays the moon phase data' do
       expect(page).to have_content('Illumination')
       expect(page).to have_content('Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).')
+      expect(page).to have_content('Bread Moon')
     end
 
     it "displays the corresponding garden's name" do
@@ -42,6 +43,29 @@ RSpec.describe 'garden show page' do
     it "displays the garden's information" do
       expect(page).to have_content('North')
       expect(page).to have_content('definitely gmo')
+    end
+
+    it "displays the plants in the corresponding garden" do
+      expect(page).to have_content("Catsup")
+      expect(page).to have_content("Sturd")
+      
+      within ".plant-142" do
+        expect(page).to have_content("Waxing Crescent")
+        expect(page).to have_content("23")
+        expect(page).to have_content("No pruning, only thinning")
+        expect(page).to have_content("Magic tomatoes matured on the same day they were planted!")
+        expect(page).to have_button("Edit Plant")
+        expect(page).to have_button("Delete Plant")
+      end
+
+      within ".plant-143" do
+        expect(page).to have_content("Waning Crescent")
+        expect(page).to have_content("1000000")
+        expect(page).to have_content("Can't trim the sturd!!!")
+        expect(page).to have_content("English, honey, dijon, and spicayy")
+        expect(page).to have_button("Edit Plant")
+        expect(page).to have_button("Delete Plant")
+      end
     end
   end
 end
