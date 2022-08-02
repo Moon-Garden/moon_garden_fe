@@ -22,4 +22,8 @@ class BaseService
   def self.land_connection
     Faraday.new(url: 'https://native-land.ca')
   end
+
+  def self.ip_connection
+    Faraday.new(url: 'http://www.geoplugin.net')
+  end
 end
