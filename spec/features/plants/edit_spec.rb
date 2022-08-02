@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'plant search page' do
+RSpec.describe 'plant edit page' do
   context 'happy path' do
     it 'has a button to delete a plant from a garden', :vcr do
       user_hash =
@@ -46,14 +46,20 @@ RSpec.describe 'plant search page' do
       visit "/gardens/#{garden.id}"
 
       expect(page).to have_content("Carrot")
+      expect(page).to have_content("Magic carrots matured on the same day they were planted!")
 
       within ".plant-#{plant.id}" do
-        click_button 'Delete Plant'
+        click_button 'Edit Plant'
       end
+      
+      expect(current_path).to eq("/gardens/#{garden.id}/plants/#{plant.id}/edit")
+      
+      fill_in "notes", with: "Keep calm and carrot on ya'll"
+      click_button "Update Plant"
 
       expect(current_path).to eq("/gardens/#{garden.id}")
-      expect(page).to_not have_content("Carrot")
-
-    end
+      expect(page).to have_content("Keep calm and carrot on ya'll")
+      expect(page).to_not have_content("Magic carrots matured on the same day they were planted!")
+     end
   end
 end

@@ -46,6 +46,10 @@ RSpec.describe 'garden show page' do
       expect(page).to have_content('definitely gmo')
     end
 
+    it "has a button to search for plants to add" do
+      expect(page).to have_button("Find Plants to add to Garden")
+    end
+    
     it "displays the plants in the corresponding garden" do
       expect(page).to have_content("Catsup")
       expect(page).to have_content("Sturd")
@@ -69,7 +73,7 @@ RSpec.describe 'garden show page' do
       end
     end
   end
-  
+
   context 'a visitor is not logged in' do
     it "redirects a visitor to the dashboard" do     
       visit '/gardens/339'
