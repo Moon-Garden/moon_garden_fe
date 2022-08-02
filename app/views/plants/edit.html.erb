@@ -10,20 +10,23 @@
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
     <div class="dash-container"><div id="form">
-   <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
-                    <% if @plant[:date_planted] == "" %>
+    <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
                       <div class="mb-3">
+                      <% if @plant[:date_planted] == "" %>
                       <%= f.label :date_planted %>
-                      <%= f.date_field :date_planted, value: Time.now.strftime('%Y-%m-%d') , class: "form-control" %>
+                      <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d'), class: "form-control" %>
+                      <% else %>
+                      <%= f.label :date_planted %>
+                      <%= f.date_field :date_planted, value: @plant[:date_planted].strftime('%Y-%m-%d') , class: "form-control" %>
+                      <% end %>
                       </div>
-                    <% end %>
                     <div class="mb-3">
                     <%= f.label :moon_phase %>
                     <%= f.text_field :moon_phase, value: @plant[:moon_phase], class: "form-control" %>
                     </div>
                     <div class="mb-3">
-                    <%= f.label :bounty_amount %>
-                    <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
+                      <%= f.label :bounty_amount %>
+                      <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
                     </div>
                     <div class="mb-3">
                     <%= f.label :pruning_behaviors %>
@@ -36,7 +39,7 @@
                     <div class="mb-3">
                     <%= f.submit "Update Plant", class: "btn btn-primary" %>
                     </div>
-  <% end %>
+    <% end %>
 </div>
 
 </div>

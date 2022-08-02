@@ -4,6 +4,21 @@
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
+
+    <div class="d-flex" role="search">
+      <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
+      <%= f.hidden_field :query, value: "name" %>
+
+      <div class="form-floating" id="formSelect" >
+      <%= f.text_field :search, class: "form-control me-2", type: "search" %>
+      <%= f.label "Plant Name Search", for: "formSelect" %>
+      </div>
+
+      <%= f.submit "Find Plants to add to Garden", class: "btn btn-light" %>
+
+      <% end %>
+    </div>
+
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
@@ -14,24 +29,10 @@
       <h3>Planted
         <%= @garden.cardinal_direction %>
         facing</h3>
-      <p>Notes:
+      <p>
         <%= @garden.notes %></p>
-
-      <div align="center" class="form-floating">
-        <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
-        <%= f.hidden_field :query, value: "name" %>
-
-        <div class="form-floating" id="formSelect" >
-        <%= f.text_field :search, class: "form-control" %>
-        <%= f.label "Plant Name", for: "formSelect" %>
-        </div>
-
-        <%= f.submit "Find Plants to add to Garden", class: "btn btn-secondary btn-md" %>
-
-      <% end %>
     <br>
     </br>
-    </div>
     <% @plants.each do |plant| %>
 
       <div class="accordion" id="accordionExample">
@@ -45,32 +46,38 @@
             <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
 
-                <p><%= plant.date_planted %></p>
-                <p><%= plant.moon_phase %></p>
-                <p><%= plant.bounty_amount %></p>
-                <p><%= plant.pruning_behaviors %></p>
-                <p><%= plant.notes %></p>
-
-                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}/edit", method: :get, local: true do |f| %>
-                <%= f.hidden_field :date_planted, value: plant.date_planted %>
-                <%= f.hidden_field :moon_phase, value: plant.moon_phase %>
-                <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
-                <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
-                <%= f.hidden_field :notes, value: plant.notes %>
-                
-                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                  <%= f.submit "Edit Plant", class: "btn btn-light" %>
-                  </div>
-                <% end %>
-
-                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
-                <%= f.hidden_field :query, value: "name" %>
-
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <%= f.submit "Delete Plant", class: "btn btn-light" %>
-                </div>
-
+              <dl class="row">
+              <% if plant.date_planted != "" %>
+                <dt class="col-sm-4">Date Planted:</dt>
+                <dd class="col-sm-9"><%= plant.date_planted.to_datetime.strftime('%m-%d-%Y') %></dd>
               <% end %>
+                <dt class="col-sm-4">Moon Phase During Planting:</dt>
+                 <dd class="col-sm-9"><%= plant.moon_phase %></dd>
+
+                <dt class="col-sm-4">Amount Produced:</dt>
+                <dd class="col-sm-9"><%= plant.bounty_amount %></dd>
+
+                <dt class="col-sm-4">Pruning Behaviors:</dt>
+                <dd class="col-sm-9"><%= plant.pruning_behaviors %></dd>
+
+                <dt class="col-sm-4">Plant Notes:</dt>
+                <dd class="col-sm-9"><%= plant.notes %></dd>
+              </dl>
+
+              <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}/edit", method: :get, local: true do |f| %>
+              <%= f.hidden_field :date_planted, value: plant.date_planted %>
+              <%= f.hidden_field :moon_phase, value: plant.moon_phase %>
+              <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
+              <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
+              <%= f.hidden_field :notes, value: plant.notes %>
+              <%= f.submit "Update Plant", class: "btn btn-light" %>
+              <% end %>
+
+              <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
+              <%= f.hidden_field :query, value: "name" %>
+              <%= f.submit "Delete Plant", class: "btn btn-light" %>
+              <% end %>
+
             </div>
           </div>
         </div>
