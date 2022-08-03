@@ -12,38 +12,49 @@ RSpec.describe 'garden create' do
         'image' => 'https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c' }
 
       @user = UserFacade.find_or_create_user(@user_hash)
-
-      @garden_hash =
-      {
-        "user_id": "#{@user.id}",
-        "name": 'Summer Garden',
-        "notes": "it's too damn hot",
-        "cardinal_direction": 1
-      }
-
-    @garden = GardenFacade.create_garden(@garden_hash)
   end
 
   context 'a user is logged in' do
-    before do 
-      visit '/'
-      click_on 'Login'
-     end 
+    context 'happy path' do
+      before do 
+        visit '/'
+        click_on 'Login'
+      end 
 
-    it 'can add a new garden', :vcr do
-      expect(page).to_not have_content("Magical Garden")
+      it 'can add a new garden', :vcr do
+        # expect(page).to_not have_content("Super Magical Garden")
 
-      click_button "Add New Garden"
+        click_button "Add New Garden"
 
-      expect(current_path).to eq("/gardens/new")
-      
-      fill_in "name", with: "Magical Garden"
-      fill_in "notes", with: "Pretty plants to poison our enemies."
-      select "North"
-      click_button "Save"
+        expect(current_path).to eq("/gardens/new")
+        
+        fill_in "name", with: "Super Magical Garden"
+        fill_in "notes", with: "Pretty plants to poison our enemies."
+        select "North"
+        click_button "Save"
 
-      expect(current_path).to eq("/dashboard")
-      expect(page).to have_content("Garden Created")
+        expect(current_path).to eq("/dashboard")
+        expect(page).to have_content("Garden Created")
+
+        
+
+      end
+      context 'sad path' do
+        it "displays an error message if all fields are not filled in", :vcr do
+           click_button "Add New Garden"
+
+          expect(current_path).to eq("/gardens/new")
+          
+          fill_in "name", with: "Magical Garden"
+          fill_in "notes", with: ""
+          select "North"
+          click_button "Save"
+          
+          expect(page).to have_content("Please fill in all fields")
+
+        end
+        
+      end
     end
   end 
 
