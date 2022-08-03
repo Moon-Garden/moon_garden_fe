@@ -31,7 +31,7 @@
                     <%= garden.cardinal_direction %></p>
                   <div id="<%= garden.id %>">
 
-                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#deleteModel">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#deleteModal<%= garden.id %>">
                       Delete Garden
                     </button>
                   </div>
@@ -46,7 +46,7 @@
                         <div class="modal-body">
                           Deleting
                           <%= garden.name %>
-                          will also delete all the plants you are tracking!
+                          will also delete all the plants you are tracking in this garden!
                         </div>
                         <div class="modal-footer">
                           <%= button_to "Delete Garden", "/gardens/#{garden.id}", method: :delete, class:"btn btn-danger"%>
