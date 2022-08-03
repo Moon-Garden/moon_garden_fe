@@ -53,7 +53,7 @@ RSpec.describe 'plant search page' do
 
       expect(current_path).to eq("/gardens/#{garden.id}")
       expect(page).to_not have_content("Carrot")
-
+      GardenFacade.destroy_garden(user.id, garden.id)
     end
   end
 end
