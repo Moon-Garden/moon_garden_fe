@@ -4,6 +4,7 @@ class WeatherService
       f.params['appid'] = ENV['WEATHER_KEY']
       f.params['lat'] = lat
       f.params['lon'] = long
+      f.params['units'] = 'imperial'
     end
     BaseService.get_json(response)
   end
