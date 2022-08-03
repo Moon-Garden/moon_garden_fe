@@ -43,44 +43,44 @@ RSpec.describe 'plant search page' do
       expect(page).to have_content('Description: The tomato is the fruit of the tomato plant, a member of the Nightshade family (Solanaceae). The fruit grows on a small compact bush.')
       expect(page).to_not have_content('corn')
     end
-  end
-  
+  end 
+    
   it 'has a button to add a plant from the results page to the garden', :vcr do
     user_hash =
-      { 'name' => 'Hot Dog',
-        'email' => 'frankfurters@weinermobile.com',
-        'unverified_email' => 'frankfurters@weinermobile.com',
-        'email_verified' => true,
-        'first_name' => 'Hot',
-        'last_name' => 'Dog',
-        'image' => 'https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c' }
-
+    { 'name' => 'Hot Dog',
+      'email' => 'frankfurters@weinermobile.com',
+      'unverified_email' => 'frankfurters@weinermobile.com',
+      'email_verified' => true,
+      'first_name' => 'Hot',
+      'last_name' => 'Dog',
+      'image' => 'https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c' }
+      
     user = UserFacade.find_or_create_user(user_hash)
-
+    
     garden_hash =
-      {
-        "user_id": "#{user.id}",
-        "name": 'Summer Garden',
-        "notes": "it's too damn hot",
-        "cardinal_direction": 1
-      }
-
+    {
+      "user_id": "#{user.id}",
+      "name": 'Summer Garden',
+      "notes": "it's too damn hot",
+      "cardinal_direction": 1
+    }
+    
     garden = GardenFacade.create_garden(garden_hash)
-
+    
     visit '/'
     click_on 'Login'
-
+    
     visit "/gardens/#{garden.id}"
-
+    
     fill_in :search, with: 'tomato'
     click_on 'Find Plants to add to Garden'
-
+    
     expect(page).to have_button 'Add Plant to Garden'
-
+    
     within '.Tiny' do
       click_button 'Add Plant to Garden'
     end
-
+    
     expect(current_path).to eq("/gardens/#{garden.id}")
     expect(page).to have_content('Tiny Tim Tomato')
   end
