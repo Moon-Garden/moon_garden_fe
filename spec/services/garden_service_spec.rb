@@ -39,21 +39,8 @@ RSpec.describe 'garden be service' do
 
   it 'gets garden info', :vcr do
 
-<<<<<<< HEAD
-    garden_hash =
-      {
-        "id": 1,
-        "user_id": "#{user_response[:data][:id]}",
-        "name": 'Summer Garden',
-        "notes": "it's too damn hot",
-        "cardinal_direction": 1
-      }
-    
-    response = GardenService.get_gardens("#{user_response[:data][:id]}")
-=======
     response = GardenService.get_gardens("#{@user_response[:data][:id]}")
 
->>>>>>> 111cf16abe91a84ea2609a696950df8b13c1eed3
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)
     expect(response[:data].first).to have_key(:type)

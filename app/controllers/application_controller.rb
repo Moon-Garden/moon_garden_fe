@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
-  before_action :set_lunar_rec, :weather_data
+  before_action :set_lunar_rec
+  helper_method :get_weather, :ip_address
 
   def authorize_user 
     unless session[:user_id]
@@ -13,16 +14,18 @@ class ApplicationController < ActionController::Base
     @recommendation = MoonHelper.rec(@moon_data.phase)
   end
 
-  def weather_data
+  def ip_address
     if Rails.env.production?
-      ip = request.remote_ip
+      request.remote_ip
     else
-      ip = Net::HTTP.get(URI.parse('http://checkip.amazonaws.com/')).squish
+      Net::HTTP.get(URI.parse('http://checkip.amazonaws.com/')).squish
     end
-    binding.pry
-    ll = IpFacade.get_ip_location(ip)
-    lat =
-    long = 
-    @weather = WeatherFacade.get_weather(lat, long)
+  end 
+
+  def get_weather
+    location = IpFacade.get_ip_location(ip_address)
+    lat = location.coordinates.split(",").first
+    long = location.coordinates.split(",").last
+    WeatherFacade.get_weather(lat, long)
   end
 end
