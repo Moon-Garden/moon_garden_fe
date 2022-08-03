@@ -11,12 +11,16 @@ RSpec.describe 'Dashboard Show Page' do
       @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @moon = JSON.parse(File.read('spec/fixtures/moon.json'),symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@moon)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
 
       visit '/'
       click_on 'Login'

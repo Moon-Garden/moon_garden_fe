@@ -51,7 +51,7 @@ RSpec.describe 'garden be service' do
         "notes": "it's too damn hot",
         "cardinal_direction": 1
       }
-
+    
     response = GardenService.get_gardens("#{user_response[:data][:id]}")
     expect(response[:data]).to be_an(Array)
     expect(response[:data].first).to have_key(:id)
