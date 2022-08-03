@@ -44,6 +44,8 @@ RSpec.describe 'garden create' do
 
       expect(current_path).to eq("/dashboard")
       expect(page).to have_content("Garden Created")
+      
+      GardenFacade.destroy_garden(@user.id, @garden.id)
     end
   end 
 

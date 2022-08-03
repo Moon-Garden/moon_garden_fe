@@ -63,9 +63,8 @@ RSpec.describe 'plant edit page' do
       expect(page).to have_content("Keep calm and carrot on ya'll")
       expect(page).to_not have_content("Magic carrots matured on the same day they were planted!")
       
-      within ".plant-#{@plant.id}" do
-        click_button 'Delete Plant'
-      end
+      PlantTrackingFacade.destroy_plant(@user.id, @garden.id, @plant.id)
+      GardenFacade.destroy_garden(@user.id, @garden.id)
      end
   end
 
