@@ -180,7 +180,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-![]([name-of-giphy.gif](https://media.giphy.com/media/jcFvUVDojVkeeuMeuO/giphy.gif))
+![](https://media.giphy.com/media/jcFvUVDojVkeeuMeuO/giphy.gif)
 
 <!-- CONTACT -->
 ## Contributors
