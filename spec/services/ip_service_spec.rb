@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe 'ip service' do
-  context 'get_ip_location' do
+RSpec.describe IpService do
+  context '#get_ip_location' do
     it 'returns latitude and longitude', :vcr do
       ip = '24.164.247.195'
       response = IpService.get_ip_location(ip)

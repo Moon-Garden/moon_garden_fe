@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe 'land service' do
-  context 'get_land_data' do
+RSpec.describe LandService do
+  context '#get_land_data' do
     it 'returns polygon map data', :vcr do
       lat = '38.892062'
       lng = '-77.019912'
