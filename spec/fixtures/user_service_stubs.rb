@@ -2,7 +2,7 @@
 
 # stub_request(:post, "https://moon-garden-be.herokuapp.com/api/v1/users").
 # with(
-#   body: "{\"name\":\"Jennifer Halloran\",\"email\":\"jenniferlhalloran@gmail.com\",\"unverified_email\":\"jenniferlhalloran@gmail.com\",\"email_verified\":true,\"first_name\":\"Jennifer\",\"last_name\":\"Halloran\",\"image\":\"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c\"}",
+#   body: "{\"name\":\"Jennifer Halloran\",\"email\":\"frankfurters@weinermobile.com\",\"unverified_email\":\"frankfurters@weinermobile.com\",\"email_verified\":true,\"first_name\":\"Jennifer\",\"last_name\":\"Halloran\",\"image\":\"https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-c\"}",
 #   headers: {
 #  'Accept'=>'*/*',
 #  'Accept-Encoding'=>'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
@@ -17,7 +17,7 @@
 #       "type": "user",
 #       "attributes": {
 #         "name": "Jennifer",
-#         "email": 'jenniferlhalloran@gmail.com',
+#         "email": 'frankfurters@weinermobile.com',
 #         "image": "https://lh3.googleusercontent.com/a-/AFdZucr_zffBdhJaydFkdXeeHkhe2BzmVNKGIE-Ozwvh=s96-cﬁ",
 #       }
 #     }

@@ -12,7 +12,6 @@ RSpec.describe 'Dashboard Show Page' do
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @moon = JSON.parse(File.read('spec/fixtures/moon.json'),symbolize_names: true)
 
-
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
@@ -62,7 +61,113 @@ RSpec.describe 'Dashboard Show Page' do
       expect(page).to have_content("Bread Moon")
       expect(page).to have_content("Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).")
     end
+
+   
   end
+
+  context 'a user is logged in and theres a full moon' do
+    before do
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+
+      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+      @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
+      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+      @full_moon = JSON.parse(File.read('spec/fixtures/full_moon.json'), symbolize_names: true)
+
+      allow(UserService).to receive(:find_or_create_user).and_return(@user)
+      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+      allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+      allow(MoonService).to receive(:get_moon_data).and_return(@full_moon)
+
+      visit '/'
+      click_on 'Login'
+    end
+     it "displays full moon data" do
+      expect(page).to have_content("Blood Moon")
+      expect(page).to have_content("Root vegetables, such as carrots, beets, onions and potatoes, will flourish. It's also a good time to transplant seedlings or to prune.")
+    end
+  end
+
+  context 'a user is logged in and theres a waning moon' do
+    before do
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+
+      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+      @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
+      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+      @waning_moon = JSON.parse(File.read('spec/fixtures/waning_moon.json'), symbolize_names: true)
+
+      allow(UserService).to receive(:find_or_create_user).and_return(@user)
+      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+      allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+      allow(MoonService).to receive(:get_moon_data).and_return(@waning_moon)
+
+      visit '/'
+      click_on 'Login'
+    end
+     it "displays full moon data" do
+      expect(page).to have_content("Big Ol' Wane")
+      expect(page).to have_content( 'Avoid planting and focus on fertilizing the soil. This is the best time to mow grass, harvest, transplant and prune.')
+    end
+  end
+
+    context 'a user is logged in and theres an error with the moon' do
+    before do
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+
+      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+      @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
+      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+      @error_moon = JSON.parse(File.read('spec/fixtures/error_moon.json'), symbolize_names: true)
+
+      allow(UserService).to receive(:find_or_create_user).and_return(@user)
+      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+      allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+      allow(MoonService).to receive(:get_moon_data).and_return(@error_moon)
+
+      visit '/'
+      click_on 'Login'
+    end
+     it "displays error moon data" do
+      expect(page).to have_content("Interesting, this is a moon we don't have anything for! We will work on that!")
+    end
+  end
+
+  context 'a user is logged in and theres an dark moon' do
+    before do
+      Rails.application.env_config['omniauth.auth'] = OmniAuth.config.mock_auth[:google_oauth2]
+
+
+      @user = JSON.parse(File.read('spec/fixtures/user.json'), symbolize_names: true)
+      @gardens = JSON.parse(File.read('spec/fixtures/gardens.json'), symbolize_names: true)
+      @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
+      @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
+      @dark_moon = JSON.parse(File.read('spec/fixtures/dark_moon.json'), symbolize_names: true)
+
+      allow(UserService).to receive(:find_or_create_user).and_return(@user)
+      allow(GardenService).to receive(:get_gardens).and_return(@gardens)
+      allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
+      allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
+      allow(MoonService).to receive(:get_moon_data).and_return(@dark_moon)
+
+      visit '/'
+      click_on 'Login'
+    end
+     it "displays error moon data" do
+      expect(page).to have_content("Real Spooky")
+      expect(page).to have_content( 'Plant crops which produce seeds outside the fruit (grains, spinach, cauliflower, cabbage, broccoli, celery and lettuce).')
+    end
+  end
+
 
   context 'a visitor is not logged in' do
     it "redirects the visitor to the landing page and flashes an error message" do
@@ -71,7 +176,7 @@ RSpec.describe 'Dashboard Show Page' do
       visit '/dashboard'
 
       expect(current_path).to eq('/')
-      expect(page).to have_content("Please log in below to view your dashboard.")
+      expect(page).to have_content("Oopsy daisy! Please log in below to view that page.")
     end
   end
 end

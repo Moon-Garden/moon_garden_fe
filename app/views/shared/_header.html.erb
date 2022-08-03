@@ -15,11 +15,12 @@
     <% if session[:user_id] %>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href=<%= dashboard_path %>>My Garden</a>
-          <a class="nav-link" href=<%= logout_path %>>Logout</a>
-          <a class="nav-link" href=<%= root_path %>>About</a>
-        </div>
+        <a class="nav-link" href=<%= dashboard_path %>>My Gardens</a>
+        <a class="nav-link" href=<%= root_path %>>About</a>
+        <a class="nav-link" href=<%= land_acknowledgements_path %>>Land Acknowledgements</a>
+        <a class="nav-link" href=<%= logout_path %>>Logout</a>
       </div>
-    <% end %>
-  </div>
+    </div>
+  <% end %>
+</div>
 </nav>

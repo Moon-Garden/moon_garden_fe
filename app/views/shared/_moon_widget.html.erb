@@ -1,19 +1,17 @@
-<div class="side-bar-right col-sm-3 rounded flex">
+<div class="side-bar-right col-sm-3 rounded flex text-center">
 
-  <div class="card vh-70 mx-auto my-auto" style="width: 18rem; position: fixed;">
+  <div class="card" style="width: 18rem;">
     <br></br>
     <div class="container">
       <img src="https://moonphase.guide/module/MVitCdDJoN21yWGNDaU5uL2ZKQjVMRkI1UVptSFMxMGZyQW9FQzRKV2d3NUhGWlpZV3RmSzRMMW56bVBFNWt0clJKM21uTTRiTVFBZWpHM0RLVklYcWc9PQ.png"/>
     </div>
     <div class="card-body">
-      <p class="card-text"><%= @recommendation %></p>
+      <dt class="card-text">Planting Recommendation: <%= @recommendation %></dt>
     </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Illumination:
-        <%= @moon_data.illumination %>%</li>
-      <li class="list-group-item">Moon Name:
-        <%= @moon_data.name %></li>
-    </ul>
+    <dd class="card-text">Illumination:
+      <%= @moon_data.illumination %>%</dd>
+    <dd class="card-text">Moon Type:
+      <%= @moon_data.name %></dd>
 
   </div>
 </div>
