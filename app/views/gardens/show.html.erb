@@ -22,6 +22,7 @@
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/weather_widget" %>
     <%= render partial: "shared/header" %>
     <div class="dash-container">
       <h1><%= @garden.name %>'s Plants</h1>

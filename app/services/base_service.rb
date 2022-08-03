@@ -26,4 +26,8 @@ class BaseService
   def self.ip_connection
     Faraday.new(url: 'http://www.geoplugin.net')
   end
+
+  def self.weather_connection
+    Faraday.new(url: 'https://api.openweathermap.org')
+  end
 end
