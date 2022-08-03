@@ -4,8 +4,8 @@ RSpec.describe 'garden be service' do
   before do
     @user_hash =
     { 'name' => 'Jennifer Halloran',
-      'email' => 'jenniferlhalloran@gmail.com',
-      'unverified_email' => 'jenniferlhalloran@gmail.com',
+      'email' => 'frankfurters@weinermobile.com',
+      'unverified_email' => 'frankfurters@weinermobile.com',
       'email_verified' => true,
       'first_name' => 'Jennifer',
       'last_name' => 'Halloran',
@@ -67,8 +67,8 @@ RSpec.describe 'garden be service' do
     it 'destroys a users garden', :vcr do
       user_hash =
         { 'name' => 'Jennifer Halloran',
-          'email' => 'jenniferlhalloran@gmail.com',
-          'unverified_email' => 'jenniferlhalloran@gmail.com',
+          'email' => 'frankfurters@weinermobile.com',
+          'unverified_email' => 'frankfurters@weinermobile.com',
           'email_verified' => true,
           'first_name' => 'Jennifer',
           'last_name' => 'Halloran',

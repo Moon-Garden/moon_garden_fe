@@ -4,8 +4,8 @@ RSpec.describe UserFacade do
   describe '#create_user(data)' do
     it 'create or finds a user and returns user info', :vcr do
       user_hash = { 'name' => 'Jennifer Halloran',
-                    'email' => 'jenniferlhalloran@gmail.com',
-                    'unverified_email' => 'jenniferlhalloran@gmail.com',
+                    'email' => 'frankfurters@weinermobile.com',
+                    'unverified_email' => 'frankfurters@weinermobile.com',
                     'email_verified' => true,
                     'first_name' => 'Jennifer',
                     'last_name' => 'Halloran',
