@@ -5,10 +5,15 @@ class GardensController < ApplicationController
 
   def create
     garden_info = params.permit(:name, :notes, :cardinal_direction)
-    garden_info[:user_id] = session[:user_id].to_i
-    GardenFacade.create_garden(garden_info)
-    flash[:alert] = 'Garden Created'
-    redirect_to dashboard_path
+    if params[:notes] == "" || params[:name] == "" 
+      flash[:alert] = 'Please fill in all fields'
+      redirect_to '/gardens/new'
+    else
+      garden_info[:user_id] = session[:user_id].to_i
+      GardenFacade.create_garden(garden_info)
+      flash[:alert] = 'Garden Created'
+      redirect_to dashboard_path
+    end
   end
 
   def show

@@ -62,6 +62,9 @@ RSpec.describe 'plant edit page' do
       expect(current_path).to eq("/gardens/#{@garden.id}")
       expect(page).to have_content("Keep calm and carrot on ya'll")
       expect(page).to_not have_content("Magic carrots matured on the same day they were planted!")
+      
+      PlantTrackingFacade.destroy_plant(@user.id, @garden.id, @plant.id)
+      GardenFacade.destroy_garden(@user.id, @garden.id)
      end
   end
 
