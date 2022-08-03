@@ -5,7 +5,7 @@ class GardensController < ApplicationController
 
   def create
     garden_info = params.permit(:name, :notes, :cardinal_direction)
-    if params[:notes] == "" || params[:name] == "" 
+    if params[:notes].strip == "" || params[:name].strip == "" 
       flash[:alert] = 'Please fill in all fields'
       redirect_to '/gardens/new'
     else
