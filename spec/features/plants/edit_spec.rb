@@ -62,6 +62,10 @@ RSpec.describe 'plant edit page' do
       expect(current_path).to eq("/gardens/#{@garden.id}")
       expect(page).to have_content("Keep calm and carrot on ya'll")
       expect(page).to_not have_content("Magic carrots matured on the same day they were planted!")
+      
+      within ".plant-#{@plant.id}" do
+        click_button 'Delete Plant'
+      end
      end
   end
 
