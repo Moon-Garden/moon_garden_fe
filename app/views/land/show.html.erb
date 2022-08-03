@@ -5,24 +5,23 @@
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
 
-    <form class="d-flex" role="search">
-      <%= form_with url: '/land_acknowledgements', method: :get, local: true do |form| %>
-      <div class="form-floating">
-        <%= form.text_field :location, { class: "form-control me-2" } %>
-        <%= form.label "Enter Your Location" %>
-        <div class="d-grid gap-2 d-md-flex justify-content-md-begin">
-        <%= form.submit "Search", class: "btn btn-light" %>
-        </div>
-      <% end %>
+    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">More information & Map Directions</button>
+
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
-    <br>
-    <div class="card d-flex" style="width: 15rem;">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Why Acknowledge?</h5>
+      <div class="offcanvas-body">
+        <p>"The land itself is sacred, and it is not easy to draw lines that divide it up into chunks that delineate who “owns” different parts of land. In reality, we know that the land is not something to be exploited and “owned”, but something to be honoured and treasured." We have included this map for the same reason the map was made and is shared - "to bring an awareness of the real lived history of Indigenous peoples and nations in a long era of colonialism." <cite title="Source Title">native-land.ca</cite></p>
+        <a href="https://native-land.ca/about/why-it-matters/" class="btn btn-success">Go to source</a>
+        <br>
+        </br>
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Map Directions</h5>
+      <div class="offcanvas-body">
+        <p><strong>Search for your location and click the links to learn more about the area you occupy.</strong></p>
+        <p>"Native Land is an app to help map Indigenous territories, treaties, and languages."</p>
+      </div>
       </div>
     </div>
   </div>
@@ -31,11 +30,34 @@
     <%= render partial: "shared/header" %>
 
     <div class="dash-container">
-      <div class="d-flex">
-        <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:850px; height:850px; overflow: hidden;" src="https://native-land.ca/wp-content/themes/Native-Land-Theme/embed/embed.html?maps=languages&position=<%= "#{@ll.coordinates}" %>"></iframe>
-      </div>
+
+    <figure>
+      <blockquote class="blockquote">
+        <p>“When we talk about land, land is part of who we are. It’s a mixture of our blood, our past, our current, and our future. We carry our ancestors in us, and they’re around us. As you all do.”</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Mary Lyons (Leech Lake Band of Ojibwe) <cite title="Source Title">NativeGov.org</cite>
+      </figcaption>
+    </figure>
+
+
+    <div class="d-flex">
+      <iframe allowtransparency="yes" scrolling="no" style="border: 0px solid #FFFFFF; width:850px; height:500px; overflow: hidden;" src="https://native-land.ca/wp-content/themes/Native-Land-Theme/embed/embed.html?maps=languages&position=<%= "#{@ll.coordinates}" %>"></iframe>
     </div>
+
+    <form class="d-flex" role="search">
+      <%= form_with url: '/land_acknowledgements', method: :get, local: true do |form| %>
+      <div class="form-floating">
+        <%= form.text_field :location, { class: "form-control me-2" } %>
+        <%= form.label "Enter Your Location" %>
+
+        <%= form.submit "Search", class: "btn btn-light" %>
+
+      <% end %>
+      </div>
+    </form>
   </div>
+
 
   <%= render partial: "shared/moon_widget" %>
 </div>
