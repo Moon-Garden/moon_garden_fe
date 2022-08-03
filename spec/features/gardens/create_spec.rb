@@ -22,7 +22,7 @@ RSpec.describe 'garden create' do
       end 
 
       it 'can add a new garden', :vcr do
-        expect(page).to_not have_content("Super Magical Garden")
+        # expect(page).to_not have_content("Super Magical Garden")
 
         click_button "Add New Garden"
 
