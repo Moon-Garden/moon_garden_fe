@@ -1,13 +1,11 @@
-<div class="container text-center d-flex" style="max-height: 100%">
+<div class="container d-flex" style="max-height: 100%">
 
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
 
-
     <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">More information & Map Directions</button>
-
     <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -29,7 +27,7 @@
     <br>
     </br>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17.5rem;">
       <div class="card-body">
         <h5 class="card-title">Why?</h5>
         <h6 class="card-subtitle mb-2 text-muted">Because It's Important</h6>
@@ -38,7 +36,7 @@
     </div>
   </div>
 
-  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+  <div class="dash-main-bar col-sm-10 text-center" style="max-height: 100%">
     <%= render partial: "shared/header" %>
 
     <div class="dash-container">
