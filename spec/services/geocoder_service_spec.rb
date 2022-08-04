@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe GeocoderService do
-  context 'get_coordinates' do
+  context '#get_coordinates' do
     it 'returns latitude and longitude', :vcr do
       location = 'Washington,DC'
       response = GeocoderService.get_coordinates(location)
