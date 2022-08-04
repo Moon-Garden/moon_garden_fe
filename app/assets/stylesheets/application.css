@@ -130,13 +130,44 @@ form > * {
 
 .moon-garden {
   background-color: #F0F9F3;
-  margin-left: -2;
+  margin-left: -2px;
+  padding: 2px;
 }
 
 .lunar-garden {
   background-color: #F0F9F3;
+  padding: 5px;
 }
 
 .land-ack {
   background-color: #F0F9F3;
+}
+
+.weather-image {
+  background-color: #8D818C;
+  margin-top: 10px;
+}
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 500;
+  --bs-btn-color: #612867;
+  --bs-btn-bg: #CBD5C3;
+  --bs-btn-border-color: #612867;
+  --bs-btn-border-radius: .5rem;
+}
+
+.btn-bd-primary-2 {
+  --bs-btn-font-weight: auto;
+  --bs-btn-color: #612867;
+  --bs-btn-bg: #E4F0D1;
+  --bs-btn-border-color: #E4F0D1;
+  --bs-btn-border-radius: .5rem;
+}
+
+.btn-bd-primary-3 {
+  --bs-btn-font-weight: auto;
+  --bs-btn-color: #E4F0D1;
+  --bs-btn-bg: #612867;
+  --bs-btn-border-color: #612867;
+  --bs-btn-border-radius: .5rem;
 }

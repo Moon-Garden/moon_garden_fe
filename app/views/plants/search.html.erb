@@ -17,13 +17,13 @@
         <div class="<%=plant.name %>">
           <p>
           <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <button class="btn btn-bd-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
           <p><%= plant.name.titleize %></p>
           </button>
           </p>
           <div style="min-height: 10px;">
           <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-outline-secondary", local: true %>
+          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-bd-primary", local: true %>
           <div class="card-result card-body" style="width: 500px;">
           <% if plant.main_image_path == "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg"%>
             <%= render inline: Rails.root.join('public/no-plant-pic.svg').read %>
@@ -50,4 +50,6 @@
   </div>
 
   <%= render partial: "shared/moon_widget" %>
+  <%= render partial: "shared/weather_widget" %>
+
 </div>

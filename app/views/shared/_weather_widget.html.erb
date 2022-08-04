@@ -3,11 +3,10 @@
     <% weather = get_weather %>
     <div class="card" style="width: 18rem;">
     <div class="container">
-      <img src="http://openweathermap.org/img/wn/<%= weather.icon %>@2x.png" class="card-img-top" alt="...">
+      <img class="weather-image rounded" src="http://openweathermap.org/img/wn/<%= weather.icon %>@2x.png">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Today's Weather</h5>
+        <p class="card-text">Today's temperature is a soothing <strong><%= weather.temp %></strong> with a mix of <strong><%= weather.main %></strong> and then some <strong><%= weather.description %></strong></p>
       </div>
     </div>
 </div>

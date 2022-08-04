@@ -32,7 +32,7 @@
                   <div id="<%= garden.id %>">
 
                     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#deleteModal<%= garden.id %>">
-                      Delete Garden
+                      Remove Garden
                     </button>
                   </div>
 
@@ -49,7 +49,7 @@
                           will also delete all the plants you are tracking in this garden!
                         </div>
                         <div class="modal-footer">
-                          <%= button_to "Delete Garden", "/gardens/#{garden.id}", method: :delete, class:"btn btn-danger"%>
+                          <%= button_to "Remove Garden", "/gardens/#{garden.id}", method: :delete, class:"btn btn-danger"%>
                         </div>
                       </div>
                     </div>
@@ -63,12 +63,13 @@
       </div>
 
       <div class="d-grid gap-2 col-6 mx-auto">
-        <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-outline-secondary", local: true %>
+        <%= button_to "Add New Garden", "/gardens/new", method: :get, class: "btn btn-bd-primary btn-lg", local: true %>
       </div>
 
     </div>
   </div>
 
   <%= render partial: "shared/moon_widget" %>
+  <%= render partial: "shared/weather_widget" %>
 
 </div>
