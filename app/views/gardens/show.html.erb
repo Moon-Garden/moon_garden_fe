@@ -5,7 +5,6 @@
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
 
-
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
@@ -28,7 +27,7 @@
       <%= f.label "Plant Name Search", for: "formSelect" %>
       </div>
 
-      <%= f.submit "Find Plants to add to Garden", class: "btn btn-success" %>
+        <%= f.submit "Find Plants to add to Garden", class: "btn btn-success" %>
 
       <% end %>
     </div>
@@ -46,38 +45,60 @@
             <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
 
-              <dl class="row">
-              <% if plant.date_planted != "" %>
-                <dt class="col-sm-4">Date Planted:</dt>
-                <dd class="col-sm-9"><%= plant.date_planted.to_datetime.strftime('%m-%d-%Y') %></dd>
-              <% end %>
-                <dt class="col-sm-4">Moon Phase During Planting:</dt>
-                 <dd class="col-sm-9"><%= plant.moon_phase %></dd>
+                <dl class="row">
+                  <% if plant.date_planted != "" %>
+                    <dt class="col-sm-4">Date Planted:</dt>
+                    <dd class="col-sm-9"><%= plant.date_planted.to_datetime.strftime('%m-%d-%Y') %></dd>
+                  <% end %>
+                  <dt class="col-sm-4">Moon Phase During Planting:</dt>
+                  <dd class="col-sm-9"><%= plant.moon_phase %></dd>
 
-                <dt class="col-sm-4">Amount Produced:</dt>
-                <dd class="col-sm-9"><%= plant.bounty_amount %></dd>
+                  <dt class="col-sm-4">Amount Produced:</dt>
+                  <dd class="col-sm-9"><%= plant.bounty_amount %></dd>
 
-                <dt class="col-sm-4">Pruning Behaviors:</dt>
-                <dd class="col-sm-9"><%= plant.pruning_behaviors %></dd>
+                  <dt class="col-sm-4">Pruning Behaviors:</dt>
+                  <dd class="col-sm-9"><%= plant.pruning_behaviors %></dd>
 
-                <dt class="col-sm-4">Plant Notes:</dt>
-                <dd class="col-sm-9"><%= plant.notes %></dd>
-              </dl>
+                  <dt class="col-sm-4">Plant Notes:</dt>
+                  <dd class="col-sm-9"><%= plant.notes %></dd>
+                </dl>
 
-              <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}/edit", method: :get, local: true do |f| %>
-              <%= f.hidden_field :date_planted, value: plant.date_planted %>
-              <%= f.hidden_field :moon_phase, value: plant.moon_phase %>
-              <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
-              <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
-              <%= f.hidden_field :notes, value: plant.notes %>
-              <div class="d-grid gap-2 justify-content-md-end">
-              <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
-              <% end %>
+                <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}/edit", method: :get, local: true do |f| %>
+                <%= f.hidden_field :date_planted, value: plant.date_planted %>
+                <%= f.hidden_field :moon_phase, value: plant.moon_phase %>
+                <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
+                <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
+                <%= f.hidden_field :notes, value: plant.notes %>
+                <div class="d-grid gap-2 justify-content-md-end">
+                  <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
+                <% end %>
 
-              <%= button_to "Remove Plant", "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, class:"btn btn-danger"%>
+                <div id="<%= plant.id %>">
+
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal<%= plant.id %>">
+                    Remove Plant
+                  </button>
+                </div>
+
+                <div class="modal fade" id="deleteModal<%= plant.id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Are you sure you want to delete
+                        <%= plant.name %>
+                        ??
+                      </div>
+                      <div class="modal-footer">
+                        <%= button_to "Remove Plant", "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, class:"btn btn-danger"%>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              
-
             </div>
           </div>
         </div>
@@ -87,6 +108,6 @@
 </div>
 </div>
 
-  <%= render partial: "shared/widgets" %>
+<%= render partial: "shared/widgets" %>
 
 </div>

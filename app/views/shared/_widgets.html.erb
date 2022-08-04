@@ -21,7 +21,15 @@
       <img class="weather-image rounded" src="http://openweathermap.org/img/wn/<%= weather.icon %>@2x.png">
       <div class="card-body">
         <h5 class="card-title">Today's Weather</h5>
-        <p class="card-text">Today's temperature is a balmy <strong><%= weather.temp %></strong> with a touch of <strong><%= weather.description %>.</strong></p>
+        <p class="card-text">Today's temperature is a 
+        <% if weather.temp < 69 %>
+        balmy
+        <% elsif weather.temp >= 69 && weather.temp < 90 %>
+        warm 
+        <% else %>
+        blistering
+        <% end%>
+        <strong><%= weather.temp %></strong> with a touch of <strong><%= weather.description %>.</strong></p>
       </div>
     </div>
 </div>
