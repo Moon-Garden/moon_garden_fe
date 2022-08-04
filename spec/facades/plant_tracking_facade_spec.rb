@@ -47,6 +47,7 @@ RSpec.describe PlantTrackingFacade do
   
     PlantTrackingFacade.destroy_plant(@user_response[:data][:id], @garden_response[:data][:id],
       @plant.id)
+    GardenFacade.destroy_garden(@user_response[:data][:id], @garden_response[:data][:id])
   end
 
   it 'returns the users saved plant information for a specific garden', :vcr do
@@ -56,6 +57,7 @@ RSpec.describe PlantTrackingFacade do
 
     PlantTrackingFacade.destroy_plant(@user_response[:data][:id], @garden_response[:data][:id],
       @plant.id)
+    GardenFacade.destroy_garden(@user_response[:data][:id], @garden_response[:data][:id])
   end
 
   it 'deletes a plant', :vcr do
@@ -66,6 +68,8 @@ RSpec.describe PlantTrackingFacade do
 
     count_2 = PlantTrackingFacade.get_plants("#{@user_response[:data][:id]}", "#{@garden_response[:data][:id]}").count
     expect(count_1 - 1).to eq(count_2)
+
+    GardenFacade.destroy_garden(@user_response[:data][:id], @garden_response[:data][:id])
   end
 
   it 'edits a plant', :vcr do
@@ -83,5 +87,6 @@ RSpec.describe PlantTrackingFacade do
 
     PlantTrackingFacade.destroy_plant(@user_response[:data][:id], @garden_response[:data][:id],
       @plant.id)
+    GardenFacade.destroy_garden(@user_response[:data][:id], @garden_response[:data][:id])
   end
 end
