@@ -183,6 +183,7 @@ Use this space to show useful examples of how a project can be used. Additional 
 ![](https://media.giphy.com/media/jcFvUVDojVkeeuMeuO/giphy.gif)
 
 </div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -202,6 +203,7 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- CONTACT -->
 ## Contributors
