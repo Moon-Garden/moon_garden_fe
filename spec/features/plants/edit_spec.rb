@@ -51,13 +51,13 @@ RSpec.describe 'plant edit page' do
       expect(page).to have_content("Carrot")
       expect(page).to have_content("Magic carrots matured on the same day they were planted!")
       within ".plant-#{@plant.id}" do
-        click_button 'Update Plant'
+        click_button 'Add Tracking Info'
       end
       
       expect(current_path).to eq("/gardens/#{@garden.id}/plants/#{@plant.id}/edit")
       
       fill_in "notes", with: "Keep calm and carrot on ya'll"
-      click_button "Update Plant"
+      click_button "Add Tracking Info"
 
       expect(current_path).to eq("/gardens/#{@garden.id}")
       expect(page).to have_content("Keep calm and carrot on ya'll")

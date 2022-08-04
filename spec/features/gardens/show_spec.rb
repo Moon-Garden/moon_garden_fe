@@ -74,8 +74,8 @@ RSpec.describe 'garden show page' do
         expect(page).to have_content("1000000")
         expect(page).to have_content("Can't trim the sturd!!!")
         expect(page).to have_content("English, honey, dijon, and spicayy")
-        expect(page).to have_button("Update Plant")
-        expect(page).to have_button("Delete Plant")
+        expect(page).to have_button("Add Tracking Info")
+        expect(page).to have_button("Remove Plant")
       end
     end
   end
