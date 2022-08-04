@@ -1,8 +1,10 @@
-<div class="container text-center d-flex" style="max-height: 100%">
+<div class="container text-center d-flex" style="max-height: 100%; margin-left: 40px;">
 
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
-      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      <a href="/moon_booty">
+        <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      </a>
     </div>
     <div class="d-grid gap-2 col-6 mx-auto">
     <%= button_to 'Back to Garden', "/gardens/#{@garden_id}", method: :get, class: "btn btn-secondary btn-lg" %>
@@ -65,6 +67,6 @@
   </div>
 
   <%= render partial: "shared/widgets" %>
-  
+
 
 </div>

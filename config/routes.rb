@@ -12,6 +12,9 @@ Rails.application.routes.draw do
   get '/gardens/:id', to: 'gardens#show'
   get '/gardens/:id/plants', to: 'plants#search'
   post '/gardens/:id/plants', to: 'plants#create'
+
+  get '/moon_booty', to: 'application#contributors'
+
   delete '/gardens/:id/plants/:plant_id', to: 'plants#destroy'
 
   delete '/gardens/:id', to: 'gardens#destroy'
