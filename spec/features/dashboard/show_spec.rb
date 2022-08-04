@@ -81,12 +81,16 @@ RSpec.describe 'Dashboard Show Page' do
       @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @full_moon = JSON.parse(File.read('spec/fixtures/full_moon.json'), symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@full_moon)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
       click_on 'Login'
@@ -107,12 +111,16 @@ RSpec.describe 'Dashboard Show Page' do
       @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @waning_moon = JSON.parse(File.read('spec/fixtures/waning_moon.json'), symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@waning_moon)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
       click_on 'Login'
@@ -133,12 +141,16 @@ RSpec.describe 'Dashboard Show Page' do
       @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @error_moon = JSON.parse(File.read('spec/fixtures/error_moon.json'), symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@error_moon)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
       click_on 'Login'
@@ -158,12 +170,16 @@ RSpec.describe 'Dashboard Show Page' do
       @plants = JSON.parse(File.read('spec/fixtures/plants.json'), symbolize_names: true)
       @hotdog_garden = JSON.parse(File.read('spec/fixtures/hotdog_garden.json'), symbolize_names: true)
       @dark_moon = JSON.parse(File.read('spec/fixtures/dark_moon.json'), symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
 
       allow(UserService).to receive(:find_or_create_user).and_return(@user)
       allow(GardenService).to receive(:get_gardens).and_return(@gardens)
       allow(PlantTrackingService).to receive(:get_plants).and_return(@plants)
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@dark_moon)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
       click_on 'Login'
@@ -178,7 +194,12 @@ RSpec.describe 'Dashboard Show Page' do
   context 'a visitor is not logged in' do
     it "redirects the visitor to the landing page and flashes an error message" do
       @moon = JSON.parse(File.read('spec/fixtures/moon.json'),symbolize_names: true)
+      @weather = JSON.parse(File.read('spec/fixtures/weather.json'), symbolize_names: true)
+      @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
       allow(MoonService).to receive(:get_moon_data).and_return(@moon)
+      allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
+
       visit '/dashboard'
 
       expect(current_path).to eq('/')
