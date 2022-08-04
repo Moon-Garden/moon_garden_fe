@@ -48,7 +48,7 @@ RSpec.describe 'plant search page' do
       expect(page).to have_content("Carrot")
 
       within ".plant-#{plant.id}" do
-        click_button 'Delete Plant'
+        click_button 'Remove Plant'
       end
 
       expect(current_path).to eq("/gardens/#{garden.id}")

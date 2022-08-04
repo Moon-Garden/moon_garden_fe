@@ -5,7 +5,22 @@
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
     </div>
 
-    <div class="d-flex" role="search">
+
+  </div>
+
+  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
+    <%= render partial: "shared/header" %>
+    <div class="dash-container">
+      <h1 class="display-5"><%= @garden.name %>'s Plant Tracker</h1>
+
+      <h3>Planted
+        <%= @garden.cardinal_direction %>
+        Facing</h3>
+      <p class="lead">
+        <%= @garden.notes %></p>
+    <br>
+    </br>
+    <div class="d-flex justify-content-center" role="search">
       <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
       <%= f.hidden_field :query, value: "name" %>
 
@@ -14,25 +29,11 @@
       <%= f.label "Plant Name Search", for: "formSelect" %>
       </div>
 
-      <%= f.submit "Find Plants to add to Garden", class: "btn btn-light" %>
+      <%= f.submit "Find Plants to add to Garden", class: "btn btn-success" %>
 
       <% end %>
     </div>
-
-  </div>
-
-  <div class="dash-main-bar col-sm-10" style="max-height: 100%">
-    <%= render partial: "shared/header" %>
-    <div class="dash-container">
-      <h1><%= @garden.name %>'s Plants</h1>
-
-      <h3>Planted
-        <%= @garden.cardinal_direction %>
-        facing</h3>
-      <p>
-        <%= @garden.notes %></p>
     <br>
-    </br>
     <% @plants.each do |plant| %>
 
       <div class="accordion" id="accordionExample">
@@ -70,14 +71,13 @@
               <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
               <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
               <%= f.hidden_field :notes, value: plant.notes %>
-              <%= f.submit "Update Plant", class: "btn btn-light" %>
+              <div class="d-grid gap-2 justify-content-md-end">
+              <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
               <% end %>
 
-              <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
-              <%= f.hidden_field :query, value: "name" %>
-              <%= f.submit "Delete Plant", class: "btn btn-light" %>
-              <% end %>
-
+              
+              <%= button_to "Remove Plant", "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, class:"btn btn-danger"%>
+              </div>
             </div>
           </div>
         </div>
@@ -86,5 +86,7 @@
   <% end %>
 </div>
 </div>
-<%= render partial: "shared/moon_widget" %>
+
+  <%= render partial: "shared/widgets" %>
+
 </div>

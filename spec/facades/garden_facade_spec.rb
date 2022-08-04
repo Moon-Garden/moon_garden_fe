@@ -38,6 +38,8 @@ RSpec.describe GardenFacade do
     it 'returns a garden object', :vcr do
      
       expect(@garden).to be_a(Garden)
+      GardenFacade.destroy_garden(@user[:data][:id], @garden.id)
+      GardenFacade.destroy_garden(@user[:data][:id], @garden2.id)
     end
   end
 
@@ -46,6 +48,8 @@ RSpec.describe GardenFacade do
     garden = GardenFacade.get_garden_data(@garden_hash[:user_id], @garden.id)
 
     expect(garden).to be_a(Garden)
+    GardenFacade.destroy_garden(@user[:data][:id], @garden.id)
+    GardenFacade.destroy_garden(@user[:data][:id], @garden2.id)
   end
 
   describe '#get_gardens(user_id)' do
@@ -55,6 +59,8 @@ RSpec.describe GardenFacade do
 
       expect(user_gardens).to be_all(Garden)
       expect(user_gardens.count).to be >= 2
+      GardenFacade.destroy_garden(@user[:data][:id], @garden.id)
+      GardenFacade.destroy_garden(@user[:data][:id], @garden2.id)
     end
   end
 
