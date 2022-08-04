@@ -57,7 +57,7 @@ RSpec.describe 'plant edit page' do
       expect(current_path).to eq("/gardens/#{@garden.id}/plants/#{@plant.id}/edit")
       
       fill_in "notes", with: "Keep calm and carrot on ya'll"
-      click_button "Add Tracking Info"
+      click_button "Update Plant"
 
       expect(current_path).to eq("/gardens/#{@garden.id}")
       expect(page).to have_content("Keep calm and carrot on ya'll")
