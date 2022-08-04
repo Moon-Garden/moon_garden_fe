@@ -1,4 +1,5 @@
 <div class="container text-center d-flex" style="max-height: 100%">
+
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
       <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
@@ -8,6 +9,7 @@
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
+
     <div class="about dash-container">
       <br>
       <br>
@@ -25,6 +27,7 @@
       <div class="land-ack rounded"><h1 class="display-6">About Land Acknowledgments</h1> <p class="lead">When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your land, checkout our Land Acknowledgment page - link - gracefully provided by: link</p></div>
     </div>
   </div>
+
   <%= render partial: "shared/moon_widget" %>
   <%= render partial: "shared/weather_widget" %>
 
