@@ -13,4 +13,15 @@
     <dd class="card-text">Moon Type:
       <%= @moon_data.name %></dd>
   </div>
+  <br>
+  <br>
+  <% weather = get_weather %>
+    <div class="card d-flex" style="width: 18rem;">
+    <div class="container">
+      <img class="weather-image rounded" src="http://openweathermap.org/img/wn/<%= weather.icon %>@2x.png">
+      <div class="card-body">
+        <h5 class="card-title">Today's Weather</h5>
+        <p class="card-text">Today's temperature is a balmy <strong><%= weather.temp %></strong> with a touch of <strong><%= weather.description %>.</strong></p>
+      </div>
+    </div>
 </div>

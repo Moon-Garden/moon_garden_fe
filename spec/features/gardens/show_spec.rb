@@ -65,8 +65,8 @@ RSpec.describe 'garden show page' do
         expect(page).to have_content("23")
         expect(page).to have_content("No pruning, only thinning")
         expect(page).to have_content("Magic tomatoes matured on the same day they were planted!")
-        expect(page).to have_button("Update Plant")
-        expect(page).to have_button("Delete Plant")
+        expect(page).to have_button("Add Tracking Info")
+        expect(page).to have_button("Remove Plant")
       end
 
       within ".plant-143" do

@@ -128,21 +128,6 @@ form > * {
   margin-bottom: 0;
 }
 
-.moon-garden {
-  background-color: #F0F9F3;
-  margin-left: -2px;
-  padding: 2px;
-}
-
-.lunar-garden {
-  background-color: #F0F9F3;
-  padding: 5px;
-}
-
-.land-ack {
-  background-color: #F0F9F3;
-}
-
 .weather-image {
   background-color: #8D818C;
   margin-top: 10px;
@@ -154,6 +139,7 @@ form > * {
   --bs-btn-bg: #CBD5C3;
   --bs-btn-border-color: #612867;
   --bs-btn-border-radius: .5rem;
+  --bs-btn-padding: 2px;
 }
 
 .btn-bd-primary-2 {

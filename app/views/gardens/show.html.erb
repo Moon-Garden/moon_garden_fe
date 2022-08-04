@@ -20,7 +20,7 @@
         <%= @garden.notes %></p>
     <br>
     </br>
-    <div class="d-flex justify-content-end" role="search">
+    <div class="d-flex justify-content-center" role="search">
       <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
       <%= f.hidden_field :query, value: "name" %>
 
@@ -29,7 +29,7 @@
       <%= f.label "Plant Name Search", for: "formSelect" %>
       </div>
 
-      <%= f.submit "Find Plants to add to Garden", class: "btn btn-bd-primary" %>
+      <%= f.submit "Find Plants to add to Garden", class: "btn btn-success" %>
 
       <% end %>
     </div>
@@ -71,14 +71,13 @@
               <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
               <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
               <%= f.hidden_field :notes, value: plant.notes %>
-              <%= f.submit "Add Tracking Info", class: "btn btn-bd-primary-2" %>
+              <div class="d-grid gap-2 justify-content-md-end">
+              <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
               <% end %>
 
-              <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
-              <%= f.hidden_field :query, value: "name" %>
-              <%= f.submit "Remove Plant", class: "btn btn-bd-primary-3" %>
-              <% end %>
-
+              
+              <%= button_to "Remove Plant", "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, class:"btn btn-danger"%>
+              </div>
             </div>
           </div>
         </div>
@@ -87,8 +86,7 @@
   <% end %>
 </div>
 </div>
-<div class="side-bar-right col-sm-3 rounded flex text-center">
-  <%= render partial: "shared/moon_widget" %>
-  <%= render partial: "shared/weather_widget" %>
-</div>
+
+  <%= render partial: "shared/widgets" %>
+
 </div>
