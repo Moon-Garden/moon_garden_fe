@@ -19,7 +19,6 @@
       <p class="lead">
         <%= @garden.notes %></p>
     <br>
-    </br>
     <div class="d-flex justify-content-center" role="search">
       <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
       <%= f.hidden_field :query, value: "name" %>
@@ -34,16 +33,16 @@
       <% end %>
     </div>
     <br>
-    <% @plants.each do |plant| %>
+    <% @plants.each_with_index do |plant, index| %>
 
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<%= index %>" aria-expanded="true" aria-controls="collapseOne">
               <%= plant.name %>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapse<%= index %>" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
 
@@ -75,9 +74,10 @@
               <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
               <% end %>
 
-              
               <%= button_to "Remove Plant", "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, class:"btn btn-danger"%>
               </div>
+              
+
             </div>
           </div>
         </div>
