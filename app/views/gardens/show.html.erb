@@ -17,15 +17,15 @@
         Facing</h3>
       <p class="lead">
         <%= @garden.notes %></p>
-    <br>
-    <div class="d-flex justify-content-center" role="search">
-      <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
-      <%= f.hidden_field :query, value: "name" %>
+      <br>
+      <div class="d-flex justify-content-center" role="search">
+        <%= form_with url: "/gardens/#{@garden.id}/plants", method: :get, local: true do |f| %>
+        <%= f.hidden_field :query, value: "name" %>
 
-      <div class="form-floating" id="formSelect" >
-      <%= f.text_field :search, class: "form-control me-2", type: "search" %>
-      <%= f.label "Plant Name Search", for: "formSelect" %>
-      </div>
+        <div class="form-floating" id="formSelect">
+          <%= f.text_field :search, class: "form-control me-2", type: "search" %>
+          <%= f.label "Plant Name Search", for: "formSelect" %>
+        </div>
 
         <%= f.submit "Find Plants to add to Garden", class: "btn btn-success" %>
 
@@ -41,7 +41,7 @@
               <%= plant.name %>
             </button>
           </h2>
-          <div id="collapse<%= index %>" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapse<%= index %>" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="plant-<%= plant.id %>">
               <div class="accordion-body">
 
