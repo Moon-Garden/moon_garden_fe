@@ -1,8 +1,10 @@
-<div class="container d-flex" style="max-height: 100%">
+<div class="container d-flex" style="max-height: 100%; margin-left: 40px;">
 
   <div class="side-bar-left col-sm-3">
     <div class="logo">
-      <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      <a href="/moon_booty">
+        <%= render inline: Rails.root.join('public/moon-garden-logo.svg').read %>
+      </a>
     </div>
 
     <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">More Information & Map Directions</button>
