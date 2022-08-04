@@ -32,14 +32,14 @@
           <% else %>
             <img src="<%= plant.main_image_path %>" class="img-fluid", alt="pictures of <%= plant.name%> plant">
           <% end %>
-          <p class="lead"><%= plant.name %></p>
+          <p class="lead"><%= plant.name.titleize %></p>
           <br>
-          <% if plant.sun_requirements != "" %>
+          <% if plant.sun_requirements != "" && plant.sun_requirements != nil %>
           <p class="text-sm-start">Sun Requirements: <%= plant.sun_requirements %>
           <br>
           </br>
           <% end %>
-          <% if plant.sowing_method != "" %>
+          <% if plant.sowing_method != "" && plant.sowing_method != nil %>
           Sowing Method: <%= plant.sowing_method %>
           <br>
           </br>
@@ -51,7 +51,7 @@
           </br>
           <% end %>
 
-          <% if plant.description != "" %>
+          <% if plant.description != "" && plant.description != nil %>
           Description: <%= plant.description %></p>
           <% end %>
 
