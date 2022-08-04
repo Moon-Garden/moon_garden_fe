@@ -180,7 +180,7 @@ To get a local copy up and running follow these simple example steps.
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 <div align="center">
 
-![](https://media.giphy.com/media/jcFvUVDojVkeeuMeuO/giphy.gif)
+![](https://media.giphy.com/media/BJx3cDJrPwdnNtqkJr/giphy.gif)
 
 </div>
 
