@@ -7,7 +7,10 @@
 </div>
 
   <p align="center">
-    <a href="https://github.com/bwbolt/moon_garden_be"><strong>Explore the Moon Garden backend application »</strong></a>
+    <a href="https://moon-garden-fe.herokuapp.com/"><strong>Checkout Moon Garden Here! »</strong></a>
+  </p>
+  <p align="center">
+    <a href="https://github.com/Moon-Garden/moon_garden_be"><strong>Explore the Moon Garden Backend Application »</strong></a>
   </p>
 </div>
 
@@ -20,6 +23,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#background">Background</a></li>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#apis-consumed">API's Consumed</a></li>
       </ul>
@@ -27,7 +31,6 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -42,10 +45,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the illumination of the moon and gravitational effect of the moon on earth's waters impact the gardening process. Moon Garden gives recommendations based on the various phases of the moon and provides garden tracking services for users.
-
-When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your land, checkout our Land Acknowledgment page - link - gracefully provided by: link
+Welcome! Whats growin on?
+Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. We even threw in the weather, as a treat.
 
 Using __Moon Garden__, users are able to:
 
@@ -58,15 +59,30 @@ Using __Moon Garden__, users are able to:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Background 
+The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the illumination of the moon and gravitational effect of the moon on earths waters impact the gardening process. Moon Garden gives recommendations based on the various phases of the moon and provides garden tracking services for users.
+
+When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your region, checkout our [Land Acknowledgment](http://localhost:3000/land_acknowledgements) page
 
 ### Built With
-Language badges here - bootstrap, ruby, css, html, postgres, heroku, miro, etc
+![Ruby](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
+![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Miro](https://img.shields.io/badge/Miro-F7C922?style=for-the-badge&logo=Miro&logoColor=050036)
 
 ### API's Consumed
 - [FarmSense](https://www.farmsense.net/api)
 - [OpenFarm](https://openfarm.cc/pages/about)
 - [Native Land](https://native-land.ca/resources/api-docs/)
 - [Google OAuth](https://developers.google.com/identity/protocols/oauth2)
+- [OpenWeather](https://openweathermap.org/api/one-call-api)
+- [GeoPlugin](https://www.geoplugin.com/)
+- [MapQuest](http://www.mapquestapi.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,14 +93,6 @@ Language badges here - bootstrap, ruby, css, html, postgres, heroku, miro, etc
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  other things we might have to tell them that I havent figured out yet
-  ```
 
 ### Installation
 
@@ -138,19 +146,30 @@ This is an example of how to list things you need to use the software and how to
 
   5. Figaro installation
 
-  * Follow the [figaro](https://github.com/laserlemon/figaro) installation with the docs and get your [googlemaps.org](#apis-consumed) and [google client](#apis-consumed) keys. Add the google maps and google client keys to your newly created `config/application.yml` file and add it to your `.gitignore` file. Be sure to read the [google API docs](https://developers.google.com/docs/api) for a deeper undestanding of the app.
-
+  * Follow the [figaro](https://github.com/laserlemon/figaro) installation with the docs and get your [OpenFarm, MapQuest, OpenWeather](#apis-consumed) and [Google Client](#apis-consumed) keys. 
+  
     ```shell
     $ bundle exec figaro install
     ```
-  6. Start up your local server
+  
+  6. Add the keys to your newly created `config/application.yml` file and add it to your `.gitignore` file. Be sure to read the [google API docs](https://developers.google.com/docs/api) for a deeper undestanding of the app. Your `config/application.yml` file should look something like this:
+
+      ```ruby 
+      GOOGLE_CLIENT_ID: (YOUR CLIENT ID HERE)
+      GOOGLE_CLIENT_SECRET: (YOUR CLIENT SECRET HERE)
+      PLANT_TOKEN: (YOUR KEY HERE)
+      MAPQUEST_KEY: (YOUR KEY HERE)
+      WEATHER_KEY: (YOUR KEY HERE)
+      ```
+
+  7. Start up your local server
 
       ```shell
       $ rails s
       ```
-  7. Open web browser and visit link to access the front end application [http://localhost:3000](http://localhost:3000). At this point, you should see the Moon Graden landing page!
+  8. Open web browser and visit link to access the front end application [http://localhost:3000](http://localhost:3000). At this point, you should see the Moon Graden landing page!
   
-
+  
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -159,9 +178,11 @@ This is an example of how to list things you need to use the software and how to
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<div align="center">
 
+![](https://media.giphy.com/media/jcFvUVDojVkeeuMeuO/giphy.gif)
 
-![](https://media.giphy.com/media/BJx3cDJrPwdnNtqkJr/giphy.gif)
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -184,9 +205,32 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- CONTACT -->
 ## Contributors
+
+
+Thanks go to these wonderful people:
+
+<table>
+
+  <tr>
+   <td align="center"><a href="https://github.com/jimriddle1"><img src="https://avatars.githubusercontent.com/u/99755958?v=4" width="100px;" alt=""/><br /><sub><b>Jim R.  (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/jim-riddle-b6718037/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/devAndrewK/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFWtQ3Z48P8ng/profile-displayphoto-shrink_200_200/0/1649703988715?e=1665014400&v=beta&t=mTFNRWT5IIgNrV9E53BxaI-N6rA6mP13d279OYD4cCE" width="100px;" alt=""/><br /><sub><b>Andrew K. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/andrewkingdev/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/casefaz"><img src="https://avatars.githubusercontent.com/u/98674727?v=4" width="100px;" alt=""/><br /><sub><b>Casey F. (they/she)</b></sub></a><br /><a href="https://www.linkedin.com/in/casey-fazio-7ba04149/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/jenniferhalloran"><img src="https://avatars.githubusercontent.com/u/48455658?v=4" width="100px;" alt=""/><br /><sub><b>Jennifer H. (she/her)</b></sub></a><br /><a href="https://www.linkedin.com/in/jenniferlhalloran/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/bwbolt"><img src="https://avatars.githubusercontent.com/u/85247765?v=4" width="100px;" alt=""/><br /><sub><b>Bryce W. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/bryce-wein/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/StephenWilkens"><img src="https://avatars.githubusercontent.com/u/98788282?v=4" width="100px;" alt=""/><br /><sub><b>Stephen W. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/stephen-wilkens/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+
+  </tr>
+</table>
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
