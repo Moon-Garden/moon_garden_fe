@@ -157,3 +157,9 @@ form > * {
   --bs-btn-border-color: #612867;
   --bs-btn-border-radius: .5rem;
 }
+
+.container-fluid {
+
+  background: black;
+  color: grey;
+}
