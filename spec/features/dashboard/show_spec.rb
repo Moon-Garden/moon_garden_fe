@@ -90,6 +90,7 @@ RSpec.describe 'Dashboard Show Page' do
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@full_moon)
       allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
       allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
@@ -120,6 +121,7 @@ RSpec.describe 'Dashboard Show Page' do
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@waning_moon)
       allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
       allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
@@ -150,6 +152,7 @@ RSpec.describe 'Dashboard Show Page' do
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@error_moon)
       allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
       allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
@@ -179,6 +182,7 @@ RSpec.describe 'Dashboard Show Page' do
       allow(GardenService).to receive(:get_garden_info).and_return(@hotdog_garden)
       allow(MoonService).to receive(:get_moon_data).and_return(@dark_moon)
       allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
       allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/'
@@ -198,6 +202,7 @@ RSpec.describe 'Dashboard Show Page' do
       @ip = JSON.parse(File.read('spec/fixtures/ip.json'), symbolize_names: true)
       allow(MoonService).to receive(:get_moon_data).and_return(@moon)
       allow(IpService).to receive(:get_ip_location).and_return(@ip)
+      allow(WeatherService).to receive(:get_weather).and_return(@weather)
       allow_any_instance_of(ApplicationController).to receive(:ip_address).and_return("24.164.247.195")
 
       visit '/dashboard'
