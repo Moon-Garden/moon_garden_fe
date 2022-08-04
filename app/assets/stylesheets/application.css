@@ -122,3 +122,21 @@ form > * {
 .oauth-container {
   margin: 0 auto;
 }
+
+.about {
+  background-color: #F0F9F3;
+  margin-bottom: 0;
+}
+
+.moon-garden {
+  background-color: #F0F9F3;
+  margin-left: -2;
+}
+
+.lunar-garden {
+  background-color: #F0F9F3;
+}
+
+.land-ack {
+  background-color: #F0F9F3;
+}

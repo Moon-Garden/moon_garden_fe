@@ -22,14 +22,13 @@
   </div>
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
-    <%= render partial: "shared/weather_widget" %>
     <%= render partial: "shared/header" %>
     <div class="dash-container">
-      <h1><%= @garden.name %>'s Plants</h1>
+      <h1><%= @garden.name %>'s Plant Tracking Info</h1>
 
       <h3>Planted
         <%= @garden.cardinal_direction %>
-        facing</h3>
+        Facing</h3>
       <p>
         <%= @garden.notes %></p>
     <br>
@@ -71,12 +70,12 @@
               <%= f.hidden_field :bounty_amount, value: plant.bounty_amount %>
               <%= f.hidden_field :pruning_behaviors, value: plant.pruning_behaviors %>
               <%= f.hidden_field :notes, value: plant.notes %>
-              <%= f.submit "Update Plant", class: "btn btn-light" %>
+              <%= f.submit "Add Tracking Info", class: "btn btn-light" %>
               <% end %>
 
               <%= form_with url: "/gardens/#{@garden.id}/plants/#{plant.id}", method: :delete, local: true do |f| %>
               <%= f.hidden_field :query, value: "name" %>
-              <%= f.submit "Delete Plant", class: "btn btn-light" %>
+              <%= f.submit "Remove Plant", class: "btn btn-light" %>
               <% end %>
 
             </div>
