@@ -60,9 +60,9 @@ Using __Moon Garden__, users are able to:
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Background 
-The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the illumination of the moon and gravitational effect of the moon on earths waters impact the gardening process. Moon Garden gives recommendations based on the various phases of the moon and provides garden tracking services for users.
+The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the moon's illumination and its gravitational effect on earth's waters impact the gardening process. Moon Garden gives planting recommendations based on the various moon phases and provides garden tracking services for users.
 
-When working with the land it is important to acknowledge who's land it is that is being worked. If you're curious about the history of your region, checkout our [Land Acknowledgment](http://localhost:3000/land_acknowledgements) page
+When working with the land it is important to acknowledge whose land it is that is being worked. If you're curious about the history of your region, check out our [Land Acknowledgment](https://moon-garden-fe.herokuapp.com/land_acknowledgements) page
 
 ### Built With
 ![Ruby](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
