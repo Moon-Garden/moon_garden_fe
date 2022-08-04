@@ -207,6 +207,30 @@ Don't forget to give the project a star! Thanks again!
 ## Contributors
 
 
+Thanks go to these wonderful people:
+
+<table>
+
+  <tr>
+   <td align="center"><a href="https://github.com/jimriddle1"><img src="https://avatars.githubusercontent.com/u/99755958?v=4" width="100px;" alt=""/><br /><sub><b>Jim R.  (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/jim-riddle-b6718037/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/devAndrewK/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFWtQ3Z48P8ng/profile-displayphoto-shrink_200_200/0/1649703988715?e=1665014400&v=beta&t=mTFNRWT5IIgNrV9E53BxaI-N6rA6mP13d279OYD4cCE" width="100px;" alt=""/><br /><sub><b>Andrew K. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/andrewkingdev/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/casefaz"><img src="https://avatars.githubusercontent.com/u/98674727?v=4" width="100px;" alt=""/><br /><sub><b>Casey F. (they/she)</b></sub></a><br /><a href="https://www.linkedin.com/in/casey-fazio-7ba04149/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/jenniferhalloran"><img src="https://avatars.githubusercontent.com/u/48455658?v=4" width="100px;" alt=""/><br /><sub><b>Jennifer H. (she/her)</b></sub></a><br /><a href="https://www.linkedin.com/in/jenniferlhalloran/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/bwbolt"><img src="https://avatars.githubusercontent.com/u/85247765?v=4" width="100px;" alt=""/><br /><sub><b>Bryce W. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/bryce-wein/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+   <td align="center"><a href="https://github.com/StephenWilkens"><img src="https://avatars.githubusercontent.com/u/98788282?v=4" width="100px;" alt=""/><br /><sub><b>Stephen W. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/stephen-wilkens/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+
+
+  </tr>
+</table>
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
