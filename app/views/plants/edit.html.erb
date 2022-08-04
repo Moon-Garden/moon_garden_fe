@@ -15,27 +15,27 @@
     <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
                       <div class="mb-3">
                       <% if @plant[:date_planted] == "" %>
-                      <%= f.label :date_planted %>
+                      <%= f.label :date_planted, "Date Planted" %>
                       <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d'), class: "form-control" %>
                       <% else %>
-                      <%= f.label :date_planted %>
+                      <%= f.label :date_planted, "Date Planted" %>
                       <%= f.date_field :date_planted, value: @plant[:date_planted].to_datetime.strftime('%Y-%m-%d') , class: "form-control" %>
                       <% end %>
                       </div>
                     <div class="mb-3">
-                    <%= f.label :moon_phase %>
+                    <%= f.label :moon_phase, "Moon Phase During Planting" %>
                     <%= f.text_field :moon_phase, value: @plant[:moon_phase], class: "form-control" %>
                     </div>
                     <div class="mb-3">
-                      <%= f.label :bounty_amount %>
+                      <%= f.label :bounty_amount, "Amount Produced" %>
                       <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
                     </div>
                     <div class="mb-3">
-                    <%= f.label :pruning_behaviors %>
+                    <%= f.label :pruning_behaviors, "Pruning Behaviors" %>
                     <%= f.text_field :pruning_behaviors, value: @plant[:pruning_behaviors], class: "form-control"   %>
                     </div>
                     <div class="mb-3">
-                    <%= f.label :notes %>
+                    <%= f.label :notes, "Plant Notes" %>
                     <%= f.text_area :notes, value: @plant[:notes], class: "form-control"   %>
                     </div>
                     <div class="mb-3">

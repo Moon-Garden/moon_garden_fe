@@ -15,16 +15,16 @@
     <%= render partial: "shared/header" %>
     <div class="dash-container">
       <h1>Search Results</h1>
-      <% @results.each do |plant| %>
+      <% @results.each_with_index do |plant, index| %>
         <div class="<%=plant.name %>">
           <p>
           <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-bd-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <button class="btn btn-bd-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidth<%= index %>" aria-expanded="false" aria-controls="collapseWidthExample">
           <p><%= plant.name.titleize %></p>
           </button>
           </p>
           <div style="min-height: 10px;">
-          <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="collapse collapse-horizontal" id="collapseWidth<%= index %>">
           <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-bd-primary-3", local: true %>
           <br>
           <br>
@@ -39,18 +39,18 @@
           <% if plant.sun_requirements != "" && plant.sun_requirements != nil %>
           <p class="text-sm-start">Sun Requirements: <%= plant.sun_requirements %>
           <br>
-          </br>
+
           <% end %>
           <% if plant.sowing_method != "" && plant.sowing_method != nil %>
           Sowing Method: <%= plant.sowing_method %>
           <br>
-          </br>
+
           <% end %>
 
           <% if plant.row_spacing != nil %>
           Row Spacing: <%= plant.row_spacing %> cm
           <br>
-          </br>
+
           <% end %>
 
           <% if plant.description != "" && plant.description != nil %>

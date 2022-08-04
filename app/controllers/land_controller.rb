@@ -1,13 +1,8 @@
 #remove this comment
 class LandController < ApplicationController
   def show
-    if Rails.env.production?
-      @ip = request.remote_ip
-    else
-      @ip = Net::HTTP.get(URI.parse('http://checkip.amazonaws.com/')).squish
-    end
     if !params[:location]
-      @ll = IpFacade.get_ip_location(@ip)
+      @ll = IpFacade.get_ip_location(ip_address)
     else
       @ll = GeocoderFacade.get_coordinates(params[:location])
     end
