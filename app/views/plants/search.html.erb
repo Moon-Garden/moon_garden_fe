@@ -17,29 +17,44 @@
         <div class="<%=plant.name %>">
           <p>
           <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          <button class="btn btn-bd-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
           <p><%= plant.name.titleize %></p>
           </button>
           </p>
           <div style="min-height: 10px;">
           <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-outline-secondary", local: true %>
+          <%= button_to "Add Plant to Garden", "/gardens/#{@garden_id}/plants", params: {plant_api_id: plant.id, plant_name: plant.name}, method: :post, class: "btn btn-bd-primary-3", local: true %>
+          <br>
+          <br>
           <div class="card-result card-body" style="width: 500px;">
           <% if plant.main_image_path == "/assets/baren_field_square-4a827e5f09156962937eb100e4484f87e1e788f28a7c9daefe2a9297711a562a.jpg"%>
             <%= render inline: Rails.root.join('public/no-plant-pic.svg').read %>
           <% else %>
             <img src="<%= plant.main_image_path %>" class="img-fluid", alt="pictures of <%= plant.name%> plant">
           <% end %>
+          <p class="lead"><%= plant.name.titleize %></p>
+          <br>
+          <% if plant.sun_requirements != "" && plant.sun_requirements != nil %>
           <p class="text-sm-start">Sun Requirements: <%= plant.sun_requirements %>
           <br>
           </br>
+          <% end %>
+          <% if plant.sowing_method != "" && plant.sowing_method != nil %>
           Sowing Method: <%= plant.sowing_method %>
           <br>
           </br>
-          Row Spacing: <%= plant.row_spacing %>
+          <% end %>
+
+          <% if plant.row_spacing != nil %>
+          Row Spacing: <%= plant.row_spacing %> cm
           <br>
           </br>
+          <% end %>
+
+          <% if plant.description != "" && plant.description != nil %>
           Description: <%= plant.description %></p>
+          <% end %>
+
           </div>
           </div>
           </div>
@@ -49,5 +64,7 @@
     </div>
   </div>
 
-  <%= render partial: "shared/moon_widget" %>
+  <%= render partial: "shared/widgets" %>
+  
+
 </div>

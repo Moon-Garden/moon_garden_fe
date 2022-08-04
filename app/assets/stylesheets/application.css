@@ -122,3 +122,38 @@ form > * {
 .oauth-container {
   margin: 0 auto;
 }
+
+.about {
+  background-color: #F0F9F3;
+  margin-bottom: 0;
+}
+
+.weather-image {
+  background-color: #8D818C;
+  margin-top: 10px;
+}
+
+.btn-bd-primary {
+  --bs-btn-font-weight: 500;
+  --bs-btn-color: #612867;
+  --bs-btn-bg: #CBD5C3;
+  --bs-btn-border-color: #612867;
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-padding: 2px;
+}
+
+.btn-bd-primary-2 {
+  --bs-btn-font-weight: auto;
+  --bs-btn-color: #612867;
+  --bs-btn-bg: #E4F0D1;
+  --bs-btn-border-color: #E4F0D1;
+  --bs-btn-border-radius: .5rem;
+}
+
+.btn-bd-primary-3 {
+  --bs-btn-font-weight: auto;
+  --bs-btn-color: #E4F0D1;
+  --bs-btn-bg: #612867;
+  --bs-btn-border-color: #612867;
+  --bs-btn-border-radius: .5rem;
+}
