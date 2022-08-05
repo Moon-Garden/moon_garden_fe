@@ -36,8 +36,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contributors</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#land-acknowledgments">Land Acknowledgments</a></li>
+    <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
 <br>  
@@ -53,9 +53,9 @@ Using __Moon Garden__, users are able to:
 - Register or sign-in using Google OAuth.
 - See the current lunar phase with the corresponding gardening recommendation.
 - Create Gardens to display on their Garden Dashboard.
-- Search for plants by keyword and receive growing recommendations, then add plants and their recommendation to a garden.
+- Search for plants by keyword and receive growing recommendations, then add plants to their garden.
 - Add personal track planting details to each plant in a user's garden. 
-- View land acknowledgments based on IP address location.
+- View land acknowledgments based on IP address location or entered location.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -202,6 +202,15 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGMENTS -->
+## Land Acknowledgments
+Moon Garden strives to join Native Land Digital in their mission to create spaces where non-Indigenous people can be challenged to learn more about the lands they inhabit, the history of those lands, and how to actively be part of a better future going forward together. As we learn more about the land surrounding each of us, we would like to take time to acknowledge the history of the territories we each garden in.
+* Long Island Area - [Montauk](https://native-land.ca/maps/languages/montauk-2/) 
+* Denver Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Ute](https://native-land.ca/maps/languages/ute-2/), [Lakȟótiyapi (Lakota)](https://native-land.ca/maps/languages/lakotayapi/), [Cheyenne](https://native-land.ca/maps/languages/cheyenne-2/), [Arapaho](https://native-land.ca/maps/languages/arapaho-2/)
+* Chesapeake Area - [Chesapeake](https://native-land.ca/maps/languages/chesapeake/)
+* Chicago Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/powatomi/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
 ## Contributors
@@ -212,7 +221,7 @@ Thanks go to these wonderful people:
 <table>
 
   <tr>
-   <td align="center"><a href="https://github.com/jimriddle1"><img src="https://avatars.githubusercontent.com/u/99755958?v=4" width="100px;" alt=""/><br /><sub><b>Jim R.  (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/jim-riddle-b6718037/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
+   <td align="center"><a href="https://github.com/jimriddle1"><img src="https://avatars.githubusercontent.com/u/99755958?v=4" width="100px;" alt=""/><br /><sub><b>Jim R. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/jim-riddle-b6718037/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> </a> <p> </td>
 
    <td align="center"><a href="https://github.com/devAndrewK/"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFWtQ3Z48P8ng/profile-displayphoto-shrink_200_200/0/1649703988715?e=1665014400&v=beta&t=mTFNRWT5IIgNrV9E53BxaI-N6rA6mP13d279OYD4cCE" width="100px;" alt=""/><br /><sub><b>Andrew K. (he/him)</b></sub></a><br /><a href="https://www.linkedin.com/in/andrewkingdev/" title ="Linked In"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>
 
@@ -233,16 +242,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <div align="center">
   
