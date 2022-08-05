@@ -209,6 +209,7 @@ Moon Garden strives to join Native Land Digital in their mission to create space
 * Denver Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Ute](https://native-land.ca/maps/languages/ute-2/), [Lakȟótiyapi (Lakota)](https://native-land.ca/maps/languages/lakotayapi/), [Cheyenne](https://native-land.ca/maps/languages/cheyenne-2/), [Arapaho](https://native-land.ca/maps/languages/arapaho-2/)
 * Chesapeake Area - [Chesapeake](https://native-land.ca/maps/languages/chesapeake/)
 * Chicago Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/powatomi/)
+* Kenosha, Wisconsin Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Hoocąk (Ho-Chunk)](https://native-land.ca/maps/languages/ho-chunk/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/powatomi/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
