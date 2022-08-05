@@ -45,7 +45,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Welcome! Whats growin on?
+Whats growin on?
 Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. We even threw in the weather, as a treat.
 
 Using __Moon Garden__, users are able to:
@@ -91,7 +91,6 @@ When working with the land it is important to acknowledge whose land it is that 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Installation
