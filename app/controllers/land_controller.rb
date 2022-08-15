@@ -1,4 +1,3 @@
-#remove this comment
 class LandController < ApplicationController
   def show
     if !params[:location]

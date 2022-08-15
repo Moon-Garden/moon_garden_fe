@@ -1,5 +1,5 @@
 
- <div class="container text-center d-flex" style="max-height: 100%; margin-left: 40px;">
+<div class="container text-center d-flex" style="max-height: 100%; margin-left: 40px;">
 
   <div class="side-bar-left col-sm-3 mw-100">
     <div class="logo">
@@ -11,42 +11,40 @@
 
   <div class="dash-main-bar col-sm-10" style="max-height: 100%">
     <%= render partial: "shared/header" %>
-    <div class="dash-container"><div id="form">
-    <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
-                      <div class="mb-3">
-                      <% if @plant[:date_planted] == "" %>
-                      <%= f.label :date_planted, "Date Planted" %>
-                      <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d'), class: "form-control" %>
-                      <% else %>
-                      <%= f.label :date_planted, "Date Planted" %>
-                      <%= f.date_field :date_planted, value: @plant[:date_planted].to_datetime.strftime('%Y-%m-%d') , class: "form-control" %>
-                      <% end %>
-                      </div>
-                    <div class="mb-3">
-                    <%= f.label :moon_phase, "Moon Phase During Planting" %>
-                    <%= f.text_field :moon_phase, value: @plant[:moon_phase], class: "form-control" %>
-                    </div>
-                    <div class="mb-3">
-                      <%= f.label :bounty_amount, "Amount Produced" %>
-                      <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
-                    </div>
-                    <div class="mb-3">
-                    <%= f.label :pruning_behaviors, "Pruning Behaviors" %>
-                    <%= f.text_field :pruning_behaviors, value: @plant[:pruning_behaviors], class: "form-control"   %>
-                    </div>
-                    <div class="mb-3">
-                    <%= f.label :notes, "Plant Notes" %>
-                    <%= f.text_area :notes, value: @plant[:notes], class: "form-control"   %>
-                    </div>
-                    <div class="mb-3">
-                    <%= f.submit "Update Plant", class: "btn btn-primary" %>
-                    </div>
-    <% end %>
-</div>
-
-</div>
+    <div class="dash-container">
+      <div id="form">
+        <%= form_with url: "/gardens/#{@garden_id}/plants/#{@plant_id}/edit", method: :patch, local: true do |f| %>
+          <div class="mb-3">
+            <% if @plant[:date_planted] == "" %>
+              <%= f.label :date_planted, "Date Planted" %>
+              <%= f.date_field :date_planted, value: Date.today.strftime('%Y-%m-%d'), class: "form-control" %>
+            <% else %>
+              <%= f.label :date_planted, "Date Planted" %>
+              <%= f.date_field :date_planted, value: @plant[:date_planted].to_datetime.strftime('%Y-%m-%d') , class: "form-control" %>
+            <% end %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :moon_phase, "Moon Phase During Planting" %>
+            <%= f.text_field :moon_phase, value: @plant[:moon_phase], class: "form-control" %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :bounty_amount, "Amount Produced" %>
+            <%= f.number_field :bounty_amount, value: @plant[:bounty_amount], class: "form-control"  %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :pruning_behaviors, "Pruning Behaviors" %>
+            <%= f.text_field :pruning_behaviors, value: @plant[:pruning_behaviors], class: "form-control"   %>
+          </div>
+          <div class="mb-3">
+            <%= f.label :notes, "Plant Notes" %>
+            <%= f.text_area :notes, value: @plant[:notes], class: "form-control"   %>
+          </div>
+          <div class="mb-3">
+            <%= f.submit "Update Plant", class: "btn btn-primary" %>
+          </div>
+        <% end %>
+      </div>
+    </div>
   </div>
-
-    <%= render partial: "shared/widgets" %>
-
-  </div>
+  <%= render partial: "shared/widgets" %>
+</div>
