@@ -10,7 +10,9 @@ class PlantsController < ApplicationController
       "user_id": session[:user_id],
       "garden_id": params[:id],
       "name": params[:plant_name],
-      "plant_id": params[:plant_api_id]
+      "plant_id": params[:plant_api_id],
+      "moon_phase": @moon_data.phase,
+      "date_planted": Date.today
     }
 
     PlantTrackingFacade.create_plant(data)
@@ -30,7 +32,7 @@ class PlantsController < ApplicationController
                             :bounty_amount,
                             :pruning_behaviors,
                             :notes)
-  end 
+  end
 
   def update
     data = {
@@ -41,7 +43,6 @@ class PlantsController < ApplicationController
       "notes": params[:notes]
 
     }
-
     PlantTrackingFacade.edit_plant(session[:user_id], params[:id], params[:plant_id], data)
     redirect_to "/gardens/#{params[:id]}"
   end
