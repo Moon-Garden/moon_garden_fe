@@ -1,7 +1,7 @@
 module MoonHelper
   def self.rec(phase)
     moon_phase = phase.downcase
-    if moon_phase.include?('dark')
+    if moon_phase.include?('dark') || moon_phase.include?('new')
       'Plant crops which produce seeds outside the fruit (grains, spinach, cauliflower, cabbage, broccoli, celery and lettuce).'
     elsif moon_phase.include?('waxing') || moon_phase.include?('first')
       'Plant crops with seeds inside the fruit (beans, peppers, tomatoes, squash and melons).'
