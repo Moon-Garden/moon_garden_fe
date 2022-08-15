@@ -2,6 +2,19 @@ body {
   background-color: #8D818C;
 }
 
+.circular--landscape { 
+  display: inline-block; 
+  position: relative; 
+  width: 400px; 
+  height: 400px; 
+  overflow: hidden; 
+  border-radius: 50%; } 
+
+.circular--landscape img { 
+  width: auto; 
+  height: 100%; 
+  margin-left: -50px; }
+  
 .logo {
   margin-top: 60px;
   margin-left: 30px;
