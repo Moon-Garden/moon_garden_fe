@@ -16,6 +16,7 @@ body {
   margin-left: -50px; }
   
 .logo {
+  filter: brightness(0) saturate(100%) invert(91%) sepia(33%) saturate(192%) hue-rotate(187deg) brightness(98%) contrast(98%);  
   margin-top: 60px;
   margin-left: 30px;
   margin-right: 30px;

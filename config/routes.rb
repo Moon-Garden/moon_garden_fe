@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/auth/google_oauth2/callback', to: 'sessions#create'
   get '/logout', to: 'sessions#destroy'
   get '/dashboard', to: 'dashboard#show'
-  get '/land_acknowledgements', to: 'land#show'
+  get '/land_acknowledgments', to: 'land#show'
   get '/gardens/:id/plants/:plant_id/edit', to: 'plants#edit'
   patch '/gardens/:id/plants/:plant_id/edit', to: 'plants#update'
   post '/gardens', to: 'gardens#create'
