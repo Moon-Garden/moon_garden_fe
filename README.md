@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 Whats growin on?
-Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. We even threw in the weather, as a treat.
+Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. You can also get information regarding the indigenous history of the land you are gardening on. We even threw in the weather, as a treat.
 
 Using __Moon Garden__, users are able to:
 
