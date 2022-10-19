@@ -45,8 +45,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Welcome! Whats growin on?
-Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. We even threw in the weather, as a treat.
+Whats growin on?
+Moon Garden helps you track your gardens and plants while offering recommendations based on the moon phase at every step of the way. You can also get information regarding the indigenous history of the land you are gardening on. We even threw in the weather, as a treat.
 
 Using __Moon Garden__, users are able to:
 
@@ -62,7 +62,7 @@ Using __Moon Garden__, users are able to:
 ### Background 
 The tradition of lunar gardening has been practiced for as long as folks have been planting seeds and working the soil. It is believed by many cultures that the combination of the moon's illumination and its gravitational effect on earth's waters impact the gardening process. Moon Garden gives planting recommendations based on the various moon phases and provides garden tracking services for users.
 
-When working with the land it is important to acknowledge whose land it is that is being worked. If you're curious about the history of your region, check out our [Land Acknowledgements](https://moon-garden-fe.herokuapp.com/land_acknowledgements) page.
+When working with the land it is important to acknowledge whose land it is that is being worked. If you're curious about the history of your region, check out our [Land Acknowledgments](https://moon-garden-fe.herokuapp.com/land_acknowledgments) page.
 
 ### Built With
 ![Ruby](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
@@ -91,7 +91,6 @@ When working with the land it is important to acknowledge whose land it is that 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Installation
@@ -208,7 +207,8 @@ Moon Garden strives to join Native Land Digital in their mission to create space
 * Long Island Area - [Montauk](https://native-land.ca/maps/languages/montauk-2/) 
 * Denver Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Ute](https://native-land.ca/maps/languages/ute-2/), [Lakȟótiyapi (Lakota)](https://native-land.ca/maps/languages/lakotayapi/), [Cheyenne](https://native-land.ca/maps/languages/cheyenne-2/), [Arapaho](https://native-land.ca/maps/languages/arapaho-2/)
 * Chesapeake Area - [Chesapeake](https://native-land.ca/maps/languages/chesapeake/)
-* Chicago Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/powatomi/)
+* Chicago Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/bodwewadmimwen/)
+* Kenosha, Wisconsin Area - [Dakȟóta (Western Dakota)](https://native-land.ca/maps/languages/dakhota-2/), [Dakhóta (Eastern Dakota)](https://native-land.ca/maps/languages/dakhota/), [Hoocąk (Ho-Chunk)](https://native-land.ca/maps/languages/ho-chunk/), [Illinois](https://native-land.ca/maps/languages/illinois/), [Potawatomi](https://native-land.ca/maps/languages/bodwewadmimwen/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

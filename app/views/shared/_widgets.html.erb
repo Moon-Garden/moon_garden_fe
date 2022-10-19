@@ -7,29 +7,30 @@
     </div>
     <div class="card-body">
       <dt class="card-text">Lunar Recommendation: <%= @recommendation %></dt>
-    </div>
     <dd class="card-text">Illumination:
       <%= @moon_data.illumination %>%</dd>
     <dd class="card-text">Moon Type:
       <%= @moon_data.name %></dd>
+    </div>
   </div>
   <br>
   <br>
   <% weather = get_weather %>
-    <div class="card d-flex" style="width: 18rem;">
+  <div class="card" style="width: 18rem;">
     <div class="container">
       <img class="weather-image rounded" src="http://openweathermap.org/img/wn/<%= weather.icon %>@2x.png">
       <div class="card-body">
         <h5 class="card-title">Today's Weather</h5>
         <p class="card-text">Today's temperature is a 
         <% if weather.temp < 69 %>
-        balmy
+          balmy
         <% elsif weather.temp >= 69 && weather.temp < 90 %>
-        warm 
+          warm 
         <% else %>
-        blistering
+          blistering
         <% end%>
-        <strong><%= weather.temp %></strong> with a touch of <strong><%= weather.description %>.</strong></p>
+        <strong><%= weather.temp %>°</strong> with a touch of <strong><%= weather.description %>.</strong></p>
       </div>
     </div>
+  </div>
 </div>
